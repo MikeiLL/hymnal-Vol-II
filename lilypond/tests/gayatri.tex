@@ -1,0 +1,72 @@
+% arara: lilypond
+% arara: pdflatex: { files: [ out/gayatri.tex ] }
+\documentclass[a5paper]{article}
+
+\usepackage{graphics}
+\begin{document}
+
+Documents for \verb+lilypond-book+ may freely mix music and text.
+For example,
+
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{b2/lily-65f67a1c-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+
+Options are put in brackets.
+
+\begin{quote}
+\noindent
+\begin{verbatim}
+  c'4 f16
+\end{verbatim}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{5d/lily-317f8965-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+Larger examples can be put into a separate file, and introduced with
+\verb+\lilypondfile+.
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{0c/lily-0e2d1a52-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+(If needed, replace @file{screech-and-boink.ly} by any @file{.ly} file
+you put in the same directory as this file.)
+
+\end{document}

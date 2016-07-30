@@ -1,0 +1,96 @@
+\documentclass[a5paper,twoside,9pt]{extbook}
+\usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
+
+\begin{document}
+
+\tableofcontents
+%\section{}
+%\subsection{}
+\chapter{Introduction}
+
+Faitheism is the philosophy that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+
+Okay so a hymn should probably be pretty easy to song and even read, and by that definition only a small portion of these tunes qualify, but we're lying our way to the truth.
+
+This is a book of songs from the musical, \underline{Are We Done Yet?} by Rivka and Mike iLL of Mad haPPy.
+
+For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX.
+
+This is certainly a first draft, of sorts and the songs and arrangements will surely be developed as time goes on. Our own versions of most of the tracks are usually done in harmony and this first version of the book only includes one melody for each track, usually in a range for either the male or female voice, but occasionally jumping back and forth a bit.
+
+We hope you will feel free to play with your own harmonies, re-harmonizations, new lyrics, etc. We consider this endeavor to be in the folk tradition, and some of the melodies herein are derivative of original sources.
+
+We can be contacted, most likely via one of the following websites: \\
+\begin{itemize}
+\item http://www.madhappy.com 
+\item http://www.rivka.com
+\item http://www.mZoo.org
+\item http://www.TempleofWow.com
+\end{itemize}
+\pagebreak{}
+
+\section{Acknowledgements}
+
+Is there any religion that doesn't offer some level of honor in exchange for money?
+\newline
+The following is a list of people who have offered significant support to this project:
+  
+\begin{itemize}   
+  \item Georgeanna Presnell
+  \item Carla Murray
+  \item Marina, Hans \& Tim Frei
+  \item Leah Pietrusiak
+  \item Jason Daniels
+\end{itemize}    
+
+  
+  Special thanks to Beth Kilmer for proof-playing the songs.
+   \newline
+   
+   
+  Cover Artwork: Seth Tobocman
+  \newline
+  
+  Sponsored by the Puffin Foundation West.
+  \includegraphics[scale=0.5]{/Users/mikekilmer/Documents/GrantWriting/PuffinFoundation/PuffinWest_2.jpg}
+  \newline
+  \newline
+  Magical blessings to all of our wonderful friends and supporters.
+  \newline
+  \newline
+  We hope you enjoy it.
+
+\pagebreak{}
+
+\section{Some Music}
+
+Documents for \verb+lilypond-book+ may freely mix music and text.
+For example,
+
+\begin{lilypond}
+\relative c' {
+  c2 e2 \tuplet 3/2 { f8 a b } a2 e4
+}
+\end{lilypond}
+
+Options are put in brackets.
+
+\begin{lilypond}[fragment,quote,staffsize=26,verbatim]
+  c'4 f16
+\end{lilypond}
+
+So this is the Gayatri Mantra which is supposed to be super popular. We are doing the "long" version. Interestingly I read somewhere that the "short" version preceded the "long" version, historically.
+
+Is this another paragraph?
+
+\lilypondfile[quote,noindent]{gayatri_mantra.ly}
+
+(If needed, replace @file{screech-and-boink.ly} by any @file{.ly} file
+you put in the same directory as this file.)
+
+Here's a wordless melody:
+\lilypondfile[quote,noindent]{wordless-one.ly}
+
+And here's some more words for y'all.
+
+\end{document}

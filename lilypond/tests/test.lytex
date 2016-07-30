@@ -1,0 +1,12 @@
+% arara: lilypond
+% arara: pdflatex: { files: [ best.tex ] }
+\documentclass{scrartcl}
+
+\begin{document}
+Text
+\begin{lilypond}[staffsize=12]
+\relative c' {
+  c2^"Text" g'2 \times 2/3 { f8 e d } c'2 g4
+}
+\end{lilypond}
+\end{document}
