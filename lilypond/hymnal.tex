@@ -5,6 +5,7 @@
 % http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
 % http://www.tug.dk/FontCatalogue/otherfonts.html
 
+\usepackage{graphics}
 \begin{document}
 
 \tableofcontents
@@ -101,49 +102,124 @@ The following is a list of people who have offered significant support to this p
 Documents for \verb+lilypond-book+ may freely mix music and text.
 For example,
 
-\begin{lilypond}
-\relative c' {
-  c2 e2 \tuplet 3/2 { f8 a b } a2 e4
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{ee/lily-b5562cd8-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
 }
-\end{lilypond}
 
 Options are put in brackets.
 
-\begin{lilypond}[fragment,quote,staffsize=26,verbatim]
+\begin{quote}
+\noindent
+\begin{verbatim}
   c'4 f16
-\end{lilypond}
+\end{verbatim}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{13/lily-cb2fc254-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
 
 So this is the Gayatri Mantra which is supposed to be super popular. We are doing the "long" version. Interestingly I read somewhere that the "short" version preceded the "long" version, historically.
 
 Is this another paragraph?
 
-\lilypondfile[quote,noindent]{gayatri_mantra.ly}
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{1b/lily-f7e13deb-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
 
 A long road for us.
 
-\lilypondfile[quote,noindent]{a_long_road.ly}
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{9b/lily-f98eabc4-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
 
 And another thing:
 
-\lilypondfile[quote,noindent]{the_road_junction.ly}
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{3a/lily-dcdd85c1-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+(If needed, replace @file{screech-and-boink.ly} by any @file{.ly} file
+you put in the same directory as this file.)
 
 Here's a wordless melody:
-\lilypondfile[quote,noindent]{wordless-one.ly}
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{10/lily-bd5a74ed-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
 
-This next piece aims to open up the heart chakra. Anahata. 
-
-Anubis
-
-There's a movement that goes with it. If standing, the legs will do a basic Afro-hip-hop step of  right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out to the sides, opening up the ribcage and heart more and more.
-
-The chant is this:
-
-\lilypondfile[quote,noindent]{anahata.ly}
-
-It is really nice to do it as a call and response where each two measures are echoed like this:
-
-\lilypondfile[quote,noindent]{anahata_piece.ly}
-
-The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
+And here's some more words for y'all.
 
 \end{document}

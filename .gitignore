@@ -1,3 +1,6 @@
 lilypond/out/*
 lilypond/*.midi
 lilypond/*.pdf
+lilypond/*.log
+lilypond/*.dep
+lilypond/*.aux
