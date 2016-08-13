@@ -174,43 +174,46 @@ This ``I surrender" chant felt great upside down, and I also noticed a thin laye
 
 \lilypondfile[quote,noindent]{surrender.ly}
 
-Some of the Deities we called to were:
+\hfill \\
 
+Some of the Deities we called to were: \hfill \\
 
-\theoremstyle{definition}
-\begin{I Surrender}{\textbf{Saraswati}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
+\begin{addmargin}[3em]{3em}
+\begin{description}
+\item[Saraswati]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space.}
 
-\begin{I Surrender}{\textbf{Laxmi Ma}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
+\item[Laxmi Ma]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
 
-\begin{I Surrender}{\textbf{Om Elegua}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
+\item[Om Elegua]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
 
-\begin{I Surrender}{\textbf{Obatala}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
+\item[Obatala]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
 
-\begin{I Surrender}{\textbf{Mother Mary}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
-\begin{I Surrender}{\textbf{Om Shiva}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
+\item[Mother Mary]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
 
-Others that come to mind are
-\begin{I Surrender}{\textbf{Yamaya}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
-\begin{I Surrender}{\textbf{Oshun}}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .
-\end{I Surrender}
-\begin{I Surrender}{\textbf{Om Jesus}}
-This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.
-\end{I Surrender}
+\item[Om Shiva]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\end{description}
+\end{addmargin}
+\hfill \\
 
+Others that come to mind are:
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+\item[Yamaya]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+
+\item[Oshun]
+\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+
+\item[Om Jesus]
+\textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
+\end{description}
+\end{addmargin}
 
 \end{document}
