@@ -9,7 +9,6 @@
 
 
 melody = \relative c'' {
-	\tempo 4 = 125
   \clef treble
   \key d \major
   \time 4/4
@@ -53,5 +52,7 @@ harmonies = {
   \layout { 
    % #(layout-set-staff-size 14)
    }
-  \midi { }
+  \midi { 
+  	\tempo 4 = 125
+  }
 }

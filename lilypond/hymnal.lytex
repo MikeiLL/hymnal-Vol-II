@@ -1,6 +1,9 @@
 \documentclass[a5paper,twoside,9pt]{extbook}
 \usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
-\usepackage{Carrickc,lettrine}
+\usepackage{amsthm} % for definitions
+\usepackage{Carrickc,lettrine} % for dropcaps
+\usepackage{textcomp} % for text figures
+\usepackage[osf]{mathpazo} % Paletino font
 \renewcommand\LettrineFontHook{\Carrickcfamily}
 % http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
 % http://www.tug.dk/FontCatalogue/otherfonts.html
@@ -8,11 +11,11 @@
 \begin{document}
 
 \tableofcontents
-%\section{}
-%\subsection{}
+\section{Section here}
+\subsection{Subsection here}
 \chapter{Introduction}
 
-\lettrine{F}{aitheism} is the philosophy that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+\lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
 FUTURE
 
@@ -20,7 +23,7 @@ Road is a long road
 
 Listen to Beethoven hear his soul
 
-What is a hymn? It's a piece of music that "everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small _range_ of notes so that even unaccustomed voices and approximate it, following the up and down pattern of notes across the page. According to the Oxford Dictionary:
+What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small range of notes so that even unaccustomed voices and approximate it, following the up and down pattern of notes across the page. According to the Oxford Dictionary:
 
 Sounds like /him/ (somehow fitting!)
 
@@ -145,5 +148,59 @@ It is really nice to do it as a call and response where each two measures are ec
 \lilypondfile[quote,noindent]{anahata_piece.ly}
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
+
+\lilypondfile[quote,noindent]{manipura.ly}
+
+I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
+
+The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
+
+\lilypondfile[quote,noindent]{asato_ma.ly}
+
+%\subsection{}
+
+\chapter{Sweet Surrender}
+
+A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
+
+This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
+
+
+\lilypondfile[quote,noindent]{surrender.ly}
+
+Some of the Deities we called to were:
+
+
+\theoremstyle{definition}
+\begin{definition}{Saraswati}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Laxmi Ma}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Om Elegua}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Obatala}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Mother Mary}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Om Shiva}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+
+Others that come to mind are
+\begin{definition}{Yamaya}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Oshun}
+A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
+\end{definition}
+\begin{definition}{Om Jesus}
+This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.
+\end{definition}
+
 
 \end{document}

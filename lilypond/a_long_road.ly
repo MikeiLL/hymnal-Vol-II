@@ -32,5 +32,7 @@ text =  \lyricmode {
   \layout { 
    % #(layout-set-staff-size 14)
    }
-  \midi { }
+    \midi { 
+  	\tempo 4 = 125
+  }
 }
