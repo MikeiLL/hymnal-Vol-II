@@ -1,9 +1,13 @@
 % arara: lilypond: {options: "--pdf"}
 % arara: pdflatex: { files: [ 'hymnal.tex' ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
-%\usepackage{arara} % so i can print it's name out nicely
 \usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
-% for definitions
+% so i can print arara's name out nicely
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage{arara} 
+
+% for definitions - which we're not currently using.
 \usepackage{amsthm} 
 \newtheorem{I Surrender}{Definition}
 % for dropcaps?
@@ -60,7 +64,7 @@ Okay so a hymn should probably be pretty easy to sing and even read, and by that
 
 This is a book of songs from the musical, \underline{Are We Done Yet?} by Rivka and Mike iLL of Mad haPPy.
 
-For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX. Also used .... to help automate.
+For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX. Also used arara  to help automate the process.
 
 This is certainly a first draft, of sorts and the songs and arrangements will surely be developed as time goes on. Our own versions of most of the tracks are usually done in harmony and this first version of the book only includes one melody for each track, usually in a range for either the male or female voice, but occasionally jumping back and forth a bit.
 
@@ -242,10 +246,12 @@ This next one is approximated from a dream, where there was a bunch of older hor
 
 The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. This is definitely an approximation, based on what we remembered from their transformational performance.
 
-As he explained, Shivaya Nama Om is the popular Om Nava Shivaya chant done in \emph{reverse}. 
+As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: ॐ नमः शिवाय; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
 
 \lilypondfile[quote,noindent]{anandamayima.ly}
 
-a change.
+\textbf{Anandamayi Ma} was (is?) a great yogi who lived into the recent century. The following is taken from Wikipedia. (Bengali: শ্রী আনন্দময়ী মা) (30 April 1896 – 27 August 1982) of India (from Bengal) was regarded as a Self/God-realized master. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced."[2] Precognition, faith healing and other miracles were attributed to her by her followers.[3] Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
+
+In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited them. Apparently at Kirtans she would reach intense states of ecstatic bliss.
 
 \end{document}
