@@ -180,23 +180,24 @@ Some of the Deities we called to were: \hfill \\
 
 \begin{addmargin}[3em]{3em}
 \begin{description}
-\item[Saraswati]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space.}
 
 \item[Laxmi Ma]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\textit{When, in the Hindu creation story, Narayana began dreaming existence out of the primordial soup, Laxmi was the feminine energy by which manifestation could occur.}
+
+\item[Saraswati]
+\textit{An avatar by which we can experience the energy of Laxmi Ma, Saraswati is the Hindu goddess to whom we look for creative energy and intelligence.}
 
 \item[Om Elegua]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
 
 \item[Obatala]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
 
 \item[Mother Mary]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\textit{Mary is one of the most universal of the Christian symbols.}
 
 \item[Om Shiva]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\textit{Shiva is lord of yoga. Lord of the dance. Shiva is depicted as having long, matted dread locks, full of insects. Shiva is too occupied with universal consciousness to be bothered.}
 \end{description}
 \end{addmargin}
 \hfill \\
@@ -205,15 +206,32 @@ Others that come to mind are:
 
 \begin{addmargin}[3em]{3em}
 \begin{description}
-\item[Yamaya]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\item[Yemaya]
+\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
 
 \item[Oshun]
-\textit{A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space .}
+\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
 
 \item[Om Jesus]
 \textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
 \end{description}
 \end{addmargin}
+
+At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+
+\lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
+
+Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
+
+\lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
+
+Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
+
+The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
+
+\lilypondfile[quote,noindent]{kul_ha_yom.ly}
+
+For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
+
 
 \end{document}
