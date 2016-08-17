@@ -1,7 +1,7 @@
-% arara: lilypond: {options: "--output=out --pdf"}
-% arara: pdflatex: { files: [ out/hymnal.tex ] }
+% arara: lilypond: {options: "--pdf"}
+% arara: pdflatex: { files: [ 'hymnal.tex' ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
-\usepackage{arara} % so i can print it's name out nicely
+%\usepackage{arara} % so i can print it's name out nicely
 \usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
 % for definitions
 \usepackage{amsthm} 
@@ -60,7 +60,7 @@ Okay so a hymn should probably be pretty easy to sing and even read, and by that
 
 This is a book of songs from the musical, \underline{Are We Done Yet?} by Rivka and Mike iLL of Mad haPPy.
 
-For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX. Also used \arara to help automate.
+For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX. Also used .... to help automate.
 
 This is certainly a first draft, of sorts and the songs and arrangements will surely be developed as time goes on. Our own versions of most of the tracks are usually done in harmony and this first version of the book only includes one melody for each track, usually in a range for either the male or female voice, but occasionally jumping back and forth a bit.
 
@@ -239,5 +239,13 @@ For some harmonic variety, and E Major chord can be substituted for the first Cm
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
 
 \lilypondfile[quote,noindent]{ellington7.ly}
+
+The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. This is definitely an approximation, based on what we remembered from their transformational performance.
+
+As he explained, Shivaya Nama Om is the popular Om Nava Shivaya chant done in \emph{reverse}. 
+
+\lilypondfile[quote,noindent]{anandamayima.ly}
+
+a change.
 
 \end{document}
