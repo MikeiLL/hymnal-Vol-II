@@ -1,4 +1,7 @@
+% arara: lilypond: {options: "--output=out --pdf"}
+% arara: pdflatex: { files: [ out/hymnal.tex ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
+\usepackage{arara} % so i can print it's name out nicely
 \usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
 % for definitions
 \usepackage{amsthm} 
@@ -57,7 +60,7 @@ Okay so a hymn should probably be pretty easy to sing and even read, and by that
 
 This is a book of songs from the musical, \underline{Are We Done Yet?} by Rivka and Mike iLL of Mad haPPy.
 
-For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX.
+For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX. Also used \arara to help automate.
 
 This is certainly a first draft, of sorts and the songs and arrangements will surely be developed as time goes on. Our own versions of most of the tracks are usually done in harmony and this first version of the book only includes one melody for each track, usually in a range for either the male or female voice, but occasionally jumping back and forth a bit.
 
@@ -233,5 +236,8 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 
 For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
 
+This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
+\lilypondfile[quote,noindent]{ellington7.ly}
 
 \end{document}

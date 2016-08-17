@@ -1,27 +1,40 @@
+% arara: lilypond
+% arara: pdflatex: { files: [ out/hymnal.tex ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
 \usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
-\usepackage{Carrickc,lettrine}
-\renewcommand\LettrineFontHook{\Carrickcfamily}
+% for definitions
+\usepackage{amsthm} 
+\newtheorem{I Surrender}{Definition}
+% for dropcaps?
+% source 
 % http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
 % http://www.tug.dk/FontCatalogue/otherfonts.html
+\usepackage{Carrickc,lettrine}
+\renewcommand\LettrineFontHook{\Carrickcfamily} 
+
+\usepackage{textcomp} % for text figures
+\usepackage[osf]{mathpazo} % Paletino font
+% following two lines for bold, italics, roman
+% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
+\usepackage{slantsc} 
+\usepackage{lmodern}
+
+% for margins
+\usepackage{scrextend}
 
 \usepackage{graphics}
 \begin{document}
 
 \tableofcontents
-%\section{}
-%\subsection{}
+%\section{Section here}
+%\subsection{Subsection here}
 \chapter{Introduction}
 
-\lettrine{F}{aitheism} is the philosophy that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
-
-FUTURE
-
-Road is a long road
-
-Listen to Beethoven hear his soul
-
-What is a hymn? It's a piece of music that "everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small _range_ of notes so that even unaccustomed voices and approximate it, following the up and down pattern of notes across the page. According to the Oxford Dictionary:
+\lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+FUTURE.
+Road is a long road.
+Listen to Beethoven hear his soul.
+What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. According to the Oxford Dictionary:
 
 Sounds like /him/ (somehow fitting!)
 
@@ -36,9 +49,7 @@ verb
 1 [with object] Praise or celebrate (something): Johnson’s reply hymns education
 More example sentences
 2 [no object] rare Sing hymns.
-
 Origin
-
 Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
 
 The Septuagint (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.
@@ -87,7 +98,7 @@ The following is a list of people who have offered significant support to this p
   \newline
   
   Sponsored by the Puffin Foundation West.
-  \includegraphics[scale=0.5]{/Users/mikekilmer/Documents/GrantWriting/PuffinFoundation/PuffinWest_2.jpg}
+  % \includegraphics[scale=0.5]{/PuffinWest_2.jpg}
   \newline
   \newline
   Magical blessings to all of our wonderful friends and supporters.
@@ -153,7 +164,7 @@ Is this another paragraph?
   \expandafter\preLilyPondExample
 \fi
 \def\lilypondbook{}%
-\input{1b/lily-f7e13deb-systems.tex}
+\input{b9/lily-1255c6cf-systems.tex}
 \ifx\postLilyPondExample \undefined
 \else
   \expandafter\postLilyPondExample
@@ -172,7 +183,7 @@ A long road for us.
   \expandafter\preLilyPondExample
 \fi
 \def\lilypondbook{}%
-\input{9b/lily-f98eabc4-systems.tex}
+\input{58/lily-7cfc134d-systems.tex}
 \ifx\postLilyPondExample \undefined
 \else
   \expandafter\postLilyPondExample
@@ -199,9 +210,6 @@ And another thing:
 }
 \end{quote}
 
-(If needed, replace @file{screech-and-boink.ly} by any @file{.ly} file
-you put in the same directory as this file.)
-
 Here's a wordless melody:
 \begin{quote}
 {%
@@ -220,6 +228,237 @@ Here's a wordless melody:
 }
 \end{quote}
 
-And here's some more words for y'all.
+This next piece aims to open up the heart chakra. Anahata. 
+
+Anubis
+
+There's a movement that goes with it. If standing, the legs will do a basic Afro-hip-hop step of  right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out to the sides, opening up the ribcage and heart more and more.
+
+The chant is this:
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{52/lily-36845a71-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+It is really nice to do it as a call and response where each two measures are echoed like this:
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{2d/lily-3576c727-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{79/lily-bf89e094-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
+
+The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{1b/lily-e0173bcd-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+%\subsection{}
+
+\chapter{Sweet Surrender}
+
+A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
+
+This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
+
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{fa/lily-b6413d9c-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+\hfill \\
+
+Some of the Deities we called to were: \hfill \\
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+
+\item[Laxmi Ma]
+\textit{When, in the Hindu creation story, Narayana began dreaming existence out of the primordial soup, Laxmi was the feminine energy by which manifestation could occur.}
+
+\item[Saraswati]
+\textit{An avatar by which we can experience the energy of Laxmi Ma, Saraswati is the Hindu goddess to whom we look for creative energy and intelligence.}
+
+\item[Om Elegua]
+\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
+
+\item[Obatala]
+\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
+
+\item[Mother Mary]
+\textit{Mary is one of the most universal of the Christian symbols.}
+
+\item[Om Shiva]
+\textit{Shiva is lord of yoga. Lord of the dance. Shiva is depicted as having long, matted dread locks, full of insects. Shiva is too occupied with universal consciousness to be bothered.}
+\end{description}
+\end{addmargin}
+\hfill \\
+
+Others that come to mind are:
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+\item[Yemaya]
+\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
+
+\item[Oshun]
+\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
+
+\item[Om Jesus]
+\textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
+\end{description}
+\end{addmargin}
+
+At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{16/lily-0bad00ce-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{21/lily-ac6ccce6-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
+
+The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{4e/lily-628a8000-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+
+For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
+
+This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{22/lily-5b83dadf-systems.tex}
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
 
 \end{document}
