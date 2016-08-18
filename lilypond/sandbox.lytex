@@ -79,6 +79,10 @@
 \usepackage{lettrine} % drop caps
 \renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
 \usepackage{textcomp} % for text figures
 \usepackage[osf]{mathpazo} % Paletino font
 % following two lines for bold, italics, roman
@@ -121,6 +125,10 @@ FUTURE.
 Road is a long road.
 Listen to Beethoven hear his soul.
 What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
+
+\begin{changemargin}{0.5cm}{0.5cm} 
+\lipsum[3] 
+\end{changemargin}
 
 According to the Oxford Dictionary:
 
