@@ -77,7 +77,27 @@
 % for margins
 \usepackage{scrextend}
 
+% for list of figures, tables
+% source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
+
+\usepackage{blindtext} % for filler
+
 \begin{document}
+
+
+\renewcommand{\listfigurename}{Chants \& Music}
+ 
+\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
+
+\renewcommand{\figurename}{Chant}
+
+\renewcommand{\tablename}{Music}
+  
+\thispagestyle{empty}
+ 
+\listoffigures
+ 
+\listoftables
 
 \tableofcontents
 %\section{Section here}
@@ -85,6 +105,7 @@
 \chapter{Introduction}
 
 \lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+
 FUTURE.
 Road is a long road.
 Listen to Beethoven hear his soul.
@@ -184,10 +205,16 @@ So this is the Gayatri Mantra which is supposed to be super popular. We are doin
 Is this another paragraph?
 
 \lilypondfile[quote,noindent]{gayatri_mantra.ly}
-
-A long road for us.
+\begin{figure}[ht]
+\label{fig:gayatri mantra}
+\caption[Gayatri Mantra]{We will talk more about the music here.}
+\end{figure}
 
 \lilypondfile[quote,noindent]{a_long_road.ly}
+\begin{figure}[ht]
+\label{fig:gayatri mantra}
+\caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
+\end{figure}
 
 And another thing:
 
@@ -292,7 +319,12 @@ For some harmonic variety, and E Major chord can be substituted for the first Cm
 
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
 
+
 \lilypondfile[quote,noindent]{ellington7.ly}
+\begin{table}[h!]
+\caption{Seven Beats Descending}
+\label{table:1}
+\end{table}
 
 The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. This is definitely an approximation, based on what we remembered from their transformational performance.
 
@@ -300,11 +332,9 @@ As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chan
 
 The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
 
-\textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा|\par}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived into the recent century between 30 April 1896 and 27 August 1982. The following is taken from Wikipedia. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
+\textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived into the recent century between 30 April 1896 and 27 August 1982. The following is taken from Wikipedia. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
 
 In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
-
-
 
 \lilypondfile[quote,noindent]{anandamayima.ly}
 
