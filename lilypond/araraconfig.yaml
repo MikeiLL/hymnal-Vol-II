@@ -1,0 +1,10 @@
+!config
+# Config file to use texmfhome as search path
+# # # author: Mike iLL
+# # # requires arara 3.0+
+# paths:
+# - /Users/mikekilmer/Library/texmf/scripts/arara/rules
+#
+# filetypes:
+# - extension: lytex
+#   pattern: ^(\s)*%\s+

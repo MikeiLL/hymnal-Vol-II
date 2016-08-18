@@ -1,0 +1,15 @@
+!config
+# Mainfile rule for arara
+# # author: Marco Daniel
+# # requires arara 3.0+
+# identifier: lilypond
+# name: Lilypond
+# command: <arara> lilypond-book @{format} @{options} @{output} "@{file}"
+# arguments:
+# - identifier: format
+#   flag: <arara> --format=@{parameters.latex-programm}
+#     default: <arara> --format=latex
+#     - identifier: options
+#       flag: <arara> @{parameters.options}
+#       - identifier: output
+#         flag: <arara> --output=@{parameters.output}
