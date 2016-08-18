@@ -1,7 +1,10 @@
 % arara: lilypond: {options: "--latex-program=xelatex --pdf"}
 % arara: xelatex: { files: [ 'hymnal.tex' ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
-\usepackage[left=.7cm,right=.7cm,top=2cm,bottom=1.5cm]{geometry}
+% margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
+\usepackage{marginnote}
+
+\usepackage[left=2cm,right=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.5cm, marginparsep=.5cm]{geometry}
 % so i can print arara's name out nicely
 %\usepackage[T1]{fontenc}
 %\usepackage[utf8]{inputenc}
@@ -74,8 +77,12 @@
 \usepackage{slantsc} 
 \usepackage{lmodern}
 
-% for margins
+% for margins or is this for columns?
 \usepackage{scrextend}
+
+\usepackage{titlesec} % to style titles
+\titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
+\titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
 
 % for list of figures, tables
 % source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
@@ -106,6 +113,9 @@
 
 \lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
+
+\reversemarginpar{This is a margin note using the geometry package, set at 0cm vertical offset to the first line it is typeset.}[0cm]
+\marginpar{That is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}[5cm]
 FUTURE.
 Road is a long road.
 Listen to Beethoven hear his soul.
@@ -319,6 +329,14 @@ For some harmonic variety, and E Major chord can be substituted for the first Cm
 
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
 
+
+\section*{Section Headings}
+
+We explain in this section how to obtain headings
+for the various sections and subsections of our
+document.
+
+\subsection*{Seven Beats Descending}
 
 \lilypondfile[quote,noindent]{ellington7.ly}
 \begin{table}[h!]
