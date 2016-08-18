@@ -2,7 +2,8 @@
 % arara: xelatex: { files: [ 'hymnal.tex' ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
-\usepackage{marginnote}
+\usepackage{marginnote,letltxmacro}
+\LetLtxMacro\mn\marginnote
 
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
 % so i can print arara's name out nicely
@@ -63,12 +64,12 @@
 % for definitions - which we're not currently using.
 \usepackage{amsthm} 
 \newtheorem{I Surrender}{Definition}
-% for dropcaps?
+% for dropcaps
 % source 
 % http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
 % http://www.tug.dk/FontCatalogue/otherfonts.html
-\usepackage{Carrickc,lettrine}
-\renewcommand\LettrineFontHook{\Carrickcfamily} 
+\usepackage{lettrine}
+\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
 \usepackage{textcomp} % for text figures
 \usepackage[osf]{mathpazo} % Paletino font
@@ -89,8 +90,13 @@
 
 \usepackage{blindtext} % for filler
 
+\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
+
+\renewcommand*{\marginfont}{\footnotesize}
+
 \begin{document}
 
+\tableofcontents
 
 \renewcommand{\listfigurename}{Chants \& Music}
  
@@ -106,14 +112,13 @@
  
 \listoftables
 
-\tableofcontents
 %\section{Section here}
 %\subsection{Subsection here}
 \chapter{Introduction}
 
-\lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
-\marginpar{That is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}[3cm]
+\mn{The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 FUTURE.
 Road is a long road.
@@ -145,8 +150,6 @@ More example sentences
 \item[1]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
 
 \end{description}
-
-The Septuagint (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.
 
 What is a drone?
 

@@ -2,14 +2,20 @@
 % arara: xelatex: { files: [ 'hymnal.tex' ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
-\usepackage{marginnote}
+
+\usepackage{marginnote,letltxmacro}
+\LetLtxMacro\mn\marginnote
 
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+
 % so i can print arara's name out nicely
 %\usepackage[T1]{fontenc}
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 \usepackage{lipsum}
+
+\usepackage{xcolor}
+\usepackage{stackengine} % Highly customised stacking of objects, insets, baseline 
 
 %%%%%
 % For Hindi Text
@@ -68,8 +74,10 @@
 % source 
 % http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
 % http://www.tug.dk/FontCatalogue/otherfonts.html
-\usepackage{Carrickc,lettrine}
-\renewcommand\LettrineFontHook{\Carrickcfamily} 
+%\usepackage{Carrickc,lettrine}
+%\renewcommand\LettrineFontHook{\Carrickcfamily} 
+\usepackage{lettrine} % drop caps
+\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
 \usepackage{textcomp} % for text figures
 \usepackage[osf]{mathpazo} % Paletino font
@@ -90,15 +98,24 @@
 
 \usepackage{blindtext} % for filler
 
-\begin{document}
-%\section{Section here}
-%\subsection{Subsection here}
-\chapter{Introduction}
+\usepackage{caption}
 
-\lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+\renewcommand*{\marginfont}{\fontspec{Courier}}
+
+\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
+
+\newcommand\mymarginpar[1]{\marginpar{\captionsetup{font=footnotesize}#1}} %new code
+
+
+\renewcommand*{\marginfont}{\footnotesize}
+
+\begin{document}
+
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=.3em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
 \renewcommand*{\raggedleftmarginnote}{\flushleft}
-\marginpar{That is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}[3cm]
+
+\mn{\hspace{4em} That right there is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}
 
 FUTURE.
 Road is a long road.
@@ -131,36 +148,9 @@ More example sentences
 
 \end{description}
 
-\newcommand\Right{{(Right) Lorem ipsum  dolor sit amet}}
-\newcommand\Left{{(Left) Lorem ipsum  dolor sit amet}}
-
-
-\section*{Two \texttt{marginpar} in the same paragraph} 
-
-Lorem \reversemarginpar\marginpar{\Left}
-ipsum  dolor sit amet, consectetuer adipiscing elit.\normalmarginpar\marginpar{\Right} Ut purus elit\ldots
-\vspace{2cm}
-
-
-\subsection*{Two \texttt{marginpar} in separate paragraphs} 
-
-Lorem \reversemarginpar\marginpar{\Left}
-ipsum  dolor sit amet, consectetuer adipiscing elit.\par\normalmarginpar\marginpar{\Right} Ut purus elit\ldots
+\normalmarginpar\mna{\blindtext} Ut purus elit\ldots
 \vspace{1cm}
 
-\subsection*{Two \texttt{marginnotes} in the same paragraph} 
-
-\renewcommand*{\raggedleftmarginnote}{\flushleft}
-
-Lorem \reversemarginpar\marginnote{\Left} ipsum  dolor sit amet, consectetuer adipiscing elit.\normalmarginpar\marginnote{\Right}
-Ut purus elit\ldots
-\vspace{1cm}
-
-\subsection*{One \texttt{marginnote} with and without \texttt{reversemarginpar}} 
-
-
-Lorem \reversemarginpar\marginnote[\Left]{\Rigth} ipsum  dolor sit amet, consectetuer adipiscing elit.\normalmarginpar\marginnote[\Left]{\Right}
-Ut purus elit\ldots
-\lipsum[4]
+\lipsum[3]
 
 \end{document}
