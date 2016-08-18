@@ -298,11 +298,15 @@ The following chant is one we learned from a couple of Brooklyn-born Indian Clas
 
 As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \velt{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
 
+The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
+
+\textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा|\par}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived into the recent century between 30 April 1896 and 27 August 1982. The following is taken from Wikipedia. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
+
+In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
+
+
+
 \lilypondfile[quote,noindent]{anandamayima.ly}
-
-\textbf{Anandamayi Ma} was (is?) a great yogi who lived into the recent century. The following is taken from Wikipedia. (Bengali: \velt {শ্রী আনন্দময়ী মা} and {\mangalfont आनंदमयी मा|\par}) (30 April 1896 – 27 August 1982) of India (from Bengal) was regarded as a Self/God-realized master. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced."[2] Precognition, faith healing and other miracles were attributed to her by her followers.[3] Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
-
-In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited them. Apparently at Kirtans she would reach intense states of ecstatic bliss.
 
 \begin{enumerate}
 \item[1]
