@@ -1,13 +1,5 @@
 \version "2.19.45"
 
-\header {
-  title = "Gayatri Mantra"
-  author = "anonymous"
-  composer = "Music by Rivka and Mike iLL"
-  tagline = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
-}
-
-
 melody = \relative c'' {
   \clef treble
   \key d \major

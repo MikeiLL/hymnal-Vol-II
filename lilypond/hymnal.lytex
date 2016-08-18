@@ -151,38 +151,13 @@ More example sentences
 
 \end{description}
 
-What is a drone?
-
-Okay so a hymn should probably be pretty easy to sing and even read, and by that definition only a small portion of these tunes qualify, but we're lying our way to the truth.
-
-This is a book of songs from the musical, \underline{Are We Done Yet?} by Rivka and Mike iLL of Mad haPPy.
-
-For anyone interested in Open Source and techie stuff, this book was assembled using Lilypond music engraving package, and \LaTeX  typesetting tool via the TeXShop interface for OSX. Also used arara  to help automate the process.
-
-This is certainly a first draft, of sorts and the songs and arrangements will surely be developed as time goes on. Our own versions of most of the tracks are usually done in harmony and this first version of the book only includes one melody for each track, usually in a range for either the male or female voice, but occasionally jumping back and forth a bit.
-
-We hope you will feel free to play with your own harmonies, re-harmonizations, new lyrics, etc. We consider this endeavor to be in the folk tradition, and some of the melodies herein are derivative of original sources.
+What is drone?
 
 \section{Some Music}
 
-Documents for \verb+lilypond-book+ may freely mix music and text.
-For example,
+\subsection{Gayatri Mantra}
 
-\begin{lilypond}
-\relative c' {
-  c2 e2 \tuplet 3/2 { f8 a b } a2 e4
-}
-\end{lilypond}
-
-Options are put in brackets.
-
-\begin{lilypond}[fragment,quote,staffsize=26,verbatim]
-  c'4 f16
-\end{lilypond}
-
-So this is the Gayatri Mantra which is supposed to be super popular. We are doing the "long" version. Interestingly I read somewhere that the "short" version preceded the "long" version, historically.
-
-Is this another paragraph?
+The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. What is a mantra? In Sanscrit (\velt{मंत्र}), the syllables are broken up, Man(\velt{युव}): the root of manas (\velt{मनस्}) which means "mind" or "think", Tra(\velt{त्रा}): vehicle or instrument. Tra is also translated as "the heat of life." And of course we associate Ra with the sun. We are doing the "long" version. Interestingly I read somewhere that the "short" version preceded the "long" version, historically.
 
 \lilypondfile[quote,noindent]{gayatri_mantra.ly}
 \begin{figure}[ht]
@@ -190,9 +165,10 @@ Is this another paragraph?
 \caption[Gayatri Mantra]{We will talk more about the music here.}
 \end{figure}
 
+\subsection{A Long Road}
 \lilypondfile[quote,noindent]{a_long_road.ly}
 \begin{figure}[ht]
-\label{fig:gayatri mantra}
+\label{fig:A Long Road}
 \caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
 \end{figure}
 
@@ -200,8 +176,13 @@ And another thing:
 
 \lilypondfile[quote,noindent]{the_road_junction.ly}
 
-Here's a wordless melody:
+
+\subsection{Wordless One}
 \lilypondfile[quote,noindent]{wordless-one.ly}
+\begin{table}[h!]
+\caption{Wordless One}
+\label{table:1}
+\end{table}
 
 This next piece aims to open up the heart chakra. Anahata. 
 
@@ -211,23 +192,38 @@ There's a movement that goes with it. If standing, the legs will do a basic Afro
 
 The chant is this:
 
+\subsection{Anahata}
+
 \lilypondfile[quote,noindent]{anahata.ly}
 
-It is really nice to do it as a call and response where each two measures are echoed like this:
+\begin{figure}[ht]
+\label{fig:Anahata}
+\caption[Anahata]{It is really nice to do it as a call and response where each two measures are echoed like this:}
+\end{figure}
+
 
 \lilypondfile[quote,noindent]{anahata_piece.ly}
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
+\subsection{Manipura}
 \lilypondfile[quote,noindent]{manipura.ly}
+\begin{figure}[ht]
+\label{fig:Manipura}
+\caption[Manipura]{We will talk more about the music here.}
+\end{figure}
+
+\subsection{Asato Ma}
 
 I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
 
 The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
 \lilypondfile[quote,noindent]{asato_ma.ly}
-
-%\subsection{}
+\begin{figure}[ht]
+\label{fig:Asato Ma Sat Gamaya}
+\caption[Asato Ma Sat Gamaya]{We will talk more about the music here.}
+\end{figure}
 
 \chapter{Sweet Surrender}
 

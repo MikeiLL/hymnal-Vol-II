@@ -1,12 +1,5 @@
 \version "2.19.45"
 
-\header {
-  title = "Wordless One"
-  composer = "Music by Rivka and Mike iLL"
-  % tagline = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
-}
-
-
 melody = \relative c'' {
 	\tempo 4 = 110
   \clef treble
