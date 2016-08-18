@@ -4,7 +4,7 @@
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 \usepackage{marginnote}
 
-\usepackage[left=2cm,right=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.5cm, marginparsep=.5cm]{geometry}
+\usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
 % so i can print arara's name out nicely
 %\usepackage[T1]{fontenc}
 %\usepackage[utf8]{inputenc}
@@ -113,29 +113,38 @@
 
 \lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
+\marginpar{That is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}[3cm]
 
-\reversemarginpar{This is a margin note using the geometry package, set at 0cm vertical offset to the first line it is typeset.}[0cm]
-\marginpar{That is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}[5cm]
 FUTURE.
 Road is a long road.
 Listen to Beethoven hear his soul.
-What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. According to the Oxford Dictionary:
+What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
-Sounds like /him/ (somehow fitting!)
+According to the Oxford Dictionary:
 
-noun
-1A religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo
+Sounds like /him/ (somehow fitting!)\par
+\noindent
+\textbf{noun}
+
+\begin{description}
+\item[1A] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo
 More example sentences Synonyms
-1.1A formal song sung during Christian worship, typically by the whole congregation.
+\item[1.1A] formal song sung during Christian worship, typically by the whole congregation.
 Example sentences
-1.2A song, text, or other composition praising or celebrating someone or something: a most unusual passage like a hymn to the great outdoors
+\item[1.2A] song, text, or other composition praising or celebrating someone or something: a most unusual passage like a hymn to the great outdoors \par
+\end{description}
+\noindent \textbf{verb}
+\begin{description}
+\item[1] [with object] Praise or celebrate (something): Johnson’s reply hymns education
 More example sentences
-verb
-1 [with object] Praise or celebrate (something): Johnson’s reply hymns education
-More example sentences
-2 [no object] rare Sing hymns.
-Origin
-Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
+\item[2] [no object] rare Sing hymns. \par 
+\end{description}
+\noindent
+\textbf{Origin}
+\begin{description}
+\item[1]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
+
+\end{description}
 
 The Septuagint (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.
 
@@ -150,48 +159,6 @@ For anyone interested in Open Source and techie stuff, this book was assembled u
 This is certainly a first draft, of sorts and the songs and arrangements will surely be developed as time goes on. Our own versions of most of the tracks are usually done in harmony and this first version of the book only includes one melody for each track, usually in a range for either the male or female voice, but occasionally jumping back and forth a bit.
 
 We hope you will feel free to play with your own harmonies, re-harmonizations, new lyrics, etc. We consider this endeavor to be in the folk tradition, and some of the melodies herein are derivative of original sources.
-
-We can be contacted, most likely via one of the following websites: \\
-\begin{itemize}
-\item http://www.madhappy.com 
-\item http://www.rivka.com
-\item http://www.mZoo.org
-\item http://www.TempleofWow.com
-\end{itemize}
-\pagebreak{}
-
-\section{Acknowledgements}
-
-Is there any religion that doesn't offer some level of honor in exchange for money?
-\newline
-The following is a list of people who have offered significant support to this project:
-  
-\begin{itemize}   
-  \item Georgeanna Presnell
-  \item Carla Murray
-  \item Marina, Hans \& Tim Frei
-  \item Leah Pietrusiak
-  \item Jason Daniels
-\end{itemize}    
-
-  
-  Special thanks to Beth Kilmer for proof-playing the songs.
-   \newline
-   
-   
-  Cover Artwork: Seth Tobocman
-  \newline
-  
-  Sponsored by the Puffin Foundation West.
-  % \includegraphics[scale=0.5]{/PuffinWest_2.jpg}
-  \newline
-  \newline
-  Magical blessings to all of our wonderful friends and supporters.
-  \newline
-  \newline
-  We hope you enjoy it.
-
-\pagebreak{}
 
 \section{Some Music}
 

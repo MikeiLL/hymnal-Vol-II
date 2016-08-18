@@ -1,0 +1,166 @@
+% arara: lilypond: {options: "--latex-program=xelatex --pdf"}
+% arara: xelatex: { files: [ 'hymnal.tex' ] }
+\documentclass[a5paper,twoside,9pt]{extbook}
+% margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
+\usepackage{marginnote}
+
+\usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+% so i can print arara's name out nicely
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage{arara} 
+\usepackage{lipsum}
+
+%%%%%
+% For Hindi Text
+% Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
+
+\usepackage{multicol} % just to get narrow columns on one page
+\usepackage{polyglossia} % the multilingual support package
+% for XeLaTeX - includes Sanskrit.
+% Next, from the polyglossia manual:
+\setdefaultlanguage{english} % this is mostly going to be English text, with
+\setotherlanguage{sanskrit} % some Sanskrit embedded in it.
+% These will call appropriate hyphenation.
+\usepackage{xltxtra} % standard for nearly all XeLaTeX documents
+\defaultfontfeatures{Mapping=tex-text} % ditto
+\setmainfont{Gandhari Unicode} %could be any Unicode font
+
+% Now define some Devanagari fonts:
+% At least *one* font family must be called \sanskritfont or \devanagarifont,
+% so that XeTeX loads all hyphenation and other stuff for Sanskrit. 
+% Once the Sanskrit ``intelligence'' is loaded, it can be invoked at
+% other places as needed using \selectlanguage{sanskrit}
+%
+% John Smith's Nakula, input using Velthuis transliteration
+\newfontfamily
+\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Nakula}
+% John Smith's Sahadeva, input using Velthuis transliteration
+\newfontfamily
+\sahadevafont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+% John's Sahadeva, input using scholarly romanisation in Unicode
+\newfontfamily
+\sahadevaunicodefont [Script=Devanagari,Mapping=RomDev]{Sahadeva}
+% Microsoft's Mangal font (ugh!), input using standard romanisation in Unicode.
+\newfontfamily
+\mangalfont [Script=Devanagari,Mapping=RomDev]{Mangal}
+% Somdev's RomDev.map is used above to get the mapping
+% from Unicode -> Devanāgarī. Zdenek Wagner's velthuis-sanskrit.map
+% is used to get the Velthuis->Devanāgarī mapping. These are the files
+% that XeTeX uses to make all the conjunct consonants without needing
+% any external preprocessor (like the old devnag.c program).
+% % Set up the font commands:
+%
+\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
+\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
+\newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
+\newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
+% \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
+% ... and here we go!
+
+
+%%%%%
+
+% for definitions - which we're not currently using.
+\usepackage{amsthm} 
+\newtheorem{I Surrender}{Definition}
+% for dropcaps?
+% source 
+% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
+% http://www.tug.dk/FontCatalogue/otherfonts.html
+\usepackage{Carrickc,lettrine}
+\renewcommand\LettrineFontHook{\Carrickcfamily} 
+
+\usepackage{textcomp} % for text figures
+\usepackage[osf]{mathpazo} % Paletino font
+% following two lines for bold, italics, roman
+% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
+\usepackage{slantsc} 
+\usepackage{lmodern}
+
+% for margins or is this for columns?
+\usepackage{scrextend}
+
+\usepackage{titlesec} % to style titles
+\titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
+\titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
+
+% for list of figures, tables
+% source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
+
+\usepackage{blindtext} % for filler
+
+\begin{document}
+%\section{Section here}
+%\subsection{Subsection here}
+\chapter{Introduction}
+
+\lettrine{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+
+\renewcommand*{\raggedleftmarginnote}{\flushleft}
+\marginpar{That is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}[3cm]
+
+FUTURE.
+Road is a long road.
+Listen to Beethoven hear his soul.
+What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
+
+According to the Oxford Dictionary:
+
+Sounds like /him/ (somehow fitting!)\par
+\noindent
+\textbf{noun}
+
+\begin{description}
+\item[1A] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo
+More example sentences Synonyms
+\item[1.1A] formal song sung during Christian worship, typically by the whole congregation.
+Example sentences
+\item[1.2A] song, text, or other composition praising or celebrating someone or something: a most unusual passage like a hymn to the great outdoors \par
+\end{description}
+\noindent \textbf{verb}
+\begin{description}
+\item[1] [with object] Praise or celebrate (something): Johnson’s reply hymns education
+More example sentences
+\item[2] [no object] rare Sing hymns. \par 
+\end{description}
+\noindent
+\textbf{Origin}
+\begin{description}
+\item[1]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
+
+\end{description}
+
+\newcommand\Right{{(Right) Lorem ipsum  dolor sit amet}}
+\newcommand\Left{{(Left) Lorem ipsum  dolor sit amet}}
+
+
+\section*{Two \texttt{marginpar} in the same paragraph} 
+
+Lorem \reversemarginpar\marginpar{\Left}
+ipsum  dolor sit amet, consectetuer adipiscing elit.\normalmarginpar\marginpar{\Right} Ut purus elit\ldots
+\vspace{2cm}
+
+
+\subsection*{Two \texttt{marginpar} in separate paragraphs} 
+
+Lorem \reversemarginpar\marginpar{\Left}
+ipsum  dolor sit amet, consectetuer adipiscing elit.\par\normalmarginpar\marginpar{\Right} Ut purus elit\ldots
+\vspace{1cm}
+
+\subsection*{Two \texttt{marginnotes} in the same paragraph} 
+
+\renewcommand*{\raggedleftmarginnote}{\flushleft}
+
+Lorem \reversemarginpar\marginnote{\Left} ipsum  dolor sit amet, consectetuer adipiscing elit.\normalmarginpar\marginnote{\Right}
+Ut purus elit\ldots
+\vspace{1cm}
+
+\subsection*{One \texttt{marginnote} with and without \texttt{reversemarginpar}} 
+
+
+Lorem \reversemarginpar\marginnote[\Left]{\Rigth} ipsum  dolor sit amet, consectetuer adipiscing elit.\normalmarginpar\marginnote[\Left]{\Right}
+Ut purus elit\ldots
+\lipsum[4]
+
+\end{document}
