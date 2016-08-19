@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 arara sandbox.lytex
 xelatex sandbox.tex
 find . -maxdepth 1 -type d -name '??' -exec rm -rf {} \;

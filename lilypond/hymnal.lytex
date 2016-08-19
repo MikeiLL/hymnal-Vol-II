@@ -343,7 +343,7 @@ document.
 \lilypondfile[quote,noindent]{ellington7.ly}
 \end{changemargin}
 \begin{table}[h!]
-\caption{Seven Beats Descending}
+\caption[Seven Beats Descending]{We will talk more about the music here.}
 \label{table:1}
 \end{table}
 
@@ -361,30 +361,15 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \lilypondfile[quote,noindent]{anandamayima.ly}
 \end{changemargin}
 
-\begin{enumerate}
-\item[1]
-With Xe\LaTeX\ it's easy to typeset Velthuis encoded Devanagari like the following example, without using a preprocessor:
-\velt{sugataan sasutaan sadharmakaayaan pra.nipatyaadarato 'khilaa.m"sca vandyaan|
-sugataatmajasa.mvaraavataara.m kathayi.syaami yathaagama.m samaasaat||} Bodhicaryāvatāra 1,1.
-NB: automatic hyphenation.
-\item[2]
-A different Devanāgarī font:
-\saha{sugataan sasutaan sadharmakaayaan pra.nipatyaadarato 'khilaa.m"sca vandyaan|
-sugataatmajasa.mvaraavataara.m kathayi.syaami yathaagama.m samaasaat||} Bodhicaryāvatāra 1,1.
-\item[3]
-Another sentence: \saha{ratnojjvalastambhamanorame.su muktaamayodbhaasivitaanake.su|
-svacchojjvalasphaa.tikaku.t.time.su sungandhi.su snaanag.rhe.su te.su||} 2,10.
-\item[4]
-Now, thanks to Somdev's RomDev.map, we can input in Unicode, using standard scholarly transliteration, and get Devanāgarī generated for us automatically:
-\sahauni{āsīdrājā nalo nāma vīrsenasuto balī||\par }
-\item[5]
-Plain Unicode input, no tricks:
-āsīdrājā nalo nāma vīrsenasuto balī||
-\item[6]
-Plain Unicode romanisation input, no tricks:
-\mangaluni{āsīdrājā nalo nāma vīrsenasuto balī||\par }
-Plain Unicode Devanāgarī input, no tricks:
-{\mangalfont आसीद्राजा नलो नाम वीरसेनसुतो बली|\par}
-\end{enumerate}
+\subsection*{Sat Chit Ekam Brahma}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ekam_brahma.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Sat Chit Ekam Brahma}
+\caption[Sat Chit Ekam Brahma]{We will talk more about the music here. (Sanskrit: \velt{ॐ नमः शिवाय}}
+\end{figure}
+
 
 \end{document}
