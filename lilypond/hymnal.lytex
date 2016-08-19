@@ -78,8 +78,16 @@
 \usepackage{slantsc} 
 \usepackage{lmodern}
 
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
 % for margins or is this for columns?
 \usepackage{scrextend}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
 
 \usepackage{titlesec} % to style titles
 \titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
@@ -118,7 +126,7 @@
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
-\mn{The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
+\mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 FUTURE.
 Road is a long road.
@@ -157,16 +165,23 @@ What is drone?
 
 \subsection{Gayatri Mantra}
 
-The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. What is a mantra? In Sanscrit (\velt{मंत्र}), the syllables are broken up, Man(\velt{युव}): the root of manas (\velt{मनस्}) which means "mind" or "think", Tra(\velt{त्रा}): vehicle or instrument. Tra is also translated as "the heat of life." And of course we associate Ra with the sun. We are doing the "long" version. Interestingly I read somewhere that the "short" version preceded the "long" version, historically.
+\mna{\hspace{1em}In Sanscrit the syllables of the word \textbf{Mantra} (\velt{मंत्र}) are broken up as the root, \textbf{Man} (\velt{युव}): the root of \textbf{manas} (\velt{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\velt{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
 
+The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically.
+
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{gayatri_mantra.ly}
+\end{changemargin}
 \begin{figure}[ht]
 \label{fig:gayatri mantra}
-\caption[Gayatri Mantra]{We will talk more about the music here.}
+\caption[Gayatri Mantra]{When chanting this with a group who don't know the words and/or melody, the chant leading can be repeated one measure at a time: ---Om Bhur ---Om Bhur ---Om bhugaha ---Om bhugaha \ldots and so on.}
 \end{figure}
 
+
 \subsection{A Long Road}
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{a_long_road.ly}
+\end{changemargin}
 \begin{figure}[ht]
 \label{fig:A Long Road}
 \caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
@@ -174,11 +189,15 @@ The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk
 
 And another thing:
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{the_road_junction.ly}
+\end{changemargin}
 
 
 \subsection{Wordless One}
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{wordless-one.ly}
+\end{changemargin}
 \begin{table}[h!]
 \caption{Wordless One}
 \label{table:1}
@@ -194,7 +213,9 @@ The chant is this:
 
 \subsection{Anahata}
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{anahata.ly}
+\end{changemargin}
 
 \begin{figure}[ht]
 \label{fig:Anahata}
@@ -202,12 +223,16 @@ The chant is this:
 \end{figure}
 
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{anahata_piece.ly}
+\end{changemargin}
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
 \subsection{Manipura}
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{manipura.ly}
+\end{changemargin}
 \begin{figure}[ht]
 \label{fig:Manipura}
 \caption[Manipura]{We will talk more about the music here.}
@@ -219,7 +244,9 @@ I think the word Upanishads translates as "campfire stories". It's a collection 
 
 The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{asato_ma.ly}
+\end{changemargin}
 \begin{figure}[ht]
 \label{fig:Asato Ma Sat Gamaya}
 \caption[Asato Ma Sat Gamaya]{We will talk more about the music here.}
@@ -232,7 +259,9 @@ A lot of these chants, like the following, have fairly generic, simple melodies.
 This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
 
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{surrender.ly}
+\end{changemargin}
 
 \hfill \\
 
@@ -279,17 +308,23 @@ Others that come to mind are:
 
 At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
+\end{changemargin}
 
 Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
+\end{changemargin}
 
 Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
 
 The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
+\end{changemargin}
 
 For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
 
@@ -304,7 +339,9 @@ document.
 
 \subsection*{Seven Beats Descending}
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ellington7.ly}
+\end{changemargin}
 \begin{table}[h!]
 \caption{Seven Beats Descending}
 \label{table:1}
@@ -320,7 +357,9 @@ The chant starts really slowly. A dirge honoring and evolking the great mystic \
 
 In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{anandamayima.ly}
+\end{changemargin}
 
 \begin{enumerate}
 \item[1]

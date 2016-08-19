@@ -35,6 +35,9 @@
 \sourcefilename "gayatri_mantra.ly"
 \sourcefileline 0
 \version "2.19.45"
+\paper {
+	line-width = 4.6\in
+}
 
 \header {
   title = "Gayatri Mantra"

@@ -1,4 +1,7 @@
 \version "2.19.45"
+\paper {
+	line-width = 4.6\in
+}
 
 melody = \relative c' {
   \clef treble

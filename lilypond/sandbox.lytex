@@ -104,12 +104,13 @@
 
 \usepackage{caption}
 
+%\usepackage{showframe}
+
 \renewcommand*{\marginfont}{\fontspec{Courier}}
 
 \newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
 
 \newcommand\mymarginpar[1]{\marginpar{\captionsetup{font=footnotesize}#1}} %new code
-
 
 \renewcommand*{\marginfont}{\footnotesize}
 
@@ -126,8 +127,15 @@ Road is a long road.
 Listen to Beethoven hear his soul.
 What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
-\begin{changemargin}{0.5cm}{0.5cm} 
+
+\begin{changemargin}{-0.1cm}{-0.5cm} 
 \lipsum[3] 
+\end{changemargin}
+
+\lipsum[1]
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{gayatri_mantra.ly}
 \end{changemargin}
 
 According to the Oxford Dictionary:
