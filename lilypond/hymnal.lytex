@@ -326,6 +326,11 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
 \end{changemargin}
 
+\begin{figure}[ht]
+\label{fig:Kulha Yom Vikhul Halaila Om}
+\caption[Kulha Yom Vikhul Halaila Om]{We will talk more about the music here. }
+\end{figure}
+
 For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
 
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
@@ -347,6 +352,8 @@ document.
 \label{table:1}
 \end{table}
 
+\subsection*{Anandamayi Ma}
+
 The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. This is definitely an approximation, based on what we remembered from their transformational performance.
 
 As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \velt{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
@@ -360,6 +367,10 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{anandamayima.ly}
 \end{changemargin}
+\begin{figure}[ht]
+\label{fig:Anandamayi Ma}
+\caption[Anandamayi Ma]{We will talk more about the music here. }
+\end{figure}
 
 \subsection*{Sat Chit Ekam Brahma}
 
@@ -368,8 +379,37 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Sat Chit Ekam Brahma}
-\caption[Sat Chit Ekam Brahma]{We will talk more about the music here. (Sanskrit: \velt{ॐ नमः शिवाय}}
+\caption[Sat Chit Ekam Brahma]{We will talk more about the music here. (Sanskrit: \velt{ॐ नमः शिवाय})}
 \end{figure}
 
+
+\subsection*{Shangó Shangó}
+
+Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Shiva and Norse Odin and Thor, Shangó is fierce as can be. A warrior. Sometimes we use this chant in yoga when we're doing Virabhadrasana (warrior) poses. Before he was a god, Shangó was a human being; a king. At some point he committed some horrible act of rage and destruction. As an act of repentance for what he had done, Shangó hung himself from a tree (sound familiar, fans of Odin?) and died. \emph{Ọba so} is Yoruba for \emph{the king hung}. Seeing this fearless act of selflessness and ultimate sacrifice, the creator, Olodumare resurrected Shangó as a deity. Thus the famous saying, "Ọba kò so": The king did not hang. 
+
+We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends Neilah Black and Russel Spears. 
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{awakeyshango.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Shangó}
+\caption[Shangó]{The words translate as |emph{Shangó Shangó We salute our king. Shangó}, and it can be done in various call-and-response or echo arrangements. }
+\end{figure}
+
+\subsection*{Adi Mantra}
+
+When we were studying kundalini yoga in New York City with Ravi Singh, every class started with the mantra. It's basically honoring (evoking, summoning) the devine creative energy. This version of it is to a Rhumba rhythm, which comes out of the Afro-cuban tradition and has, through Spain, made it's way to the far eastern reaches of Eastern Europe where you can hear Gypsy Rhumba.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ongnamogurudevnamo.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Adi Mantra}
+\caption[Adi Mantra]{There's almost nothing to the mantra itself here so we end up having various voices add variation to it. For example one voice might be chanting \par
+} % end Caption
+\end{figure}
+
+\lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
 
 \end{document}

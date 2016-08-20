@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{stackengine}
+\usepackage{graphicx}
+\parskip .4in
+\begin{document}
+Normally stackinset is used to place things
+\stackinset{c}{}{c}{}{$\bullet$}{inside} of a specified object.
+
+However, there is nothing to prevent it from placing things
+\stackinset{c}{.3in}{c}{.5in}{$\bullet$}{outside} of it.
+
+When placed with respect to a null point, usage can be successive, 
+as in the void at the end of this sentence.\smash{%
+\stackinset{c}{.3in}{c}{.3in}{NE}{}%
+\stackinset{c}{-.3in}{c}{.3in}{NW}{}%
+\stackinset{c}{-.3in}{c}{-.3in}{SW}{}%
+\stackinset{c}{.3in}{c}{-.3in}{SE}{}%
+}
+
+But if placement is with respect to a finite sized anchor, usage must be nested:
+
+\stackinset{c}{}{c}{.3in}{12}{%
+\stackinset{c}{}{c}{-.3in}{6}{%
+\stackinset{c}{-.3in}{c}{}{9}{%
+\stackinset{c}{.3in}{c}{}{3}{%
+\scalebox{19}{\rule{0ex}{1.17ex}$\circ$}%
+}}}}
+\end{document}
