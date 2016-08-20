@@ -11,9 +11,9 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
-\usepackage{makeidx} % index
+\usepackage{imakeidx} % index
 \makeindex
-\printindex
+
 %%%%%
 % For Hindi Text
 % Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
@@ -111,7 +111,9 @@
 
 \begin{document}
 
-\tableofcontents
+\frontmatter
+
+% \tableofcontents
 
 \renewcommand{\listfigurename}{Chants \& Music}
  
@@ -125,8 +127,8 @@
  
 \listoftables
 
-%\section{Section here}
-%\subsection{Subsection here}
+\mainmatter
+
 \chapter{Introduction}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
@@ -389,7 +391,7 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 
 
 \subsection*{Shangó Shangó}
-
+\index{Shango}
 Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Shiva and Norse Odin and Thor, Shangó is fierce as can be. A warrior. Sometimes we use this chant in yoga when we're doing Virabhadrasana (warrior) poses. Before he was a god, Shangó was a human being; a king. At some point he committed some horrible act of rage and destruction. As an act of repentance for what he had done, Shangó hung himself from a tree (sound familiar, fans of Odin?) and died. \emph{Ọba so} is Yoruba for \emph{the king hung}. Seeing this fearless act of selflessness and ultimate sacrifice, the creator, Olodumare resurrected Shangó as a deity. Thus the famous saying, "Ọba kò so": The king did not hang. 
 
 We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends NileriWosan and Baba Adelana Balewa. 
@@ -449,6 +451,7 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \end{figure}
 
 \subsection*{Matchbox Pyramid}
+\index{death}
 Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{intothelight.ly}
@@ -463,5 +466,8 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 
 \epigraph{What is can never not be, and what is not can never be.}{Stephen Mitchell, \textit{Bhagavad Gita}}
 
+\backmatter 
+
+\printindex
 
 \end{document}
