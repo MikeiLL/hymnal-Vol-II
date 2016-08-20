@@ -11,6 +11,9 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
+\usepackage{makeidx} % index
+\makeindex
+\printindex
 %%%%%
 % For Hindi Text
 % Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
@@ -117,9 +120,7 @@
 \renewcommand{\figurename}{Chant}
 
 \renewcommand{\tablename}{Music}
-  
-\thispagestyle{empty}
- 
+   
 \listoffigures
  
 \listoftables
@@ -448,7 +449,7 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \end{figure}
 
 \subsection*{Matchbox Pyramid}
-Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, "Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
+Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{intothelight.ly}
 \end{changemargin}

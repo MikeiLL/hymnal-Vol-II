@@ -1,17 +1,21 @@
 % arara: lilypond: {options: "--latex-program=xelatex --pdf"}
 % arara: xelatex: { files: [ 'sandbox.tex' ] }
+%\title{Creating an index with the makeidx package}
+% Example from http://www.dickimaw-books.com/latex/thesis/html/makeidx.html
+
 \documentclass[a5paper,twoside,9pt]{extbook}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
-
 \usepackage{marginnote,letltxmacro}
 \LetLtxMacro\mn\marginnote
 
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+% so i can print arara's name out nicely
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage{arara} 
 
-\usepackage{lipsum}
-
-\usepackage{xcolor}
-\usepackage{stackengine} % Highly customised stacking of objects, insets, baseline 
+\usepackage{imakeidx} % index
+\makeindex
 
 %%%%%
 % For Hindi Text
@@ -60,12 +64,18 @@
 % \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
 % ... and here we go!
 
-\usepackage{lettrine} % drop caps
-\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
+%%%%%
+
+% for definitions - which we're not currently using.
+\usepackage{amsthm} 
+\newtheorem{I Surrender}{Definition}
+% for dropcaps
+% source 
+% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
+% http://www.tug.dk/FontCatalogue/otherfonts.html
+\usepackage{lettrine}
+\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
 \usepackage{textcomp} % for text figures
 \usepackage[osf]{mathpazo} % Paletino font
@@ -74,8 +84,16 @@
 \usepackage{slantsc} 
 \usepackage{lmodern}
 
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
 % for margins or is this for columns?
 \usepackage{scrextend}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
 
 \usepackage{titlesec} % to style titles
 \titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
@@ -86,41 +104,60 @@
 
 \usepackage{blindtext} % for filler
 
-\usepackage{caption}
-
 \usepackage{epigraph} % quotes
-
-%\usepackage{showframe}
 
 \setlength{\epigraphwidth}{0.9\textwidth}
 
-\renewcommand*{\marginfont}{\fontspec{Courier}}
-
 \newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
-
-\newcommand\mymarginpar[1]{\marginpar{\captionsetup{font=footnotesize}#1}} %new code
 
 \renewcommand*{\marginfont}{\footnotesize}
 
-\renewcommand*{\raggedleftmarginnote}{\flushleft}
-
 \begin{document}
 
-\subsection*{What's Ruining Music}
+\tableofcontents
+
+\renewcommand{\listfigurename}{Chants \& Music}
+ 
+\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
+
+\renewcommand{\figurename}{Chant}
+
+\renewcommand{\tablename}{Music}
+   
+\listoffigures
+ 
+\listoftables
+
+%\section{Section here}
+%\subsection{Subsection here}
+\chapter{Introduction}
+
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+
+Stuff about eigenvectors\index{eigenvector} and 
+eigenvalues\index{eigenvalue}. 
+
+\chapter{Another Sample} 
+
+Some more stuff about eigenvectors\index{eigenvector} and 
+eigenvalues\index{eigenvalue}. Something about 
+eigen-decomposition\index{eigen-decomposition}. 
+
+\subsection*{Shangó Shangó}
+
+\index{Shango}
+
+Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Shiva and Norse Odin and Thor, Shangó is fierce as can be. A warrior. Sometimes we use this chant in yoga when we're doing Virabhadrasana (warrior) poses. Before he was a god, Shangó was a human being; a king. At some point he committed some horrible act of rage and destruction. As an act of repentance for what he had done, Shangó hung himself from a tree (sound familiar, fans of Odin?) and died. \emph{Ọba so} is Yoruba for \emph{the king hung}. Seeing this fearless act of selflessness and ultimate sacrifice, the creator, Olodumare resurrected Shangó as a deity. Thus the famous saying, "Ọba kò so": The king did not hang. 
+
+We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends NileriWosan and Baba Adelana Balewa. 
 
 \begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{whatsruiningmusic.ly}
+\lilypondfile[quote,noindent]{awakeyshango.ly}
 \end{changemargin}
-
-
-\begin{table}[ht]
-\centering
-
-\caption{Table to test captions and labels}
-\label{table:What's Ruining Music}
-\end{table}
-
-
+\begin{figure}[ht]
+\label{fig:Shangó}
+\caption[Shangó]{The words translate as \emph{Shangó Shangó We salute our king. Shangó}, and it can be done in various call-and-response or echo arrangements. }
+\end{figure}
 
 \subsection*{Samskara}
 
@@ -132,7 +169,23 @@
 \caption[Samskara]{Call and response where a tide of Om is the bed out of which the Samskara call rises and resettles. Why worry? Why worry? Why worry? It's just a form of fantasy.}
 \end{figure}
 
+\subsection*{Matchbox Pyramid}
+Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{intothelight.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Into The Light}
+\caption[Into The Light]{Sometimes songs come from dreams. Maybe the song was playing in the dream. Maybe it's just there upon waking from the dream.}
+\end{figure}
 
-\lipsum[8]
 
-\end{document}
+\epigraph{Dying is letting go, shedding, freeing. Sometimes death is a struggle if you have forgotten that you are the creator and you want to cling to your creations. Dying is like an exhalation. You exhale and the body drops off. You just step out of it and walk away. \ldots\ Birth is much harder. \ldots forced into this tiny form.}{Diane Mariechild, \textit{Mother Wit}}
+
+\epigraph{What is can never not be, and what is not can never be.}{Stephen Mitchell, \textit{Bhagavad Gita}}
+
+\backmatter 
+
+\printindex 
+
+\end{document} 
