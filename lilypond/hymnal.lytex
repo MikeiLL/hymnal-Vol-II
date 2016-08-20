@@ -347,9 +347,9 @@ document.
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ellington7.ly}
 \end{changemargin}
-\begin{table}[h!]
+\begin{table}[ht]
 \caption[Seven Beats Descending]{We will talk more about the music here.}
-\label{table:1}
+\label{table:Seven Beats Descending}
 \end{table}
 
 \subsection*{Anandamayi Ma}
@@ -406,10 +406,48 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Adi Mantra}
-\caption[Adi Mantra]{There's almost nothing to the mantra itself here so we end up having various voices add variation to it. For example one voice might be chanting \par
-} % end Caption
+\caption[Adi Mantra]{There's almost nothing to the mantra itself here so we end up having various voices add variation to it. For example one voice might be chanting}
 \end{figure}
 
 \lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
 
+\subsection*{White Notes in Twelve Eight}
+Need words here?
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{aminor12_8.ly}
+\end{changemargin}
+\begin{table}[ht]
+\caption[White Notes in Twelve Eight]
+\label{table:White Notes in Twelve Eight}
+\end{table}
+
+\subsection*{What's Ruining Music}
+So as not to get confused?
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{whatsruiningmusic.ly}
+\end{changemargin}
+\begin{table}[ht]
+\caption[What's Ruining Music]
+\label{table:What's Ruining Music}
+\end{table}
+
+\subsection*{Samskara}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{samskara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Samskara}
+\caption[Samskara]{Call and response where a tide of Om is the bed out of which the Samskara call rises and resettles. Why worry? Why worry? Why worry? It's just a form of fantasy.}
+\end{figure}
+
+\subsection*{Matchbox Pyramid}
+Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, "Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{intothelight.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Into The Light}
+\caption[Into The Light]{Sometimes songs come from dreams. Maybe the song was playing in the dream. Maybe it's just there upon waking from the dream.}
+\end{figure}
 \end{document}
