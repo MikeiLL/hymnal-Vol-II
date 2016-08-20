@@ -98,6 +98,10 @@
 
 \usepackage{blindtext} % for filler
 
+\usepackage{epigraph} % quotes
+
+\setlength{\epigraphwidth}{0.9\textwidth}
+
 \newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
 
 \renewcommand*{\marginfont}{\footnotesize}
@@ -387,7 +391,7 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 
 Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Shiva and Norse Odin and Thor, Shangó is fierce as can be. A warrior. Sometimes we use this chant in yoga when we're doing Virabhadrasana (warrior) poses. Before he was a god, Shangó was a human being; a king. At some point he committed some horrible act of rage and destruction. As an act of repentance for what he had done, Shangó hung himself from a tree (sound familiar, fans of Odin?) and died. \emph{Ọba so} is Yoruba for \emph{the king hung}. Seeing this fearless act of selflessness and ultimate sacrifice, the creator, Olodumare resurrected Shangó as a deity. Thus the famous saying, "Ọba kò so": The king did not hang. 
 
-We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends Neilah Black and Russel Spears. 
+We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends NileriWosan and Baba Adelana Balewa. 
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{awakeyshango.ly}
@@ -412,22 +416,24 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
 
 \subsection*{White Notes in Twelve Eight}
-Need words here?
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{aminor12_8.ly}
 \end{changemargin}
 \begin{table}[ht]
-\caption[White Notes in Twelve Eight]
+\centering
+\caption{Table to test captions and labels}
 \label{table:White Notes in Twelve Eight}
 \end{table}
 
 \subsection*{What's Ruining Music}
-So as not to get confused?
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{whatsruiningmusic.ly}
 \end{changemargin}
 \begin{table}[ht]
-\caption[What's Ruining Music]
+\centering
+\caption{Table to test captions and labels}
 \label{table:What's Ruining Music}
 \end{table}
 
@@ -450,4 +456,11 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 \label{fig:Into The Light}
 \caption[Into The Light]{Sometimes songs come from dreams. Maybe the song was playing in the dream. Maybe it's just there upon waking from the dream.}
 \end{figure}
+
+
+\epigraph{Dying is letting go, shedding, freeing. Sometimes death is a struggle if you have forgotten that you are the creator and you want to cling to your creations. Dying is like an exhalation. You exhale and the body drops off. You just step out of it and walk away. \ldots\ Birth is much harder. \ldots forced into this tiny form.}{Diane Mariechild, \textit{Mother Wit}}
+
+\epigraph{What is can never not be, and what is not can never be.}{Stephen Mitchell, \textit{Bhagavad Gita}}
+
+
 \end{document}

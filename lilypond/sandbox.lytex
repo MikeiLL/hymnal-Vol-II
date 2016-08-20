@@ -1,5 +1,5 @@
 % arara: lilypond: {options: "--latex-program=xelatex --pdf"}
-% arara: xelatex: { files: [ 'hymnal.tex' ] }
+% arara: xelatex: { files: [ 'sandbox.tex' ] }
 \documentclass[a5paper,twoside,9pt]{extbook}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 
@@ -8,10 +8,6 @@
 
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
 
-% so i can print arara's name out nicely
-%\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
-%\usepackage{arara} 
 \usepackage{lipsum}
 
 \usepackage{xcolor}
@@ -64,18 +60,6 @@
 % \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
 % ... and here we go!
 
-
-%%%%%
-
-% for definitions - which we're not currently using.
-\usepackage{amsthm} 
-\newtheorem{I Surrender}{Definition}
-% for dropcaps?
-% source 
-% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
-% http://www.tug.dk/FontCatalogue/otherfonts.html
-%\usepackage{Carrickc,lettrine}
-%\renewcommand\LettrineFontHook{\Carrickcfamily} 
 \usepackage{lettrine} % drop caps
 \renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
@@ -118,39 +102,37 @@
 
 \renewcommand*{\marginfont}{\footnotesize}
 
-\begin{document}
-
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=.3em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
-
 \renewcommand*{\raggedleftmarginnote}{\flushleft}
 
-\mn{\hspace{4em} That right there is a margin note using the geometry package, set at 5cm vertical offset to the first line it is typeset.}
+\begin{document}
 
-FUTURE.
-Road is a long road.
-Listen to Beethoven hear his soul.
-What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
-
-\lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
-
-\subsection*{What's not Ruining Music}
+\subsection*{What's Ruining Music}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{whatsruiningmusic.ly}
 \end{changemargin}
+
+
 \begin{table}[ht]
-\caption[xxx]{We will talk more about the music here.}
-\label{table:xxx}
+\centering
+
+\caption{Table to test captions and labels}
+\label{table:What's Ruining Music}
 \end{table}
 
-\epigraph{Dying is letting go, shedding, freeing. Sometimes death is a struggle if you have forgotten that you are the creator and you want to cling to your creations. Dying is like an exhalation. You exhale and the body drops off. You just step out of it and walk away. \ldots\ Birth is much harder. \ldots forced into this tiny form.}{Diane Mariechild, \textit{Mother Wit}}
 
 
+\subsection*{Samskara}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{samskara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Samskara}
+\caption[Samskara]{Call and response where a tide of Om is the bed out of which the Samskara call rises and resettles. Why worry? Why worry? Why worry? It's just a form of fantasy.}
+\end{figure}
 
 
-\normalmarginpar\mna{\blindtext} Ut purus elit\ldots
-\vspace{1cm}
-
-\lipsum[3]
+\lipsum[8]
 
 \end{document}
