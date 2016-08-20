@@ -3,7 +3,7 @@
 	line-width = 4.6\in
 }
 
-lower = \relative c'' {
+upper = \relative c'' {
   \clef treble
   \key c \major
   \time 4/4
@@ -13,21 +13,16 @@ lower = \relative c'' {
   }
 }
 
-chordNames = \new ChordNames \chordmode {
-    a:m
-  }
-
-harmony =  \relative c'' {
-  	\clef treble
+chordNotes =  \relative c {
+  \clef bass
   	e2 d | c b | a g | f g | 
   	a f | g2. r4 | a2 g | f g4 r |
   }
-}
 
 \score {
   \new PianoStaff <<
-    \new Staff = "higher" \harmony
-    \new Staff = "lower" \lower
+    \new Staff = "upper" \upper
+    \new Staff = "lower" \chordNotes
   >>
   \layout { 
    % #(layout-set-staff-size 14)
