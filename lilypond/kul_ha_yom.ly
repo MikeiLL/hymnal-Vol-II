@@ -11,8 +11,8 @@ melody = \relative c' {
 	\new Voice = "words" {
 			\partial 4 <c ees>8 <d f> |
 			\repeat volta 2 {
-				<ees g> <ees g> <ees g> <ees g> <ees g>( <d f>) <c ees>4| <c ees>1 |
-				<bes d>4 <bes d>8 <c ees> <d f> <d f> <d f> <ees g> | <d f>( <c ees>) <c ees>2 <c ees>8 <d f>
+				<ees g> <ees aes> <ees g> <ees aes> <ees g>( <d f>) <c ees>4| <c ees>1 |
+				<bes f'>4 <bes f'>8 <c ees> <d f> <d f> <d f> <ees ees> | <d f>( <c g'>) <c g'>2 <c ees>8 <d f>
 			}
 		}
 }
@@ -26,7 +26,7 @@ text =  \lyricmode {
 twochords = \chordmode { 
 	\set noChordSymbol = "" 
 	r4  |
-	c1:m | c:m | bes:m | c:m |
+	c1:m | c:m | bes | c:m |
 }
 
 \score {
@@ -43,5 +43,7 @@ twochords = \chordmode {
   \layout { 
    % #(layout-set-staff-size 14)
    }
-  \midi { }
+  \midi { 
+  	\tempo 4 = 125
+  }
 }
