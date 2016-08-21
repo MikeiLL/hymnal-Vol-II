@@ -7,7 +7,6 @@ melody = \relative c' {
   \clef treble
   \key b \major
   \time 3/4 
-  \set Score.voltaSpannerDuration = #(ly:minake-moment 4/4)
 	\new Voice = "words" {
 		\voiceOne 
 		\repeat volta 2 {
@@ -60,7 +59,7 @@ harmonies = \chordmode {
     	\new Voice = "lower" { \harmony }
     >>
   	}
-    \new Lyrics \lyricsto "words" \text
+  	\new Lyrics \lyricsto "words" \text
   >>
   
   

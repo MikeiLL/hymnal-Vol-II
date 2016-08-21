@@ -37,7 +37,6 @@ violin = \relative c {
   <<
     \new ChordNames {
       \set chordChanges = ##t
-      \harmonies
     }
     \new PianoStaff <<
     \new Staff = "voice" \melody
