@@ -41,9 +41,9 @@ chordNotes =  \relative c {
     }
     \new PianoStaff <<
     \new Staff = "upper" \melody
+    \new Lyrics \lyricsto "words" \text
     \new Staff = "lower" \chordNotes
   	>>
-    \new Lyrics \lyricsto "words" \text
   >>
   \layout { 
    % #(layout-set-staff-size 14)

@@ -25,12 +25,25 @@ text =  \lyricmode {
 	ram ram I am. Sat Nam. Ma -- ni 
 }
 
+violin = \relative c {
+\clef bass
+\partial 4 r4
+  \repeat percent 4 {
+  	c4. d8 e4. f8 | e4. f8 e-> r r4 |
+  }
+}
+
 \score {
   <<
-    \new Staff \with { \magnifyStaff #5/7 } {
-    	\new Voice = "one" { \melody }
-  	}
+    \new ChordNames {
+      \set chordChanges = ##t
+      \harmonies
+    }
+    \new PianoStaff <<
+    \new Staff = "voice" \melody
     \new Lyrics \lyricsto "words" \text
+    \new Staff = "violin" \violin
+  	>>
   >>
   \layout { 
    % #(layout-set-staff-size 14)

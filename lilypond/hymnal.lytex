@@ -501,6 +501,33 @@ Old bar organist plays this after we discover and recover the fanciest old piano
 \label{table:Fabulous Sunglasses}
 \end{table}
 
+\subsection*{Sat Chit Ananda Praharsha}
+We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{praharsha}, which means ecstacy. Sat Chit Ananda is a famous Hindu saying meaning Truth, Consciousness, Bliss. Later we learned that Praharsha is in fact used to mean spiritual ecstacy, but it's most common meaning is to signify a fully erect phallus.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{satchitanandapraharsha.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Sat Chit Ananda Praharsha}
+\caption[Sat Chit Ananda Praharsha]{}
+\end{figure}
+
+\subsection*{Gobinday Mukanday Udara Apare}
+Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
+Move the awareness up through the seven primary chakras as the mantra is chanted.
+
+\begin{itemize}
+ \item  \bftext{Gobinday} \[Root Chakra\] RED \emph{Sustainer}
+\end{itemize}
+ 
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{gobinday.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Gobinday Mukanday}
+\caption[Gobinday Mukanday]{}
+\end{figure}
+
+
 \backmatter 
 
 \printindex
