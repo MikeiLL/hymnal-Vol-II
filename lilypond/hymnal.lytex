@@ -466,6 +466,28 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 
 \epigraph{What is can never not be, and what is not can never be.}{Stephen Mitchell, \textit{Bhagavad Gita}}
 
+\subsection*{Bar-B-Que Bone Marrow}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{bbqbonemarrow.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Hello I'd really like to tell you 'bout my  hang-bouncing utility wires, shortchanged baby bingo and bbq bone marrow.}
+\label{table:Bar-B-Que Bone Marrow}
+\end{table}
+
+\subsection*{Egypt on Palestine}
+Old bar organist plays this after we discover and recover the fanciest old piano imaginable, with drawers full of fabulous sun glasses and gay apparel.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{egyptonpalestine.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Egypt on Palestine}
+\label{table:Egypt on Palestine}
+\end{table}
+
 \backmatter 
 
 \printindex
