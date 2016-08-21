@@ -106,6 +106,8 @@
 
 \usepackage{epigraph} % quotes
 
+\usepackage{arabxetex}
+
 \setlength{\epigraphwidth}{0.9\textwidth}
 
 \newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
@@ -113,20 +115,6 @@
 \renewcommand*{\marginfont}{\footnotesize}
 
 \begin{document}
-
-\tableofcontents
-
-\renewcommand{\listfigurename}{Chants \& Music}
- 
-\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
-
-\renewcommand{\figurename}{Chant}
-
-\renewcommand{\tablename}{Music}
-   
-\listoffigures
- 
-\listoftables
 
 %\section{Section here}
 %\subsection{Subsection here}
@@ -149,31 +137,10 @@ eigen-decomposition\index{eigen-decomposition}.
 \subsection{I Wanna Know You}
 There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
 
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{iwannaknowyou.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:I Wanna Know You}
-\caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Flat Seven Theory of Tonal Organization. The basic idea is that the interval of the "perfect" fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of distance from a tonal center.}
-\end{figure}
 
- 
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{gobinday.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Gobinday Mukanday}
-\caption[Gobinday Mukanday]{}
-\end{figure}
-
-\subsection{Manipura}
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{manipura.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Manipura}
-\caption[Manipura]{We will talk more about the music here.}
-\end{figure}
+\begin{arab}[fullvoc]
+لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
+\end{arab}
 
 \backmatter 
 

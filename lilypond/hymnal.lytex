@@ -99,6 +99,9 @@
 % for list of figures, tables
 % source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
 
+
+\usepackage{arabxetex}
+
 \usepackage{blindtext} % for filler
 
 \usepackage{epigraph} % quotes
@@ -592,6 +595,40 @@ Words here.
 \label{fig:Wahe Guru Sat Nam}
 \caption[Wahe Guru Sat Nam]{}
 \end{figure}
+
+\subsection{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{aapsahaihoa.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
+\caption[Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har]{}
+\end{figure}
+
+\subsection{Ra Ma Da Sa Sa Say So Hung}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ramadasa.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ra Ma Da Sa Sa Say So Hung}
+\caption[Ra Ma Da Sa Sa Say So Hung]{}
+\end{figure}
+
+\subsection{lā ilāha illā allāh}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{laillahaillaallah.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:lā ilāha illā allāh}
+\caption[lā ilāha illā allāh]{}
+\end{figure}
+
+\begin{arab}[fullvoc]
+لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
+\end{arab}
 
 \backmatter 
 
