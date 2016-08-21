@@ -1,0 +1,34 @@
+% arara: lilypond: {options: "--latex-program=xelatex --pdf"}
+% arara: xelatex: { files: [ 'index.tex' ] }
+%\title{Creating an index with the makeidx package}
+% Example from http://www.dickimaw-books.com/latex/thesis/html/makeidx.html
+
+\documentclass[12pt,oneside]{scrbook} 
+
+\usepackage{imakeidx} 
+
+\makeindex 
+
+\title{Sample Document} 
+\author{Me}
+\date{\today}
+
+\begin{document} 
+\maketitle 
+
+\chapter{Sample} 
+
+Stuff about eigenvectors\index{eigenvector} and 
+eigenvalues\index{eigenvalue}. 
+
+\chapter{Another Sample} 
+
+Some more stuff about eigenvectors\index{eigenvector} and 
+eigenvalues\index{eigenvalue}. Something about 
+eigen-decomposition\index{eigen-decomposition}. 
+
+\backmatter 
+
+\printindex 
+
+\end{document} 

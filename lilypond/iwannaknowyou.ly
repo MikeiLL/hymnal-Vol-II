@@ -28,10 +28,8 @@ text =  \lyricmode {
 	know__ you I wan -- na 
 }
 
-
-twochords = \chordmode { d2:m g:m | a:7 d:m | }
-
 harmonies = \chordmode {
+\set noChordSymbol = "" 
 	\partial 4. r4. | c1 | e | a:m | f | fis:dim | f/g |
 }
 
