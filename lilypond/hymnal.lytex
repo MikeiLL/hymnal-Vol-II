@@ -478,7 +478,7 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 \end{table}
 
 \subsection*{Egypt on Palestine}
-Old bar organist plays this after we discover and recover the fanciest old piano imaginable, with drawers full of fabulous sun glasses and gay apparel.
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{egyptonpalestine.ly}
 \end{changemargin}
@@ -486,6 +486,19 @@ Old bar organist plays this after we discover and recover the fanciest old piano
 \centering
 \caption{Egypt on Palestine}
 \label{table:Egypt on Palestine}
+\end{table}
+
+
+
+\subsection*{Fabulous Sunglasses}
+Old bar organist plays this after we discover and recover the fanciest old piano imaginable, with drawers full of fabulous sun glasses and gay apparel.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{fabuloussunglasses.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Fabulous Sunglasses}
+\label{table:Fabulous Sunglasses}
 \end{table}
 
 \backmatter 
