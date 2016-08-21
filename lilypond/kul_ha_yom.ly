@@ -24,7 +24,8 @@ text =  \lyricmode {
 }
 
 twochords = \chordmode { 
-	c4:m  |
+	\set noChordSymbol = "" 
+	r4  |
 	c1:m | c:m | bes:m | c:m |
 }
 

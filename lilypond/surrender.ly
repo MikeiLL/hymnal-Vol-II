@@ -41,7 +41,8 @@ wordsTwo =  \lyricmode {
 }
 
 harmonies = \chordmode {
-	d4.:m | 
+	\set noChordSymbol = "" 
+	r4.| 
 	d2.:m | d:m | d:m | d:m |
 	a:7 | a:7 | d:m | d:m |
 }

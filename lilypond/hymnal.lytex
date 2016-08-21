@@ -113,13 +113,38 @@
 
 \frontmatter
 
-सन्देह, sandeha, m. doubt
-सन्देह 	sandeha 	m. 	uncertainty
-विस्मय, vismaya, m. doubt. X - amazing
-अनियम 	aniyama 	m. 	uncertainty 	x - not niyama
-अनियम 	aniyama 	m. 	doubt
+\begin{titlepage}
+	\centering
 	
-	sAptAhika     साप्ताहिक saptahika scepticism
+	{\scshape\LARGE Doubt \par}
+	\vspace{1cm}
+	{\scshape\Large Skepticism \par}
+	\vspace{1cm}
+	{\scshape\Large Bliss \par}
+	\vspace{1.5cm}
+	{\huge\bfseries \velt{संशय अविश्वास आनन्द} \par}
+	\vspace{2cm}
+	{\Large\itshape Temple of Wow \par}
+	\vfill
+	A \textsc{Faitheist} Hymnal
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\velt{सन्देह}, sandeha, m. doubt
+\velt{सन्देह} 	sandeha 	m. 	uncertainty
+\velt{विस्मय}, vismaya, m. doubt. X - amazing
+\velt{अनियम} 	aniyama 	m. 	uncertainty 	x - not niyama
+\velt{अनियम} 	aniyama 	m. 	doubt
+	
+	sAptAhika     \velt{साप्ताहिक} saptahika scepticism
+	Ānanda (Sanskrit: आनन्द) literally means bliss or happiness
+	
+	saṃśaya \velt{संशय}. Definition: m. [√ sî] doubt
+	aviśvāsa \velt{अविश्वास}. Definition: noun (masculine) mistrust (Monier-Williams, Sir M. (1988))suspicion
 	
 
 % \tableofcontents
@@ -556,6 +581,16 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 \begin{figure}[ht]
 \label{fig:I Wanna Know You}
 \caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Flat Seven Theory of Tonal Organization. The basic idea is that the interval of the "perfect" fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of distance from a tonal center.}
+\end{figure}
+
+\subsection{Wahe Guru Sat Nam}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{wahaygurusatnam.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Wahe Guru Sat Nam}
+\caption[Wahe Guru Sat Nam]{}
 \end{figure}
 
 \backmatter 

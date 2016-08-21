@@ -19,9 +19,10 @@ melody = \relative c'' {
 	}
 }
 
-harmony = \relative c'' {
-    \voiceTwo
-      
+harmony = \relative c' {
+  \voiceTwo
+	f8 f4. f4 e | f r f( e) | f8 f4. f4 e | c2 c4 r |
+	e8 e4. e4 d | e r e( d) | f8 f4. f8 bes4. | a2 a4 r |
 }
 
 text =  \lyricmode {
