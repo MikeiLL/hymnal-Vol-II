@@ -617,7 +617,9 @@ Words here.
 \end{figure}
 
 \subsection{lā ilāha illā allāh}
-Words here.
+\begin{arab}[fullvoc]
+لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
+\end{arab}
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{laillahaillaallah.ly}
 \end{changemargin}
@@ -626,9 +628,25 @@ Words here.
 \caption[lā ilāha illā allāh]{}
 \end{figure}
 
-\begin{arab}[fullvoc]
-لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
-\end{arab}
+\subsection{Lam Lam Lam Muladhara}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{muladhara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Lam Lam Lam Muladhara}
+\caption[Lam Lam Lam Muladhara]{}
+\end{figure}
+
+\subsection{Vam Vam Swadhistana}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{swadhistana.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Vam Vam Swadhistana}
+\caption[Vam Vam Swadhistana]{}
+\end{figure}
 
 \backmatter 
 
