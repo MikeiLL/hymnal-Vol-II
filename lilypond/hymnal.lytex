@@ -236,14 +236,7 @@ The chant is this:
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
-\subsection{Manipura}
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{manipura.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Manipura}
-\caption[Manipura]{We will talk more about the music here.}
-\end{figure}
+
 
 \subsection{Asato Ma}
 
@@ -513,11 +506,19 @@ We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{
 
 \subsection*{Gobinday Mukanday Udara Apare}
 Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
-Move the awareness up through the seven primary chakras as the mantra is chanted.
+Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
 
 \begin{itemize}
- \item  \bftext{Gobinday} \[Root Chakra\] RED \emph{Sustainer}
+ \item  \textbf{Root Chakra} RED --- Gobinday --- \emph{Sustainer}
+ \item  \textbf{Naval Chakra} ORANGE --- Mukanday --- \emph{Liberator}
+ \item  \textbf{Solar Plexus} YELLOW --- Udare --- \emph{Enlightener}
+ \item  \textbf{Heart Chakra} GREEN --- Apare --- \emph{Infinite}
+ \item  \textbf{Throat Chakra} BLUE --- Hariang --- \emph{Destroyer}
+ \item  \textbf{First Eye} INDIGO --- Kariang --- \emph{Creator}
+ \item  \textbf{Crown Chakra} VIOLET --- Nearname --- \emph{Nameless}
+ \item  \textbf{Above Crown} WHITE --- Akame --- \emph{Desireless}
 \end{itemize}
+
  
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{gobinday.ly}
