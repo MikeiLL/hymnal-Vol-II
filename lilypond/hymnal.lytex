@@ -648,6 +648,39 @@ Words here.
 \caption[Vam Vam Swadhistana]{}
 \end{figure}
 
+
+\subsection{Long Ek Ong Kar}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{longekongkar.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Long Ek Ong Kar}
+\caption[Long Ek Ong Kar]{}
+\end{figure}
+
+\subsection*{Seven Twenty-one Fifteen}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{7-21-15.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Seven Twenty-one Fifteen}
+\label{table:Seven Twenty-one Fifteen}
+\end{table}
+
+\subsection*{Seven Seventeen Fifteen}
+Waking up with a melody like this looping through my head, you know your mind needs some clearing.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{7-17-15.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Seven Seventeen Fifteen}
+\label{table:Seven Seventeen Fifteen}
+\end{table}
+
 \backmatter 
 
 \printindex
