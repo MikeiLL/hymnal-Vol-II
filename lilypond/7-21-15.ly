@@ -9,7 +9,7 @@ upper = \relative c' {
 		f2. g8 a bes4 a g f a f g f d2 
 		f g8 a bes4 a g f a f g2 
 		f g8 a bes4 a g2 f d e 
-		f4 g8 a bes4 a g2 f1 d2 e c1
+		f4 g8 a bes4 a g2 f1 d2 e c1 
 }
 
 
