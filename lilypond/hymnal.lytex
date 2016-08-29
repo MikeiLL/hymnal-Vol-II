@@ -728,6 +728,25 @@ Words here.
 \caption[Om eim hreem shreem kleem saw sat chit ekam Bramah]{}
 \end{figure}
 
+\subsection{Oh, Lead}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ohlead.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Oh, Lead}
+\caption[Oh, Lead]{}
+\end{figure}
+
+\subsection{Sisterhood}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{sisterhood.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Sisterhood}
+\caption[Sisterhood]{}
+\end{figure}
 
 \backmatter 
 
