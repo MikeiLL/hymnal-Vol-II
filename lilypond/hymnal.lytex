@@ -402,6 +402,8 @@ Literally came out of Harishes tampura. We were living in an ashram i was very y
 
 As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \velt{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
 
+Citi-sakti (Chit-shakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy surrounding and supporting consciousness. The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti, purusa/prakrti, Brahman/Maya, undifferentiated and differentiated consciousness; etc.   IV.34
+
 The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
 
 \textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived into the recent century between 30 April 1896 and 27 August 1982. The following is taken from Wikipedia. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
@@ -409,11 +411,21 @@ The chant starts really slowly. A dirge honoring and evolking the great mystic \
 In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
 
 \begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{anandamayima.ly}
+\lilypondfile[quote,noindent]{anandamayima_flat.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Anandamayi Ma}
 \caption[Anandamayi Ma]{We will talk more about the music here. }
+\end{figure}
+
+Also including it in the key of A minor as opposed to scary G flat minor with six flats.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{anandamayima.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Anandamayi Ma in A minor}
+\caption[Anandamayi Ma in A minor]{We will talk more about the music here. }
 \end{figure}
 
 \subsection*{Sat Chit Ekam Brahma}
@@ -604,7 +616,14 @@ Words here.
 \end{figure}
 
 \subsection{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
-Words here.
+The Creator has become my protector, the Truest of the True has taken care of me.  Har is the primal name / sound of the Creator.
+
+Har is the creative aspect of infinity/God/Goddess/your higher power/your true self. 
+
+If I don’t believe in God, I’m taking refuge in my art/creativity. If I do believe in God, I’m taking refuge in God in relation to my art.
+
+The naval chakra is the center of creativity. Swadhistana. Orange.
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{aapsahaihoa.ly}
 \end{changemargin}
@@ -687,6 +706,28 @@ Waking up with a melody like this looping through my head, you know your mind ne
 \caption{Seven Seventeen Fifteen}
 \label{table:Seven Seventeen Fifteen}
 \end{table}
+
+
+\subsection{Hanuman Ujjṛmbh}
+ujjṛmbh	(ud-jṛmbh-) A1.	-jṛmbhate-, to gape ; to open, part asunder ; to show one's self, become visible, come forth, break forth, expand, arise
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Hanuman Ujjṛmbh}
+\caption[Hanuman Ujjṛmbh]{}
+\end{figure}
+
+\subsection{Om eim hreem shreem kleem saw sat chit ekam Bramah}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omeimhreem.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om eim hreem shreem kleem saw sat chit ekam Bramah}
+\caption[Om eim hreem shreem kleem saw sat chit ekam Bramah]{}
+\end{figure}
+
 
 \backmatter 
 

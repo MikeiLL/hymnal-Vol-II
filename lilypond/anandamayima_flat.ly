@@ -9,30 +9,30 @@
 
 melody = \relative c'' {
   \clef treble
-  \key g \major
+  \key ges \major
   \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 		\repeat volta 2 {
-			e c b a | c8( b) c b fis b a4 |
-			fis b8 b c4 b | e8 c b a fis b a4 |
-			e' fis a fis | e8 fis a b c b a4 |
-			fis8( a16 fis) e4 c8( e16 c) b4 | c8( b) c b c b a4 |
+			ees ces bes aes | ces8( bes) ces bes f bes aes4 |
+			f bes8 bes ces4 bes | ees8 ces bes aes f bes aes4 |
+			ees' f aes f | ees8 f aes bes ces bes aes4 |
+			f8( aes16 f) ees4 ces8( ees16 ces) bes4 | ces8( bes) ces bes ces bes aes4 |
 		}
 		
 		\repeat volta 2 {
-			a'8 fis4 e8 c b a4 | r8 fis a b c e fis4 |
-			a8 fis4 e8 c b a4  | fis8 a4 b8 c( b) a4 |
+			aes'8 f4 ees8 ces bes aes4 | r16 f8 aes16~ aes8 bes ces ees f4 |
+			aes8 f4 ees8 ces bes aes4  | f8 aes4 bes8 ces( bes) aes4 |
 		}
 		
 		\repeat volta 2 {
-			a8. a16 b8 b c4 e | fis8. fis16 e8 e c4 b |
-			a8. a16 b8 b c4 e | fis8. fis16 e8 e c8( b) a4 |
+			aes8. aes16 bes8 bes ces4 ees | f8. f16 ees8 ees ces4 bes |
+			aes8. aes16 bes8 bes ces4 ees | f8. f16 ees8 ees ces8( bes) aes4 |
 		}
 		
 		\repeat volta 2 {
-			fis'8. fis16 e8 e c4 e | fis8. fis16 a8 a b4 c |
-			c8. c16 b8 b a4 fis | e8. e16 c8 c c8( b) a |
+			f'8. f16 ees8 ees ces4 ees | f8. f16 aes8 aes bes4 ces |
+			ces8. ces16 bes8 bes aes4 f | ees8. ees16 ces8 ces ces8( bes) aes |
 		}
   }
 }
@@ -43,7 +43,7 @@ text =  \lyricmode {
 	Om Pri -- ya At -- man | Cit -- ti shak -- ti gu -- ru Ma | % awake conscious energy shakti
 	Om Ma Sri Ma | Ku -- la  Kun -- da -- li -- ni Ma |
 	Om Ma Sri Ma | A__ -- nan -- da -- ma -- yi Ma |
-	Shi -- va -- ya na -- maḥ Om | Shi -- va -- ya na -- ma__ -- ḥ  |
+	Shi -- va -- ya na -- maḥ Om | Shi -- va -- ya na -- ma__ -- ḥ   |
 	Shi -- va -- ya na -- maḥ Om | na -- maḥ Shi -- va -- ya |
 	Om na -- maḥ Shi -- va -- ya | Om na -- maḥ Shi -- va -- ya |
 	Om na -- maḥ Shi -- va -- ya | Om na -- maḥ Shi -- va -- ya |

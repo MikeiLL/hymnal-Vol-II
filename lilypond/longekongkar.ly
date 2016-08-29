@@ -14,7 +14,7 @@ melody = \relative c' {
 				des1. | c 1. | r1 c4 |
 				bes1.~ | bes | 
 				% caesura
-				c4-.\breathe des4-. |
+				c4-. \fermata \breathe des4-. |
 				g4~ g8. g16 | g2. | r1
 			}
 		}
@@ -31,7 +31,7 @@ bassline = \relative c {
 			c e g c, e g \time 5/4 c, e g c-. c, |
 			\time 6/4 bes des f des f g |
 			aes8 g16 aes g4 f g8 f g f des4 |
-			\time 4/4 c-. \breathe des-. des f
+			\time 4/4 c \fermata \breathe des-. des f
 			\time 3/4 c e g 
 			\time 4/4 c, e g c |
 }
