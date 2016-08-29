@@ -14,6 +14,9 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
 \usepackage{imakeidx} % index
 \makeindex
 
@@ -125,18 +128,15 @@
 Stuff about eigenvectors\index{eigenvector} and 
 eigenvalues\index{eigenvalue}. 
 
-\chapter{Another Sample} 
-
-Some more stuff about eigenvectors\index{eigenvector} and 
-eigenvalues\index{eigenvalue}. Something about 
-eigen-decomposition\index{eigen-decomposition}. 
-
-
 \mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
 
 \subsection{I Wanna Know You}
 There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
 
+\includegraphics[scale=.04]{poses/AllOnePose.pdf}
+\includegraphics[scale=.04]{poses/WorldPose.pdf}
+\includegraphics[scale=.04]{poses/LovePose.pdf}
+\includegraphics[scale=.04]{poses/SisterhoodPose.pdf}
 
 \begin{arab}[fullvoc]
 لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله

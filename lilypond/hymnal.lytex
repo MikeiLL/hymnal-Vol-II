@@ -11,6 +11,9 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
 \usepackage{imakeidx} % index
 \makeindex
 
@@ -739,7 +742,12 @@ Words here.
 \end{figure}
 
 \subsection{Sisterhood}
-Words here.
+
+\includegraphics[scale=.039]{poses/AllOnePose.pdf}
+\includegraphics[scale=.039]{poses/WorldPose.pdf}
+\includegraphics[scale=.039]{poses/LovePose.pdf}
+\includegraphics[scale=.039]{poses/SisterhoodPose.pdf}
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{sisterhood.ly}
 \end{changemargin}
@@ -747,6 +755,8 @@ Words here.
 \label{fig:Sisterhood}
 \caption[Sisterhood]{}
 \end{figure}
+
+
 
 \backmatter 
 
