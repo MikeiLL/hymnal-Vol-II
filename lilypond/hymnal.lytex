@@ -91,6 +91,9 @@
 % for margins or is this for columns?
 \usepackage{scrextend}
 
+% display note and chord names
+\usepackage[chords]{leadsheets}
+
 % for temporary margin changes
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist 
@@ -668,7 +671,7 @@ Words here.
 \end{figure}
 
 \subsection{Vam Vam Swadhistana}
-Words here.
+\includegraphics[scale=.23]{poses/Swadhistana.pdf}
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{swadhistana.ly}
 \end{changemargin}
@@ -712,7 +715,10 @@ Waking up with a melody like this looping through my head, you know your mind ne
 
 
 \subsection{Hanuman Ujjṛmbh}
+
 ujjṛmbh	(ud-jṛmbh-) A1.	-jṛmbhate-, to gape ; to open, part asunder ; to show one's self, become visible, come forth, break forth, expand, arise
+
+Yes, it's a vowel followed by six consonants
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
 \end{changemargin}
@@ -728,7 +734,16 @@ Words here.
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om eim hreem shreem kleem saw sat chit ekam Bramah}
-\caption[Om eim hreem shreem kleem saw sat chit ekam Bramah]{}
+\caption[Om eim hreem shreem kleem saw sat chit ekam Bramah]{The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \chordname{Bb/F} chord, then move the F down one note to E which makes the \chordname{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
+\begin{lilypond}
+snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
+\score { 
+\snippet 
+\layout { 
+   #(layout-set-staff-size 14)
+   }
+}
+\end{lilypond} }
 \end{figure}
 
 \subsection{Oh, Lead}

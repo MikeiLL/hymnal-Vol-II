@@ -32,10 +32,17 @@ text =  \lyricmode {
 	life, oh lead. Om peace peace peace.
 }
 
+harmonies = \chordmode {
+	f2.:m | f:m | f:m | f:m | f:m | f:7 |
+	bes:m | bes:m | bes:m | bes:m7 |
+	g:m7.5- | g:m7.5- | c:7 | c:7 | 
+}
+
 \score {
   <<
     \new ChordNames {
       \set chordChang = ##t
+      \harmonies
     }
     \new Staff \with { \magnifyStaff #5/7 } {
     	\new Voice = "one" { \melody }

@@ -14,96 +14,14 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
+
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
 \usepackage{imakeidx} % index
 \makeindex
 
-%%%%%
-% For Hindi Text
-% Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
-
-\usepackage{multicol} % just to get narrow columns on one page
-\usepackage{polyglossia} % the multilingual support package
-% for XeLaTeX - includes Sanskrit.
-% Next, from the polyglossia manual:
-\setdefaultlanguage{english} % this is mostly going to be English text, with
-\setotherlanguage{sanskrit} % some Sanskrit embedded in it.
-% These will call appropriate hyphenation.
-\usepackage{xltxtra} % standard for nearly all XeLaTeX documents
-\defaultfontfeatures{Mapping=tex-text} % ditto
-\setmainfont{Gandhari Unicode} %could be any Unicode font
-
-% Now define some Devanagari fonts:
-% At least *one* font family must be called \sanskritfont or \devanagarifont,
-% so that XeTeX loads all hyphenation and other stuff for Sanskrit. 
-% Once the Sanskrit ``intelligence'' is loaded, it can be invoked at
-% other places as needed using \selectlanguage{sanskrit}
-%
-% John Smith's Nakula, input using Velthuis transliteration
-\newfontfamily
-\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Nakula}
-% John Smith's Sahadeva, input using Velthuis transliteration
-\newfontfamily
-\sahadevafont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
-% John's Sahadeva, input using scholarly romanisation in Unicode
-\newfontfamily
-\sahadevaunicodefont [Script=Devanagari,Mapping=RomDev]{Sahadeva}
-% Microsoft's Mangal font (ugh!), input using standard romanisation in Unicode.
-\newfontfamily
-\mangalfont [Script=Devanagari,Mapping=RomDev]{Mangal}
-% Somdev's RomDev.map is used above to get the mapping
-% from Unicode -> Devanāgarī. Zdenek Wagner's velthuis-sanskrit.map
-% is used to get the Velthuis->Devanāgarī mapping. These are the files
-% that XeTeX uses to make all the conjunct consonants without needing
-% any external preprocessor (like the old devnag.c program).
-% % Set up the font commands:
-%
-\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
-\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
-\newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
-\newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
-% \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
-% ... and here we go!
-
-
-%%%%%
-
-% for definitions - which we're not currently using.
-\usepackage{amsthm} 
-\newtheorem{I Surrender}{Definition}
-% for dropcaps
-% source 
-% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
-% http://www.tug.dk/FontCatalogue/otherfonts.html
-\usepackage{lettrine}
-\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
-
-\usepackage{textcomp} % for text figures
-\usepackage[osf]{mathpazo} % Paletino font
-% following two lines for bold, italics, roman
-% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
-\usepackage{slantsc} 
-\usepackage{lmodern}
-
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
-
-% for margins or is this for columns?
-\usepackage{scrextend}
-
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
-
-\usepackage{titlesec} % to style titles
-\titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
-\titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
-
-% for list of figures, tables
-% source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
+\usepackage[chords]{leadsheets}
 
 \usepackage{blindtext} % for filler
 
@@ -123,7 +41,6 @@
 %\subsection{Subsection here}
 \chapter{Introduction}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
 Stuff about eigenvectors\index{eigenvector} and 
 eigenvalues\index{eigenvalue}. 
@@ -133,14 +50,18 @@ eigenvalues\index{eigenvalue}.
 \subsection{I Wanna Know You}
 There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
 
-\includegraphics[scale=.04]{poses/AllOnePose.pdf}
-\includegraphics[scale=.04]{poses/WorldPose.pdf}
-\includegraphics[scale=.04]{poses/LovePose.pdf}
-\includegraphics[scale=.04]{poses/SisterhoodPose.pdf}
+\par
+The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \chordname{Bb/F} chord, then move the F down one note to E which makes the \chordname{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
+\begin{lilypond}
+snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
+\score { 
+\snippet 
+\layout { 
+   #(layout-set-staff-size 14)
+   }
+}
+\end{lilypond}
 
-\begin{arab}[fullvoc]
-لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
-\end{arab}
 
 \backmatter 
 
