@@ -1,7 +1,11 @@
 \version "2.19.45"
+
 \paper {
 	line-width = 4.6\in
 }
+
+#(define (parenthesis-ignatzek-chord-names in-pitches bass inversion context) 
+(markup #:line ("(" (ignatzek-chord-names in-pitches bass inversion context) ")")))
 
 melody = \relative c' {
   \clef treble
@@ -33,7 +37,10 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-	f2.:m | f:m | f:m | f:m | f:m | f:7 |
+	f2.:m | f2.:m | f2.:m | f2.:m | f2.:m | 
+	\set chordNameFunction = #parenthesis-ignatzek-chord-names 
+		f:7
+	\unset chordNameFunction  
 	bes:m | bes:m | bes:m | bes:m7 |
 	g:m7.5- | g:m7.5- | c:7 | c:7 | 
 }
@@ -41,7 +48,7 @@ harmonies = \chordmode {
 \score {
   <<
     \new ChordNames {
-      \set chordChang = ##t
+      \set chordChanges = ##t
       \harmonies
     }
     \new Staff \with { \magnifyStaff #5/7 } {
@@ -49,10 +56,7 @@ harmonies = \chordmode {
   	}
     \new Lyrics \lyricsto "words" \text
   >>
-  \layout { 
-   % #(layout-set-staff-size 14)
-   }
-  \midi { 
-  	\tempo 4 = 125
-  }
+  \layout { }
+  \midi { }
 }
+
