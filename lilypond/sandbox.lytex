@@ -66,6 +66,11 @@
 
 \newfontfamily\ipaFont{Doulos SIL}
 \DeclareTextFontCommand{\textipa}{\ipaFont}
+
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\def\yig{{\protect\tibetan ༃  \char"0F03}}
+\DeclareTextFontCommand{\texttibetan}{\tibetan}
+
 %%%%%
 
 
@@ -100,7 +105,7 @@
 Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ})
 
 
-
+\texttibetan{༆ །ཨ་ཡིག་དཀར་མཛེས་ལས་འཁྲུངས་ཤེས་བློ}
 
 Stuff about eigenvectors\index{eigenvector} and 
 eigenvalues\index{eigenvalue}. 

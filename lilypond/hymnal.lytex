@@ -70,6 +70,10 @@
 \newfontfamily\ipaFont{Doulos SIL}
 \DeclareTextFontCommand{\textipa}{\ipaFont}
 
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\def\yig{{\protect\tibetan ༃  \char"0F03}}
+\DeclareTextFontCommand{\texttibetan}{\tibetan}
+
 %%%%%
 
 % for definitions - which we're not currently using.
@@ -762,6 +766,12 @@ Words here.
 
 \subsection{Sisterhood}
 
+This chant is of course inspired by the famous soap maker, Dr. Bronner who's "All-in-one" soap was produced specifically as a distribution mechanism for the scripture on the bottles. When we first recorded it for the Naad Your Heart album, Emilio started doing the following series of gestures, or mudrās.
+\index{mudra}
+According to Wikipedia: A \textbf{mudra} (/mu'drɑ:/; Sanskrit mudrā, ``seal", ``mark", or ``gesture"; Tibetan: \texttibetan{ཕྱག་རྒྱ་} THL chakgya) is a symbolic or ritual gesture in Hinduism and Buddhism. Some mudras involve the entire body; most are performed with just hands and fingers. A mudrā is a spiritual gesture and an energetic seal of authenticity employed in the iconography and spiritual practice of Indian religions.
+
+One hundred and eight mudras are used in regular Tantric rituals.
+
 \includegraphics[scale=.039]{poses/AllOnePose.pdf}
 \includegraphics[scale=.039]{poses/WorldPose.pdf}
 \includegraphics[scale=.039]{poses/LovePose.pdf}
@@ -772,7 +782,7 @@ Words here.
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Sisterhood}
-\caption[Sisterhood]{}
+\caption[Sisterhood]{We have enjoyed this chant with a drone as well as a capella. One of the interesting aspects of the movement is that the downbeat falls on the second time the word One is said, but the mudrā happens on the first ``One'', so the movements occur in between downbeats, or on the odd measures, creating two interlocking cycles.}
 \end{figure}
 
 
