@@ -14,6 +14,62 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
+%%%%%
+% For Hindi Text
+% Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
+
+\usepackage{multicol} % just to get narrow columns on one page
+\usepackage{polyglossia} % the multilingual support package
+% for XeLaTeX - includes Sanskrit.
+% Next, from the polyglossia manual:
+\setdefaultlanguage{english} % this is mostly going to be English text, with
+\setotherlanguage{sanskrit} % some Sanskrit embedded in it.
+% These will call appropriate hyphenation.
+\usepackage{xltxtra} % standard for nearly all XeLaTeX documents
+\defaultfontfeatures{Mapping=tex-text} % ditto
+\setmainfont{Gandhari Unicode} %could be any Unicode font
+
+% Now define some Devanagari fonts:
+% At least *one* font family must be called \sanskritfont or \devanagarifont,
+% so that XeTeX loads all hyphenation and other stuff for Sanskrit. 
+% Once the Sanskrit ``intelligence'' is loaded, it can be invoked at
+% other places as needed using \selectlanguage{sanskrit}
+%
+% John Smith's Nakula, input using Velthuis transliteration
+\newfontfamily
+\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Nakula}
+% John Smith's Sahadeva, input using Velthuis transliteration
+\newfontfamily
+\sahadevafont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+% John's Sahadeva, input using scholarly romanisation in Unicode
+\newfontfamily
+\sahadevaunicodefont [Script=Devanagari,Mapping=RomDev]{Sahadeva}
+% Microsoft's Mangal font (ugh!), input using standard romanisation in Unicode.
+\newfontfamily
+\mangalfont [Script=Devanagari,Mapping=RomDev]{Mangal}
+% Somdev's RomDev.map is used above to get the mapping
+% from Unicode -> Devanāgarī. Zdenek Wagner's velthuis-sanskrit.map
+% is used to get the Velthuis->Devanāgarī mapping. These are the files
+% that XeTeX uses to make all the conjunct consonants without needing
+% any external preprocessor (like the old devnag.c program).
+% % Set up the font commands:
+%
+\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
+\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
+\newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
+\newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
+% \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
+% ... and here we go!
+
+\newfontfamily\punjabifont{Saab}
+\DeclareTextFontCommand{\textpunjabi}{\punjabifont}
+
+\newfontfamily\ipaFont{Doulos SIL}
+\DeclareTextFontCommand{\textipa}{\ipaFont}
+%%%%%
+
+
+
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -40,6 +96,10 @@
 %\section{Section here}
 %\subsection{Subsection here}
 \chapter{Introduction}
+
+Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ})
+
+
 
 
 Stuff about eigenvectors\index{eigenvector} and 

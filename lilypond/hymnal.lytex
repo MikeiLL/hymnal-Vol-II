@@ -64,6 +64,11 @@
 % \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
 % ... and here we go!
 
+\newfontfamily\punjabifont{Saab}
+\DeclareTextFontCommand{\textpunjabi}{\punjabifont}
+
+\newfontfamily\ipaFont{Doulos SIL}
+\DeclareTextFontCommand{\textipa}{\ipaFont}
 
 %%%%%
 
@@ -92,7 +97,8 @@
 \usepackage{scrextend}
 
 % display note and chord names
-\usepackage[chords]{leadsheets}
+\usepackage[full]{leadsheets}
+\useleadsheetslibraries{musicsymbols}
 
 % for temporary margin changes
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
@@ -143,18 +149,8 @@
 	{\large \today\par}
 \end{titlepage}
 
-\velt{सन्देह}, sandeha, m. doubt
-\velt{सन्देह} 	sandeha 	m. 	uncertainty
-\velt{विस्मय}, vismaya, m. doubt. X - amazing
-\velt{अनियम} 	aniyama 	m. 	uncertainty 	x - not niyama
-\velt{अनियम} 	aniyama 	m. 	doubt
-	
-	sAptAhika     \velt{साप्ताहिक} saptahika scepticism
-	Ānanda (Sanskrit: आनन्द) literally means bliss or happiness
-	
-	saṃśaya \velt{संशय}. Definition: m. [√ sî] doubt
-	aviśvāsa \velt{अविश्वास}. Definition: noun (masculine) mistrust (Monier-Williams, Sir M. (1988))suspicion
-	
+Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
+
 
 % \tableofcontents
 
@@ -639,13 +635,21 @@ The naval chakra is the center of creativity. Swadhistana. Orange.
 \end{figure}
 
 \subsection{Ra Ma Da Sa Sa Say So Hung}
-Words here.
+Where most of the Sanskrit is the primary language of Hindu chants, Kundalini Yoga chants are typically in Gurmukhi, a language that combines Punjabi and Sanskrit:
+
+Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
+
+It is the tongue of the Sikh religion. The name Gurmukhi means "from the mouth of the Guru" and comes from the Old Punjabi word guramukhī.
+
+This is a healing chant, which can be performed seated in easy pose with the upper arms and elbows tucked into the sides of the ribcage, the arms bent at the elbows, fingers pointed outwards at a 45 degree angle to the center of the body - almost hyperextended in the wrists, palms open to the sky with fingers together and thumbs open.
+
+The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity, I am Thou. The first Infinity, Sa refers to Impersonal or Astrological Infinity, and Say is the personal manifestation of infinity, or the personal embodiment of Sa (we are each a microcosm of the universe), so the two syllables together: Sa Say is the Totality of infinity, which includes the Cosmic Intelligence (to which we have and seek access). Ra Ma Da Sa, known by itself as the Earth Mantra, is made up of syllables which mean Sun, Moon, Earth, Infinity. Sa Say So Hung is the Ether Mantra. The syllable So captures a personal sense of unity with the divine, and Hung is the vibrating, energetic reality of the Infinite. Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ramadasa.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Ra Ma Da Sa Sa Say So Hung}
-\caption[Ra Ma Da Sa Sa Say So Hung]{}
+\caption[Ra Ma Da Sa Sa Say So Hung]{We like to start this one with a drone, or maybe an ostinato bass, playing around with that minor second. The main melody of the mantra is the one written above in the middle. If you do the chant a half step lower in E$\flat$, that melody will be all black notes. When we're not playing the chords, I like to sing the high line, switching that fifth note, C for C$\sharp$, but when the chords (as written above) are playing that's fairly dissonant with the natural C in the \writechord{Ami} chord.}
 \end{figure}
 
 \subsection{lā ilāha illā allāh}
@@ -734,7 +738,7 @@ Words here.
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om eim hreem shreem kleem saw sat chit ekam Bramah}
-\caption[Om eim hreem shreem kleem saw sat chit ekam Bramah]{The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \chordname{Bb/F} chord, then move the F down one note to E which makes the \chordname{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
+\caption[Om eim hreem shreem kleem saw sat chit ekam Bramah]{The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \writechord{Bb/F} chord, then move the F down one note to E which makes the \writechord{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
 \begin{lilypond}
 snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
 \score { 
