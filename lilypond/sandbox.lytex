@@ -112,13 +112,12 @@ eigenvalues\index{eigenvalue}.
 
 \mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
 
-\subsection{I Wanna Know You}
-There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
+
 
 \par
 The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \chordname{Bb/F} chord, then move the F down one note to E which makes the \chordname{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
 \begin{lilypond}
-snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
+snippet = \relative c'' {<g bes des f>1 }
 \score { 
 \snippet 
 \layout { 
@@ -126,6 +125,30 @@ snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
    }
 }
 \end{lilypond}
+
+\subsection{Oh, Lead}
+This is a translation of the ancient, popular Sanskrit mantra:
+
+\begin{center}
+\begin{minipage}{.6\textwidth}
+
+Om Asato Maa Sad-Gamaya | \\
+Tamaso Maa Jyotir-Gamaya | \\
+Mrtyor-Maa Amrtam Gamaya | \\
+Om Shaantih Shaantih Shaantih || 
+\end{minipage}
+\vfill
+\begin{minipage}{.6\textwidth}
+\velt{ॐ असतो मा सद्गमय । \\
+तमसो मा ज्योतिर्गमय । \\
+मृत्योर्मा अमृतं गमय । \\
+ॐ शान्तिः शान्तिः शान्तिः ॥}
+ 
+\end{minipage}
+\end{center}
+
+
+It's a mantra associated with death and transformation. Under the guidance of Rand Hicks of the Integral Knowledge Study Center, we translated it in the period of my father's dying and death.
 
 
 \backmatter 

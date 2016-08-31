@@ -755,18 +755,50 @@ snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
 \end{figure}
 
 \subsection{Oh, Lead}
-Words here.
+This is a translation of the ancient, popular Sanskrit mantra:
+
+\begin{center}
+\begin{minipage}{.6\textwidth}
+
+Om Asato Maa Sad-Gamaya | \\
+Tamaso Maa Jyotir-Gamaya | \\
+Mrtyor-Maa Amrtam Gamaya | \\
+Om Shaantih Shaantih Shaantih || 
+\end{minipage}
+\vfill
+\begin{minipage}{.6\textwidth}
+\velt{ॐ असतो मा सद्गमय । \\
+तमसो मा ज्योतिर्गमय । \\
+मृत्योर्मा अमृतं गमय । \\
+ॐ शान्तिः शान्तिः शान्तिः ॥}
+ 
+\end{minipage}
+\end{center}
+
+
+It's a mantra associated with death and transformation. Under the guidance of Rand Hicks of the Integral Knowledge Study Center, we translated it in the period of my father's dying and death.
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ohlead.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Oh, Lead}
-\caption[Oh, Lead]{When we first recorded this track we just did it over a violin drone. Later added the chords for an accordion version as the accordion drone (at least as played by me) isn't very dynamic. They're fairly (very) generic chord changes. The little circle with the diagonal line through it means half-diminished which is a minor seventh chord with the 5 played a half note flat. }
+\caption[Oh, Lead]{When we first recorded this track we just did it over a violin drone. Later added the chords for an accordion version as the accordion drone (at least as played by me) isn't very dynamic. They're fairly (very) generic chord changes. The little circle with the diagonal line through it means half-diminished which is a minor seventh chord with the 5 played a half note flat. 
+\begin{lilypond}
+snippet = \relative c'' {<g bes des f>1 }
+\score { 
+\snippet 
+\layout { 
+   #(layout-set-staff-size 14)
+   }
+}
+\end{lilypond}
+}
 \end{figure}
 
 \subsection{Sisterhood}
 
-This chant is of course inspired by the famous soap maker, Dr. Bronner who's "All-in-one" soap was produced specifically as a distribution mechanism for the scripture on the bottles. When we first recorded it for the Naad Your Heart album, Emilio started doing the following series of gestures, or mudrās.
+This chant is of course inspired by the famous soap maker, Dr. Bronner who's "All-in-one" soap was produced specifically as a distribution mechanism for the scripture on the bottles. When we first recorded the chant for the Naad Your Heart album, Emilio started doing the following series of gestures, or mudrās.
 \index{mudra}
 According to Wikipedia: A \textbf{mudra} (/mu'drɑ:/; Sanskrit mudrā, ``seal", ``mark", or ``gesture"; Tibetan: \texttibetan{ཕྱག་རྒྱ་} THL chakgya) is a symbolic or ritual gesture in Hinduism and Buddhism. Some mudras involve the entire body; most are performed with just hands and fingers. A mudrā is a spiritual gesture and an energetic seal of authenticity employed in the iconography and spiritual practice of Indian religions.
 
