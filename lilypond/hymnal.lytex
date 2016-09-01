@@ -647,7 +647,11 @@ It is the tongue of the Sikh religion. The name Gurmukhi means "from the mouth o
 
 This is a healing chant, which can be performed seated in easy pose with the upper arms and elbows tucked into the sides of the ribcage, the arms bent at the elbows, fingers pointed outwards at a 45 degree angle to the center of the body - almost hyperextended in the wrists, palms open to the sky with fingers together and thumbs open.
 
-The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity, I am Thou. The first Infinity, Sa refers to Impersonal or Astrological Infinity, and Say is the personal manifestation of infinity, or the personal embodiment of Sa (we are each a microcosm of the universe), so the two syllables together: Sa Say is the Totality of infinity, which includes the Cosmic Intelligence (to which we have and seek access). Ra Ma Da Sa, known by itself as the Earth Mantra, is made up of syllables which mean Sun, Moon, Earth, Infinity. Sa Say So Hung is the Ether Mantra. The syllable So captures a personal sense of unity with the divine, and Hung is the vibrating, energetic reality of the Infinite. Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
+The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity, I am Thou. The first Infinity, Sa refers to Impersonal or Astrological Infinity, and Say is the personal manifestation of infinity, or the personal embodiment of Sa (we are each a microcosm of the universe), so the two syllables together: Sa Say is the Totality of infinity, which includes the Cosmic Intelligence (to which we have and seek access). Ra Ma Da Sa, known by itself as the Earth Mantra, is made up of syllables which mean Sun, Moon, Earth, Infinity. Sa Say So Hung is the Ether Mantra. The syllable So captures a personal sense of unity with the divine, and Hung is the vibrating, energetic reality of the Infinite. 
+
+Ravi Singh describes the difference between Sa and Hung as follows: ``Sa is Existence itself and Hung means the realization or manifestation of that. Sa is light and Hung is the laser form of that light.''
+
+Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ramadasa.ly}
 \end{changemargin}
@@ -817,6 +821,34 @@ One hundred and eight mudras are used in regular Tantric rituals.
 \caption[Sisterhood]{We have enjoyed this chant with a drone as well as a capella. One of the interesting aspects of the movement is that the downbeat falls on the second time the word One is said, but the mudrā happens on the first ``One'', so the movements occur in between downbeats, or on the odd measures, creating two interlocking cycles.}
 \end{figure}
 
+\subsection{Ardhanārīśvara}
+We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or event receive Rivka's gender fluidity. Mostly they're too busy selling multi-marketing natural remedies to notice. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \velt{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti.
+
+We had been looking for a mantra for the cultivation of androgyny. It's a prefect chant for a time when we are, as a society, in recovery from the Cis Virus.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ardhanarishvara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ardhanārīśvara}
+\caption[Ardhanārīśvara]{
+Another possible verse for this chant is this beautiful Shiva mantra:
+\begin{center}
+\begin{minipage}{.6\textwidth}
+Karpur Gauram Karunavataram | \\
+Sansara Saram Bhujagendra Haram || \\
+Sada Vasantam Hridayaravinde | \\
+Bhavam Bhavani Sahitam Namami || \\
+\vbox
+White like camphor (representing detachment and non-absorption) \\
+Full of compassion \\
+Essence of the whole world \\
+King of serpents round the neck \\
+One who always stays in the lotus heart of every being \\
+I bow to Existence and the Power to Exist
+\end{minipage}
+\end{center}
+}
+\end{figure}
 
 
 \backmatter 
