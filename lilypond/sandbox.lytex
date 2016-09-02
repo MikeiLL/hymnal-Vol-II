@@ -114,11 +114,12 @@
 Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ})
 
 
-\texttibetan{༆ །ཨ་ཡིག་དཀར་མཛེས་ལས་འཁྲུངས་ཤེས་བློ}
+\huge \texttibetan{༆ །ཨ་ཡིག་དཀར་མཛེས་ལས་འཁྲུངས་ཤེས་བློ}
 
 Stuff about eigenvectors\index{eigenvector} and 
 eigenvalues\index{eigenvalue}. 
 
+\normalsize
 \mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
 
 \subsection{Ardhanārīśvara}
@@ -135,12 +136,15 @@ Another possible verse for this chant is this beautiful Shiva mantra:
 
 }
 \end{figure}
-\
 
  
 \setRL
-\huge\texthebrew{כל היום וכל הלילה} \LR{\velt{ॐ}} 
+\huge\texthebrew{כל היום וכל הלילה} \LR{\saha{ॐ}} 
 \unsetRL
+\\
+\saha{ॐ}
+\sahauni{ॐ}
+\mangaluni{ॐ}
 
 \backmatter 
 

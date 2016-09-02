@@ -73,6 +73,10 @@
 \def\yig{{\protect\tibetan ༃  \char"0F03}}
 \DeclareTextFontCommand{\texttibetan}{\tibetan}
 
+
+\newfontfamily\hadasim{Hadasim CLM Regular}
+\DeclareTextFontCommand{\texthebrew}{\hadasim}
+
 %%%%%
 
 % for definitions - which we're not currently using.
@@ -365,7 +369,7 @@ Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Star
 The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
 
 \setRL
-\huge\texthebrew{כל היום וכל הלילה} \LR{\velt{ॐ}} 
+\huge\texthebrew{כל היום וכל הלילה} \LR{\saha{ॐ}} 
 \unsetRL
 
 \begin{changemargin}{-1cm}{-1cm} 
