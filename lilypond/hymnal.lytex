@@ -369,8 +369,9 @@ Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Star
 The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
 
 \setRL
-\huge\texthebrew{כל היום וכל הלילה} \LR{\saha{ॐ}} 
+\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
 \unsetRL
+\normalsize
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
@@ -860,6 +861,10 @@ Bhavam Bhavani Sahitam Namami || \\
 The Essence of Worldly Existence, Whose Garland is the King of Serpents, \\
 Always Dwelling inside the Lotus of the Heart. \\
 I Bow to Shiva and Shakti Together. 
+
+Another translation of the last line, Bhavam Bhavani Sahitam Namami is 
+\emph{I bow to Existence and the Power to Exist}, putting the meaning of Bhavani as the Power to Exist. So potent within a society which is trying to deny the existence of a third gender, or anything outside of the binary gender system.
+
 \backmatter 
 
 \printindex

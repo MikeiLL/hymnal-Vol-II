@@ -139,12 +139,12 @@ Another possible verse for this chant is this beautiful Shiva mantra:
 
  
 \setRL
-\huge\texthebrew{כל היום וכל הלילה} \LR{\saha{ॐ}} 
+\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
 \unsetRL
 \\
-\saha{ॐ}
-\sahauni{ॐ}
-\mangaluni{ॐ}
+%\saha{ॐ}
+%\sahauni{ॐ}
+%\mangaluni{ॐ}
 
 \backmatter 
 
