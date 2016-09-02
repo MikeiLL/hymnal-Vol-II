@@ -1,6 +1,6 @@
 % arara: lilypond: {options: "--latex-program=xelatex --pdf"}
 % arara: xelatex: { files: [ 'release_event_hymnal.tex' ] }
-\documentclass[a5paper,twoside,9pt]{extbook}
+\documentclass[a5paper,twoside,9pt]{article}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 \usepackage{marginnote,letltxmacro}
 \LetLtxMacro\mn\marginnote
@@ -115,97 +115,46 @@
 \titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
 \titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
 
-% for list of figures, tables
-% source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
-
-
-\usepackage{arabxetex}
-
-\usepackage{blindtext} % for filler
-
-\usepackage{epigraph} % quotes
-
-\setlength{\epigraphwidth}{0.9\textwidth}
-
-\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
-
-\renewcommand*{\marginfont}{\footnotesize}
-
 \begin{document}
 
-% \tableofcontents
-
-\renewcommand{\listfigurename}{Chants \& Music}
- 
-\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
-
-\renewcommand{\figurename}{Chant}
-
-\renewcommand{\tablename}{Music}
-   
-\mainmatter
-
 \subsection{Kul Hayom Vikhul Halaila Om}
-
-The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
-
-\setRL
-\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
-\unsetRL
-\normalsize
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
 \end{changemargin}
 
-\begin{figure}[ht]
-\label{fig:Kul Hayom Vikhul Halaila Om}
-\caption[Kul Hayom Vikhul Halaila Om]{  }
-\end{figure}
-
 \subsection{Ardhanārīśvara}
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ardhanarishvara.ly}
 \end{changemargin}
-\begin{figure}[ht]
-\label{fig:Ardhanārīśvara}
-\end{figure}
 
 \subsection{Oh, Lead}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ohlead.ly}
 \end{changemargin}
-\begin{figure}[ht]
-\label{fig:Oh, Lead}
-\end{figure}
+
 
 \subsection*{Anandamayi Ma}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{anandamayima_flat.ly}
 \end{changemargin}
-\begin{figure}[ht]
-\label{fig:Anandamayi Ma}
-\end{figure}
 
 \subsection{Long Ek Ong Kars}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{longekongkar.ly}
 \end{changemargin}
-\begin{figure}[ht]
-\label{fig:Long Ek Ong Kars}
-\end{figure}
+
 
 \subsection{Ra Ma Da Sa Sa Say So Hung}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ramadasa.ly}
 \end{changemargin}
-\begin{figure}[ht]
-\label{fig:Ra Ma Da Sa Sa Say So Hung}
-\end{figure}
+
 
 
 \subsection*{Adi Mantra}
@@ -213,7 +162,5 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ongnamogurudevnamo.ly}
 \end{changemargin}
-\begin{figure}[ht]
-\label{fig:Adi Mantra}
-\caption[Adi Mantra]{}
-\end{figure}
+
+\end{document}
