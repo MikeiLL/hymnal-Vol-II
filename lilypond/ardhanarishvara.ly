@@ -19,12 +19,11 @@ melody = \relative c'' {
 		 ees4 d8( c) g'2. | ees4 d8( c) g'2. |
 		 fis4 g fis2. | fis4 g fis2. |
 		 f4 g f2. | f4 g f2. |
-		 ees4 f g2. | ees4 f g2. |
-		 ees4 c g'2. | ees4 c g'2. |
-		 fis4 g fis2. | fis4 g fis2. |
-		 f4 g f2. | f4 g f2. |
-		 g4 ees c2. | g'4 ees c2. |
 		}
+		 \alternative {
+		 	{ ees4 f g2. | ees4 f g2. | }
+		 	{ g4 ees c2. | g'4 ees c2. | }
+		 }
 	}
 }
 
@@ -45,12 +44,6 @@ text =  \lyricmode {
 	(I am they)
 	Burn in me
 	(Burn in me)
-	I and I 
-	(I and I)
-	den -- ti -- ty
-	(den -- ti -- ty)
-	My -- ste -- ry
-	(My -- ste -- ry)
 	Bha -- va -- ni
 	(Bha -- va -- ni)
 }
@@ -62,7 +55,6 @@ changes = \chordmode {
  
 harmonies = \chordmode {
 \set noChordSymbol = "" 
- \changes
  \changes
  \changes
 }
