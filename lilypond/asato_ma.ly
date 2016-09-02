@@ -39,13 +39,13 @@ harmonies = \chordmode {
       \set chordChanges = ##t
       \harmonies
     }
-    \new Staff \with { \magnifyStaff #5/7 } {
+    \new Staff  {
     	\new Voice = "one" { \melody }
   	}
     \new Lyrics \lyricsto "words" \text
   >>
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
   \midi { 
   	\tempo 4 = 125

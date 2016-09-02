@@ -57,14 +57,14 @@ harmonies = \chordmode {
       \set chordChanges = ##t
       \harmonies
     }
-    \new PianoStaff <<
+    \new PianoStaff  <<
     \new Staff = "voice" \melody
     \new Lyrics \lyricsto "words" \text
     \new Staff = "countermelodies" \countermelodies
   	>>
   >>
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    \context { \ChordNames
      \override ChordName #'font-size = #1
   	} 

@@ -19,7 +19,7 @@ upper = \relative c'' {
 	}
 
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
   \midi { 
   	\tempo 4 = 125

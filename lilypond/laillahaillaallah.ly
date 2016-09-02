@@ -36,14 +36,14 @@ bass = \relative c, {
     \new ChordNames {
       \set chordChanges = ##t
     }
-    \new PianoStaff <<
+    \new PianoStaff  <<
     \new Staff = "voice" \melody
     \new Lyrics \lyricsto "words" \text
     \new Staff = "violin" \bass
   	>>
   >>
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
   \midi { 
   	\tempo 4 = 125

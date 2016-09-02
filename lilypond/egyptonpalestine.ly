@@ -16,7 +16,7 @@ upper = \relative c' {
 \score {
     \new Staff = "upper" \upper
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
     \midi { 
   	\tempo 4 = 125

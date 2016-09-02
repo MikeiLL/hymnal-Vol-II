@@ -53,7 +53,7 @@ harmonies = \chordmode {
       \set chordChanges = ##t
       \harmonies
     }
-    \new Staff \with { \magnifyStaff #5/7 } {
+    \new Staff  {
     <<
     	\new Voice = "upper" { \melody }
     	\new Voice = "lower" { \harmony }
@@ -64,7 +64,7 @@ harmonies = \chordmode {
   
   
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
   \midi { 
   	\tempo 4 = 125

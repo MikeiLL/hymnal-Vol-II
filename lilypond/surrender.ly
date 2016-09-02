@@ -53,14 +53,14 @@ harmonies = \chordmode {
       \set chordChang = ##t
       \harmonies
     }
-    \new Staff \with { \magnifyStaff #5/7 } {
+    \new Staff  {
     	\new Voice = "one" { \melody }
   	}
     \new Lyrics \lyricsto "words" \text
     \new Lyrics \lyricsto "hidden" \wordsTwo
   >>
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
   \midi { 
   	\tempo 4 = 125

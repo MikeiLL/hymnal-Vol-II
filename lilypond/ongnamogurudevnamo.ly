@@ -39,14 +39,14 @@ chordNotes =  \relative c {
       \set chordChanges = ##t
       \harmonies
     }
-    \new PianoStaff <<
+    \new PianoStaff  <<
     \new Staff = "upper" \melody
     \new Lyrics \lyricsto "words" \text
     \new Staff = "lower" \chordNotes
   	>>
   >>
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    }
   \midi { 
   	\tempo 4 = 125

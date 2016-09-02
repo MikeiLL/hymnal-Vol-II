@@ -51,7 +51,7 @@ harmonies = \chordmode {
       \set chordChanges = ##t
       \harmonies
     }
-    \new Staff \with { \magnifyStaff #5/7 } {
+    \new Staff  {
     	\new Voice = "one" { \melody }
   	}
     \new Lyrics \lyricsto "words" \text

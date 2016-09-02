@@ -65,7 +65,7 @@ harmonies = \chordmode {
     \new Lyrics \lyricsto "words" \text
   >>
   \layout { 
-   % #(layout-set-staff-size 14)
+   #(layout-set-staff-size 16)
    \context { \ChordNames
      \override ChordName #'font-size = #1
   	} 
