@@ -364,8 +364,9 @@ Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Star
 
 The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
 
-
-\velt{ॐ} \hebrewtext{הלילה}
+\setRL
+\huge\texthebrew{כל היום וכל הלילה} \LR{\velt{ॐ}} 
+\unsetRL
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}

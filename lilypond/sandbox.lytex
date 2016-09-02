@@ -13,7 +13,7 @@
 %\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 %\usepackage{arara} 
-
+\usepackage{culmus}
 %%%%%
 % For Hindi Text
 % Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
@@ -73,6 +73,9 @@
 
 \newfontfamily\hadasim{Hadasim CLM Regular}
 \DeclareTextFontCommand{\texthebrew}{\hadasim}
+
+
+
 
 %%%%%
 
@@ -134,9 +137,11 @@ Another possible verse for this chant is this beautiful Shiva mantra:
 \end{figure}
 \
 
-\texthebrew{תירבעב םיטפשמ המכ םע} \\ 
-%\texthebrew{הליל\ה}
-\texthebrew{Hi there}
+ 
+\setRL
+\huge\texthebrew{כל היום וכל הלילה} \LR{\velt{ॐ}} 
+\unsetRL
+
 \backmatter 
 
 \printindex 
