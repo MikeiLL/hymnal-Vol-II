@@ -1,0 +1,386 @@
+% arara: lilypond: {options: "--latex-program=xelatex --pdf"}
+% arara: xelatex: { files: [ 'release_event_hymnal.tex' ] }
+\documentclass[a5paper,twoside,9pt]{extbook}
+% margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
+\usepackage{marginnote,letltxmacro}
+\LetLtxMacro\mn\marginnote
+
+\usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+% Need this for Hebrew for some reason
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{imakeidx} % index
+\makeindex
+
+%%%%%
+% For Hindi Text
+% Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
+
+\usepackage{multicol} % just to get narrow columns on one page
+\usepackage{polyglossia} % the multilingual support package
+% for XeLaTeX - includes Sanskrit.
+% Next, from the polyglossia manual:
+\setdefaultlanguage{english} % this is mostly going to be English text, with
+\setotherlanguage{sanskrit} % some Sanskrit embedded in it.
+% These will call appropriate hyphenation.
+\usepackage{xltxtra} % standard for nearly all XeLaTeX documents
+\defaultfontfeatures{Mapping=tex-text} % ditto
+\setmainfont{Gandhari Unicode} %could be any Unicode font
+
+% Now define some Devanagari fonts:
+% At least *one* font family must be called \sanskritfont or \devanagarifont,
+% so that XeTeX loads all hyphenation and other stuff for Sanskrit. 
+% Once the Sanskrit ``intelligence'' is loaded, it can be invoked at
+% other places as needed using \selectlanguage{sanskrit}
+%
+% John Smith's Nakula, input using Velthuis transliteration
+\newfontfamily
+\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Nakula}
+% John Smith's Sahadeva, input using Velthuis transliteration
+\newfontfamily
+\sahadevafont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+% John's Sahadeva, input using scholarly romanisation in Unicode
+\newfontfamily
+\sahadevaunicodefont [Script=Devanagari,Mapping=RomDev]{Sahadeva}
+% Microsoft's Mangal font (ugh!), input using standard romanisation in Unicode.
+\newfontfamily
+\mangalfont [Script=Devanagari,Mapping=RomDev]{Mangal}
+% Somdev's RomDev.map is used above to get the mapping
+% from Unicode -> Devanāgarī. Zdenek Wagner's velthuis-sanskrit.map
+% is used to get the Velthuis->Devanāgarī mapping. These are the files
+% that XeTeX uses to make all the conjunct consonants without needing
+% any external preprocessor (like the old devnag.c program).
+% % Set up the font commands:
+%
+\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
+\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
+\newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
+\newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
+% \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
+% ... and here we go!
+
+\newfontfamily\punjabifont{Saab}
+\DeclareTextFontCommand{\textpunjabi}{\punjabifont}
+
+\newfontfamily\ipaFont{Doulos SIL}
+\DeclareTextFontCommand{\textipa}{\ipaFont}
+
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\def\yig{{\protect\tibetan ༃  \char"0F03}}
+\DeclareTextFontCommand{\texttibetan}{\tibetan}
+
+
+\newfontfamily\hadasim{Hadasim CLM Regular}
+\DeclareTextFontCommand{\texthebrew}{\hadasim}
+
+%%%%%
+
+% for definitions - which we're not currently using.
+\usepackage{amsthm} 
+\newtheorem{I Surrender}{Definition}
+% for dropcaps
+% source 
+% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
+% http://www.tug.dk/FontCatalogue/otherfonts.html
+\usepackage{lettrine}
+\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
+
+\usepackage{textcomp} % for text figures
+\usepackage[osf]{mathpazo} % Paletino font
+% following two lines for bold, italics, roman
+% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
+\usepackage{slantsc} 
+\usepackage{lmodern}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+% for margins or is this for columns?
+\usepackage{scrextend}
+
+% display note and chord names
+\usepackage[full]{leadsheets}
+\useleadsheetslibraries{musicsymbols}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\usepackage{titlesec} % to style titles
+\titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
+\titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
+
+% for list of figures, tables
+% source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
+
+
+\usepackage{arabxetex}
+
+\usepackage{blindtext} % for filler
+
+\usepackage{epigraph} % quotes
+
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
+
+\renewcommand*{\marginfont}{\footnotesize}
+
+\begin{document}
+
+\frontmatter
+
+\begin{titlepage}
+	\centering
+	
+	{\scshape\LARGE Doubt \par}
+	\vspace{1cm}
+	{\scshape\Large Skepticism \par}
+	\vspace{1cm}
+	{\scshape\Large Bliss \par}
+	\vspace{1.5cm}
+	{\huge\bfseries \velt{संशय अविश्वास आनन्द} \par}
+	\vspace{2cm}
+	{\Large\itshape Temple of Wow \par}
+	\vfill
+	A \textsc{Faitheist} Hymnal
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+% \tableofcontents
+
+\renewcommand{\listfigurename}{Chants \& Music}
+ 
+\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
+
+\renewcommand{\figurename}{Chant}
+
+\renewcommand{\tablename}{Music}
+   
+\listoffigures
+
+\mainmatter
+
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+
+\subsection{Kulha Yom Vikhul Halaila Om}
+
+The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
+
+\setRL
+\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
+\unsetRL
+\normalsize
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{kul_ha_yom.ly}
+\end{changemargin}
+
+\begin{figure}[ht]
+\label{fig:Kulha Yom Vikhul Halaila Om}
+\caption[Kulha Yom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
+\end{figure}
+
+For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
+
+This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
+\subsection*{Anandamayi Ma}
+
+The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. This is definitely an approximation, based on what we remembered from their transformational performance. Shivaranjani Raga Shiva's favorite - uses five notes - no 4th and no 7th minor 3rd rest major scale/ Spiritual. Anandamayima. sa re ga pa dha sa 1, 2 3b 5, 6
+
+shivaya namah om shivaya namah (h with dot like tiny ha - namuh!) ha shivaya namah om  namah shivaya. Subtlety of pronunciation, but what's most significant is the intention.
+
+The chant reflects the philosophy. Back to first part after Shivaranjani has peaked very fast. gentlespringrain@gmail.com beyond language beyond tradition sound is universal.
+
+Literally came out of Harishes tampura. We were living in an ashram i was very young chaotic every sunday music. tuning the tampura. play a little melody. finding context finding the center not only instrument. self. i happened to play the melody of raga shivanandani and the words just came. there it was.
+
+As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \velt{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
+
+Citi-sakti (Chit-shakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy surrounding and supporting consciousness. The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti, purusa/prakrti, Brahman/Maya, undifferentiated and differentiated consciousness; etc.   IV.34
+
+The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
+
+\textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived into the recent century between 30 April 1896 and 27 August 1982. The following is taken from Wikipedia. Sivananda Saraswati of the Divine Life Society described her as "the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
+
+In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{anandamayima_flat.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Anandamayi Ma}
+\caption[Anandamayi Ma]{We will talk more about the music here. }
+\end{figure}
+
+\subsection*{Adi Mantra}
+
+When we were studying kundalini yoga in New York City with Ravi Singh, every class started with this mantra. It's basically honoring (evoking, summoning) the devine creative energy. This version of it is to a Rhumba rhythm, which comes out of the Afro-cuban tradition and has, through Spain, made it's way to the far eastern reaches of Eastern Europe where you can hear Gypsy Rhumba.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ongnamogurudevnamo.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Adi Mantra}
+\caption[Adi Mantra]{There's almost nothing to the mantra itself here so we end up having various voices add variation to it. For example one voice might be chanting}
+\end{figure}
+
+\lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
+
+\subsection*{Gobinday Mukanday Udara Apare}
+Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
+Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
+
+\begin{itemize}
+ \item  \textbf{Root Chakra} RED --- Gobinday --- \emph{Sustainer}
+ \item  \textbf{Naval Chakra} ORANGE --- Mukanday --- \emph{Liberator}
+ \item  \textbf{Solar Plexus} YELLOW --- Udare --- \emph{Enlightener}
+ \item  \textbf{Heart Chakra} GREEN --- Apare --- \emph{Infinite}
+ \item  \textbf{Throat Chakra} BLUE --- Hariang --- \emph{Destroyer}
+ \item  \textbf{First Eye} INDIGO --- Kariang --- \emph{Creator}
+ \item  \textbf{Crown Chakra} VIOLET --- Nearname --- \emph{Nameless}
+ \item  \textbf{Above Crown} WHITE --- Akame --- \emph{Desireless}
+\end{itemize}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{gobinday.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Gobinday Mukanday}
+\caption[Gobinday Mukanday]{}
+\end{figure}
+
+\subsection{Wahe Guru Sat Nam}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{wahaygurusatnam.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Wahe Guru Sat Nam}
+\caption[Wahe Guru Sat Nam]{}
+\end{figure}
+
+\subsection{Ra Ma Da Sa Sa Say So Hung}
+Where most of the Sanskrit is the primary language of Hindu chants, Kundalini Yoga chants are typically in Gurmukhi, a language that combines Punjabi and Sanskrit:
+
+Gurmukhī(English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
+
+It is the tongue of the Sikh religion. The name Gurmukhi means "from the mouth of the Guru" and comes from the Old Punjabi word guramukhī.
+
+This is a healing chant, which can be performed seated in easy pose with the upper arms and elbows tucked into the sides of the ribcage, the arms bent at the elbows, fingers pointed outwards at a 45 degree angle to the center of the body - almost hyperextended in the wrists, palms open to the sky with fingers together and thumbs open.
+
+The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity, I am Thou. The first Infinity, Sa refers to Impersonal or Astrological Infinity, and Say is the personal manifestation of infinity, or the personal embodiment of Sa (we are each a microcosm of the universe), so the two syllables together: Sa Say is the Totality of infinity, which includes the Cosmic Intelligence (to which we have and seek access). Ra Ma Da Sa, known by itself as the Earth Mantra, is made up of syllables which mean Sun, Moon, Earth, Infinity. Sa Say So Hung is the Ether Mantra. The syllable So captures a personal sense of unity with the divine, and Hung is the vibrating, energetic reality of the Infinite. 
+
+Ravi Singh describes the difference between Sa and Hung as follows: ``Sa is Existence itself and Hung means the realization or manifestation of that. Sa is light and Hung is the laser form of that light.''
+
+Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ramadasa.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ra Ma Da Sa Sa Say So Hung}
+\caption[Ra Ma Da Sa Sa Say So Hung]{We like to start this one with a drone, or maybe an ostinato bass, playing around with that minor second. The main melody of the mantra is the one written above in the middle. If you do the chant a half step lower in E$\flat$, that melody will be all black notes. When we're not playing the chords, I like to sing the high line, switching that fifth note, C for C$\sharp$, but when the chords (as written above) are playing that's fairly dissonant with the natural C in the \writechord{Ami} chord.}
+\end{figure}
+
+\subsection{Long Ek Ong Kar}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{longekongkar.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Long Ek Ong Kar}
+\caption[Long Ek Ong Kar]{}
+\end{figure}
+
+\subsection{Oh, Lead}
+This is a translation of the ancient, popular Sanskrit mantra:
+
+\begin{center}
+\begin{minipage}{.6\textwidth}
+
+Om Asato Maa Sad-Gamaya | \\
+Tamaso Maa Jyotir-Gamaya | \\
+Mrtyor-Maa Amrtam Gamaya | \\
+Om Shaantih Shaantih Shaantih || 
+\end{minipage}
+\vfill
+\begin{minipage}{.6\textwidth}
+\velt{ॐ असतो मा सद्गमय । \\
+तमसो मा ज्योतिर्गमय । \\
+मृत्योर्मा अमृतं गमय । \\
+ॐ शान्तिः शान्तिः शान्तिः ॥}
+ 
+\end{minipage}
+\end{center}
+
+
+It's a mantra associated with death and transformation. Under the guidance of Rand Hicks of the Integral Knowledge Study Center, we translated it in the period of my father's dying and death.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ohlead.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Oh, Lead}
+\caption[Oh, Lead]{When we first recorded this track we just did it over a violin drone. Later added the chords for an accordion version as the accordion drone (at least as played by me) isn't very dynamic. They're fairly (very) generic chord changes. The little circle with the diagonal line through it means half-diminished which is a minor seventh chord with the 5 played a half note flat. 
+\begin{lilypond}
+snippet = \relative c'' {<g bes des f>1 }
+\score { 
+\snippet 
+\layout { 
+   #(layout-set-staff-size 14)
+   }
+}
+\end{lilypond}
+}
+\end{figure}
+
+\subsection{Ardhanārīśvara}
+
+We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \velt{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
+
+We had been looking for a mantra for the cultivation of androgyny. It's a prefect chant for a time when we are, as a society, in recovery from what Adam Powers so eloquently referred to as the Cis Virus.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ardhanarishvara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ardhanārīśvara}
+\caption[Ardhanārīśvara]{This could be done without echoing each line, but here it's written out with each line echoed. If there's an instrument, the instrument and voice could echo each other. Another possible verse for this chant is this beautiful Shiva mantra:}
+\end{figure}
+\begin{center}
+\begin{minipage}{.6\textwidth}
+\velt{
+कर्पूरगौरं करुणावतारं \\
+संसारसारम् भुजगेन्द्रहारम् । \\
+सदावसन्तं हृदयारविन्दे \\
+भवं भवानीसहितं नमामि ॥ } \\
+\vfill
+Karpur Gauram Karunavataram | \\
+Sansara Saram Bhujagendra Haram || \\
+Sada Vasantam Hridayaravinde | \\
+Bhavam Bhavani Sahitam Namami || \\
+\end{minipage}
+\end{center}
+
+\vfill
+\noindent Pure White like Camphor, an Incarnation of Compassion, \\
+The Essence of Worldly Existence, Whose Garland is the King of Serpents, \\
+Always Dwelling inside the Lotus of the Heart. \\
+I Bow to Shiva and Shakti Together. 
+
+Another translation of the last line, Bhavam Bhavani Sahitam Namami is 
+\emph{I bow to Existence and the Power to Exist}, putting the meaning of Bhavani as the Power to Exist. So potent within a society which is trying to deny the existence of a third gender, or anything outside of the binary gender system.
+
+\backmatter 
+
+\printindex
+
+\end{document}
