@@ -6,10 +6,9 @@
 \LetLtxMacro\mn\marginnote
 
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
-% so i can print arara's name out nicely
-%\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
-%\usepackage{arara} 
+% Need this for Hebrew for some reason
+\usepackage[utf8]{inputenc}
+
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -365,13 +364,16 @@ Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Star
 
 The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
 
+
+\velt{ॐ} \hebrewtext{הלילה}
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
 \end{changemargin}
 
 \begin{figure}[ht]
 \label{fig:Kulha Yom Vikhul Halaila Om}
-\caption[Kulha Yom Vikhul Halaila Om]{We will talk more about the music here. }
+\caption[Kulha Yom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
 \end{figure}
 
 For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
@@ -831,7 +833,7 @@ We had been looking for a mantra for the cultivation of androgyny. It's a prefec
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Ardhanārīśvara}
-\caption[Ardhanārīśvara]{Another possible verse for this chant is this beautiful Shiva mantra:}
+\caption[Ardhanārīśvara]{This could be done without echoing each line, but here it's written out with each line echoed. If there's an instrument, the instrument and voice could echo each other. Another possible verse for this chant is this beautiful Shiva mantra:}
 \end{figure}
 \begin{center}
 \begin{minipage}{.6\textwidth}

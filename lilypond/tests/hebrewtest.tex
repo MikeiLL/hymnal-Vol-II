@@ -1,0 +1,46 @@
+\documentclass[xetex]{beamer}
+
+\usepackage{fontspec,bidi}
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+
+\useoutertheme[right]{}
+
+\newenvironment{hframe}[0]{\begin{frame}\setRL}{\end{frame}}
+\newcommand{\hframetitle}[1]{\frametitle{\hfill\RL{#1}}}
+\newcommand{\hframesubtitle}[1]{\framesubtitle{\hfill\RL{#1}}}
+\newcommand{\hsection}[1]{\section{\RL{#1}}}
+\newcommand{\hsubsection}[1]{\subsection{\RL{#1}}}
+\newcommand{\hsubsubsection}[1]{\subsubsection{\RL{#1}}}
+\newtheorem{hclaim}[theorem]{\RL{טענה}}
+
+\title{\RL{מצגת דוגמא בעברית שנוצרה באמצעות beamer}}
+\author{\RL{רונן אברבנאל}}
+\date{\today}
+
+\begin{document}
+I can write english here.
+\begin{frame}
+    \titlepage  
+\end{frame}
+
+\hsection{הקדמה}
+\hsubsection{מבט על beamer}
+
+\begin{hframe}
+  \hframetitle{תכונות של המחלקה בימר}
+  \begin{itemize}
+  \item<1->  מחלקת LaTeX רגילה.
+  \item<2-> מעברים קצת בעייתיים.
+  \item<3-> לא דרושה תוכנה חיצונית.      
+  \end{itemize}
+\end{hframe}
+
+\begin{hframe}
+\begin{hclaim}[עברית ב-Beamer]
+העברית ב-\LaTeX-Beamer סבירה למדי.
+\end{hclaim}
+ואפשר גם לכתוב טקסט מחוץ לבלוק.
+\end{hframe}
+
+\end{document}

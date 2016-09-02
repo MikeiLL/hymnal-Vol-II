@@ -11,7 +11,7 @@
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
 % so i can print arara's name out nicely
 %\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 
 %%%%%
@@ -71,6 +71,9 @@
 \def\yig{{\protect\tibetan ༃  \char"0F03}}
 \DeclareTextFontCommand{\texttibetan}{\tibetan}
 
+\newfontfamily\hadasim{Hadasim CLM Regular}
+\DeclareTextFontCommand{\texthebrew}{\hadasim}
+
 %%%%%
 
 
@@ -129,37 +132,11 @@ Another possible verse for this chant is this beautiful Shiva mantra:
 
 }
 \end{figure}
+\
 
-\begin{center}
-\begin{minipage}{.6\textwidth}
-\velt{
-कर्पूरगौरं करुणावतारं \\
-संसारसारम् भुजगेन्द्रहारम् । \\
-सदावसन्तं हृदयारविन्दे \\
-भवं भवानीसहितं नमामि ॥ }
-\vfill
-Karpur Gauram Karunavataram | \\
-Sansara Saram Bhujagendra Haram || \\
-Sada Vasantam Hridayaravinde | \\
-Bhavam Bhavani Sahitam Namami || \\
-\vfill
-White like camphor (representing detachment and non-absorption) \\
-Full of compassion \\
-Essence of the whole world \\
-King of serpents round the neck \\
-One who always stays in the lotus heart of every being \\
-I bow to Existence and the Power to Exist
-\vfill
-\emph{another translation I found is} \\
-Pure White like Camphor, an Incarnation of Compassion, \\
-The Essence of Worldly Existence, Whose Garland is the King of Serpents, \\
-Always Dwelling inside the Lotus of the Heart. \\
-I Bow to Shiva and Shakti Together. \\
-\end{minipage}
-\end{center}
-It's a mantra associated with death and transformation. Under the guidance of Rand Hicks of the Integral Knowledge Study Center, we translated it in the period of my father's dying and death.
-
-
+\texthebrew{תירבעב םיטפשמ המכ םע} \\ 
+%\texthebrew{הליל\ה}
+\texthebrew{Hi there}
 \backmatter 
 
 \printindex 
