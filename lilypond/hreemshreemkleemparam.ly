@@ -16,8 +16,8 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	Hreem Shreem Kleem Pa - ram E -- shwa -- ra Swa -- ha
-	Hreem Shreem Kleem Pa - ram E -- shwa -- ra Swa -- ha
+	Hrim Shrim Klim Pa -- ram -- Ī -- śva -- ri Svā -- hā
+	Hrim Shrim Klim Pa -- ram Ī -- śva -- ri Svā -- hā
 }
 
 \score {
