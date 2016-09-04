@@ -29,7 +29,6 @@
 % These will call appropriate hyphenation.
 \usepackage{xltxtra} % standard for nearly all XeLaTeX documents
 \defaultfontfeatures{Mapping=tex-text} % ditto
-\setmainfont{Gandhari Unicode} %could be any Unicode font
 
 % Now define some Devanagari fonts:
 % At least *one* font family must be called \sanskritfont or \devanagarifont,
@@ -125,6 +124,9 @@
 
 \usepackage{arabxetex}
 
+\setmainfont{Gandhari Unicode} %could be any Unicode font
+
+
 \usepackage{blindtext} % for filler
 
 \usepackage{epigraph} % quotes
@@ -160,9 +162,6 @@
 	{\large \today\par}
 \end{titlepage}
 
-Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
-
-
 % \tableofcontents
 
 \renewcommand{\listfigurename}{Chants \& Music}
@@ -182,35 +181,28 @@ Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpu
 \chapter{Introduction}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+\index{Bhagavad Gita}
+\index{Faitheism}
+
+Why do we chant and as we engage our hearts and cultivate devotion, to whom or what is that devotion aimed. In the Hindu scripture, The Bhagavad Gita, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of life, in all it's mystery. Through cultivating our Awe and Faith, Our Wow and our Conviction, we begin to appreciate the the fog itself is of our own making.
+
+Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
+
+If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.
+\index{Asé}
+\index{Esther}
+\index{Ogún}
+\index{Ishtar}
+On our particular journey, the tools that seem to be working don't all come out of the same box, or even the same house, city or continent. In the same phrase, we'll invoke Yuruba's Ogún and Jewish foremother, Esther, descendant of the Babylonian goddess, Ishtar. We sing to these two when starting out on a car trip. Ogún, a deity associated with iron and metal work, we sing to in hopes that the car will work. Esther guides the journey, controls time and always, always finds you a parking space. Asé.
+
+Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen to Sun Ra -- hear the Universe. 
 
 \mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
-FUTURE.
-Road is a long road.
-Listen to Beethoven hear his soul.
 What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
-According to the Oxford Dictionary:
-
-Sounds like /him/ (somehow fitting!)\par
-\noindent
-\textbf{noun}
-
 \begin{description}
-\item[1A] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo
-More example sentences Synonyms
-\item[1.1A] formal song sung during Christian worship, typically by the whole congregation.
-Example sentences
-\item[1.2A] song, text, or other composition praising or celebrating someone or something: a most unusual passage like a hymn to the great outdoors \par
-\end{description}
-\noindent \textbf{verb}
-\begin{description}
-\item[1] [with object] Praise or celebrate (something): Johnson’s reply hymns education
-More example sentences
-\item[2] [no object] rare Sing hymns. \par 
-\end{description}
-\noindent
-\textbf{Origin}
+\item[1A] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo.
 \begin{description}
 \item[1]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
 
@@ -916,6 +908,48 @@ I Bow to Shiva and Shakti Together.
 
 Another translation of the last line, Bhavam Bhavani Sahitam Namami is 
 \emph{I bow to Existence and the Power to Exist}, putting the meaning of Bhavani as the Power to Exist. So potent within a society which is trying to deny the existence of a third gender, or anything outside of the binary gender system.
+
+\subsection{Evra K'divra}
+
+\setRL
+\large\texthebrew{כאברא כדבראה} \LR{The Aramaic alphabet is what replaced a previous set of glyphs for \emph{writing} Hebrew.} \par
+
+It's current folk lore that the word \emph{Abracadabra} derives from a Hebrew or Aramaic phrase meaning ``I create as I speak'' or ``It came to pass as it was spoken.'' It's simply a fact that in Hebrew, Evra K'divra means ``I create as is the spoken word''.
+
+\unsetRL
+\normalsize
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{evrakdivra.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Evra K’divra}
+\caption[Evra K’divra]{The words for Peace and Calm in Sanskrit, Greek, Yuruba, Hebrew and Arabic and Persian are included below.}
+\end{figure}
+
+\begin{multicols}{2}
+Śāntiḥ, Zanta \saha{शान्तिः शान्त}
+
+Eirēnē, Galíni Εἰρήνη, Γαλήνη
+
+Örê, Suuru
+\columnbreak
+
+\setRL
+\large\texthebrew{שָׁלֵו שָׁלוֹם} \LR{Shalom, Shalev} 
+\unsetRL
+
+\setRL
+\large \begin{arab}[fullvoc]سلام سُكون \textLR{Salam, Had'a} \end{arab} 
+\unsetRL
+
+\setRL
+\large \begin{arab}[fullvoc]صلح، آرامش\textLR{Solh, Aramesh} \end{arab} 
+\unsetRL
+\end{multicols}
+
+
+
 
 \backmatter 
 
