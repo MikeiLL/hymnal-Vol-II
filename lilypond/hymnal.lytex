@@ -151,10 +151,11 @@
 	{\scshape\Large Bliss \par}
 	\vspace{1.5cm}
 	{\huge\bfseries \velt{संशय अविश्वास आनन्द} \par}
+	\vfill
 	\vspace{2cm}
-	{\Large\itshape Temple of Wow \par}
 	\vfill
 	A \textsc{Faitheist} Hymnal
+	{\Large\itshape Temple of Wow \par}
 
 	\vfill
 
@@ -184,7 +185,7 @@
 \index{Bhagavad Gita}
 \index{Faitheism}
 
-Why do we chant and as we engage our hearts and cultivate devotion, to whom or what is that devotion aimed. In the Hindu scripture, The Bhagavad Gita, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of life, in all it's mystery. Through cultivating our Awe and Faith, Our Wow and our Conviction, we begin to appreciate the the fog itself is of our own making.
+Why do we chant, and as we engage our hearts and cultivate devotion, to whom or what is that devotion aimed? In the Hindu scripture, The Bhagavad Gita, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of life, in all it's mystery. Through cultivating our Awe and Faith, Our Wow and our Conviction, we begin to appreciate the the fog itself is of our own making.
 
 Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
 
@@ -202,9 +203,10 @@ Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen
 What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
 \begin{description}
-\item[1A] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo.
+\item[1] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo.
+\end{description}
 \begin{description}
-\item[1]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
+\item[2]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
 
 \end{description}
 
@@ -378,7 +380,7 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 \caption[Kul Hayom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
 \end{figure}
 
-For some harmonic variety, and E Major chord can be substituted for the first Cmin chord or two. The Bb minor chord can also be substituted with a G minor chord and the dominant G7 chord can be thrown in, leading back to the C minor tonic.
+For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
 
@@ -913,8 +915,9 @@ Another translation of the last line, Bhavam Bhavani Sahitam Namami is
 
 \setRL
 \large\texthebrew{כאברא כדבראה} \LR{The Aramaic alphabet is what replaced a previous set of glyphs for \emph{writing} Hebrew.} \par
+\unsetRL
 
-It's current folk lore that the word \emph{Abracadabra} derives from a Hebrew or Aramaic phrase meaning ``I create as I speak'' or ``It came to pass as it was spoken.'' It's simply a fact that in Hebrew, Evra K'divra means ``I create as is the spoken word''.
+It's current folk lore that the word \emph{Abracadabra} derives from a Hebrew or Aramaic phrase meaning ``I create as I speak'' or ``It came to pass as it was spoken.'' There is some conflicting thought on this. The Hebrew phrase, Evra K'divra does translate, ``I create as is the spoken word''.
 
 \unsetRL
 \normalsize
@@ -947,6 +950,20 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \large \begin{arab}[fullvoc]صلح، آرامش\textLR{Solh, Aramesh} \end{arab} 
 \unsetRL
 \end{multicols}
+
+\subsection{Ang Sung Wahe Guru}
+\index{BKS Iyengar}
+
+The meaning of the text is as potent as the chords are elementary. Ang means \emph{all}, Sung means \emph{in every}, Wahe is \emph{wow} and Guru, \emph{teacher}. All In Every Wow Teacher. Guru also means, according to Iyengar, Darkness (Gu) to Light (Ru). There's an idea that each one of us, and indeed everything in the universe is a microcosm of the entire universe. So we're steeping in the concept that All is In Every Part. Wow, my teacher. All of our learning and understanding comes out of Wow. Comes our of Awe, which we cultivate.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{angsangwaheguru.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ang Sung Wahe Guru}
+\caption[Ang Sung Wahe Guru]{Harmonically this piece is pretty conservative. It reminds me of Christian pop music. The most interesting part is where there's the \writechord{A7} at the same time as the voice sings the D note right between the C$\sharp$ and E of the \writechord{A7}, creating a small cluster and a little bit of tension. There's also some slight movement at the \writechord{E7}, but it's well within the borders of harmonically conservative. However, chanting is medicinal. It's an antidote for hereditary depression, alcoholism, PTSD, lack of grounding and a host of other ailments. As long as it's effective, so what if medicine tastes a little like cheeze wiz? You can always get the taste out of your ears with a little dose of Sun Ra or Nina Simone.}
+\end{figure}
+
 
 
 
