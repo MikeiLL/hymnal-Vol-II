@@ -14,7 +14,6 @@
 \usepackage[utf8]{inputenc}
 %\usepackage{arara} 
 \usepackage{culmus}
-
 %%%%%
 % For Hindi Text
 % Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
@@ -30,7 +29,54 @@
 \defaultfontfeatures{Mapping=tex-text} % ditto
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
+% Now define some Devanagari fonts:
+% At least *one* font family must be called \sanskritfont or \devanagarifont,
+% so that XeTeX loads all hyphenation and other stuff for Sanskrit. 
+% Once the Sanskrit ``intelligence'' is loaded, it can be invoked at
+% other places as needed using \selectlanguage{sanskrit}
+%
+% John Smith's Nakula, input using Velthuis transliteration
+\newfontfamily
+\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Nakula}
+% John Smith's Sahadeva, input using Velthuis transliteration
+\newfontfamily
+\sahadevafont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+% John's Sahadeva, input using scholarly romanisation in Unicode
+\newfontfamily
+\sahadevaunicodefont [Script=Devanagari,Mapping=RomDev]{Sahadeva}
+% Microsoft's Mangal font (ugh!), input using standard romanisation in Unicode.
+\newfontfamily
+\mangalfont [Script=Devanagari,Mapping=RomDev]{Mangal}
+% Somdev's RomDev.map is used above to get the mapping
+% from Unicode -> Devanāgarī. Zdenek Wagner's velthuis-sanskrit.map
+% is used to get the Velthuis->Devanāgarī mapping. These are the files
+% that XeTeX uses to make all the conjunct consonants without needing
+% any external preprocessor (like the old devnag.c program).
+% % Set up the font commands:
+%
+\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
+\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
+\newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
+\newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
+% \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
+% ... and here we go!
 
+\newfontfamily\punjabifont{Saab}
+\DeclareTextFontCommand{\textpunjabi}{\punjabifont}
+
+\newfontfamily\ipaFont{Doulos SIL}
+\DeclareTextFontCommand{\textipa}{\ipaFont}
+
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\def\yig{{\protect\tibetan ༃  \char"0F03}}
+\DeclareTextFontCommand{\texttibetan}{\tibetan}
+
+\newfontfamily\hadasim{Hadasim CLM Regular}
+\DeclareTextFontCommand{\texthebrew}{\hadasim}
+
+%for Chinese characters
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
 
 
 %%%%%
@@ -53,9 +99,9 @@
 
 \usepackage{epigraph} % quotes
 
-\setlength{\epigraphwidth}{0.9\textwidth}
-
 \usepackage{arabxetex}
+
+\setlength{\epigraphwidth}{0.9\textwidth}
 
 \newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
 
@@ -63,14 +109,97 @@
 
 \begin{document}
 
-solh, 
+\subsection{Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha}
+\index{seed syllables}
+\index{para shakti}
+\index{kriya shakti}
+\index{shakti}
+\index{hrit padma}
+\index{Lakṣmī}
+\index{Saraswati}
+\index{Daksha}
+\index{Parvati}
+\index{Svāhā}
+\index{Om}
+\index{seed syllables|see {bīja}}
+\index{Laxmi|see {Lakṣmī}}
+\index{Lakshmi|see {Lakṣmī}}
+\index{Swaha|see {Svāhā}}
+\index{bījākṣara}
+\index{Anahata}
+\index{Īśvarapraṇidhāna}
+\index{Eight limbs of yoga}
+\index{Yogasutras}
+\index{Patanjali}
+\index{archtype}
+\index{Carl Jung}
+\index{Niyama}
+\index{majick}
+\index{àṣẹ}
+\index{Ifa}
+\index{Yuruba}
+%\index{ecole@\'ecole}
 
-\setRL
-\large \begin{arab}[fullvoc]صلح، آرامش\textLR{Solh, had'a} \end{arab} 
-\unsetRL
 
 
-Eirēnē, Galíni Εἰρήνη, γαλήνη
+The following chant --- at least in majickal terms --- is an incantation to cultivate the 
+\emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja} (pronounced \emph{bee --- ya}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
+\mna{As theorized by Swiss psychiatrist and psychotherapist \textbf{Carl Jung} — \emph{archetypes} are \emph{universal}, archaic \emph{patterns}, \emph{images} and \emph{symbols} common to dreams, cosmologies and folk tales of cultures around the world.}
+--- a term common to both Hinduism and Buddhism --- don't have a specific literal meaning, but are known to vibrate sympathetically with certain universal principals, or what Jung might have called \emph{archetypes}. Om (\saha{ॐ}) is the most well-known and 
+possibly most fundamental bīja, signifying the sound of the universe beginning and also the frequency at which it continues to vibrate (432 Hz or around a C$\sharp$). In all three of the syllables, the vowel sound is ``eee'', like in ``cream''. \textbf{Hrīṃ} (\saha{ह्रीं}) engages the \textbf{para shakti} and \textbf{hrit padma}. \par
 
+Para shakti is the power or energy of unmanifest speech. \textbf{Shakti} is feminine and is \emph{energy}. The goddess Lakṣmī (\saha{लक्ष्मी}) who is the fundamental female figure in Hindu theology, is the energy of the universe. It is through her manifestation as Saraswati (\saha{सरस्वती}) that this \emph{shakti} comes to us. \par
+
+Hrit padma is the heart chakra. \textbf{Padma} in both the male (\saha{पद्म}) and female (\saha{पद्}) form means `lotus' and also `temple'. The flowering temple of the heart. \textbf{Shrīṃ} is the bīja of \textbf{kriya shakti} which is the power of \emph{manifestation}, also associated with Lakṣmī. \textbf{Kriyā} actually translates as \emph{action} or \emph{deed} and comes from the root word `to do'. In kundalini yoga, the various sequences of movements, words and visualizations are known as \emph{Kriyā}. \textbf{Klīṃ} is a bīja of \emph{attraction}, used to magnify the mantra surrounding it.  \par
+
+We engage the heart chakra --- Anahata (\saha{अनाहत}) --- and the power of unmanifest speech; then engage the power of manifestation itself, and magnify these potencies with the Klīṃ bīja. And with these potencies engaged, we invoke the divine feminine: Īśvari \saha{ईश्वरी}; the feminine form of \textbf{Īśvara} (\saha{ईश्वर}), which is a word found in Patanjali's Yogasutras as the fifth niyama, \textbf{Īśvarapraṇidhāna} (\saha{ईश्वर प्रणिधान}) or \emph{surrender} to the \emph{divine}; an aspect of the the Eight Limbs of Yoga. \textbf{Param} (\saha{परम्}) in this context means \emph{supreme}, and \textbf{Svāhā} (\saha{स्वाहा}) --- also common tho both Hinduism and Buddhism (chi. 薩婆訶 sà pó hē, jp. sowaka, tibetan \texttibetan{སྭཱཧཱ་}) might be translated as \emph{I evoke}, \emph{so be it} or simply as \emph{well said}. Svāhā could be compared to the Yuruba word, \textbf{àṣẹ}. Àṣẹ refers to the power to make things happen and produce change. Svāhā, a feminine word, is also the name of a ``minor goddess'' in the Hindu pantheon, She is the daughter of Daksha (\saha{दक्ष}), which I guess would make her a sister of Shiva's consort, Parvati; sum of all consciousness. \par
+
+In the Kula sect, this chant is also used to unite with Shiva, who see no ultimate distinction between Shiva and Shakti. Svāhā Śiva (\saha{शिव}). Svāhā Svāhā. Svāhā Parvati. Àṣẹ.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{hreemshreemkleemparam.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha}
+\caption[Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha]{Pronunciation: Hreem Shreem Kleem Eshwari Swaha.
+}
+\end{figure}
+
+bīja	 बीज
+
+śrīṁ hrīṁ klīṁ	श्रीं ह्रीं क्लीं
+
+bījākṣara		बीजाक्षर
+
+Lakṣmī	लक्ष्मी 
+
+Sarasvatī	 	सरस्वती
+
+kriyā 	क्रिया
+
+anāhatacakra 	अनाहतचक्र
+
+īśvarapraṇidhāna 	ईश्वरप्रणिधान
+
+parama 	परम
+
+dakṣa	दक्ष
+
+śiva		शिव
+
+śakti		शक्ति
+
+pārvatī 	पार्वती
+
+īśvarī	ईश्वरी
+
+Devanāgarī 	देवनागरी
+
+%\saha{ॐ}
+%\sahauni{ॐ}
+%\mangaluni{ॐ}
+
+\backmatter 
+
+\printindex 
 
 \end{document} 
