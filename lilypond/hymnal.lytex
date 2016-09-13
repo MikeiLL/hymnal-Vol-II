@@ -212,6 +212,19 @@ What is a hymn? It's a piece of music that ``everyone" can sing together. It's a
 
 What is drone?
 
+How do we sing?
+
+Like in much of yoga we combine, blend and balance \empt{force} and \emph{surrender}.
+
+How is this book organized?
+
+What are the chakras?
+
+Taking classes and studying meditation I was always trying to \emph{visualize} the Chakra's, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that's --- I don't know what --- floating in the wind? And I can draw that part of myself into my physical body --- but deeper than any actual part of the body --- into an undefinable center, and become grounded and centered.
+
+
+And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
+
 \section{Some Music}
 
 \subsection{Gayatri Mantra}
@@ -736,7 +749,7 @@ Waking up with a melody like this looping through my head, you know your mind ne
 
 ujjṛmbh	(ud-jṛmbh-) A1.	-jṛmbhate-, to gape ; to open, part asunder ; to show one's self, become visible, come forth, break forth, expand, arise
 
-Yes, it's a vowel followed by six consonants
+Yes, it's a vowel followed by six consonants. This is an odd chant. Not sure if it ``works'', but it sticks with me. I like to chant it while aiming for hanumanasana. Rivka says, ``Once you know it, sometimes a weird chant works.''
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
 \end{changemargin}
@@ -981,10 +994,41 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Lakṣmī Svaha}
-\caption[Om Shrīṃ Lakṣmī Svaha]{Pronunciation: Om Shreem Lax - mee -- yeah Swa -- ha.
+\caption[Om Shrīṃ Lakṣmī Svaha]{Pronunciation: Aah - om Shreem Lax - mee - yeah Swa - ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
 }
 \end{figure}
 
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshrimlaxmima12_8.ly}
+\end{changemargin}
+
+\subsection{Om Śāntiḥ Om}
+
+On the Eleventh of September, even more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ \saha{शम} is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace.
+
+This 
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Śāntiḥ Om}
+\caption[Om Śāntiḥ Om]{This chant, in terms of sing-ability, has almost as small a range as a melody can have; a single half-step interval. }
+\end{figure}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom_krsna.ly}
+\end{changemargin}
+
+Kṛṣṇa \saha{कृष्ण} is the Hindu deity we most associate with peace. Rāma \saha{राम} or Ramachandra is an avatar of Viṣṇu. 
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom_hi_krsna.ly}
+\end{changemargin}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom_scale.ly}
+\end{changemargin}
 
 \backmatter 
 
