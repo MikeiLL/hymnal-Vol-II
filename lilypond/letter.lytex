@@ -3,7 +3,7 @@
 %\title{Creating an index with the makeidx package}
 % Example from http://www.dickimaw-books.com/latex/thesis/html/makeidx.html
 
-\documentclass[a5paper,twoside,9pt]{extbook}
+\documentclass[11pt]{article}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 \usepackage{marginnote,letltxmacro}
 \LetLtxMacro\mn\marginnote
@@ -109,32 +109,18 @@
 
 \begin{document}
 
-\subsection{Sisterhood}
 
-This chant is of course inspired by the famous soap maker, Dr. Bronner who's "All-in-one" soap was produced specifically as a distribution mechanism for the scripture on the bottles. When we first recorded the chant for the Naad Your Heart album, Emilio started doing the following series of gestures, or mudrās.
-\index{mudra}
-According to Wikipedia: A \textbf{mudra} (/mu'drɑ:/; Sanskrit mudrā, ``seal", ``mark", or ``gesture"; Tibetan: \texttibetan{ཕྱག་རྒྱ་} THL chakgya) is a symbolic or ritual gesture in Hinduism and Buddhism. Some mudras involve the entire body; most are performed with just hands and fingers. A mudrā is a spiritual gesture and an energetic seal of authenticity employed in the iconography and spiritual practice of Indian religions.
+\section{A sampling of the hymnal content.}
 
-One hundred and eight mudras are used in regular Tantric rituals.
-
-\includegraphics[scale=.039]{poses/AllOnePose.pdf}
-\includegraphics[scale=.039]{poses/WorldPose.pdf}
-\includegraphics[scale=.039]{poses/LovePose.pdf}
-\includegraphics[scale=.039]{poses/SisterhoodPose.pdf}
-
-\mna{As theorized by Swiss psychiatrist and psychotherapist \textbf{Carl Jung} — \emph{archetypes} are \emph{universal}, archaic \emph{patterns}, \emph{images} and \emph{symbols} common to dreams, cosmologies and folk tales of cultures around the world.}
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{sisterhood.ly}
-\end{changemargin}
-We have enjoyed this chant with a drone as well as a capella. One of the interesting aspects of the movement is that the downbeat falls on the second time the word One is said, but the mudrā happens on the first ``One'', so the movements occur in between downbeats, or on the odd measures, creating two interlocking cycles.
-\subsection{Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha}
+Faitheist Hymnal is coming down the pike in the next few weeks. Lots of late night sessions and raiding the seed cellars of music notebooks, journals, musical and literary sources and teacher prodding. Will be around 50 pages this first version. Ultimately we imagine it'll be in the hundreds. It contains lots of Sanskrit and Gurmukhi, English and a smattering of Hebrew and Yuruba.
 
 
-The following chant --- at least in majickal terms --- is an incantation to cultivate the 
-\emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja	 } (pronounced \emph{bee --- ya}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} --- a term common to both Hinduism and Buddhism --- don't have a specific literal meaning, but are known to vibrate sympathetically with certain universal principals, or what Jung might have called \emph{archetypes}. Om (\saha{ॐ}) is the most well-known and 
-possibly most fundamental bīja, signifying the sound of the universe beginning and also the frequency at which it continues to vibrate (432 Hz or around a C$\sharp$). In all three of the syllables, the vowel sound is ``eee'', like in ``cream''. \textbf{hrīṁ} (\saha{ह्रीं}) engages the \textbf{para śakti} and \textbf{hrit padma}. \par
-\backmatter 
+\begin{center}
 
-\printindex 
+\includegraphics[scale=1]{sandbox.pdf}
+
+\end{center}
+
+Clever quips, our website et al.
 
 \end{document} 

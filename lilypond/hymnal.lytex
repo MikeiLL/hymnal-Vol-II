@@ -214,7 +214,7 @@ What is drone?
 
 How do we sing?
 
-Like in much of yoga we combine, blend and balance \empt{force} and \emph{surrender}.
+Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}.
 
 How is this book organized?
 
@@ -226,6 +226,73 @@ Taking classes and studying meditation I was always trying to \emph{visualize} t
 And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
 
 \section{Some Music}
+
+\subsection{Om Śāntiḥ Om}
+
+\index{Om}
+\index{microtone}
+\index{Śāntiḥ}
+\index{step| see {interval}}
+\index{interval}
+
+On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ ({\saha{शम}}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Śāntiḥ Om}
+\caption[Om Śāntiḥ Om]{This chant has almost as small a range as a melody can have; a single half-step interval. This means that from a physical standpoint, our throat and larynx (voice box) hardly need to move to go from one tone to the next. The interval is so small that some Western ears may have trouble distinguishing the two tones, as in our harmonic system we are more used to \emph{major} seconds or \emph{whole} steps than \emph{minor} ones. A \emph{whole} step would actually be twice as wide as a \emph{half} step and is the interval you hear between ``Happy'' and ``Birthday'' in the Birthday Song or ``Row'' and ``Your'' in Row Row Row Your Boat. For a minor second the first song that comes to mind is Stevie Wonder's \underline{Isn't She Lovely}. Other Westerners might also think of the themes from Jaws or The Pink Panther, The Beatle's \underline{Hard Day's Night} or \underline{White Christmas} by Irving Berlin. In our \emph{even tempered} system there are no measured \emph{steps} smaller than a half step, but an infinite number of frequencies exist and the voice can certainly generate them. These may be considered \emph{blues tones} or \emph{microtones}. In a chant with a tiny range like this there's a whole world of room to play around with microtones. When my friend Oren Bloedow was studying voice with renown Third Stream artist Dominique Eade, she told him to \emph{feel} rather than \emph{hear} the frequency of the voice.}
+\end{figure}
+
+Song along with a \writechord{C} drone, the tone of the chant is dark and somber, potentially evokative of the violence that permeates our culture. You could also sing the same notes with a drone of \writechord{Ab}, which would give it the tonality of the start of \underline{Isn't She Lovely}, without ever actually resolving to ``love -- ly''. Another response to the darkness is to invite some Gods to the party, which is what we do when we either morph into or combine this chant with the following one.
+
+\index{Kṛṣṇa}
+\index{Viṣṇu}
+\index{Rāma}
+\index{Priya}
+\index{Rāmāyaṇam}
+\index{Priya}
+
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom_krsna.ly}
+\end{changemargin}
+
+
+Kṛṣṇa (\saha{कृष्ण}), or Krishna is the Hindu deity we most associate with peace. Kṛṣṇa is an incarnation of Viṣṇu (\saha{विष्णु}) and considered to be the absolute essence of Viṣṇu. Priya means \emph{dear} or \emph{precious}. Rāma (\saha{राम}) or Ramachandra is an avatar of Viṣṇu; the seventh avatar, and is the protagonist in the epic Hindu text the Rāmāyaṇam (\saha{रामायणम्}), or Ramayana, in which Rāma exemplifies insurpassable disciplin, spiritual devotion and surrender and generally being completely attuned to the path of our ultimate destiny. We invoke Rāma here in the spirit of the famous Hare Kṛṣṇa chant popularized around the world through the Kṛṣṇa Consciousness movement.
+
+If someone's feeling inspired the following might also be added to the mix. Nothing here is written in stone. Far from it. More like crayon. We like to sing --- or rather sing for our sanity --- and are building up a collection of chants and mantras that don't require too much thought and don't make you cringe too much in their content. So if singing Hail Kṛṣṇa makes you cringe, by all means Hail Vodka! Whatever works.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom_hikrsna.ly}
+\end{changemargin}
+
+This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the note that is \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note --- the note that is the \emph{key} we are in, which is \writechord{C} in this case --- is played or sung, as opposed to the note that is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshantiom_scale.ly}
+\end{changemargin}
+
+See that is has the \writechord{Eb} in it. In the Kṛṣṇa chant above, the \emph{major} third is sung (\writechord{E}), which might be dissonant or discordant next to the  \writechord{Eb}, in which case you could change the scale and make the \writechord{Eb} and 
+make it an E\natural  (natural).
+
+
+\index{interval}
+
+\mna{In relation to tonality, an \emph{interval} is the distance between two notes or frequencies.}
+
+In either case the scale contains one interval that is evokative of Eastern tonalities, and that is the \emph{augmented second}. An augmented second has the same acoustical qualities as a minor third in that there are \emph{one whole step} and \emph{one half step} or {three semitones} between the two notes. However in this case there isn't a note between them in the scale, which is why it is referred to as a second and not a third. First would be a non-step, second is a single (whole, half or augmented) step, third is two steps, fourth is three steps and so on. 
+
+\subsection{Om Ganeṣa Eleggua}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{oganeshaelegua.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Ganeṣa Eleggua}
+\caption[Om Ganeṣa Eleggua]{}
+\end{figure}
 
 \subsection{Gayatri Mantra}
 
@@ -841,10 +908,10 @@ One hundred and eight mudras are used in regular Tantric rituals.
 \end{figure}
 
 \subsection{Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha}
-\index{seed syllables}
-\index{para shakti}
-\index{kriya shakti}
-\index{shakti}
+\index{seed syllable}
+\index{para śakti}
+\index{kriyā śakti}
+\index{śakti}
 \index{hrit padma}
 \index{Lakṣmī}
 \index{Saraswati}
@@ -874,18 +941,18 @@ One hundred and eight mudras are used in regular Tantric rituals.
 
 
 The following chant --- at least in majickal terms --- is an incantation to cultivate the 
-\emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja} (pronounced \emph{bee --- ya}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
+\emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja	 } (pronounced \emph{bee --- ya}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
 \mna{As theorized by Swiss psychiatrist and psychotherapist \textbf{Carl Jung} — \emph{archetypes} are \emph{universal}, archaic \emph{patterns}, \emph{images} and \emph{symbols} common to dreams, cosmologies and folk tales of cultures around the world.}
 --- a term common to both Hinduism and Buddhism --- don't have a specific literal meaning, but are known to vibrate sympathetically with certain universal principals, or what Jung might have called \emph{archetypes}. Om (\saha{ॐ}) is the most well-known and 
-possibly most fundamental bīja, signifying the sound of the universe beginning and also the frequency at which it continues to vibrate (432 Hz or around a C$\sharp$). In all three of the syllables, the vowel sound is ``eee'', like in ``cream''. \textbf{Hrīṃ} (\saha{ह्रीं}) engages the \textbf{para shakti} and \textbf{hrit padma}. \par
+possibly most fundamental bīja, signifying the sound of the universe beginning and also the frequency at which it continues to vibrate (432 Hz or around a C$\sharp$). In all three of the syllables, the vowel sound is ``eee'', like in ``cream''. \textbf{hrīṁ} (\saha{ह्रीं}) engages the \textbf{para śakti} and \textbf{hrit padma}. \par
 
-Para shakti is the power or energy of unmanifest speech. \textbf{Shakti} is feminine and is \emph{energy}. The goddess Lakṣmī (\saha{लक्ष्मी}) who is the fundamental female figure in Hindu theology, is the energy of the universe. It is through her manifestation as Saraswati (\saha{सरस्वती}) that this \emph{shakti} comes to us. \par
+Para śakti is the power or energy of unmanifest speech. \textbf{Śakti} (\saha{शक्ति}) is feminine and is \emph{energy}. The goddess Lakṣmī (\saha{लक्ष्मी}) who is the fundamental female figure in Hindu theology, is the energy of the universe. It is through her manifestation as Sarasvati (\saha{सरस्वती}) that this \emph{śakti} comes to us. \par
 
-Hrit padma is the heart chakra. \textbf{Padma} in both the male (\saha{पद्म}) and female (\saha{पद्}) form means `lotus' and also `temple'. The flowering temple of the heart. \textbf{Shrīṃ} is the bīja of \textbf{kriya shakti} which is the power of \emph{manifestation}, also associated with Lakṣmī. \textbf{Kriyā} actually translates as \emph{action} or \emph{deed} and comes from the root word `to do'. In kundalini yoga, the various sequences of movements, words and visualizations are known as \emph{Kriyā}. \textbf{Klīṃ} is a bīja of \emph{attraction}, used to magnify the mantra surrounding it.  \par
+Hrit padma is the heart chakra. \textbf{Padma} in both the male (\saha{पद्म}) and female (\saha{पद्}) form means `lotus' and also `temple'. The flowering temple of the heart. \textbf{Shrīṃ} is the bīja of \textbf{kriyā śakti} which is the power of \emph{manifestation}, also associated with Lakṣmī (\saha{लक्ष्मी}). \textbf{Kriyā} actually translates as \emph{action} or \emph{deed} and comes from the root word `to do'. In kundalini yoga, the various sequences of movements, words and visualizations are known as \emph{Kriyā}. \textbf{Klīṃ} is a bīja of \emph{attraction}, used to magnify the mantra surrounding it.  \par
 
-We engage the heart chakra --- Anahata (\saha{अनाहत}) --- and the power of unmanifest speech; then engage the power of manifestation itself, and magnify these potencies with the Klīṃ bīja. And with these potencies engaged, we invoke the divine feminine: Īśvari \saha{ईश्वरी}; the feminine form of \textbf{Īśvara} (\saha{ईश्वर}), which is a word found in Patanjali's Yogasutras as the fifth niyama, \textbf{Īśvarapraṇidhāna} (\saha{ईश्वर प्रणिधान}) or \emph{surrender} to the \emph{divine}; an aspect of the the Eight Limbs of Yoga. \textbf{Param} (\saha{परम्}) in this context means \emph{supreme}, and \textbf{Svāhā} (\saha{स्वाहा}) --- also common tho both Hinduism and Buddhism (chi. 薩婆訶 sà pó hē, jp. sowaka, tibetan \texttibetan{སྭཱཧཱ་}) might be translated as \emph{I evoke}, \emph{so be it} or simply as \emph{well said}. Svāhā could be compared to the Yuruba word, \textbf{àṣẹ}. Àṣẹ refers to the power to make things happen and produce change. Svāhā, a feminine word, is also the name of a ``minor goddess'' in the Hindu pantheon, She is the daughter of Daksha (\saha{दक्ष}), which I guess would make her a sister of Shiva's consort, Parvati; sum of all consciousness. \par
+We engage the heart chakra --- Anāhatacakra (\saha{अनाहतचक्र}) --- and the power of unmanifest speech; then engage the power of manifestation itself, and magnify these potencies with the Klīṃ bīja. And with these potencies engaged, we invoke the divine feminine: Īśvari \saha{ईश्वरी}; the feminine form of \textbf{Īśvara} (\saha{ईश्वर}), which is a word found in Patanjali's Yogasutras as the fifth niyama, \textbf{īśvarapraṇidhāna} (\saha{ईश्वरप्रणिधान}) or \emph{surrender} to the \emph{divine}; an aspect of the the Eight Limbs of Yoga. \textbf{Parama} (\saha{परम}), which we are allowed to drop the last A from without changing it's meaning, in this context means \emph{supreme}, and \textbf{Svāhā} (\saha{स्वाहा}) --- also common tho both Hinduism and Buddhism (chi. 薩婆訶 sà pó hē, jp. sowaka, tibetan \texttibetan{སྭཱཧཱ་}) might be translated as \emph{I evoke}, \emph{so be it} or simply as \emph{well said}. Svāhā could be compared to the Yuruba word, \textbf{àṣẹ}. Àṣẹ refers to the power to make things happen and produce change. Svāhā, a feminine word, is also the name of a ``minor goddess'' in the Hindu pantheon, She is the daughter of Daksha (\saha{दक्ष}), which I guess would make her a sister of Shiva's consort, Pārvatī (\saha{पार्वती}); sum of all consciousness. \par
 
-In the Kula sect, this chant is also used to unite with Shiva, who see no ultimate distinction between Shiva and Shakti. Svāhā Śiva (\saha{शिव}). Svāhā Svāhā. Svāhā Parvati. Àṣẹ.
+In the Kula sect, this chant is also used to unite with Shiva, who see no ultimate distinction between Shiva and śakti. Svāhā Śiva (\saha{शिव}). Svāhā Svāhā. Svāhā Parvati. Àṣẹ.
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{hreemshreemkleemparam.ly}
 \end{changemargin}
@@ -987,14 +1054,14 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \end{figure}
 
 
-\subsection{Om Shrīṃ Lakṣmī Svaha}
+\subsection{Om Shrīṃ Lakṣmī Yea Svaha}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima.ly}
 \end{changemargin}
 \begin{figure}[ht]
-\label{fig:Om Shrīṃ Lakṣmī Svaha}
-\caption[Om Shrīṃ Lakṣmī Svaha]{Pronunciation: Aah - om Shreem Lax - mee - yeah Swa - ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
+\label{fig:Om Shrīṃ Lakṣmī Yea  Svaha}
+\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{Pronunciation: Aah - om Shreem Lax - mee - yeah Swa - ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
 }
 \end{figure}
 
@@ -1002,33 +1069,6 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \lilypondfile[quote,noindent]{omshrimlaxmima12_8.ly}
 \end{changemargin}
 
-\subsection{Om Śāntiḥ Om}
-
-On the Eleventh of September, even more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ \saha{शम} is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace.
-
-This 
-
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{omshantiom.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Om Śāntiḥ Om}
-\caption[Om Śāntiḥ Om]{This chant, in terms of sing-ability, has almost as small a range as a melody can have; a single half-step interval. }
-\end{figure}
-
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{omshantiom_krsna.ly}
-\end{changemargin}
-
-Kṛṣṇa \saha{कृष्ण} is the Hindu deity we most associate with peace. Rāma \saha{राम} or Ramachandra is an avatar of Viṣṇu. 
-
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{omshantiom_hi_krsna.ly}
-\end{changemargin}
-
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{omshantiom_scale.ly}
-\end{changemargin}
 
 \backmatter 
 

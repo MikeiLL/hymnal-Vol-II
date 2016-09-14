@@ -16,7 +16,7 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	Om śān -- tiḥ Om śān -- tiḥ Om śān -- tiḥ Om
+	Om Śān -- tiḥ Om Śān -- tiḥ Om Śān -- tiḥ Om
 }
 
 \score {
