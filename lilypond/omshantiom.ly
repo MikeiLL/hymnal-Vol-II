@@ -19,6 +19,10 @@ text =  \lyricmode {
 	Om Śān -- tiḥ Om Śān -- tiḥ Om Śān -- tiḥ Om
 }
 
+harmonies = new \chordmode {
+	f:m
+}
+
 \score {
   <<
     \new ChordNames {

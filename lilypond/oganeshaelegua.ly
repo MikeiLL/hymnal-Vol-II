@@ -14,7 +14,7 @@ melody = \relative c' {
 			 r4 f8  f f f f4 d8 d4. |
 			 r4 e4. e8 e4. c4. | r4 d4. d8 d4. b4. | c4. d4. e2. |
 			 r4 f4. f8 f4. d4. | 
-			 r4 e4. e8 e4. c4. | r4 d4. d8 d4. b4. | c4. d4. e2. |
+			 r4 e4. e8 e4. c4. | r4 d4. d8 d4. b4 b8 | c1. |
 			}
 		\repeat volta 2 {
 		 	c8 c c c c4 d8 d4 e8( d) e | c1. |
@@ -66,11 +66,11 @@ text =  \lyricmode {
 	Let me find it
 	Om Ga -- ṇe -- śa, E -- le -- ggua
 	O -- pen wide these gates of no -- where
-	Om Ga -- ṇe -- śa, E -- le -- ggua.
-	I -- ba O -- ri -- ṣa I -- ba La -- ye O 
-	I -- ba O -- ri -- ṣa I -- ba La -- ye O 
-	A -- ṣe__ A -- ṣe
-	A -- ṣe- -- o!  A -- ṣe- -- o!
+	Om Ga -- ṇe -- śa, E -- şu.
+	I -- ba O -- ri -- ṣa I -- ba La -- yé O 
+	I -- ba O -- ri -- ṣa I -- ba La -- yé O 
+	A -- ṣé__ A -- ṣé
+	A -- ṣé- -- o!  A -- ṣé- -- o!
 }
 
 response = \lyricmode {
@@ -78,22 +78,19 @@ response = \lyricmode {
  {
  \set stanza = #"" 
    Y’ -- a -- go E -- le -- gba
-   A -- ṣe
+  }
+ \new Lyrics {
+   \set associatedVoice = "melody"
+   \set stanza = #""
+    Y’ -- a -- go Ga -- ne -- ṣa
   }
  \new Lyrics {
    \set associatedVoice = "melody"
    \set stanza = #""
    Y’ -- a -- go E -- gun -- gun
   }
-  \new Lyrics {
-   \set associatedVoice = "melody"
-   \set stanza = #""
-   A -- ṣe- -- o!  A -- ṣe- -- o!
-  }
 >>
 }
-
-
 
 % Egungun Ancestors
 % Y'ago == "yield". Please hear me, Allow this prayer to enter.

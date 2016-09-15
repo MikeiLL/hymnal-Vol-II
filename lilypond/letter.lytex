@@ -86,6 +86,7 @@
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist 
 
+\pagenumbering{gobble}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -109,6 +110,7 @@
 
 \begin{document}
 
+\hfill \small \today
 
 \section{A sampling of the hymnal content.}
 
@@ -117,10 +119,12 @@ Faitheist Hymnal is coming down the pike in the next few weeks. Lots of late nig
 
 \begin{center}
 
-\includegraphics[scale=1]{sandbox.pdf}
+\includegraphics[trim=2cm 1cm 2cm 2cm,scale=1]{sandbox.pdf}
 
 \end{center}
 
-Clever quips, our website et al.
+We are grateful for your interest and support. Keep track of us at our website, bhujangasangha.com. Have a wonderful day, night, week, month and life. Peace.
+
+\hfill --- Mike
 
 \end{document} 
