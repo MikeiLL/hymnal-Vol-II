@@ -570,6 +570,17 @@ Also including it in the key of A minor as opposed to scary G flat minor with si
 \caption[Anandamayi Ma in A minor]{We will talk more about the music here. }
 \end{figure}
 
+\subsection*{Root Lock}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{rootlock.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Root Lock}
+\caption[Root Lock]{We will talk more about the music here. }
+\end{figure}
+
+
 \subsection*{Sat Chit Ekam Brahma}
 
 \begin{changemargin}{-1cm}{-1cm} 
