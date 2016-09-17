@@ -33,7 +33,7 @@ harmony = \relative c' {
 
 text =  \lyricmode {
 	Root lock born to rock
-	Coiled up serpent and a mental road block it's
+	Coiled up ser -- pent and a men -- tal road block it's
 	On__
 	Sat Nam Sat Nam Sat Nam
 	Ku -- la -- kun -- da -- li -- ni Ku -- la -- kun -- da -- li -- ni
@@ -41,11 +41,11 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-  	e:m1 | e:m1 | e:m1 | e:m1 |
-  	a:m1 | a:m1 |
-  	a:m1 | a:m1 | a:m1 |
-  	a:m1 | a:m1 | a:m1 | a:m1 |
-  	a:m1 | a:m1 | a:m1 | a:m1 |
+  	e1:m | e:m | e:m | e:m |
+  	a:m | a:m |
+  	a:m | a:m | a:m |
+  	a:m | a:m | a:m | a:m |
+  	a:m | a:m | a:m | a:m |
 }
 
 \score {
@@ -55,10 +55,7 @@ harmonies = \chordmode {
       \harmonies
     }
     \new Staff  {
-    <<
     	\new Voice = "upper" { \melody }
-    	\new Voice = "lower" { \harmony }
-    >>
   	}
   	\new Lyrics \lyricsto "words" \text
   >>
