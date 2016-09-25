@@ -8,6 +8,11 @@
 \usepackage{marginnote,letltxmacro}
 \LetLtxMacro\mn\marginnote
 
+\usepackage{vwcol}  % variable width multiple columns
+\usepackage{titletoc}
+\usepackage{wrapfig}
+
+
 \usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
 % so i can print arara's name out nicely
 %\usepackage[T1]{fontenc}
@@ -96,6 +101,8 @@
 \usepackage[chords]{leadsheets}
 
 \usepackage{blindtext} % for filler
+\usepackage{lipsum} % for filler
+
 
 \usepackage{epigraph} % quotes
 
@@ -109,22 +116,99 @@
 
 \begin{document}
 
-\subsection{Om Mahalakshmyai cha Vidmahe}
+\startlist[chants]{lof}% starts main list of figures
+\printlist[chants]{lof}{}{\chapter*{List of Figures in Main Part}}% prints main list of figures
 
-Om Mahalakshmyai (\saha{महालक्ष्मि}) 
-cha (\saha{च}) - and
-vidmahe (\saha{विद्}) - to know, understand, perceive, learn, become or be acquainted with, be conscious of, have a correct notion of
-Vishnu (\saha{}) 
-patnyai - from patnī (\saha{पत्नी}) , wife and meaning to his wife
-cha 
-dhimahi (\saha{}) 
-Tanno (\saha{}) 
-Lakshmihi (\saha{}) 
-prachodayat (\saha{})
+
+\subsection{Lam Lam Lam Muladhara}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{muladhara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Lam Lam Lam Muladhara}
+\caption[Lam Lam Lam Muladhara]{}
+\end{figure}
+
+\stoplist[chants]{lof}
+\startlist[images]{lof}
+\blindtext[1] 
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+\centering
+\includegraphics[scale=.23]{poses/Swadhistana.pdf}
+\caption{\label{fig:frog1}This is a figure caption.}
+\end{wrapfigure}
+
+\blindtext[1] 
+\stoplist[images]{lof}
+
+\resumelist[chants]{lof}
+
+\lipsum[1]
 
 \begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{sisterhood.ly}
+\lilypondfile[quote,noindent]{swadhistana.ly}
 \end{changemargin}
+\begin{figure}[ht]
+\label{fig:Vam Vam Swadhistana}
+\caption[Vam Vam Swadhistana]{}
+\end{figure}
+\blindtext[1] 
+\stoplist[chants]{lof}
+\resumelist[images]{lof}
+
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+\centering
+\includegraphics[scale=.23]{poses/Swadhistana.pdf}
+\caption{\label{fig:frog2}This is also a figure caption.}
+\end{wrapfigure}
+
+\resumelist[chants]{lof}
+
+\printlist[images]{lof}{}{\chapter*{Images}}% prints main list of figures
+
+
+\subsection{Manipura Ram Ram Ram Manipura}
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{manipura.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Manipura}
+\caption[Manipura]{We will talk more about the music here.}
+\end{figure}
+
+\subsection{Open Up Anāhata}
+
+\index{Anubis}
+\index{Anāhata}
+
+Anubis is the Jackyl-headed god of the dead in Egyptian mythology. Anubis puts the heart of the newly dead being on a scale, weighing it against the weight of a feather, and we're looking for the feather to be the heavier of the two.
+
+There's a movement that goes with this heart-lightening chant. If standing, the legs will do a basic Afro-hip-hop step of  right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out, releasing it to the sides, opening up the ribcage and heart more and more.
+
+\includegraphics[scale=.4]{poses/anahata1.pdf}
+\includegraphics[scale=.4]{poses/anahata2.pdf}
+
+The chant is this:
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{anahata.ly}
+\end{changemargin}
+
+\begin{figure}[ht]
+\label{fig:Anahata}
+\caption[Anahata]{It is really nice to do it as a call and response where each two measures are echoed like this:}
+\end{figure}
+
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{anahata_piece.ly}
+\end{changemargin}
+
+The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
+
 
 
 \printindex 
