@@ -1,68 +1,59 @@
-	% arara: lilypond: {options: "--latex-program=xelatex --pdf"}
-	% arara: xelatex: { files: [ 'sandbox.tex' ] }
+% arara: lilypond: {options: "--latex-program=xelatex --pdf"}
+% arara: xelatex: { files: [ 'sandbox.tex' ] }
 
-	\documentclass[a5paper,twoside,9pt]{extbook}
+\documentclass{article}
 
-	\usepackage{titletoc}
-	\usepackage{wrapfig}
-	\usepackage{graphicx}
-	\usepackage{blindtext} % for filler
-	\usepackage{lipsum} % for filler
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 
-	\newcommand\songFigure{% just to quickly generate captioned images in the document
-		\begin{figure}
-		\centering
-		\includegraphics[height=2cm]{example-image-a}
-		\caption{song figure~\thefigure}
-		\end{figure}%
-	}
+\usepackage{songs}
 
-	\newcommand\imageFigure{% just to quickly generate captioned images in the document
-		\begin{wrapfigure}{R}{0.3\textwidth}
-		\centering
-		\includegraphics[height=2cm]{example-image-b}
-		\caption{image figure~\thefigure}
-		\end{wrapfigure}%
-	}
+\newindex{titleidx}{titleidx}
+\newauthorindex{authidx}{authidx}
 
-	\begin{document}
+\begin{document}
 
-	\startlist[song]{lof}% start list of Song figures
-	\printlist[song]{lof}{}{\chapter*{List of Song Figures}} % print main list of song figures
+\showindex[2]{Title Index}{titleidx}
+\showindex[2]{Author Index}{authidx}
 
-	\mainmatter
-	\chapter{Test chapter one}
-	\songFigure
-	\songFigure
-	\songFigure
+\begin{songs}{titleidx,authidx}
 
-	\stoplist[song]{lof}% stop list of songs
-	\startlist[image]{lof}% start list of images
+\beginsong{Test Song}[by={Tradicional}]
 
-	\imageFigure
+\begin{chorus}
+Mi \[E]alma glorifica al Señor, mi \[B7]Dios,
+\[C#m]gózase mi espíritu en mi Salva\[G#m]dor.
+\[A]El es mi ale\[B7]gría, \[E]es mi pleni\[C#m]tud,
+\[A6]El es todo \[B7]para \[E]mí.
+\end{chorus}
 
-	\lipsum[1]
+\begin{verse}
+\[G#] Ha mi\[C#m]rado la ba\[G#]jeza de su es\[C#m]clava,
+muy di\[B7]chosa me dirán todos los \[E]pueblos
+porque en \[C#7]mí ha hecho grandes mara\[F#m]villas
+El que \[C#m]todo puede, \[G#]cuyo Nombre es \[C#m]Santo. \[B7]
+\end{verse}
 
-	\imageFigure
+\endsong
 
-	\lipsum[2-3]
+\beginsong{Test Song Two}[by={Tradicional}]
 
-	\stoplist[image]{lof}% stop list of pictures
-	\resumelist[song]{lof}% resume list of songs
+\begin{chorus}
+Mi \[E]alma glorifica al Señor, mi \[B7]Dios,
+\[C#m]gózase mi espíritu en mi Salva\[G#m]dor.
+\[A]El es mi ale\[B7]gría, \[E]es mi pleni\[C#m]tud,
+\[A6]El es todo \[B7]para \[E]mí.
+\end{chorus}
 
-	\songFigure
-	\songFigure
-	\songFigure
+\begin{verse}
+\[G#] Ha mi\[C#m]rado la ba\[G#]jeza de su es\[C#m]clava,
+muy di\[B7]chosa me dirán todos los \[E]pueblos
+porque en \[C#7]mí ha hecho grandes mara\[F#m]villas
+El que \[C#m]todo puede, \[G#]cuyo Nombre es \[C#m]Santo. \[B7]
+\end{verse}
 
-	\appendix
-	\clearpage
-	\stoplist[song]{lof}% stop list of songs
-	\resumelist[image]{lof}% resume list of images
+\endsong
 
-	\imageFigure
+\end{songs}
 
-	\lipsum[2-3]
-	\stoplist[image]{lof}% stop list of pictures
-	\printlist[image]{lof}{}{\chapter*{List of images}} % print list of images
-
-	\end{document}
+\end{document}
