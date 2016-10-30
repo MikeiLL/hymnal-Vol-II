@@ -1,59 +1,202 @@
 % arara: lilypond: {options: "--latex-program=xelatex --pdf"}
 % arara: xelatex: { files: [ 'sandbox.tex' ] }
 
-\documentclass{article}
+\documentclass[a5paper,twoside,9pt]{extbook}
+% margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
+\usepackage{marginnote,letltxmacro}
+\LetLtxMacro\mn\marginnote
 
-\usepackage[T1]{fontenc}
+\usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+% Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
-\usepackage{songs}
 
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{imakeidx} % index
+\makeindex
+
+\usepackage{multicol} % just to get narrow columns on one page
+\usepackage{vwcol}  % variable width multiple columns
+\usepackage{wrapfig} % wrap figures and align
+
+%%%%%
+% For Hindi Text
+% Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
+
+\usepackage{polyglossia} % the multilingual support package
+% for XeLaTeX - includes Sanskrit.
+% Next, from the polyglossia manual:
+\setdefaultlanguage{english} % this is mostly going to be English text, with
+\setotherlanguage{sanskrit} % some Sanskrit embedded in it.
+% These will call appropriate hyphenation.
+\usepackage{xltxtra} % standard for nearly all XeLaTeX documents
+\defaultfontfeatures{Mapping=tex-text} % ditto
+
+% Now define some Devanagari fonts:
+% At least *one* font family must be called \sanskritfont or \devanagarifont,
+% so that XeTeX loads all hyphenation and other stuff for Sanskrit. 
+% Once the Sanskrit ``intelligence'' is loaded, it can be invoked at
+% other places as needed using \selectlanguage{sanskrit}
+%
+% John Smith's Nakula, input using Velthuis transliteration
+\newfontfamily
+\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Nakula}
+% John Smith's Sahadeva, input using Velthuis transliteration
+\newfontfamily
+\sahadevafont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+% John's Sahadeva, input using scholarly romanisation in Unicode
+\newfontfamily
+\sahadevaunicodefont [Script=Devanagari,Mapping=RomDev]{Sahadeva}
+% Microsoft's Mangal font (ugh!), input using standard romanisation in Unicode.
+\newfontfamily
+\mangalfont [Script=Devanagari,Mapping=RomDev]{Mangal}
+% Somdev's RomDev.map is used above to get the mapping
+% from Unicode -> Devanāgarī. Zdenek Wagner's velthuis-sanskrit.map
+% is used to get the Velthuis->Devanāgarī mapping. These are the files
+% that XeTeX uses to make all the conjunct consonants without needing
+% any external preprocessor (like the old devnag.c program).
+% % Set up the font commands:
+%
+\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
+\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
+\newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
+\newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
+% \textssanskrit, above, is a Polyglossia command that gets Sanskrit hyphenation right.
+% ... and here we go!
+
+\newfontfamily\punjabifont{Saab}
+\DeclareTextFontCommand{\textpunjabi}{\punjabifont}
+
+\newfontfamily\ipaFont{Doulos SIL}
+\DeclareTextFontCommand{\textipa}{\ipaFont}
+
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\def\yig{{\protect\tibetan ༃  \char"0F03}}
+\DeclareTextFontCommand{\texttibetan}{\tibetan}
+
+
+\newfontfamily\hadasim{Hadasim CLM Regular}
+\DeclareTextFontCommand{\texthebrew}{\hadasim}
+
+%for Chinese characters
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+
+%%%%%
+
+% for definitions - which we're not currently using.
+\usepackage{amsthm} 
+\newtheorem{I Surrender}{Definition}
+% for dropcaps
+% source 
+% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
+% http://www.tug.dk/FontCatalogue/otherfonts.html
+\usepackage{lettrine}
+\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
+
+\usepackage{textcomp} % for text figures
+\usepackage[osf]{mathpazo} % Paletino font
+% following two lines for bold, italics, roman
+% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
+\usepackage{slantsc} 
+\usepackage{lmodern}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+% for margins or is this for columns?
+\usepackage{scrextend}
+
+% display note and chord names
+\usepackage[musicsymbols]{leadsheets}
+\useleadsheetslibraries{musicsymbols}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\usepackage{titlesec} % to style titles
+\titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
+\titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
+
+% for list of figures, tables
+% source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
+
+
+\usepackage{arabxetex}
+
+\setmainfont{Gandhari Unicode} %could be any Unicode font
+
+
+\usepackage{blindtext} % for filler
+
+\usepackage{epigraph} % quotes
+
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
+
+\renewcommand*{\marginfont}{\footnotesize}
+
+% Following so we can create songs (and possibly author) index.
+% Will also require running following two commands
+% ./songidx titleidx.sxd titleidx.sbx 
+% ./songidx authidx.sxd
+\let\song=\undefined % so we're not getting conflict with leadsheets package
+\let\meter=\undefined
+\usepackage{songs}
 \newindex{titleidx}{titleidx}
 \newauthorindex{authidx}{authidx}
+\newcommand{\songlink}[2]{\hyperlink{#1}{#2}}
+
+\usepackage{lipsum}
 
 \begin{document}
 
+
 \showindex[2]{Title Index}{titleidx}
 \showindex[2]{Author Index}{authidx}
-
+\songcolumns{1}
 \begin{songs}{titleidx,authidx}
 
-\beginsong{Test Song}[by={Tradicional}]
-
-\begin{chorus}
-Mi \[E]alma glorifica al Señor, mi \[B7]Dios,
-\[C#m]gózase mi espíritu en mi Salva\[G#m]dor.
-\[A]El es mi ale\[B7]gría, \[E]es mi pleni\[C#m]tud,
-\[A6]El es todo \[B7]para \[E]mí.
-\end{chorus}
-
-\begin{verse}
-\[G#] Ha mi\[C#m]rado la ba\[G#]jeza de su es\[C#m]clava,
-muy di\[B7]chosa me dirán todos los \[E]pueblos
-porque en \[C#7]mí ha hecho grandes mara\[F#m]villas
-El que \[C#m]todo puede, \[G#]cuyo Nombre es \[C#m]Santo. \[B7]
-\end{verse}
-
+\songsection{Om Satyea Namaḥ}
+\lipsum[3]
+\begin{changemargin}{-1cm}{-1cm} 
+\beginsong{Om Satyea Namaḥ}[by={Mike iLL}]
+\begin{intersong}
+\lilypondfile[quote,noindent]{omsatyeanamah.ly}
+\end{intersong}
 \endsong
+\end{changemargin}
 
-\beginsong{Test Song Two}[by={Tradicional}]
+\songchapter{A Chapter}
 
-\begin{chorus}
-Mi \[E]alma glorifica al Señor, mi \[B7]Dios,
-\[C#m]gózase mi espíritu en mi Salva\[G#m]dor.
-\[A]El es mi ale\[B7]gría, \[E]es mi pleni\[C#m]tud,
-\[A6]El es todo \[B7]para \[E]mí.
-\end{chorus}
+\section*{Seven Twenty-one Fifteen}
 
-\begin{verse}
-\[G#] Ha mi\[C#m]rado la ba\[G#]jeza de su es\[C#m]clava,
-muy di\[B7]chosa me dirán todos los \[E]pueblos
-porque en \[C#7]mí ha hecho grandes mara\[F#m]villas
-El que \[C#m]todo puede, \[G#]cuyo Nombre es \[C#m]Santo. \[B7]
-\end{verse}
-
+\begin{changemargin}{-1cm}{-1cm} 
+\beginsong{Seven Twenty-one Fifteen}[by={Mike iLL, Zef Noise and Rivka}]
+\begin{intersong}
+\lilypondfile[quote,noindent]{7-21-15.ly}
+\end{intersong}
 \endsong
+\end{changemargin}
 
+\section{Asato Ma}
+
+I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
+
+The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\beginsong{Asato Ma}[by={Mike iLL, Zef Noise and Rivka}]
+\begin{intersong}
+\lilypondfile[quote,noindent]{asato_ma.ly}
+\end{intersong}
+\endsong
+\end{changemargin}
 \end{songs}
 
 \end{document}

@@ -140,6 +140,15 @@
 
 \renewcommand*{\marginfont}{\footnotesize}
 
+% Following so we can create songs (and possibly author) index.
+% Will also require running following two commands
+% ./songidx titleidx.sxd titleidx.sbx 
+% ./songidx authidx.sxd
+\usepackage{songs}
+\newindex{titleidx}{titleidx}
+\newauthorindex{authidx}{authidx}
+\newcommand{\songlink}[2]{\hyperlink{#1}{#2}}
+
 \begin{document}
 
 \frontmatter
@@ -181,6 +190,11 @@
 \listoffigures
  
 \listoftables
+
+\showindex[2]{Title Index}{titleidx}
+\showindex[2]{Author Index}{authidx}
+
+\begin{songs}{titleidx,authidx}
 
 \mainmatter
 
@@ -996,6 +1010,16 @@ Words here.
 \begin{figure}[ht]
 \label{fig:Long Ek Ong Kar}
 \caption[Long Ek Ong Kar]{}
+\end{figure}
+
+\subsection{Om Satyea Namaḥ}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omsatyeanamah.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Satyea Namaḥ}
+\caption[Om Satyea Namaḥ]{}
 \end{figure}
 
 \subsection*{Seven Twenty-one Fifteen}
