@@ -16,6 +16,10 @@
 \usepackage{imakeidx} % index
 \makeindex
 
+% This is so that Captions with empty first parameter will be excluded from index of figures.
+% source: http://tex.stackexchange.com/a/43825/68905
+\usepackage{caption}
+
 \usepackage{multicol} % just to get narrow columns on one page
 \usepackage{vwcol}  % variable width multiple columns
 \usepackage{wrapfig} % wrap figures and align

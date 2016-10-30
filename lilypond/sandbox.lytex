@@ -10,6 +10,9 @@
 % Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
+% This is so that Captions with empty first parameter will be excluded from index of figures.
+% source: http://tex.stackexchange.com/a/43825/68905
+\usepackage{caption}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -141,62 +144,83 @@
 
 \renewcommand*{\marginfont}{\footnotesize}
 
-% Following so we can create songs (and possibly author) index.
-% Will also require running following two commands
-% ./songidx titleidx.sxd titleidx.sbx 
-% ./songidx authidx.sxd
-\let\song=\undefined % so we're not getting conflict with leadsheets package
-\let\meter=\undefined
-\usepackage{songs}
-\newindex{titleidx}{titleidx}
-\newauthorindex{authidx}{authidx}
-\newcommand{\songlink}[2]{\hyperlink{#1}{#2}}
-
 \usepackage{lipsum}
+
+\renewcommand{\listfigurename}{Chants \& Music}
 
 \begin{document}
 
 
-\showindex[2]{Title Index}{titleidx}
-\showindex[2]{Author Index}{authidx}
-\songcolumns{1}
-\begin{songs}{titleidx,authidx}
 
-\songsection{Om Satyea Namaḥ}
+\listoffigures
+
+
+\subsection{Lam Lam Lam Muladhara}
+Words here.
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{muladhara.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Lam Lam Lam Muladhara}
+\caption[Lam Lam Lam Muladhara]{}
+\end{figure}
+
+\subsection{Vam Vam Swadhistana}
 \lipsum[3]
+\begin{wrapfigure}{L}{0pt}
+\includegraphics[scale=.23]{poses/Swadhistana.pdf}
+\end{wrapfigure}
 \begin{changemargin}{-1cm}{-1cm} 
-\beginsong{Om Satyea Namaḥ}[by={Mike iLL}]
-\begin{intersong}
-\lilypondfile[quote,noindent]{omsatyeanamah.ly}
-\end{intersong}
-\endsong
+\begin{figure}[ht]
+\label{fig:Vam Vam Swadhistana}
+\lilypondfile[quote,noindent]{swadhistana.ly}
+\caption[Vam Vam Swadhistana]{}
+\end{figure}
 \end{changemargin}
 
-\songchapter{A Chapter}
 
-\section*{Seven Twenty-one Fifteen}
+\subsection{Manipura Ram Ram Ram Manipura}
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{manipura.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Manipura}
+\caption[Manipura]{We will talk more about the music here.}
+\end{figure}
+
+\subsection{Open Up Anāhata}
+
+\index{Anubis}
+\index{Anāhata}
+
+Anubis is the Jackyl-headed god of the dead in Egyptian mythology. Anubis puts the heart of the newly dead being on a scale, weighing it against the weight of a feather, and we're looking for the feather to be the heavier of the two.
+
+\begin{wrapfigure}{L}{0pt}
+\label{fig:Anahata Poses}
+\includegraphics[scale=.4]{poses/anahata1.pdf}
+\includegraphics[scale=.4]{poses/anahata2.pdf}
+\end{wrapfigure}
+
+There's a movement that goes with this heart-lightening chant. If standing, the legs will do a basic Afro-hip-hop step of right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out, releasing it to the sides, opening up the ribcage and heart more and more.
+
+The chant is this:
 
 \begin{changemargin}{-1cm}{-1cm} 
-\beginsong{Seven Twenty-one Fifteen}[by={Mike iLL, Zef Noise and Rivka}]
-\begin{intersong}
-\lilypondfile[quote,noindent]{7-21-15.ly}
-\end{intersong}
-\endsong
+\lilypondfile[quote,noindent]{anahata.ly}
 \end{changemargin}
 
-\section{Asato Ma}
+\begin{figure}[ht]
+\label{fig:Anahata}
+\caption[Anahata]{It is really nice to do it as a call and response where each two measures are echoed like this:}
+\end{figure}
 
-I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
-
-The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
 \begin{changemargin}{-1cm}{-1cm} 
-\beginsong{Asato Ma}[by={Mike iLL, Zef Noise and Rivka}]
-\begin{intersong}
-\lilypondfile[quote,noindent]{asato_ma.ly}
-\end{intersong}
-\endsong
+\lilypondfile[quote,noindent]{anahata_piece.ly}
 \end{changemargin}
-\end{songs}
+
+The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
+
+
 
 \end{document}
