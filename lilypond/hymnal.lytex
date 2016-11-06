@@ -16,9 +16,14 @@
 \usepackage{imakeidx} % index
 \makeindex
 
-% This is so that Captions with empty first parameter will be excluded from index of figures.
+% Solve potential problem with too many floats.
+\usepackage{morefloats}
+
+% This package is so that Captions with empty first parameter will be excluded from index of figures.
 % source: http://tex.stackexchange.com/a/43825/68905
-\usepackage{caption}
+% labelformat=empty is so that it won't say 'figure' at each one
+% source: http://tex.stackexchange.com/a/40182/68905
+\usepackage[labelformat=empty]{caption}
 
 \usepackage{multicol} % just to get narrow columns on one page
 \usepackage{vwcol}  % variable width multiple columns
@@ -130,6 +135,7 @@
 
 
 \usepackage{arabxetex}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
 
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
@@ -143,15 +149,6 @@
 \newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
 
 \renewcommand*{\marginfont}{\footnotesize}
-
-% Following so we can create songs (and possibly author) index.
-% Will also require running following two commands
-% ./songidx titleidx.sxd titleidx.sbx 
-% ./songidx authidx.sxd
-\usepackage{songs}
-\newindex{titleidx}{titleidx}
-\newauthorindex{authidx}{authidx}
-\newcommand{\songlink}[2]{\hyperlink{#1}{#2}}
 
 \begin{document}
 
@@ -194,11 +191,6 @@
 \listoffigures
  
 \listoftables
-
-\showindex[2]{Title Index}{titleidx}
-\showindex[2]{Author Index}{authidx}
-
-\begin{songs}{titleidx,authidx}
 
 \mainmatter
 

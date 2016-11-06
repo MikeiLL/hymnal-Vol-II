@@ -10,15 +10,21 @@
 % Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
-% This is so that Captions with empty first parameter will be excluded from index of figures.
-% source: http://tex.stackexchange.com/a/43825/68905
-\usepackage{caption}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
 \usepackage{imakeidx} % index
 \makeindex
+
+% Solve potential problem with too many floats.
+\usepackage{morefloats}
+
+% This package is so that Captions with empty first parameter will be excluded from index of figures.
+% source: http://tex.stackexchange.com/a/43825/68905
+% labelformat=empty is so that it won't say 'figure' at each one
+% source: http://tex.stackexchange.com/a/40182/68905
+\usepackage[labelformat=empty]{caption}
 
 \usepackage{multicol} % just to get narrow columns on one page
 \usepackage{vwcol}  % variable width multiple columns
@@ -114,7 +120,7 @@
 \usepackage{scrextend}
 
 % display note and chord names
-\usepackage[musicsymbols]{leadsheets}
+\usepackage[full]{leadsheets}
 \useleadsheetslibraries{musicsymbols}
 
 % for temporary margin changes
@@ -130,6 +136,7 @@
 
 
 \usepackage{arabxetex}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
 
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
@@ -144,16 +151,248 @@
 
 \renewcommand*{\marginfont}{\footnotesize}
 
-\usepackage{lipsum}
-
-\renewcommand{\listfigurename}{Chants \& Music}
-
 \begin{document}
 
 
+\renewcommand{\listfigurename}{Chants \& Music}
 
-\listoffigures
+\chapter{Sweet Surrender}
 
+A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
+
+This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
+
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{surrender.ly}
+\end{changemargin}
+
+\hfill \\
+
+Some of the Deities we called to were: \hfill \\
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+
+\item[Laxmi Ma]
+\textit{When, in the Hindu creation story, Narayana began dreaming existence out of the primordial soup, Laxmi was the feminine energy by which manifestation could occur.}
+
+\item[Saraswati]
+\textit{An avatar by which we can experience the energy of Laxmi Ma, Saraswati is the Hindu goddess to whom we look for creative energy and intelligence.}
+
+\item[Om Elegua]
+\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
+
+\item[Obatala]
+\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
+
+\item[Mother Mary]
+\textit{Mary is one of the most universal of the Christian symbols.}
+
+\item[Om Shiva]
+\textit{Shiva is lord of yoga. Lord of the dance. Shiva is depicted as having long, matted dread locks, full of insects. Shiva is too occupied with universal consciousness to be bothered.}
+\end{description}
+\end{addmargin}
+\hfill \\
+
+Others that come to mind are:
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+\item[Yemaya]
+\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
+
+\item[Oshun]
+\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
+
+\item[Om Jesus]
+\textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
+\end{description}
+\end{addmargin}
+
+At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
+\end{changemargin}
+
+Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
+\end{changemargin}
+
+Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
+
+The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
+
+\setRL
+\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
+\unsetRL
+\normalsize
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{kul_ha_yom.ly}
+\end{changemargin}
+
+\begin{figure}[ht]
+\label{fig:Kul Hayom Vikhul Halaila Om}
+\caption[Kul Hayom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
+\end{figure}
+
+For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
+
+This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
+\subsection*{Seven Beats Descending}
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{ellington7.ly}
+\end{changemargin}
+\begin{table}[ht]
+\caption[Seven Beats Descending]{We will talk more about the music here.}
+\label{table:Seven Beats Descending}
+\end{table}
+
+\chapter{The Art of Vocalization}
+
+In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century CE, which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
+
+It is out of this philosophy that what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e.   by a yogi named Swami Svatmarama.
+
+There's an idea that if we follow the mind back to it's source, we find God. And we also see that as each one of us is a microcosm of the universe, by exploring the limits of our selves, logically, emotionally, psychologically as well as physically, we are exploring the limits of the universe. This is also true of our use of vocalization. Most if not all spiritual traditions embrace and express the idea that God listens not necessarily to the words, but to the intention behind the words. In Hinduism as well as in Ifá there are words used in incantations that dont' have any literal meaning. Sounds the resonate or vibrate with specific Oriṣa or aspects of nature and consciousness. In Western occult terms this may be referred to as Sympathetic Majick.
+
+Aleister Crowley suggests that, "True religion is intoxication", and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of "wine" and "intoxication" or \emph{sakr} (\begin{arab}[fullvoc]صقر\end{arab}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
+
+How do we use our voice? What physical processes are occurring when we vocalize, chant and sing? How can we generate frequencies that will be spiritually potent and most importantly rewarding, rejuvenating and cathartic for us. Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}, \emph{intuition} and \emph{intellect}, \emph{vacuity} and \emph{visualization}. Depending on the volume and frequency we aim to vocalize, we may be engaging different parts of the body in different ways.
+
+\subsection*{Chakras}
+
+\index{chakra}
+
+The word \textbf{chakra} (\saha{चक्र}) translates as \emph{circle} or \emph{wheel} and the chakra system refers to energy centers. We grew up pronouncing the word with a soft \textsc{CH}, but apparently that would refer to some kind of pickle, so now we chakra like chocolate. There are various ideas about where the primary energy centers in the body are, whether they are called chakras or by other names. I'm told that the original system from Buddhist and Hindu tradition is a system that associates colors with the lower 5 of seven chakras, the colors being Gold at the root, clear or white (the milk of Viṣṇu \saha{विष्णु}), Red at the solar plexus, Green at the heart and Blue or Black at the throat. The ``new age'' system included here is quite popular and it's colors correspond with the colors of the rainbow. Less interesting and it doesn't really make sense to me that the frequencies of light at which the chakras resonate would happen to correspond with the way our eyes happen to perceive light as it separates, but it's a simple way to memorize and visualize these energy centers. There's a Wikipedia page on it which is quite well put together.
+
+\index{chakra}
+\index{Mūlādhāra}
+
+\textbf{Mūlādhāra} (\saha{मूलाधार}) is the root chakra. It's our connection to the Earth; our groundedness. We associate each of these seven primary chakras with the colors starting at the root with red. This slowly spinning wheel is in the region of the groin and pelvis. When we squeeze in on the basket of muscles in the pelvic basin it is referred to as Mūlā Bandha (\saha{मूल बंध}), root lock or root lift. These are the same muscles we engage when controlling our bowels or urethra trying to ``contain ourselves''.
+
+\index{mudrā}
+
+\mna{From Hindu and Buddhist tradition, a \textbf{mudrā} (/mu'drɑ:/ Tibetan: \texttibetan{ཕྱག་རྒྱ་}) is an energetic ``seal", ``mark"; a symbolic or ritual ``gesture''. Some mudras involve the entire body; mostly just hands and fingers.}
+The syllable associated with Mūlādhāra is \textbf{Lam} and an associated mudrā (\saha{मुद्रा}) is the index and middle fingers making a ``peace sign'' and touching the ground.
+
+When we vocalize, we want this region to be relaxed and settled towards the earth, but engaged enough so that we're not collapsing or slouching in the pelvic region. The base of the spine, where the coiled serpent of latent kundalini energy is said to reside, is in this Mūlādhāra region. Take a deep breath and exhale slowly, visualizing the energy of Mūlādhāra rising up through the spine and torso as light and emerging from the mouth, first eye or crown of the head. Now do the same thing, but this time engage the larynx or voice box, which are elastic \emph{chords} that vibrate like reeds in the wind to create a tone, and imagine the sonic vibration originating in the pelvis, moving up and out, filling the room with sound and energy.
+
+You did this. You create this vibration. Wow. Nice to have a body. All praises due to The One Who Does Not Exist.
+
+\index{Svādhiṣṭhāna}
+\index{mudrā}
+
+
+\textbf{Svādhiṣṭhāna} (\saha{स्वाधिष्ठान}) --- pronounced swad eeh stahn uh --- is the center of our creativity, sexuality. It's located in the naval region and at the sacrum at the base of the spine. Our belly button is a scar at the point where for the beginning of our physical existence we took in all of our food and oxygen. The color we visualize here is orange.
+
+\index{diaphragm}
+
+This is a significant region in vocalizing because it is generally through engaging the abdominal muscles that we become in touch with our diaphragm. The diaphragm is a trampoline-shaped muscle with high elasticity that separates the thoracic or chest cavity from the abdominal area. When we inhale it stretches down into the abdominal cavity, moving the organs out toward the belly sides and back, and creating more space for the lungs to expand. On exhalation the diaphragm springs back into it's contracted shape, pushing the air --- the air upon which our vocal tone rides -- out through the throat.
+
+Vajroli mudrā is associated with Svādhiṣṭhāna and I've seen it's description ranging from engaging the genital muscles and drawing upward to the kundalini practice of ``drinking'' milk into the erect penis from a cup in the aim to be able to ejaculate, then draw all of the semen back into the penis so as not to lose any of the \emph{life energy}.
+
+A hand mudrā is with each hand, to extend the pinky and ring finger, fold the thumb into the palm and wrap index and middle fingers over the thumb. Now, in front of the chest the hands meet with the extended pinky and ring fingertips pressed together and the knuckles of the index and middle either meeting or separated.
+
+The syllable associated with Svādhiṣṭhāna is \textbf{Vam}, and color is yellow.
+
+\index{Maṇipūra} 
+\index{Nāḍī}
+\index{mudrā}
+
+
+\textbf{Maṇipūra} (\saha{मणिपूर}) Maah nee pooh dah. This is the solar region or the area of the solar plexus, which is the soft cavity just below the breast plate below where the lowermost ribs meet at the top center of the abdomen. It's is where 72,000 Nāḍī (\saha{नाडी}), which translates as \emph{nerve} and are describes as energetic \emph{channels} come together and in Western anatomy is described as a cluster of nerves in front of the diaphragm. Ravi Singh describes it as the center of our will.``Forego a fate", he used to say, ``in favor of a destiny.''
+
+\index{śakti}
+\index{Har}
+\index{mudrā}
+
+A couple of good exercises to develop the maṇipūra chakra are the kundalini yoga practice of kneeling, settled onto your chins and pulling in on the abdomen as you chant the name for the energetic (and feminin, śakti) form of divinity: \emph{Har}, letting the air replenish itself solely from the elastic reflex of the diaphragm --- without active inhalation. This would be recommended for one of a few magical kundalini time periods, including three, eleven and thirty one minutes.
+
+\index{Kapalabhati} 
+\index{Prāṇāyāma}
+\index{Yāma}
+\index{Prāṇā}
+\index{mudrā}
+
+
+There is also \textbf{Kapalabhati Prāṇāyāma} (\saha{कपाल भाति प्राणायाम}), which are two combined words, the first set being \emph{kapal} which means skull, and \emph{bhati} which means shining or illuminating. The word \emph{prāṇā} refers to one of the most significant concepts in the eastern traditions we've been so extensively drawing from and exploring here. We generally translate prāṇā to mean breath, but it also translates as life force and Iyengar writes the the closest phrase we have for prāṇā in English is, Holy Spirit. \emph{Yāma} means control. In this Prāṇāyāma --- or breath control --- exercise called shining skull, we push air out with short diaphragmatic (and/or abdominal) flexes, then release the diaphragm (at first just focus on the abdominal muscles, which are easier to engage directly) and allow the vacuum of the lungs to drink in the precious prāṇā reflexively and without conscious effort. This is often measured by placing one palm on the lower abdomen and observing as it moves inward when you flex the air out, and returns forward and out when the diaphragm returns to it's relaxed position. The mouth is gently closed so that --- as you hopefully always do --- the breath enters and exits through the filtration system of the nostrils and sinuses.
+
+\index{Anāhata}
+\index{mudrā}
+
+\textbf{Anāhata} (\saha{अनाहत}) Ah Naah Hot ah. This is the heart center. The color of Anāhata is green. The color of life, spring and compassion as well as anger. The thrust of Anāhata is upwards. Growth. The syllable is \textbf{Yam}. It is in the thoracic or chest cavity that the tone of our voice, both in speech of song, resonates. It is the heart center we engage when we put emotion into our devotion. Put some heart into it.
+
+A mudrā for the heart, performed at \emph{heart center} in front of the breast plate, is to form a lotus flower shape by placing the side of the thumb and pinky fingertips as well as bottom of the palms together and extend the fingers heavenward. One of the symbolic meanings of the lotus flower is that something of exquisit beauty grows out of what appears to us as darkness and muck.
+
+Exercises for the heart are backbends and anything that opens up the chest. A simple kundalini warm up is to kneel, sitting on the chins, and rotate the top of the hips forward, extending the heart on the inhale, then arch the back, ratating the pelvis back and pulling the heart \emph{into the past} on the exhalation.
+
+\index{Viśuddha}
+\index{Orisha}
+\index{amrit}
+\index{Lakṣmī}
+\index{Viṣṇu}
+\index{Kaustubh}
+\index{awo ibaşepò}
+\index{mystery of cooperation}
+\index{granthita mudrā}
+\index{mudrā}
+
+\textbf{Viśuddha} (\saha{विशुद्ध}) Vee shoo duh. Ah the throat. Just before Lakṣmī	(\saha{लक्ष्मी}) emerged from the sea of consciousness; the sea of milk, when all of the demons and celestial beings were cooperating (in Ifa tradition there is a phrase, \emph{awo ibaşepò} which refers to eh \emph{mystery of cooperation}) in it's churning to raise \emph{amrit} ({\saha{अमृत}) --- the nectar of immortality (and bliss) --- the magnificently brilliant blue Kaustubh (\saha{कौस्तुभ:}) gem floated out and into the throat of Viṣṇu (\saha{विष्णु}), who immediately began to emote divine truth.
+
+The color of course is blue, consistent with the earlier system. Viśuddha is the center of communication. It's the center of speaking \emph{and} of listening, of hearing. Ear, nose and throat all being connected.
+
+Viśuddha's \emph{bījākṣara} (\saha{बीजाक्षर}) or seed syllable is \textbf{Ham} and an associated mudrā, called \emph{granthita mudrā} is performed by interlocking the pinky, ring and middle fingers like one would if doing the ``here is the church and here is the steeple'' game, then creating two interlocking circles with the thumb and index fingers. The mudrã is held to the base of the throat, elbows resting on the chest. Granthita \emph{might} mean \emph{redemption}, but that is unconfirmed.
+
+
+\index{camel pose}
+\index{ustrasana}
+\index{Ājñā}
+\index{mudrā}
+
+To open and engage the viśuddha chakra, the main thing we want to do is draw blood to the area. A couple of poses that are great for that --- briefly --- are \textbf{camel pose} or \emph{uṣṭrāsana} (\saha{उष्ट्रासन}), in which one is kneeling with feet flexed and toe mounds on the ground; using the palms --- fingers facing downward --- against the buttocks for support, the pelvis is reaching forward with the tail bone lengthening down, chest is stretched wide, cervical spine and entire neck and throat are \emph{extended} (not hinged) open and \emph{back}, the gaze is up toward the heavens or potentially gazing back toward the ãjñā; deep breathing through the nose. An extension of this pose, which also loosens up phlegm in the lungs, is to open the mouth as wide as possible, extend the tongue as far as possible, and forcefully fill and empty the lungs. And there is the kundalini practice of energetically pressing the tongue against one side of the mouth, pushing the cheek out, and circling the tongue. It doesn't take long before blood cells are racing into the tongue and throat area, great heat (and apparent discomfort) are being generated, and the movements of the tongue become more spasmodic than fluid.
+
+\index{Ājñā}
+
+\index{Orisha consciousness}
+\index{àwúję}
+\index{kundalini}
+\index{first eye}
+\index{third eye| see {First Eye}}
+\index{pineal gland}
+\index{nāḍī}
+\index{Idā}
+\index{Om}
+\index{Aum | see {Om}}
+\index{Piṅgala}
+\index{mudrā}
+
+\textbf{Ājñā} (\saha{आज्ञा}) Aj nee yá. The center of perception. The first (or third) eye. In Ifá there is also a system of energy centers in the body called \emph{àwúję}. The àwúję which corresponds with the human connection to the \emph{Orisha consciousness} is called the \emph{ìwúję} and is, like the ãjñā, situated between and above the blinking eyes, only the ìwúję is in the center for the forehead, where as the ãjñā is said to be at the center of the brow, corresponding to the pineal gland. This is the point at which the two largest nāḍī, \emph{Idā} (\saha{इडा}) and \emph{Piṅgala} (\saha{पिङ्गल}), the masculine and feminin, solar/lunar, conscious/energetic channels converge --- the two serpents who's tails begin in our tailbone at the seat of kundalini energy --- having intertwined up the spine, generating our dynamism.
+
+Om (\saha{ॐ}) is the syllable of ãjñā. The color in the original system was no color. In the ``new age'' system it's indigo, a deep, purplish blue. The mudrā of the ``great head'' is performed by curling the ring finger into the palm and bringing the tips of the extended thumb, index, middle fingers and pinky together at the ãjñā; first eye.
+
+\index{Sahasrāra}
+\index{mudrā}
+
+\textbf{Sahasrāra} (\saha{सहस्रार}) Sah Has RAH ra. Thousand petaled lotus at the crown of the head. Our connection to the divine. Rand Hicks from the Integral Knowledge Study Center in Pensacola explains that historically, a hundred\ldots a hundred sheep\ldots someone who had a hundred sheep --- that's a lot of sheep! But a thousand? A thousand is infinite. We can't see a thousand. We can break it up into theoretical pieces, but as a unit, it just goes on and on. 
+
+Sahasrāra is the seventh chakra. It's color, if any color at all, is said here to be violet. A soft, light pinkish purple. Or maybe white. The syllable is the silent Om. A mudrā is to create a pyramidal shape by extending the thumb and pointer fingers, palms faced away from the body, with their very tips connecting. The rest of the fingers create rays or petals. It is of course called the thousand petalled mudrā. Hold this mudrā five or six inches above the crown.
+
+Where the low and middle parts of our voices resonate in the thoracic (chest) cavity, the high frequencies vibrate in the top of the skull.
+
+\index{soft palate}
+
+So from bottom to top, our voice draws it's earthiness from the base of the pelvis, where we are settled into the gentle pull of gravity. The \emph{support} --- so that we're not straining our throat to create sound, but merely \emph{allowing} it to pass --- begins with a gentle lift in the mūlādhāra. We monitor our breath, the intake of prana and the exhalations upon which the tones are carried forth, at the svādhiṣṭhāna; the naval center; apex of our creativity, sex and sensuality. The abdomen expands as breath comes in and draws inward is it moves out. This is handled by the diaphragm, right behind the maṇipūra --- the center of will --- at the solar plexus. The voice box or vocal chords are located in the throat (viśuddha), stretched across the larynx; reeds which vibrate, creating and modifying the tone created by the passing breath, but their tone \emph{resonates} in the chest (anāhata), and head (ãjñā, sahasrāra). We want the throat to be stretched open like a yawn or a Wow! The tongue is relaxed, flat and forward so as not to interfere with the passage of breath and tone. The \emph{soft palate} at the back of the mouths roof is sprung open like an umbrella, as if making room to swallow a large pickle.
+
+Om can be practiced moving from a lower note on an Ah sound, visualized as beginning at the root, then moving up through the chakras through more of an Oh vowel tone in the solar and heart region, and Ooh in the throat and first eye and finally Mmmm resonating and vibrating each of the thousand (infinite) petals of the sahasrāra. When Om-ing in a group, the length of each Om can coincide with the breath of each participant, so that the shape of each one is timed differently, coming in like waves of the tide. A tide of Oms.
+
+When learning the Sanskrit names of the chakras and their corresponding seed syllables, I made up some simple chants which are included here.
 
 \subsection{Lam Lam Lam Muladhara}
 Words here.
@@ -166,61 +405,18 @@ Words here.
 \end{figure}
 
 \subsection{Vam Vam Swadhistana}
-\lipsum[3]
-\begin{wrapfigure}{L}{0pt}
+\begin{wrapfigure}[20]{L}{0.3\textwidth}
+\center
 \includegraphics[scale=.23]{poses/Swadhistana.pdf}
 \end{wrapfigure}
+\blindtext[3]
 \begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{swadhistana.ly}
+\end{changemargin}
 \begin{figure}[ht]
 \label{fig:Vam Vam Swadhistana}
-\lilypondfile[quote,noindent]{swadhistana.ly}
 \caption[Vam Vam Swadhistana]{}
 \end{figure}
-\end{changemargin}
-
-
-\subsection{Manipura Ram Ram Ram Manipura}
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{manipura.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Manipura}
-\caption[Manipura]{We will talk more about the music here.}
-\end{figure}
-
-\subsection{Open Up Anāhata}
-
-\index{Anubis}
-\index{Anāhata}
-
-Anubis is the Jackyl-headed god of the dead in Egyptian mythology. Anubis puts the heart of the newly dead being on a scale, weighing it against the weight of a feather, and we're looking for the feather to be the heavier of the two.
-
-\begin{wrapfigure}{L}{0pt}
-\label{fig:Anahata Poses}
-\includegraphics[scale=.4]{poses/anahata1.pdf}
-\includegraphics[scale=.4]{poses/anahata2.pdf}
-\end{wrapfigure}
-
-There's a movement that goes with this heart-lightening chant. If standing, the legs will do a basic Afro-hip-hop step of right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out, releasing it to the sides, opening up the ribcage and heart more and more.
-
-The chant is this:
-
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{anahata.ly}
-\end{changemargin}
-
-\begin{figure}[ht]
-\label{fig:Anahata}
-\caption[Anahata]{It is really nice to do it as a call and response where each two measures are echoed like this:}
-\end{figure}
-
-
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{anahata_piece.ly}
-\end{changemargin}
-
-The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
-
 
 
 \end{document}
