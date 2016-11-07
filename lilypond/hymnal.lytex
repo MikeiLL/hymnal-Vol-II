@@ -620,10 +620,19 @@ So from bottom to top, our voice draws it's earthiness from the base of the pelv
 
 Om can be practiced moving from a lower note on an Ah sound, visualized as beginning at the root, then moving up through the chakras through more of an Oh vowel tone in the solar and heart region, and Ooh in the throat and first eye and finally Mmmm resonating and vibrating each of the thousand (infinite) petals of the sahasrāra. When Om-ing in a group, the length of each Om can coincide with the breath of each participant, so that the shape of each one is timed differently, coming in like waves of the tide. A tide of Oms.
 
+\section{Chakra Mantras}
+
 When learning the Sanskrit names of the chakras and their corresponding seed syllables, I made up some simple chants which are included here.
 
 \subsection{Lam Lam Lam Muladhara}
-Words here.
+
+\index{Jupiter finger}
+\index{Saturn finger}
+\index{bījākṣara}
+
+In and of itself, I'm not terribly interested in this mantra, but as far as memorizing the sanskrit name of the chakra and it's associated bījākṣara it did the trick. \par
+What I really dig in terms of a mūlādhāra mantra is this: Find a comfortable seated position on the ground. Now with the two hands, fold the pinky and ring finger in to the palm and hold with the thumb, extending the ring and middle (Jupiter and Saturn, respectively) fingers creating what is at the time of this writing considered a ''peace sign``. With straight arms, touch the ground with the ends (tips or pads, I guess) of the extended Jupiter and Saturn fingers and in the lowest voice possible, chant the sacred syllable, Lam for a second or so and repeat for about 45 minutes \textemdash or maybe one to ten minutes.
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{muladhara.ly}
 \end{changemargin}
@@ -633,7 +642,17 @@ Words here.
 \end{figure}
 
 \subsection{Vam Vam Swadhistana}
+\index{Svādhiṣṭhāna}
+\index{mudrā}
+
+\begin{wrapfigure}[20]{L}{0.3\textwidth}
+\center
 \includegraphics[scale=.23]{poses/Swadhistana.pdf}
+\end{wrapfigure}
+As with all of the chakras, we consciously, unconsciously and anatomically hinder svādhiṣṭhāna, which manifests in limitions on our creativity and sexuality, as well as sensuality and other aspects of the living experience.\par
+The following mantra is ment to be visualized as originating in the naval area, and expanding outward as the melody expands. For movement, begin with the hands gently and sensuously encircling the top of the hips and waist, alternately bend the knees, which guides the hips to either side. The pace of the movement matches the half notes in the mantra so Vam \textemdash  Left; Vam \textemdash  Right; Svādhiṣ \textemdash  Left; thana \textemdash  Left etc\ldots.\par
+As the mantra continues, the eyes may be closed, bringing the attenward further inward, and the hands may begin to move about. Possibly the thumbs and pointer fingers will make a circle around the belly button, touching at the tips. Maybe the hands will move out to either side like palm leaves blowing in the wind. Visualizing a tropical beach at the edge of a river or the ocean and possibly one of the many Love Goddesses dancing with you. Maybe you are in a large group of dancers. Maybe becoming one with the Ocean. It may be sunrise or sunset, both of which generate the Orange color associated with svādhiṣṭhāna.
+
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{swadhistana.ly}
 \end{changemargin}
