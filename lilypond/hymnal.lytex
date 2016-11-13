@@ -5,10 +5,18 @@
 \usepackage{marginnote,letltxmacro}
 \LetLtxMacro\mn\marginnote
 
-\usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+\usepackage[outer=2.2cm,inner=2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
 % Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
+
+\usepackage{epigraph} % quotes
+
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+\newcommand\mna[2]{\mn{\fontspec{Arial}#1}}
+
+\renewcommand*{\marginfont}{\footnotesize}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -111,10 +119,6 @@
 \usepackage{slantsc} 
 \usepackage{lmodern}
 
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
-
 % for margins or is this for columns?
 \usepackage{scrextend}
 
@@ -139,16 +143,7 @@
 
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
-
-\usepackage{blindtext} % for filler
-
-\usepackage{epigraph} % quotes
-
-\setlength{\epigraphwidth}{0.9\textwidth}
-
-\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
-
-\renewcommand*{\marginfont}{\footnotesize}
+\usepackage{blindtext} % for filler for testing
 
 \begin{document}
 
@@ -200,7 +195,7 @@
 \index{Bhagavad Gita}
 \index{Faitheism}
 
-Why do we chant, and as we engage our hearts and cultivate devotion, to whom or what is that devotion aimed? In the Hindu scripture, The Bhagavad Gita, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of life, in all it's mystery. Through cultivating our Awe and Faith, Our Wow and our Conviction, we begin to appreciate the the fog itself is of our own making.
+Why do we chant, and as we engage our hearts and cultivate devotion, to whom or what is that devotion aimed? In the Hindu scripture, The Bhagavad Gita, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of life, in all it's mystery. Through cultivating our Awe and Faith, our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy. Sometimes we chant trans-culturally.
 
 Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
 
@@ -213,7 +208,7 @@ On our particular journey, the tools that seem to be working don't all come out 
 
 Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen to Sun Ra -- hear the Universe. 
 
-\mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
+\mna{\hspace{6em}The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
@@ -235,7 +230,13 @@ How is this book organized?
 
 What are the chakras?
 
-Taking classes and studying meditation I was always trying to \emph{visualize} the Chakra's, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that's --- I don't know what --- floating in the wind? And I can draw that part of myself into my physical body --- but deeper than any actual part of the body --- into an undefinable center, and become grounded and centered.
+Ganesha guardian of the kundalini
+
+these are just notes
+
+writing, the death of spoken word
+
+Taking classes and studying meditation I was always trying to \emph{visualize} the Chakras, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that's --- I don't know what --- floating in the wind? And I can draw that part of myself into my physical body --- but deeper than any actual part of the body --- into an undefinable center, and become grounded and centered.
 
 And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
 
@@ -251,7 +252,7 @@ And if I do that --- take the time to center myself --- I will be able to manage
 
 On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ ({\saha{शम}}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -269,7 +270,7 @@ Song along with a \writechord{C} drone, the tone of the chant is dark and somber
 \index{Priya}
 
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshantiom_krsna.ly}
 \end{changemargin}
 
@@ -278,13 +279,13 @@ Kṛṣṇa (\saha{कृष्ण}), or Krishna is the Hindu deity we most asso
 
 If someone's feeling inspired the following might also be added to the mix. Nothing here is written in stone. Far from it. More like crayon. We like to sing --- or rather sing for our sanity --- and are building up a collection of chants and mantras that don't require too much thought and don't make you cringe too much in their content. So if singing Hail Kṛṣṇa makes you cringe, by all means Hail Vodka! Whatever works.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshantiom_hikrsna.ly}
 \end{changemargin}
 
 This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the note that is \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note --- the note that is the \emph{key} we are in, which is \writechord{C} in this case --- is played or sung, as opposed to the note that is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshantiom_scale.ly}
 \end{changemargin}
 
@@ -318,7 +319,7 @@ According to Awo Fá'lokun Fatunmbi, one of the twenty one \emph{roads} of Eşu 
 
 As both Eşu and Ganeşa are real, it makes sense that they might run into each other, which is what happens in this chant. I can imagine them meeting up in Egypt - half way between India and Nigeria.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{oganeshaelegua.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -332,11 +333,11 @@ There could also be references to \emph{Mo'juba}, which is a spiritually energiz
 
 \subsection{Gayatri Mantra}
 
-\mna{\hspace{1em}In Sanscrit the syllables of the word \textbf{Mantra} (\velt{मंत्र}) are broken up as the root, \textbf{Man} (\velt{युव}): the root of \textbf{manas} (\velt{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\velt{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
+\mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\velt{मंत्र}) are broken up as the root, \textbf{Man} (\velt{युव}): the root of \textbf{manas} (\velt{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\velt{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
 
 The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{gayatri_mantra.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -345,7 +346,7 @@ The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk
 \end{figure}
 
 \subsection{A Long Road}
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{a_long_road.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -355,13 +356,13 @@ The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk
 
 And another thing:
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{the_road_junction.ly}
 \end{changemargin}
 
 
 \subsection{Wordless One}
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{wordless-one.ly}
 \end{changemargin}
 \begin{table}[h!]
@@ -376,7 +377,7 @@ I think the word Upanishads translates as "campfire stories". It's a collection 
 
 The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{asato_ma.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -386,12 +387,12 @@ The chant means, Lead me from non-being to being. Lead me from darkness to everl
 
 \chapter{Sweet Surrender}
 
-A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
+A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which \textemdash after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
 
 This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
 
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{surrender.ly}
 \end{changemargin}
 
@@ -440,13 +441,13 @@ Others that come to mind are:
 
 At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
 \end{changemargin}
 
 Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
 \end{changemargin}
 
@@ -459,7 +460,7 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 \unsetRL
 \normalsize
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
 \end{changemargin}
 
@@ -474,7 +475,7 @@ This next one is approximated from a dream, where there was a bunch of older hor
 
 \subsection*{Seven Beats Descending}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ellington7.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -633,7 +634,7 @@ When learning the Sanskrit names of the chakras and their corresponding seed syl
 In and of itself, I'm not terribly interested in this mantra, but as far as memorizing the sanskrit name of the chakra and it's associated bījākṣara it did the trick. \par
 What I really dig in terms of a mūlādhāra mantra is this: Find a comfortable seated position on the ground. Now with the two hands, fold the pinky and ring finger in to the palm and hold with the thumb, extending the ring and middle (Jupiter and Saturn, respectively) fingers creating what is at the time of this writing considered a ''peace sign``. With straight arms, touch the ground with the ends (tips or pads, I guess) of the extended Jupiter and Saturn fingers and in the lowest voice possible, chant the sacred syllable, Lam for a second or so and repeat for about 45 minutes \textemdash or maybe one to ten minutes.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{muladhara.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -653,7 +654,7 @@ As with all of the chakras, we consciously, unconsciously and anatomically hinde
 The following mantra is ment to be visualized as originating in the naval area, and expanding outward as the melody expands. For movement, begin with the hands gently and sensuously encircling the top of the hips and waist, alternately bend the knees, which guides the hips to either side. The pace of the movement matches the half notes in the mantra so Vam \textemdash  Left; Vam \textemdash  Right; Svādhiṣ \textemdash  Left; thana \textemdash  Left etc\ldots.\par
 As the mantra continues, the eyes may be closed, bringing the attenward further inward, and the hands may begin to move about. Possibly the thumbs and pointer fingers will make a circle around the belly button, touching at the tips. Maybe the hands will move out to either side like palm leaves blowing in the wind. Visualizing a tropical beach at the edge of a river or the ocean and possibly one of the many Love Goddesses dancing with you. Maybe you are in a large group of dancers. Maybe becoming one with the Ocean. It may be sunrise or sunset, both of which generate the Orange color associated with svādhiṣṭhāna.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{swadhistana.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -663,7 +664,7 @@ As the mantra continues, the eyes may be closed, bringing the attenward further 
 
 
 \subsection{Manipura Ram Ram Ram Manipura}
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{manipura.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -685,7 +686,7 @@ There's a movement that goes with this heart-lightening chant. If standing, the 
 
 The chant is this:
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{anahata.ly}
 \end{changemargin}
 
@@ -695,7 +696,7 @@ The chant is this:
 \end{figure}
 
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{anahata_piece.ly}
 \end{changemargin}
 
@@ -723,7 +724,7 @@ The chant starts really slowly. A dirge honoring and evolking the great mystic \
 
 In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{anandamayima_flat.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -733,7 +734,7 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 
 Also including it in the key of A minor as opposed to scary G flat minor with six flats. Jagidisha said, though, that in Ab minor it's simply played on all black keys except two (three out of five ain't bad?).
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{anandamayima.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -743,7 +744,7 @@ Also including it in the key of A minor as opposed to scary G flat minor with si
 
 \subsection*{Root Lock}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{rootlock.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -778,7 +779,7 @@ namaḥ \saha{नमः}
 
 The issue was whether to write "kAlikAyai" or "kAlikAye". The second is wrong.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{jaikalima.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -788,7 +789,7 @@ The issue was whether to write "kAlikAyai" or "kAlikAye". The second is wrong.
 
 \subsection*{Sat Chit Ekam Brahma}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ekam_brahma.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -803,7 +804,7 @@ Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Sh
 
 We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends NileriWosan and Baba Adelana Balewa. 
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{awakeyshango.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -815,7 +816,7 @@ We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire,
 
 When we were studying kundalini yoga in New York City with Ravi Singh, every class started with this mantra. It's basically honoring (evoking, summoning) the devine creative energy. This version of it is to a Rhumba rhythm, which comes out of the Afro-cuban tradition and has, through Spain, made it's way to the far eastern reaches of Eastern Europe where you can hear Gypsy Rhumba.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ongnamogurudevnamo.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -827,29 +828,29 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 
 \subsection*{White Notes in Twelve Eight}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{aminor12_8.ly}
 \end{changemargin}
 \begin{table}[ht]
 \centering
-\caption{Table to test captions and labels}
+\caption[]{}
 \label{table:White Notes in Twelve Eight}
 \end{table}
 
 \subsection*{What's Ruining Music}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{whatsruiningmusic.ly}
 \end{changemargin}
 \begin{table}[ht]
 \centering
-\caption{Table to test captions and labels}
+\caption[]{}
 \label{table:What's Ruining Music}
 \end{table}
 
 \subsection*{Samskara}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{samskara.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -860,7 +861,7 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \subsection*{Matchbox Pyramid}
 \index{death}
 Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{intothelight.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -877,7 +878,7 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 
 \subsection*{Bar-B-Que Bone Marrow}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{bbqbonemarrow.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -888,7 +889,7 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 
 \subsection*{Egypt on Palestine}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{egyptonpalestine.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -900,7 +901,7 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 
 \subsection*{Fabulous Sunglasses}
 Old bar organist plays this after we discover and recover the fanciest old piano imaginable, with drawers full of fabulous sun glasses and gay apparel.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{fabuloussunglasses.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -912,7 +913,7 @@ Old bar organist plays this after we discover and recover the fanciest old piano
 
 \subsection*{Sat Chit Ananda Praharsha}
 We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{praharsha}, which means ecstacy. Sat Chit Ananda is a famous Hindu saying meaning Truth, Consciousness, Bliss. Later we learned that Praharsha is in fact used to mean spiritual ecstacy, but it's most common meaning is to signify a fully erect phallus.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{satchitanandapraharsha.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -935,7 +936,7 @@ Move the awareness -- and the resonance of the voice -- up through the seven pri
  \item  \textbf{Above Crown} WHITE --- Akame --- \emph{Desireless}
 \end{itemize}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{gobinday.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -948,7 +949,7 @@ Move the awareness -- and the resonance of the voice -- up through the seven pri
 \subsection{I Wanna Know You}
 There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{iwannaknowyou.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -958,7 +959,7 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 
 \subsection{Wahe Guru Sat Nam}
 Words here.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{wahaygurusatnam.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -975,7 +976,7 @@ If I don’t believe in God, I’m taking refuge in my art/creativity. If I do b
 
 The naval chakra is the center of creativity. Swadhistana. Orange.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{aapsahaihoa.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -997,7 +998,7 @@ The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity,
 Ravi Singh describes the difference between Sa and Hung as follows: ``Sa is Existence itself and Hung means the realization or manifestation of that. Sa is light and Hung is the laser form of that light.''
 
 Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ramadasa.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1009,7 +1010,7 @@ Each round of the chant is performed with a single breath, the final syllable, H
 \begin{arab}[fullvoc]
 لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
 \end{arab}
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{laillahaillaallah.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1019,7 +1020,7 @@ Each round of the chant is performed with a single breath, the final syllable, H
 
 \subsection{Long Ek Ong Kar}
 Words here.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{longekongkar.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1029,7 +1030,7 @@ Words here.
 
 \subsection{Om Satyea Namaḥ}
 Words here.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omsatyeanamah.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1039,7 +1040,7 @@ Words here.
 
 \subsection*{Seven Twenty-one Fifteen}
 Words here.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{7-21-15.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -1050,7 +1051,7 @@ Words here.
 
 \subsection*{Seven Seventeen Fifteen}
 Waking up with a melody like this looping through my head, you know your mind needs some clearing.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{7-17-15.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -1065,7 +1066,7 @@ Waking up with a melody like this looping through my head, you know your mind ne
 ujjṛmbh	(ud-jṛmbh-) A1.	-jṛmbhate-, to gape ; to open, part asunder ; to show one's self, become visible, come forth, break forth, expand, arise
 
 Yes, it's a vowel followed by six consonants. This is an odd chant. Not sure if it ``works'', but it sticks with me. I like to chant it while aiming for hanumanasana. Rivka says, ``Once you know it, sometimes a weird chant works.''
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1075,7 +1076,7 @@ Yes, it's a vowel followed by six consonants. This is an odd chant. Not sure if 
 
 \subsection{Om eim hreem shreem kleem saw sat chit ekam Bramah}
 Words here.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omeimhreem.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1116,7 +1117,7 @@ Om Shaantih Shaantih Shaantih ||
 
 It's a mantra associated with death and transformation. Under the guidance of Rand Hicks of the Integral Knowledge Study Center, we translated it in the period of my father's dying and death.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ohlead.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1144,7 +1145,7 @@ This chant is of course inspired by the famous soap maker, Dr. Bronner who's "Al
 \includegraphics[scale=.039]{poses/LovePose.pdf}
 \includegraphics[scale=.039]{poses/SisterhoodPose.pdf}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{sisterhood.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1198,7 +1199,7 @@ Hrit padma is the heart chakra. \textbf{Padma} in both the male (\saha{पद्
 We engage the heart chakra --- Anāhatacakra (\saha{अनाहतचक्र}) --- and the power of unmanifest speech; then engage the power of manifestation itself, and magnify these potencies with the Klīṃ bīja. And with these potencies engaged, we invoke the divine feminine: Īśvari \saha{ईश्वरी}; the feminine form of \textbf{Īśvara} (\saha{ईश्वर}), which is a word found in Patanjali's Yogasutras as the fifth niyama, \textbf{īśvarapraṇidhāna} (\saha{ईश्वरप्रणिधान}) or \emph{surrender} to the \emph{divine}; an aspect of the the Eight Limbs of Yoga. \textbf{Parama} (\saha{परम}), which we are allowed to drop the last A from without changing it's meaning, in this context means \emph{supreme}, and \textbf{Svāhā} (\saha{स्वाहा}) --- also common tho both Hinduism and Buddhism (chi. 薩婆訶 sà pó hē, jp. sowaka, tibetan \texttibetan{སྭཱཧཱ་}) might be translated as \emph{I evoke}, \emph{so be it} or simply as \emph{well said}. Svāhā could be compared to the Yuruba word, \textbf{àṣẹ}. Àṣẹ refers to the power to make things happen and produce change. Svāhā, a feminine word, is also the name of a ``minor goddess'' in the Hindu pantheon, She is the daughter of Daksha (\saha{दक्ष}), which I guess would make her a sister of Shiva's consort, Pārvatī (\saha{पार्वती}); sum of all consciousness. \par
 
 In the Kula sect, this chant is also used to unite with Shiva, who see no ultimate distinction between Shiva and śakti. Svāhā Śiva (\saha{शिव}). Svāhā Svāhā. Svāhā Parvati. Àṣẹ.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{hreemshreemkleemparam.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1214,7 +1215,7 @@ In the Kula sect, this chant is also used to unite with Shiva, who see no ultima
 We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \velt{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
 
 We had been looking for a mantra for the cultivation of androgyny. It's a prefect chant for a time when we are, as a society, in recovery from what Adam Powers so eloquently referred to as the Cis Virus.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ardhanarishvara.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1260,7 +1261,7 @@ It's current folk lore that the word \emph{Abracadabra} derives from a Hebrew or
 \unsetRL
 \normalsize
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{evrakdivra.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1294,7 +1295,7 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 
 The meaning of the text is as potent as the chords are elementary. Ang means \emph{all}, Sung means \emph{in every}, Wahe is \emph{wow} and Guru, \emph{teacher}. All In Every Wow Teacher. Guru also means, according to Iyengar, Darkness (Gu) to Light (Ru). There's an idea that each one of us, and indeed everything in the universe is a microcosm of the entire universe. So we're steeping in the concept that All is In Every Part. Wow, my teacher. All of our learning and understanding comes out of Wow. Comes our of Awe, which we cultivate.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{angsangwaheguru.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1304,7 +1305,7 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 
 \subsection{Om Shrīṃ Lakṣmī Yea Svaha}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -1313,7 +1314,7 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 }
 \end{figure}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima12_8.ly}
 \end{changemargin}
 
@@ -1321,7 +1322,7 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 This chant has two variations \textemdash according Thomas Ashley Ferrand in the book, \underline{Shakti Mantras} \textemdash one of which is for people age twenty-nine and older, shown below, and another variation for people under the age of twenty-nine in which the word Namaḥ replaces the word Svaha. Namaḥ is a salute, whereas Svaha is an invocation.\par
 The chant is to cultivate the celestial healer within (and around) oneself. Ferrand describes the type of person whom simply being in their vicinity brings feelings of inner peace and wellbeing.
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{omshrimmahalaxmiyea.ly}
 \end{changemargin}
 \begin{figure}[ht]
