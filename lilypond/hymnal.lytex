@@ -1302,7 +1302,6 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \caption[Ang Sung Wahe Guru]{Harmonically this piece is pretty conservative. It reminds me of Christian pop music. The most interesting part is where there's the \writechord{A7} at the same time as the voice sings the D note right between the C$\sharp$ and E of the \writechord{A7}, creating a small cluster and a little bit of tension. There's also some slight movement at the \writechord{E7}, but it's well within the borders of harmonically conservative. However, chanting is medicinal. It's an antidote for hereditary depression, alcoholism, PTSD, lack of grounding and a host of other ailments. As long as it's effective, so what if medicine tastes a little like cheeze wiz? You can always get the taste out of your ears with a little dose of Sun Ra or Nina Simone.}
 \end{figure}
 
-
 \subsection{Om Shrīṃ Lakṣmī Yea Svaha}
 
 \begin{changemargin}{-1cm}{-1cm} 
@@ -1310,13 +1309,26 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Lakṣmī Yea  Svaha}
-\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{Pronunciation: Aah - om Shreem Lax - mee - yeah Swa - ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
+\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{Pronunciation: Aah /textemdash om Shreem Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
 }
 \end{figure}
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima12_8.ly}
 \end{changemargin}
+
+\subsection{Om Shrīṃ Lakṣmīyea Svaha}
+This chant has two variations \textemdash according Thomas Ashley Ferrand in the book, \underline{Shakti Mantras} \textemdash one of which is for people age twenty-nine and older, shown below, and another variation for people under the age of twenty-nine in which the word Namaḥ replaces the word Svaha. Namaḥ is a salute, whereas Svaha is an invocation.\par
+The chant is to cultivate the celestial healer within (and around) oneself. Ferrand describes the type of person whom simply being in their vicinity brings feelings of inner peace and wellbeing.
+
+\begin{changemargin}{-1cm}{-1cm} 
+\lilypondfile[quote,noindent]{omshrimmahalaxmiyea.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Shrīṃ Maha Lakṣmīyea Svaha}
+\caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah /textemdash  om Shreem Ma /textemdash Ha Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
+}
+\end{figure}
 
 
 \backmatter 
