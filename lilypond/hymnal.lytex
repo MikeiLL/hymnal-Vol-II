@@ -173,7 +173,7 @@
 	{\large \today\par}
 \end{titlepage}
 
-% \tableofcontents
+\tableofcontents
 
 \renewcommand{\listfigurename}{Chants \& Music}
  
@@ -221,31 +221,12 @@ What is a hymn? It's a piece of music that ``everyone" can sing together. It's a
 
 \end{description}
 
-Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
+\index{mantra}
+\index{chakra}
 
-If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.
+This isn't a collection of classic or popular chants. They are mostly ones with melodies we have either written or adapted. The first section of the book has a few fairly simple, easy to learn and sing chants. Then there's a bit of discourse on vocalization methods, which includes a brief introduction to the chakra system and ways to apply it to mantra.
 
-What is drone?
-
-How do we sing?
-
-Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}.
-
-How is this book organized?
-
-What are the chakras?
-
-Ganesha guardian of the kundalini
-
-these are just notes
-
-writing, the death of spoken word
-
-Taking classes and studying meditation I was always trying to \emph{visualize} the Chakras, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that's --- I don't know what --- floating in the wind? And I can draw that part of myself into my physical body --- but deeper than any actual part of the body --- into an undefinable center, and become grounded and centered.
-
-And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
-
-\section{Some Music}
+\chapter{Some Simple Chants}
 
 \subsection{Om Śāntiḥ Om}
 
@@ -257,7 +238,7 @@ And if I do that --- take the time to center myself --- I will be able to manage
 
 On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ ({\saha{शम}}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
-\begin{changemargin}{-1.8cm}{-.8cm} 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -290,7 +271,7 @@ If someone's feeling inspired the following might also be added to the mix. Noth
 
 This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the note that is \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note --- the note that is the \emph{key} we are in, which is \writechord{C} in this case --- is played or sung, as opposed to the note that is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
 
-\begin{changemargin}{-1.8cm}{-.8cm} 
+\begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom_scale.ly}
 \end{changemargin}
 
@@ -306,7 +287,7 @@ In either case the scale contains one interval that is evokative of Eastern tona
 
 \subsection{Asato Ma}
 
-I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
+I think the word Upanishads translates as ``campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
 
 The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
@@ -355,7 +336,7 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 \end{figure}
 
 \subsection{Wahe Guru Sat Nam}
-Words here.
+Wahe means Wow! Awesome!
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{wahaygurusatnam.ly}
 \end{changemargin}
@@ -365,13 +346,7 @@ Words here.
 \end{figure}
 
 \subsection{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
-The Creator has become my protector, the Truest of the True has taken care of me.  Har is the primal name / sound of the Creator.
-
-Har is the creative aspect of infinity/God/Goddess/your higher power/your true self. 
-
-If I don’t believe in God, I’m taking refuge in my art/creativity. If I do believe in God, I’m taking refuge in God in relation to my art.
-
-The naval chakra is the center of creativity. Swadhistana. Orange.
+The Creator has become my protector, the Truest of the True has taken care of me.  Har is the primal name / sound of the Creator. Har is the creative aspect of infinity/God/Goddess/your higher power/your true self. If I don’t believe in God, I’m taking refuge in my art/creativity. If I do believe in God, I’m taking refuge in God in relation to my art. The naval chakra is the center of creativity. Swadhistana. Orange.
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{aapsahaihoa.ly}
@@ -425,166 +400,35 @@ Words here.
 \caption[Long Ek Ong Kar]{}
 \end{figure}
 
+\subsection{Ang Sung Wahe Guru}
+\index{BKS Iyengar}
+
+The meaning of the text is as potent as the chords are elementary. Ang means \emph{all}, Sung means \emph{in every}, Wahe is \emph{wow} and Guru, \emph{teacher}. All In Every Wow Teacher. Guru also means, according to Iyengar, Darkness (Gu) to Light (Ru). There's an idea that each one of us, and indeed everything in the universe is a microcosm of the entire universe. So we're steeping in the concept that All is In Every Part. Wow, my teacher. All of our learning and understanding comes out of Wow. Comes our of Awe, which we cultivate.
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{angsangwaheguru.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ang Sung Wahe Guru}
+\caption[Ang Sung Wahe Guru]{Harmonically this piece is pretty conservative. It reminds me of Christian pop music. The most interesting part is where there's the \writechord{A7} at the same time as the voice sings the D note right between the C$\sharp$ and E of the \writechord{A7}, creating a small cluster and a little bit of tension. There's also some slight movement at the \writechord{E7}, but it's well within the borders of harmonically conservative. However, chanting is medicinal. It's an antidote for hereditary depression, alcoholism, PTSD, lack of grounding and a host of other ailments. As long as it's effective, so what if medicine tastes a little like cheeze wiz? You can always get the taste out of your ears with a little dose of Sun Ra or Nina Simone.}
+\end{figure}
+
 
 \subsection*{Sat Chit Ekam Brahma}
+This is one of the first chants described in Thomas Ashley Ferrand's, \underline{Shakti Mantras}. 
+
+Sarasvatī	(\velt{सरस्वती}) is the incarnation of Lakṣmī	(\velt{लक्ष्मी}) through whom the art of mantra is disseminated to humankind. But by Ferrand's account, many of the chants were extracted by Pārvatī \velt{पार्वती} \textemdash who is the incarnation of all combined cosmic energy \textemdash from the mind of her consort Śiva \velt{शिव}, the pure white, dreadlocked Hindu diety who is consciousness incarnate.
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ekam_brahma.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Sat Chit Ekam Brahma}
-\caption[Sat Chit Ekam Brahma]{We will talk more about the music here. (Sanskrit: \velt{ॐ नमः शिवाय})}
+\caption[Sat Chit Ekam Brahma]{}
 \end{figure}
-
-\subsection{Om Ganeṣa Eleggua}
-
-A few months previous to our beginning to assemble this hymnal, Rivka was wondering why we're going all these Hindu chants and none from other cultures. We're into the Afro-Cuban culture and I've been interested in Ifá for two decades. We actually have a small collection of Santería books that I found in our front yard in Hoboken years ago. They're written in Spanish so it takes me an hour a page, but I stubbornly cling to them. \par
-
-The relationship between Ifá and Santería is this. African slaves weren't allowed to practice their religions here in the Americas. For the most part they weren't allowed to play their own music, speak their own language, or dance the dances of their homeland and in many (if not most) cases, families were separated. We need to keep this in mind when we compare Blacks to other immigrant populations.
-
-Ifá is the religion of the Yorùbá people of south western Nigeria, and according to Lopes Valdez, Ethnologist from the Cuban Academy of Sciences, ``The number of slaves landing alive in Cuba [mostly during the 1800s] was about 1.3 million, almost one tenth of all slaves in the Americas. \ldots The Yoruba people were the second major ethnic group brought to Cuba from Africa (behind the Bantu)."
-
-In Santería, also called Regla de Ocha, parallels were found between Ifá and Christianity, and the Oriṣa --- what we might describe as Ifá deities --- were worshipped in the form of their Christian counterparts. Obatala was worshipped in the form of Christ, Yemaya in the form of Mary. Those who practiced Santería were able to have their shrines in public, while the practice of Ifá was done in secret.
-
-One of the things we sacrificed in moving to Pensacola from the NYC area was the rich culture of the Metropolitan area. And we were bemoaning the fact that there wasn't anyone here from whom we could learn more about the AfroCuban chants I knew from life-saving times at the Rhumbas at an American Legion Hall on the Lower East Side (forever grateful Judith Arnold Maldonado) and time working for Amelia Pedroso and Ibbu-Okun (thank you Paula Ballan). 
-
-Within a week of Rivka and my conversation, Peace D Cashmire mentioned that an African Dance class in the Yorùbá/Ifá tradition was beginning the next day, which ended up leading us to Iya Monife Osun's Golden Harvest Ilè, which is an Ifá temple right here in Pensacola.
-
-When I first began learning about Ganeṣa (\saha{गणेश}), the Elephant-headed deity of Hinduism, I was struck by the parallels to Elegua, who is the divine messenger in Ifá. They are both invoked at the beginning of ritual and seen as openers of the door between worlds; rational and intuitive, physical and spiritual, magical and mundane. They are also both tricksters and I love how Awo Fá'lokun Fatunmbi puts it: ``this role has the function of transforming deceptive and limited visions of self and world." Elegua is actually the name I learned for this Oriṣa from the Cuban people in New York. Elegba is the name the folks at Golden Harvest and Ileṣa Ire (more on them later) use and in Nigeria, the divine messenger is referred to as Eşu.
-
-According to Awo Fá'lokun Fatunmbi, one of the twenty one \emph{roads} of Eşu is called Eşu Elegbara, a warrior and the divine messenger of power. He suggests that it makes sense that in an atmosphere of slavery, an aspect of Eşu that represents communication in the face of overwhelming obstacles would become the face of interaction between human consciousness and Spirit.
-
-As both Eşu and Ganeşa are real, it makes sense that they might run into each other, which is what happens in this chant. I can imagine them meeting up in Egypt - half way between India and Nigeria.
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{oganeshaelegua.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Om Ganeṣa Eleggua}
-\caption[Om Ganeṣa Eleggua]{(In the first section of this chant, we establish the challenge: finding truth or in Sanskrit, Sat (\saha{सत्}). Then we ask Elegua and Ganeṣa to please open the door to it. The following section is a traditional Ifá chant. In a presentation of the music of Liberation Theology --- a justice-oriented approach to Christianity which grew out of Catholic Activism in Central America --- composer Nick Page describes the meaning of \emph{Iba Orisha Iba Layé O} as ``giving Aṣé, the fundamental energy to everyone present''. \emph{Aṣé} is spiritual energy and might be compared to the Sanskrit word śakti (\saha{शक्ति}). \emph{Iba} means \emph{I give reverence} and \emph{Layé O} refers to the power of Spirit. Next we add a series of responses, \emph{Y'ago} which sounds like, \emph{eh, ah-go}translates as ``yield'' and means ``Please hear me. Allow this prayer to enter.''. And specifically ask this of Elegba (the American variation), Ganeṣa and \emph{Egungun}, which means our ancestors. Lastly a call and response of Aṣé and Aṣé-o which mean, ``so mote it be.'', as well as referring to cosmic, spiritual energy and power. 
-}
-\end{figure}
-
-
-There could also be references to \emph{Mo'juba}, which is a spiritually energizing prayer. It's meaning is \emph{we give reverence to}. Like the Ong Namo Guro Dev Namo chant, we like to do this one with a Rhumba rhythm where every six beats are divided: middle --- rest --- high --- rest --- low --- low.
-
-\subsection{Gayatri Mantra}
-
-\mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\velt{मंत्र}) are broken up as the root, \textbf{Man} (\velt{युव}): the root of \textbf{manas} (\velt{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\velt{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
-
-The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically.
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{gayatri_mantra.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:gayatri mantra}
-\caption[Gayatri Mantra]{When chanting this with a group who don't know the words and/or melody, the chant leading can be repeated one measure at a time: ---Om Bhur ---Om Bhur ---Om bhugaha ---Om bhugaha \ldots and so on.}
-\end{figure}
-
-\subsection{A Long Road}
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{a_long_road.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:A Long Road}
-\caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
-\end{figure}
-
-Another section to play with:
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{the_road_junction.ly}
-\end{changemargin}
-
-\chapter{Sweet Surrender}
-
-A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which \textemdash after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
-
-This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
-
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{surrender.ly}
-\end{changemargin}
-
-\hfill \\
-
-Some of the Deities we called to were: \hfill \\
-
-\begin{addmargin}[3em]{3em}
-\begin{description}
-
-\item[Laxmi Ma]
-\textit{When, in the Hindu creation story, Narayana began dreaming existence out of the primordial soup, Laxmi was the feminine energy by which manifestation could occur.}
-
-\item[Saraswati]
-\textit{An avatar by which we can experience the energy of Laxmi Ma, Saraswati is the Hindu goddess to whom we look for creative energy and intelligence.}
-
-\item[Om Elegua]
-\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
-
-\item[Obatala]
-\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
-
-\item[Mother Mary]
-\textit{Mary is one of the most universal of the Christian symbols.}
-
-\item[Om Shiva]
-\textit{Shiva is lord of yoga. Lord of the dance. Shiva is depicted as having long, matted dread locks, full of insects. Shiva is too occupied with universal consciousness to be bothered.}
-\end{description}
-\end{addmargin}
-\hfill \\
-
-Others that come to mind are:
-
-\begin{addmargin}[3em]{3em}
-\begin{description}
-\item[Yemaya]
-\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
-
-\item[Oshun]
-\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
-
-\item[Om Jesus]
-\textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
-\end{description}
-\end{addmargin}
-
-At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
-\end{changemargin}
-
-Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
-\end{changemargin}
-
-Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
-
-The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
-
-\setRL
-\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
-\unsetRL
-\normalsize
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{kul_ha_yom.ly}
-\end{changemargin}
-
-\begin{figure}[ht]
-\label{fig:Kul Hayom Vikhul Halaila Om}
-\caption[Kul Hayom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
-\end{figure}
-
-For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 
 \chapter{The Art of Vocalization}
-
+\subsection*{Introduction to Vocal Technique}
 In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
 
 It is out of this philosophy that \textemdash a thousand years later \textemdash what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e.   by a yogi named Swami Svatmarama.
@@ -802,6 +646,152 @@ The chant is this:
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
+\chapter{Chants that are More Complex}
+
+\subsection{Om Ganeṣa Eleggua}
+
+A few months previous to our beginning to assemble this hymnal, Rivka was wondering why we're going all these Hindu chants and none from other cultures. We're into the Afro-Cuban culture and I've been interested in Ifá for two decades. We actually have a small collection of Santería books that I found in our front yard in Hoboken years ago. They're written in Spanish so it takes me an hour a page, but I stubbornly cling to them. \par
+
+The relationship between Ifá and Santería is this. African slaves weren't allowed to practice their religions here in the Americas. For the most part they weren't allowed to play their own music, speak their own language, or dance the dances of their homeland and in many (if not most) cases, families were separated. We need to keep this in mind when we compare Blacks to other immigrant populations.
+
+Ifá is the religion of the Yorùbá people of south western Nigeria, and according to Lopes Valdez, Ethnologist from the Cuban Academy of Sciences, ``The number of slaves landing alive in Cuba [mostly during the 1800s] was about 1.3 million, almost one tenth of all slaves in the Americas. \ldots The Yoruba people were the second major ethnic group brought to Cuba from Africa (behind the Bantu)."
+
+In Santería, also called Regla de Ocha, parallels were found between Ifá and Christianity, and the Oriṣa --- what we might describe as Ifá deities --- were worshipped in the form of their Christian counterparts. Obatala was worshipped in the form of Christ, Yemaya in the form of Mary. Those who practiced Santería were able to have their shrines in public, while the practice of Ifá was done in secret.
+
+One of the things we sacrificed in moving to Pensacola from the NYC area was the rich culture of the Metropolitan area. And we were bemoaning the fact that there wasn't anyone here from whom we could learn more about the AfroCuban chants I knew from life-saving times at the Rhumbas at an American Legion Hall on the Lower East Side (forever grateful Judith Arnold Maldonado) and time working for Amelia Pedroso and Ibbu-Okun (thank you Paula Ballan). 
+
+Within a week of Rivka and my conversation, Peace D Cashmire mentioned that an African Dance class in the Yorùbá/Ifá tradition was beginning the next day, which ended up leading us to Iya Monife Osun's Golden Harvest Ilè, which is an Ifá temple right here in Pensacola.
+
+When I first began learning about Ganeṣa (\saha{गणेश}), the Elephant-headed deity of Hinduism, I was struck by the parallels to Elegua, who is the divine messenger in Ifá. They are both invoked at the beginning of ritual and seen as openers of the door between worlds; rational and intuitive, physical and spiritual, magical and mundane. They are also both tricksters and I love how Awo Fá'lokun Fatunmbi puts it: ``this role has the function of transforming deceptive and limited visions of self and world." Elegua is actually the name I learned for this Oriṣa from the Cuban people in New York. Elegba is the name the folks at Golden Harvest and Ileṣa Ire (more on them later) use and in Nigeria, the divine messenger is referred to as Eşu.
+
+According to Awo Fá'lokun Fatunmbi, one of the twenty one \emph{roads} of Eşu is called Eşu Elegbara, a warrior and the divine messenger of power. He suggests that it makes sense that in an atmosphere of slavery, an aspect of Eşu that represents communication in the face of overwhelming obstacles would become the face of interaction between human consciousness and Spirit.
+
+As both Eşu and Ganeşa are real, it makes sense that they might run into each other, which is what happens in this chant. I can imagine them meeting up in Egypt - half way between India and Nigeria.
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{oganeshaelegua.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Ganeṣa Eleggua}
+\caption[Om Ganeṣa Eleggua]{(In the first section of this chant, we establish the challenge: finding truth or in Sanskrit, Sat (\saha{सत्}). Then we ask Elegua and Ganeṣa to please open the door to it. The following section is a traditional Ifá chant. In a presentation of the music of Liberation Theology --- a justice-oriented approach to Christianity which grew out of Catholic Activism in Central America --- composer Nick Page describes the meaning of \emph{Iba Orisha Iba Layé O} as ``giving Aṣé, the fundamental energy to everyone present''. \emph{Aṣé} is spiritual energy and might be compared to the Sanskrit word śakti (\saha{शक्ति}). \emph{Iba} means \emph{I give reverence} and \emph{Layé O} refers to the power of Spirit. Next we add a series of responses, \emph{Y'ago} which sounds like, \emph{eh, ah-go}translates as ``yield'' and means ``Please hear me. Allow this prayer to enter.''. And specifically ask this of Elegba (the American variation), Ganeṣa and \emph{Egungun}, which means our ancestors. Lastly a call and response of Aṣé and Aṣé-o which mean, ``so mote it be.'', as well as referring to cosmic, spiritual energy and power. 
+}
+\end{figure}
+
+
+There could also be references to \emph{Mo'juba}, which is a spiritually energizing prayer. It's meaning is \emph{we give reverence to}. Like the Ong Namo Guro Dev Namo chant, we like to do this one with a Rhumba rhythm where every six beats are divided: middle --- rest --- high --- rest --- low --- low.
+
+\subsection{Gayatri Mantra}
+
+\mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\velt{मंत्र}) are broken up as the root, \textbf{Man} (\velt{युव}): the root of \textbf{manas} (\velt{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\velt{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
+
+The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically.
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{gayatri_mantra.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:gayatri mantra}
+\caption[Gayatri Mantra]{When chanting this with a group who don't know the words and/or melody, the chant leading can be repeated one measure at a time: ---Om Bhur ---Om Bhur ---Om bhugaha ---Om bhugaha \ldots and so on.}
+\end{figure}
+
+\subsection{A Long Road}
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{a_long_road.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:A Long Road}
+\caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
+\end{figure}
+
+Another section to play with:
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{the_road_junction.ly}
+\end{changemargin}
+
+A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which \textemdash after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
+
+This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
+
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{surrender.ly}
+\end{changemargin}
+
+\hfill \\
+
+Some of the Deities we called to were: \hfill \\
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+
+\item[Laxmi Ma]
+\textit{When, in the Hindu creation story, Narayana began dreaming existence out of the primordial soup, Laxmi was the feminine energy by which manifestation could occur.}
+
+\item[Saraswati]
+\textit{An avatar by which we can experience the energy of Laxmi Ma, Saraswati is the Hindu goddess to whom we look for creative energy and intelligence.}
+
+\item[Om Elegua]
+\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
+
+\item[Obatala]
+\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
+
+\item[Mother Mary]
+\textit{Mary is one of the most universal of the Christian symbols.}
+
+\item[Om Shiva]
+\textit{Shiva is lord of yoga. Lord of the dance. Shiva is depicted as having long, matted dread locks, full of insects. Shiva is too occupied with universal consciousness to be bothered.}
+\end{description}
+\end{addmargin}
+\hfill \\
+
+Others that come to mind are:
+
+\begin{addmargin}[3em]{3em}
+\begin{description}
+\item[Yemaya]
+\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
+
+\item[Oshun]
+\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
+
+\item[Om Jesus]
+\textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
+\end{description}
+\end{addmargin}
+
+At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
+\end{changemargin}
+
+Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
+\end{changemargin}
+
+Someone could just be saying "Satanam!", another "Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
+
+The following chant, mostly in Hebrew translates, "All of the day and all of the night Om".
+
+\setRL
+\huge\texthebrew{כל היום וכל הלילה} \LR{\mangaluni{ॐ}} 
+\unsetRL
+\normalsize
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{kul_ha_yom.ly}
+\end{changemargin}
+
+\begin{figure}[ht]
+\label{fig:Kul Hayom Vikhul Halaila Om}
+\caption[Kul Hayom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
+\end{figure}
+
+For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 
 \subsection*{Anandamayi Ma}
 
@@ -1297,19 +1287,6 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \unsetRL
 \end{multicols}
 
-\subsection{Ang Sung Wahe Guru}
-\index{BKS Iyengar}
-
-The meaning of the text is as potent as the chords are elementary. Ang means \emph{all}, Sung means \emph{in every}, Wahe is \emph{wow} and Guru, \emph{teacher}. All In Every Wow Teacher. Guru also means, according to Iyengar, Darkness (Gu) to Light (Ru). There's an idea that each one of us, and indeed everything in the universe is a microcosm of the entire universe. So we're steeping in the concept that All is In Every Part. Wow, my teacher. All of our learning and understanding comes out of Wow. Comes our of Awe, which we cultivate.
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{angsangwaheguru.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Ang Sung Wahe Guru}
-\caption[Ang Sung Wahe Guru]{Harmonically this piece is pretty conservative. It reminds me of Christian pop music. The most interesting part is where there's the \writechord{A7} at the same time as the voice sings the D note right between the C$\sharp$ and E of the \writechord{A7}, creating a small cluster and a little bit of tension. There's also some slight movement at the \writechord{E7}, but it's well within the borders of harmonically conservative. However, chanting is medicinal. It's an antidote for hereditary depression, alcoholism, PTSD, lack of grounding and a host of other ailments. As long as it's effective, so what if medicine tastes a little like cheeze wiz? You can always get the taste out of your ears with a little dose of Sun Ra or Nina Simone.}
-\end{figure}
-
 \subsection{Om Shrīṃ Lakṣmī Yea Svaha}
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
@@ -1337,6 +1314,31 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 \caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah /textemdash  om Shreem Ma /textemdash Ha Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
 }
 \end{figure}
+
+
+Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
+
+If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.
+
+What is drone?
+
+How do we sing?
+
+Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}.
+
+How is this book organized?
+
+What are the chakras?
+
+Ganesha guardian of the kundalini
+
+these are just notes
+
+writing, the death of spoken word
+
+Taking classes and studying meditation I was always trying to \emph{visualize} the Chakras, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that's --- I don't know what --- floating in the wind? And I can draw that part of myself into my physical body --- but deeper than any actual part of the body --- into an undefinable center, and become grounded and centered.
+
+And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
 
 
 \backmatter 
