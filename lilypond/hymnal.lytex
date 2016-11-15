@@ -195,11 +195,12 @@
 \index{Bhagavad Gita}
 \index{Faitheism}
 
-Why do we chant, and as we engage our hearts and cultivate devotion, to whom or what is that devotion aimed? In the Hindu scripture, The Bhagavad Gita, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of life, in all it's mystery. Through cultivating our Awe and Faith, our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy. Sometimes we chant trans-culturally.
+Why do we chant, and \textemdash as we engage our hearts and cultivate devotion \textemdash toward whom or what is that devotion aimed? In the seminal Hindu scripture, \underline{The Bhagavad Gita}, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of human existence, in all it's mystery. By cultivating Awe and Faith, our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy, to whatever makes sense. Sometimes we chant trans-culturally. Hopefully always from a place of honoring, respecting and preserving traditions, even if not staying within their boundaries. In a way Faitheism is an excuse to enjoy the benefits of religion without any of the side effects. 
 
-Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
+This work is by no means complete. To a large degree it's a tool for our own use, as a hymnal probably is by tradition. This document is designed as a tool for sharing information, but it's also a tool for storing and referencing it ourselves. The written word has made us lazy. Before writing, complete integration of a concept into the intellect was the only way to insure it's survival. Now we can write it down, put it on a shelf and forget about it. It will probably be available if we need it later. More so if we make and distribute a thousand copies of it.
 
-If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.
+With all due respect to scholars and academia, this is not a work of scholarship. I have endeavored to avoid incorrect translations and statements of fact. No guarantees. The source is an eclectic artist and friends writing back in 2016.
+
 \index{Asé}
 \index{Esther}
 \index{Ogún}
@@ -219,6 +220,10 @@ What is a hymn? It's a piece of music that ``everyone" can sing together. It's a
 \item[2]Old English, via Latin from Greek humnos 'ode or song in praise of a god or hero', used in the Septuagint to translate various Hebrew words, and hence in the New Testament and other Christian writings.
 
 \end{description}
+
+Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
+
+If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.
 
 What is drone?
 
@@ -299,6 +304,138 @@ make it an E\natural  (natural).
 
 In either case the scale contains one interval that is evokative of Eastern tonalities, and that is the \emph{augmented second}. An augmented second has the same acoustical qualities as a minor third in that there are \emph{one whole step} and \emph{one half step} or {three semitones} between the two notes. However in this case there isn't a note between them in the scale, which is why it is referred to as a second and not a third. First would be a non-step, second is a single (whole, half or augmented) step, third is two steps, fourth is three steps and so on. 
 
+\subsection{Asato Ma}
+
+I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
+
+The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{asato_ma.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Asato Ma Sat Gamaya}
+\caption[Asato Ma Sat Gamaya]{This chant is written above with each line echoed for use in call and reponse. That way the congregation only need to recall a handfull of syllables and a short bit of melody. The chant could also be done without the repeats.}
+\end{figure}
+
+\subsection*{Gobinday Mukanday Udara Apare}
+Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
+Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
+
+\begin{itemize}
+ \item  \textbf{Root Chakra} RED --- Gobinday --- \emph{Sustainer}
+ \item  \textbf{Naval Chakra} ORANGE --- Mukanday --- \emph{Liberator}
+ \item  \textbf{Solar Plexus} YELLOW --- Udare --- \emph{Enlightener}
+ \item  \textbf{Heart Chakra} GREEN --- Apare --- \emph{Infinite}
+ \item  \textbf{Throat Chakra} BLUE --- Hariang --- \emph{Destroyer}
+ \item  \textbf{First Eye} INDIGO --- Kariang --- \emph{Creator}
+ \item  \textbf{Crown Chakra} VIOLET --- Nearname --- \emph{Nameless}
+ \item  \textbf{Above Crown} WHITE --- Akame --- \emph{Desireless}
+\end{itemize}
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{gobinday.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Gobinday Mukanday}
+\caption[Gobinday Mukanday]{}
+\end{figure}
+
+\mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
+
+\subsection{I Wanna Know You}
+There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{iwannaknowyou.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:I Wanna Know You}
+\caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Flat Seven Theory of Tonal Organization. The basic idea is that the interval of the "perfect" fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of distance from a tonal center.}
+\end{figure}
+
+\subsection{Wahe Guru Sat Nam}
+Words here.
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{wahaygurusatnam.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Wahe Guru Sat Nam}
+\caption[Wahe Guru Sat Nam]{}
+\end{figure}
+
+\subsection{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
+The Creator has become my protector, the Truest of the True has taken care of me.  Har is the primal name / sound of the Creator.
+
+Har is the creative aspect of infinity/God/Goddess/your higher power/your true self. 
+
+If I don’t believe in God, I’m taking refuge in my art/creativity. If I do believe in God, I’m taking refuge in God in relation to my art.
+
+The naval chakra is the center of creativity. Swadhistana. Orange.
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{aapsahaihoa.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
+\caption[Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har]{}
+\end{figure}
+
+\subsection{Ra Ma Da Sa Sa Say So Hung}
+Where most of the Sanskrit is the primary language of Hindu chants, Kundalini Yoga chants are typically in Gurmukhi, a language that combines Punjabi and Sanskrit:
+
+Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
+
+It is the tongue of the Sikh religion. The name Gurmukhi means "from the mouth of the Guru" and comes from the Old Punjabi word guramukhī.
+
+This is a healing chant, which can be performed seated in easy pose with the upper arms and elbows tucked into the sides of the ribcage, the arms bent at the elbows, fingers pointed outwards at a 45 degree angle to the center of the body - almost hyperextended in the wrists, palms open to the sky with fingers together and thumbs open.
+
+The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity, I am Thou. The first Infinity, Sa refers to Impersonal or Astrological Infinity, and Say is the personal manifestation of infinity, or the personal embodiment of Sa (we are each a microcosm of the universe), so the two syllables together: Sa Say is the Totality of infinity, which includes the Cosmic Intelligence (to which we have and seek access). Ra Ma Da Sa, known by itself as the Earth Mantra, is made up of syllables which mean Sun, Moon, Earth, Infinity. Sa Say So Hung is the Ether Mantra. The syllable So captures a personal sense of unity with the divine, and Hung is the vibrating, energetic reality of the Infinite. 
+
+Ravi Singh describes the difference between Sa and Hung as follows: ``Sa is Existence itself and Hung means the realization or manifestation of that. Sa is light and Hung is the laser form of that light.''
+
+Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{ramadasa.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Ra Ma Da Sa Sa Say So Hung}
+\caption[Ra Ma Da Sa Sa Say So Hung]{We like to start this one with a drone, or maybe an ostinato bass, playing around with that minor second. The main melody of the mantra is the one written above in the middle. If you do the chant a half step lower in E$\flat$, that melody will be all black notes. When we're not playing the chords, I like to sing the high line, switching that fifth note, C for C$\sharp$, but when the chords (as written above) are playing that's fairly dissonant with the natural C in the \writechord{Ami} chord.}
+\end{figure}
+
+\subsection{lā ilāha illā allāh}
+\begin{arab}[fullvoc]
+لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
+\end{arab}
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{laillahaillaallah.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:lā ilāha illā allāh}
+\caption[lā ilāha illā allāh]{}
+\end{figure}
+
+\subsection{Long Ek Ong Kar}
+Words here.
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{longekongkar.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Long Ek Ong Kar}
+\caption[Long Ek Ong Kar]{}
+\end{figure}
+
+
+\subsection*{Sat Chit Ekam Brahma}
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{ekam_brahma.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Sat Chit Ekam Brahma}
+\caption[Sat Chit Ekam Brahma]{We will talk more about the music here. (Sanskrit: \velt{ॐ नमः शिवाय})}
+\end{figure}
+
 \subsection{Om Ganeṣa Eleggua}
 
 A few months previous to our beginning to assemble this hymnal, Rivka was wondering why we're going all these Hindu chants and none from other cultures. We're into the Afro-Cuban culture and I've been interested in Ifá for two decades. We actually have a small collection of Santería books that I found in our front yard in Hoboken years ago. They're written in Spanish so it takes me an hour a page, but I stubbornly cling to them. \par
@@ -354,36 +491,11 @@ The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk
 \caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
 \end{figure}
 
-And another thing:
+Another section to play with:
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{the_road_junction.ly}
 \end{changemargin}
-
-
-\subsection{Wordless One}
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{wordless-one.ly}
-\end{changemargin}
-\begin{table}[h!]
-\caption{Wordless One}
-\label{table:1}
-\end{table}
-
-
-\subsection{Asato Ma}
-
-I think the word Upanishads translates as "campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
-
-The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{asato_ma.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Asato Ma Sat Gamaya}
-\caption[Asato Ma Sat Gamaya]{We will talk more about the music here.}
-\end{figure}
 
 \chapter{Sweet Surrender}
 
@@ -471,23 +583,11 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 
 For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 
-This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
-
-\subsection*{Seven Beats Descending}
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{ellington7.ly}
-\end{changemargin}
-\begin{table}[ht]
-\caption[Seven Beats Descending]{We will talk more about the music here.}
-\label{table:Seven Beats Descending}
-\end{table}
-
 \chapter{The Art of Vocalization}
 
-In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century CE, which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
+In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
 
-It is out of this philosophy that what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e.   by a yogi named Swami Svatmarama.
+It is out of this philosophy that \textemdash a thousand years later \textemdash what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e.   by a yogi named Swami Svatmarama.
 
 There's an idea that if we follow the mind back to it's source, we find God. And we also see that as each one of us is a microcosm of the universe, by exploring the limits of our selves, logically, emotionally, psychologically as well as physically, we are exploring the limits of the universe. This is also true of our use of vocalization. Most if not all spiritual traditions embrace and express the idea that God listens not necessarily to the words, but to the intention behind the words. In Hinduism as well as in Ifá there are words used in incantations that dont' have any literal meaning. Sounds the resonate or vibrate with specific Oriṣa or aspects of nature and consciousness. In Western occult terms this may be referred to as Sympathetic Majick.
 
@@ -787,16 +887,6 @@ The issue was whether to write "kAlikAyai" or "kAlikAye". The second is wrong.
 \caption[Jai Kali Ma]{We will talk more about the music here. }
 \end{figure}
 
-\subsection*{Sat Chit Ekam Brahma}
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{ekam_brahma.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Sat Chit Ekam Brahma}
-\caption[Sat Chit Ekam Brahma]{We will talk more about the music here. (Sanskrit: \velt{ॐ नमः शिवाय})}
-\end{figure}
-
 
 \subsection*{Shangó Shangó}
 \index{Shango}
@@ -825,6 +915,28 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \end{figure}
 
 \lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
+
+
+\subsection{Wordless One}
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{wordless-one.ly}
+\end{changemargin}
+\begin{table}[h!]
+\caption{Wordless One}
+\label{table:1}
+\end{table}
+
+This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
+\subsection*{Seven Beats Descending}
+
+\begin{changemargin}{-1.8cm}{-.8cm} 
+\lilypondfile[quote,noindent]{ellington7.ly}
+\end{changemargin}
+\begin{table}[ht]
+\caption[Seven Beats Descending]{We will talk more about the music here.}
+\label{table:Seven Beats Descending}
+\end{table}
 
 \subsection*{White Notes in Twelve Eight}
 
@@ -921,112 +1033,7 @@ We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{
 \caption[Sat Chit Ananda Praharsha]{}
 \end{figure}
 
-\subsection*{Gobinday Mukanday Udara Apare}
-Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
-Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
 
-\begin{itemize}
- \item  \textbf{Root Chakra} RED --- Gobinday --- \emph{Sustainer}
- \item  \textbf{Naval Chakra} ORANGE --- Mukanday --- \emph{Liberator}
- \item  \textbf{Solar Plexus} YELLOW --- Udare --- \emph{Enlightener}
- \item  \textbf{Heart Chakra} GREEN --- Apare --- \emph{Infinite}
- \item  \textbf{Throat Chakra} BLUE --- Hariang --- \emph{Destroyer}
- \item  \textbf{First Eye} INDIGO --- Kariang --- \emph{Creator}
- \item  \textbf{Crown Chakra} VIOLET --- Nearname --- \emph{Nameless}
- \item  \textbf{Above Crown} WHITE --- Akame --- \emph{Desireless}
-\end{itemize}
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{gobinday.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Gobinday Mukanday}
-\caption[Gobinday Mukanday]{}
-\end{figure}
-
-\mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
-
-\subsection{I Wanna Know You}
-There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{iwannaknowyou.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:I Wanna Know You}
-\caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Flat Seven Theory of Tonal Organization. The basic idea is that the interval of the "perfect" fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of distance from a tonal center.}
-\end{figure}
-
-\subsection{Wahe Guru Sat Nam}
-Words here.
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{wahaygurusatnam.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Wahe Guru Sat Nam}
-\caption[Wahe Guru Sat Nam]{}
-\end{figure}
-
-\subsection{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
-The Creator has become my protector, the Truest of the True has taken care of me.  Har is the primal name / sound of the Creator.
-
-Har is the creative aspect of infinity/God/Goddess/your higher power/your true self. 
-
-If I don’t believe in God, I’m taking refuge in my art/creativity. If I do believe in God, I’m taking refuge in God in relation to my art.
-
-The naval chakra is the center of creativity. Swadhistana. Orange.
-
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{aapsahaihoa.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
-\caption[Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har]{}
-\end{figure}
-
-\subsection{Ra Ma Da Sa Sa Say So Hung}
-Where most of the Sanskrit is the primary language of Hindu chants, Kundalini Yoga chants are typically in Gurmukhi, a language that combines Punjabi and Sanskrit:
-
-Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
-
-It is the tongue of the Sikh religion. The name Gurmukhi means "from the mouth of the Guru" and comes from the Old Punjabi word guramukhī.
-
-This is a healing chant, which can be performed seated in easy pose with the upper arms and elbows tucked into the sides of the ribcage, the arms bent at the elbows, fingers pointed outwards at a 45 degree angle to the center of the body - almost hyperextended in the wrists, palms open to the sky with fingers together and thumbs open.
-
-The words, Ra Ma Da Sa Sa Say So Hung mean Sun, Moon, Earth, Infinity, Infinity, I am Thou. The first Infinity, Sa refers to Impersonal or Astrological Infinity, and Say is the personal manifestation of infinity, or the personal embodiment of Sa (we are each a microcosm of the universe), so the two syllables together: Sa Say is the Totality of infinity, which includes the Cosmic Intelligence (to which we have and seek access). Ra Ma Da Sa, known by itself as the Earth Mantra, is made up of syllables which mean Sun, Moon, Earth, Infinity. Sa Say So Hung is the Ether Mantra. The syllable So captures a personal sense of unity with the divine, and Hung is the vibrating, energetic reality of the Infinite. 
-
-Ravi Singh describes the difference between Sa and Hung as follows: ``Sa is Existence itself and Hung means the realization or manifestation of that. Sa is light and Hung is the laser form of that light.''
-
-Each round of the chant is performed with a single breath, the final syllable, Hung being more gasped than sung, emphasized as the last bit of breath is pushed out by energetically pulling in on the naval.
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{ramadasa.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Ra Ma Da Sa Sa Say So Hung}
-\caption[Ra Ma Da Sa Sa Say So Hung]{We like to start this one with a drone, or maybe an ostinato bass, playing around with that minor second. The main melody of the mantra is the one written above in the middle. If you do the chant a half step lower in E$\flat$, that melody will be all black notes. When we're not playing the chords, I like to sing the high line, switching that fifth note, C for C$\sharp$, but when the chords (as written above) are playing that's fairly dissonant with the natural C in the \writechord{Ami} chord.}
-\end{figure}
-
-\subsection{lā ilāha illā allāh}
-\begin{arab}[fullvoc]
-لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
-\end{arab}
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{laillahaillaallah.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:lā ilāha illā allāh}
-\caption[lā ilāha illā allāh]{}
-\end{figure}
-
-\subsection{Long Ek Ong Kar}
-Words here.
-\begin{changemargin}{-1.8cm}{-.8cm} 
-\lilypondfile[quote,noindent]{longekongkar.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Long Ek Ong Kar}
-\caption[Long Ek Ong Kar]{}
-\end{figure}
 
 \subsection{Om Satyea Namaḥ}
 Words here.
