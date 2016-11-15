@@ -75,7 +75,7 @@
 % any external preprocessor (like the old devnag.c program).
 % % Set up the font commands:
 %
-\newcommand{\velt}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
+\newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sanskritfont #1}}}
 \newcommand{\saha}[1]{{{\selectlanguage{sanskrit}\sahadevafont#1}}}
 \newcommand{\sahauni}[1]{{{\selectlanguage{sanskrit}\sahadevaunicodefont #1}}}
 \newcommand{\mangaluni}[1]{{{\selectlanguage{sanskrit}\mangalfont #1}}}
@@ -158,7 +158,7 @@
 	\vspace{1cm}
 	{\scshape\Large Bliss \par}
 	\vspace{1.5cm}
-	{\huge\bfseries \velt{संशय अविश्वास आनन्द} \par}
+	{\huge\bfseries \saha{संशय अविश्वास आनन्द} \par}
 	\vfill
 	\vspace{1cm}
 	A \textsc{Faitheist} Hymnal
@@ -225,6 +225,10 @@ What is a hymn? It's a piece of music that ``everyone" can sing together. It's a
 \index{chakra}
 
 This isn't a collection of classic or popular chants. They are mostly ones with melodies we have either written or adapted. The first section of the book has a few fairly simple, easy to learn and sing chants. Then there's a bit of discourse on vocalization methods, which includes a brief introduction to the chakra system and ways to apply it to mantra.
+
+None of these chants require accompaniment, but in many cases we include the names of chords which we have found suitable accompaniment. Western chordal harmony is a vertical extension of melody and a relatively recent invention, with our "just intonation" being only a few hundred years old. Accompaniment to chant and mantra that reaches further into the infinite past would be the drone or the drum, both of which leave more room for horizontal melodic freedom.
+
+Who reveals these magical offerings to us? You do. The police do. The radio does. Monks do. The chants of the Sufis. The peoples of the First Nations of the continent within which this hymnal is written. Aboriginal chant music. Hindustani and Carnatic music. Hip-hop. Input, corrections and suggestions welcome.
 
 \chapter{Some Simple Chants}
 
@@ -296,8 +300,26 @@ The chant means, Lead me from non-being to being. Lead me from darkness to everl
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Asato Ma Sat Gamaya}
-\caption[Asato Ma Sat Gamaya]{This chant is written above with each line echoed for use in call and reponse. That way the congregation only need to recall a handfull of syllables and a short bit of melody. The chant could also be done without the repeats.}
+\caption[Asato Ma Sat Gamaya]{This chant is written above with each line echoed for use in call and response. That way the congregation only need to recall a handfull of syllables and a short bit of melody. The chant could also be done without the repeats.}
 \end{figure}
+
+\subsection{Anatomy of Drone}
+
+Drone is the pure rhythm; the pure time. The drone of our blood running through our veins. The drone of our mothers heart beat. Om (\saha{ॐ}). The beginning of the universe. An echo of God's initial and eternal statement. (All Praises Due to the One Who Does Not Exist.)  \par
+
+Forever itself is a massive vibration of time and space. That which is that which has been and always will be. Repetition, vibration as in nature, self replication, echo, reverberation, integrate and disintegrate. Primal expression of the creative principle. All notes surely are contained in the one sound. As above so below. This is the groove. This is the drone.
+
+\index{bījākṣara}
+
+The chanting and repetition of Divine names; of majikal syllables, bījākṣara (\saha{बीजाक्षर}) is itself a drone. The music of the spheres. Each planet vibrates at it's own frequency. Prior to the 16ht century, in the West, the harmonic system of Pythagoras \textamdash the divine order of the frequencies, based on the 3:2 logarithm found in the natural fifth \textemdash was our harmonic foundation. Then a man named Werkmeister developed the even tempered system. Major thirds don't sound as intense, but our music is out of tune with the universe. It's convenient, I'm told. \par
+
+\mna{The Big Bang the Devine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. - Zef Noi$e}
+
+Repetitive waves of sound. One key, one mono, one love. Unity. Minimalism. Simplicity of action yields the complexity of nature. Less is more. Do less and less to achieve more and more until you do nothing and achieve everything.
+
+So how do you make a drone? One doesn't make a drone. It may appear that one has made a drone, but what one has done is add to a drone that was always there. So if you want to add to the drone, start by listening to it.  If there is a string stretched somewhere, you can cause it to vibrate, and if it is near a resonant box, the vibrations of the string will cause the surrounding air to vibrate and those sound waves will be amplified by the resonant box. Piano, guitar, violin, banjo exhibit this principle. Blowing through a reed creates audible sound waves. You can download a free application that creates an imitation of the Tanpura drone ubiquitous in Indian music. A nearby train yard or a factory may be emitting a drone like that of an electronic oscillator \textemdash sine, pulse, sawtooth or triangle wave \textemdash which could be filtered or combined with an audio synthesizer. An electronic drone can be created by leaning an electric guitar against the amplifier it's plugged into. Electronic echo and delay units may create layers upon layers of a single sound upon itself like layers of overlapping time in the onion of infinity.
+
+Take a deep breath. Fill the lungs. Vibrate the vocal chords and allow the naturally resulting tone to be carried our on the breath, the prana \textemdash cosmic energy \textemdash resonating in the box we call the human torso. Vibrating with the universe. Remember, as my friend Garret Pengle says, that we are each a continuation of the explosion that started the universe.
 
 \subsection*{Gobinday Mukanday Udara Apare}
 Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
@@ -325,7 +347,7 @@ Move the awareness -- and the resonance of the voice -- up through the seven pri
 \mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
 
 \subsection{I Wanna Know You}
-There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
+There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline Tharp sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{iwannaknowyou.ly}
@@ -335,8 +357,20 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 \caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Flat Seven Theory of Tonal Organization. The basic idea is that the interval of the "perfect" fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of distance from a tonal center.}
 \end{figure}
 
+\index{BKS Iyengar}
+\index{Wahe}
+\index{Guru}
+\index{Sat}
+\index{Nam}
+\index{3HO}
+\index{Yogi Bhajan}
+
 \subsection{Wahe Guru Sat Nam}
-Wahe means Wow! Awesome!
+Wahe means Wow! Awesome! It's an expression of complete and utter awe. Guru is teacher. Iyengar says that Gu is darkness and Ru is light. Guru takes you from darkness to light. The kundalini foundation, 3HO, founded by Yogi Bhajan says there are limitless translations of Wahe Guru. We ended up with Wow is my teacher. Temple of Wow. \par
+
+Sat (\saha{सत्}) is truth. Essence. That which is unchanging and unchangeable. Nam (\saha{ਨਾਮੁ}) is identity. So where we learn and transform is in a place of experiencing the awesomeness of our true identity.
+
+
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{wahaygurusatnam.ly}
 \end{changemargin}
@@ -417,7 +451,7 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \subsection*{Sat Chit Ekam Brahma}
 This is one of the first chants described in Thomas Ashley Ferrand's, \underline{Shakti Mantras}. 
 
-Sarasvatī	(\velt{सरस्वती}) is the incarnation of Lakṣmī	(\velt{लक्ष्मी}) through whom the art of mantra is disseminated to humankind. But by Ferrand's account, many of the chants were extracted by Pārvatī \velt{पार्वती} \textemdash who is the incarnation of all combined cosmic energy \textemdash from the mind of her consort Śiva \velt{शिव}, the pure white, dreadlocked Hindu diety who is consciousness incarnate.
+Sarasvatī	(\saha{सरस्वती}) is the incarnation of Lakṣmī	(\saha{लक्ष्मी}) through whom the art of mantra is disseminated to humankind. But by Ferrand's account, many of the chants were extracted by Pārvatī \saha{पार्वती} \textemdash who is the incarnation of all combined cosmic energy \textemdash from the mind of her consort Śiva \saha{शिव}, the pure white, dreadlocked Hindu diety who is consciousness incarnate.
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
 \lilypondfile[quote,noindent]{ekam_brahma.ly}
@@ -682,7 +716,7 @@ There could also be references to \emph{Mo'juba}, which is a spiritually energiz
 
 \subsection{Gayatri Mantra}
 
-\mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\velt{मंत्र}) are broken up as the root, \textbf{Man} (\velt{युव}): the root of \textbf{manas} (\velt{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\velt{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
+\mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\saha{मंत्र}) are broken up as the root, \textbf{Man} (\saha{युव}): the root of \textbf{manas} (\saha{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\saha{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
 
 The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically.
 
@@ -804,7 +838,7 @@ The chant reflects the philosophy. Back to first part after Shivaranjani has pea
 
 Literally came out of Harishes tampura. We were living in an ashram i was very young chaotic every sunday music. tuning the tampura. play a little melody. finding context finding the center not only instrument. self. i happened to play the melody of raga shivanandani and the words just came. there it was.
 
-As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \velt{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
+As he explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \saha{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
 
 Citi-sakti (Chit-shakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy surrounding and supporting consciousness. The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti, purusa/prakrti, Brahman/Maya, undifferentiated and differentiated consciousness; etc.   IV.34
 
@@ -1103,7 +1137,7 @@ Om Shaantih Shaantih Shaantih ||
 \end{minipage}
 \vfill
 \begin{minipage}{.6\textwidth}
-\velt{ॐ असतो मा सद्गमय । \\
+\saha{ॐ असतो मा सद्गमय । \\
 तमसो मा ज्योतिर्गमय । \\
 मृत्योर्मा अमृतं गमय । \\
 ॐ शान्तिः शान्तिः शान्तिः ॥}
@@ -1209,7 +1243,7 @@ In the Kula sect, this chant is also used to unite with Shiva, who see no ultima
 
 \subsection{Ardhanārīśvara}
 
-We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \velt{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
+We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \saha{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
 
 We had been looking for a mantra for the cultivation of androgyny. It's a prefect chant for a time when we are, as a society, in recovery from what Adam Powers so eloquently referred to as the Cis Virus.
 \begin{changemargin}{-1.8cm}{-.8cm} 
@@ -1221,7 +1255,7 @@ We had been looking for a mantra for the cultivation of androgyny. It's a prefec
 \end{figure}
 \begin{center}
 \begin{minipage}{.6\textwidth}
-\velt{
+\saha{
 कर्पूरगौरं करुणावतारं \\
 संसारसारम् भुजगेन्द्रहारम् । \\
 सदावसन्तं हृदयारविन्दे \\
