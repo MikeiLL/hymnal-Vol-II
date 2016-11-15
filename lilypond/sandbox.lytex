@@ -151,12 +151,25 @@
 
 \renewcommand*{\marginfont}{\footnotesize}
 
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}% <----------------- Space from top of page to Chapter #
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter% <-- Chapter #
+        \par\nobreak
+        \vskip 20\p@% <-------------- Space between Chapter # and title
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak% <------------------ Chapter title
+    \vskip 40\p@% <------------------ Space between chapter title and first paragraph
+  }}
+
 \begin{document}
 
 
 \renewcommand{\listfigurename}{Chants \& Music}
 
-\chapter{Sweet Surrender}
+\section{Sweet Surrender}
 
 A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
 
@@ -244,6 +257,10 @@ For some harmonic variety, and E Major chord \writechord{E} can be substituted f
 
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
 
+
+\section{Bad News}
+
+
 \subsection*{Seven Beats Descending}
 
 \begin{changemargin}{-1cm}{-1cm} 
@@ -254,7 +271,7 @@ This next one is approximated from a dream, where there was a bunch of older hor
 \label{table:Seven Beats Descending}
 \end{table}
 
-\chapter{The Art of Vocalization}
+\section{The Art of Vocalization}
 
 In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century CE, which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
 

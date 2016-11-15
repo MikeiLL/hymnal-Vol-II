@@ -9,6 +9,11 @@
 % Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
+ %formatting chapter titles
+\usepackage{titlesec}
+\titleformat{\chapter}[block]
+  {\normalfont\huge\bfseries}{\thechapter.}{1em}{\Huge}
+\titlespacing*{\chapter}{0pt}{-19pt}{0pt}
 
 \usepackage{epigraph} % quotes
 
@@ -240,7 +245,7 @@ Who reveals these magical offerings to us? You do. The police do. The radio does
 \index{step| see {interval}}
 \index{interval}
 
-On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
+On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
@@ -311,9 +316,9 @@ Forever itself is a massive vibration of time and space. That which is that whic
 
 \index{bījākṣara}
 
-The chanting and repetition of Divine names; of majikal syllables, bījākṣara (\saha{बीजाक्षर}) is itself a drone. The music of the spheres. Each planet vibrates at it's own frequency. Prior to the 16ht century, in the West, the harmonic system of Pythagoras \textamdash the divine order of the frequencies, based on the 3:2 logarithm found in the natural fifth \textemdash was our harmonic foundation. Then a man named Werkmeister developed the even tempered system. Major thirds don't sound as intense, but our music is out of tune with the universe. It's convenient, I'm told. \par
+The chanting and repetition of Divine names; of majikal syllables, bījākṣara (\saha{बीजाक्षर}) is itself a drone. The music of the spheres. Each planet vibrates at it's own frequency. Prior to the 16ht century, in the West, the harmonic system of Pythagoras \textemdash the divine order of the frequencies, based on the 3:2 logarithm found in the natural fifth \textemdash was our harmonic foundation. Then a man named Werkmeister developed the even tempered system. Major thirds don't sound as intense, but our music is out of tune with the universe. It's convenient, I'm told. \par
 
-\mna{The Big Bang the Devine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. - Zef Noi$e}
+\mna{The Big Bang the Devine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. - Zef Noi\$e}
 
 Repetitive waves of sound. One key, one mono, one love. Unity. Minimalism. Simplicity of action yields the complexity of nature. Less is more. Do less and less to achieve more and more until you do nothing and achieve everything.
 
@@ -368,7 +373,7 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 \subsection{Wahe Guru Sat Nam}
 Wahe means Wow! Awesome! It's an expression of complete and utter awe. Guru is teacher. Iyengar says that Gu is darkness and Ru is light. Guru takes you from darkness to light. The kundalini foundation, 3HO, founded by Yogi Bhajan says there are limitless translations of Wahe Guru. We ended up with Wow is my teacher. Temple of Wow. \par
 
-Sat (\saha{सत्}) is truth. Essence. That which is unchanging and unchangeable. Nam (\saha{ਨਾਮੁ}) is identity. So where we learn and transform is in a place of experiencing the awesomeness of our true identity.
+Sat (\saha{सत्}) is truth. Essence. That which is unchanging and unchangeable. Nam (\textpunjabi{ਨਾਮੁ}) is identity. So where we learn and transform is in a place of experiencing the awesomeness of our true identity.
 
 
 \begin{changemargin}{-1.8cm}{-.8cm} 
