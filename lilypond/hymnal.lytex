@@ -11,9 +11,9 @@
 
  %formatting chapter titles
 \usepackage{titlesec}
-\titleformat{\chapter}[block]
+\titleformat{\section}[block]
   {\normalfont\huge\bfseries}{\thechapter.}{1em}{\Huge}
-\titlespacing*{\chapter}{0pt}{-19pt}{0pt}
+\titlespacing*{\section}{0pt}{-19pt}{0pt}
 
 \usepackage{epigraph} % quotes
 
@@ -194,7 +194,7 @@
 
 \mainmatter
 
-\chapter{Introduction}
+\section{Introduction}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 \index{Bhagavad Gita}
@@ -212,11 +212,9 @@ With all due respect to scholars and academia, this is not a work of scholarship
 \index{Ishtar}
 On our particular journey, the tools that seem to be working don't all come out of the same box, or even the same house, city or continent. In the same phrase, we'll invoke Yuruba's Ogún and Jewish foremother, Esther, descendant of the Babylonian goddess, Ishtar. We sing to these two when starting out on a car trip. Ogún, a deity associated with iron and metal work, we sing to in hopes that the car will work. Esther guides the journey, controls time and always, always finds you a parking space. Asé.
 
-Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen to Sun Ra -- hear the Universe. 
+\mna{\hspace{6em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
-\mna{\hspace{6em}The \emph{Septuagint} (from the Latin septuaginta, "seventy") is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
-
-What is a hymn? It's a piece of music that ``everyone" can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
+What is a hymn? It's a piece of music that ``everyone'' can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
 \begin{description}
 \item[1] religious song or poem, typically of praise to God or a god: a Hellenistic hymn to Apollo.
@@ -233,9 +231,13 @@ This isn't a collection of classic or popular chants. They are mostly ones with 
 
 None of these chants require accompaniment, but in many cases we include the names of chords which we have found suitable accompaniment. Western chordal harmony is a vertical extension of melody and a relatively recent invention, with our "just intonation" being only a few hundred years old. Accompaniment to chant and mantra that reaches further into the infinite past would be the drone or the drum, both of which leave more room for horizontal melodic freedom.
 
-Who reveals these magical offerings to us? You do. The police do. The radio does. Monks do. The chants of the Sufis. The peoples of the First Nations of the continent within which this hymnal is written. Aboriginal chant music. Hindustani and Carnatic music. Hip-hop. Input, corrections and suggestions welcome.
+Who reveals these magical offerings to us? You do. The police do. The radio does. Monks do. The chants of the Sufis. The peoples of the First Nations of the continent within which this hymnal is written. Aboriginal chant music. Hindustani and Carnatic music. Hip-hop. Input, corrections and suggestions welcome.\par
 
-\chapter{Some Simple Chants}
+\clearpage
+
+\section{Some Simple Chants}
+
+The opening chants here have small ranges.
 
 \subsection{Om Śāntiḥ Om}
 
@@ -287,7 +289,6 @@ This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's 
 See that is has the \writechord{Eb} in it. In the Kṛṣṇa chant above, the \emph{major} third is sung (\writechord{E}), which might be dissonant or discordant next to the  \writechord{Eb}, in which case you could change the scale and make the \writechord{Eb} and 
 make it an E\natural  (natural).
 
-
 \index{interval}
 
 \mna{In relation to tonality, an \emph{interval} is the distance between two notes or frequencies.}
@@ -318,9 +319,9 @@ Forever itself is a massive vibration of time and space. That which is that whic
 
 The chanting and repetition of Divine names; of majikal syllables, bījākṣara (\saha{बीजाक्षर}) is itself a drone. The music of the spheres. Each planet vibrates at it's own frequency. Prior to the 16ht century, in the West, the harmonic system of Pythagoras \textemdash the divine order of the frequencies, based on the 3:2 logarithm found in the natural fifth \textemdash was our harmonic foundation. Then a man named Werkmeister developed the even tempered system. Major thirds don't sound as intense, but our music is out of tune with the universe. It's convenient, I'm told. \par
 
-\mna{The Big Bang the Devine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. - Zef Noi\$e}
+\mna{The Big Bang the Divine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. \textemdash Zef Noi\$e}
 
-Repetitive waves of sound. One key, one mono, one love. Unity. Minimalism. Simplicity of action yields the complexity of nature. Less is more. Do less and less to achieve more and more until you do nothing and achieve everything.
+Repetitive waves of sound. One key, one mono, one love. Unity. Minimalism. Simplicity of action exposes the complexity of nature. Less is more. Do less and less to achieve more and more until you do nothing and achieve everything.
 
 So how do you make a drone? One doesn't make a drone. It may appear that one has made a drone, but what one has done is add to a drone that was always there. So if you want to add to the drone, start by listening to it.  If there is a string stretched somewhere, you can cause it to vibrate, and if it is near a resonant box, the vibrations of the string will cause the surrounding air to vibrate and those sound waves will be amplified by the resonant box. Piano, guitar, violin, banjo exhibit this principle. Blowing through a reed creates audible sound waves. You can download a free application that creates an imitation of the Tanpura drone ubiquitous in Indian music. A nearby train yard or a factory may be emitting a drone like that of an electronic oscillator \textemdash sine, pulse, sawtooth or triangle wave \textemdash which could be filtered or combined with an audio synthesizer. An electronic drone can be created by leaning an electric guitar against the amplifier it's plugged into. Electronic echo and delay units may create layers upon layers of a single sound upon itself like layers of overlapping time in the onion of infinity.
 
@@ -466,7 +467,7 @@ Sarasvatī	(\saha{सरस्वती}) is the incarnation of Lakṣmī	(\saha
 \caption[Sat Chit Ekam Brahma]{}
 \end{figure}
 
-\chapter{The Art of Vocalization}
+\section{The Art of Vocalization}
 \subsection*{Introduction to Vocal Technique}
 In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
 
@@ -474,7 +475,7 @@ It is out of this philosophy that \textemdash a thousand years later \textemdash
 
 There's an idea that if we follow the mind back to it's source, we find God. And we also see that as each one of us is a microcosm of the universe, by exploring the limits of our selves, logically, emotionally, psychologically as well as physically, we are exploring the limits of the universe. This is also true of our use of vocalization. Most if not all spiritual traditions embrace and express the idea that God listens not necessarily to the words, but to the intention behind the words. In Hinduism as well as in Ifá there are words used in incantations that dont' have any literal meaning. Sounds the resonate or vibrate with specific Oriṣa or aspects of nature and consciousness. In Western occult terms this may be referred to as Sympathetic Majick.
 
-Aleister Crowley suggests that, "True religion is intoxication", and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of "wine" and "intoxication" or \emph{sakr} (\begin{arab}[fullvoc]صقر\end{arab}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
+Aleister Crowley suggests that, ``True religion is intoxication", and that ``all acts which excite the divine in [us] are proper to the rite of invocation''. Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of ``wine'' and ``intoxication'' or \emph{sakr} (\begin{arab}صقر\end{arab}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
 
 How do we use our voice? What physical processes are occurring when we vocalize, chant and sing? How can we generate frequencies that will be spiritually potent and most importantly rewarding, rejuvenating and cathartic for us. Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}, \emph{intuition} and \emph{intellect}, \emph{vacuity} and \emph{visualization}. Depending on the volume and frequency we aim to vocalize, we may be engaging different parts of the body in different ways.
 
@@ -685,7 +686,7 @@ The chant is this:
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
-\chapter{Chants that are More Complex}
+\section{Chants that are More Complex}
 
 \subsection{Om Ganeṣa Eleggua}
 
@@ -1378,6 +1379,8 @@ writing, the death of spoken word
 Taking classes and studying meditation I was always trying to \emph{visualize} the Chakras, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that's --- I don't know what --- floating in the wind? And I can draw that part of myself into my physical body --- but deeper than any actual part of the body --- into an undefinable center, and become grounded and centered.
 
 And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
+
+Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen to Sun Ra -- hear the Universe. 
 
 
 \backmatter 
