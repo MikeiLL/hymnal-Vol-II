@@ -1,12 +1,17 @@
 % arara: lilypond: {options: "--latex-program=xelatex --pdf"}
 % arara: xelatex: { files: [ 'sandbox.tex' ] }
 
-\documentclass[a5paper,twoside,9pt]{extbook}
+\documentclass[a5paper,twoside,11pt]{extbook}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 \usepackage{marginnote,letltxmacro}
+\reversemarginpar
+\renewcommand*{\marginfont}{\footnotesize}
 \LetLtxMacro\mn\marginnote
 
-\usepackage[outer=2cm,inner=1cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.2cm]{geometry}
+\usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=12cm]{geometry}
+
+\setlength{\parskip}{1em}
+
 % Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
@@ -170,13 +175,14 @@
 \renewcommand{\listfigurename}{Chants \& Music}
 
 \section{Sweet Surrender}
+\mn{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
 
 This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
 
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{surrender.ly}
 \end{changemargin}
 
@@ -225,13 +231,13 @@ Others that come to mind are:
 
 At a "Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into "Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
 \end{changemargin}
 
 Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
 \end{changemargin}
 
@@ -244,7 +250,7 @@ The following chant, mostly in Hebrew translates, "All of the day and all of the
 \unsetRL
 \normalsize
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{kul_ha_yom.ly}
 \end{changemargin}
 
@@ -263,7 +269,7 @@ This next one is approximated from a dream, where there was a bunch of older hor
 
 \subsection*{Seven Beats Descending}
 
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{ellington7.ly}
 \end{changemargin}
 \begin{table}[ht]
@@ -296,7 +302,7 @@ The word \textbf{chakra} (\saha{चक्र}) translates as \emph{circle} or \e
 
 \index{mudrā}
 
-\mna{From Hindu and Buddhist tradition, a \textbf{mudrā} (/mu'drɑ:/ Tibetan: \texttibetan{ཕྱག་རྒྱ་}) is an energetic ``seal", ``mark"; a symbolic or ritual ``gesture''. Some mudras involve the entire body; mostly just hands and fingers.}
+\mn{From Hindu and Buddhist tradition, a \textbf{mudrā} (/mu'drɑ:/ Tibetan: \texttibetan{ཕྱག་རྒྱ་}) is an energetic ``seal", ``mark"; a symbolic or ritual ``gesture''. Some mudras involve the entire body; mostly just hands and fingers.}
 The syllable associated with Mūlādhāra is \textbf{Lam} and an associated mudrā (\saha{मुद्रा}) is the index and middle fingers making a ``peace sign'' and touching the ground.
 
 When we vocalize, we want this region to be relaxed and settled towards the earth, but engaged enough so that we're not collapsing or slouching in the pelvic region. The base of the spine, where the coiled serpent of latent kundalini energy is said to reside, is in this Mūlādhāra region. Take a deep breath and exhale slowly, visualizing the energy of Mūlādhāra rising up through the spine and torso as light and emerging from the mouth, first eye or crown of the head. Now do the same thing, but this time engage the larynx or voice box, which are elastic \emph{chords} that vibrate like reeds in the wind to create a tone, and imagine the sonic vibration originating in the pelvis, moving up and out, filling the room with sound and energy.
@@ -413,7 +419,7 @@ When learning the Sanskrit names of the chakras and their corresponding seed syl
 
 \subsection{Lam Lam Lam Muladhara}
 Words here.
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{muladhara.ly}
 \end{changemargin}
 \begin{figure}[ht]
@@ -427,7 +433,7 @@ Words here.
 \includegraphics[scale=.23]{poses/Swadhistana.pdf}
 \end{wrapfigure}
 \blindtext[3]
-\begin{changemargin}{-1cm}{-1cm} 
+\begin{changemargin}{-1.5cm}{-2cm}
 \lilypondfile[quote,noindent]{swadhistana.ly}
 \end{changemargin}
 \begin{figure}[ht]
