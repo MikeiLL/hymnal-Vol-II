@@ -199,7 +199,7 @@
 
 \section{Introduction}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of the imagination, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of humankind, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 \index{Bhagavad Gita}
 \index{Faitheism}
 
@@ -1355,6 +1355,17 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Maha Lakṣmīyea Svaha}
 \caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah /textemdash  om Shreem Ma /textemdash Ha Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
+}
+\end{figure}
+
+\section{The Devi Mahatyama }
+\subsection{Devi Mahatyama Part One}
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{devimahatyam1.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Devi Mahatyama Part One}
+\caption[Devi Mahatyama Part One]{Pronunciation: TODO DO ME Aah /textemdash  om Shreem Ma /textemdash Ha Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
 }
 \end{figure}
 
