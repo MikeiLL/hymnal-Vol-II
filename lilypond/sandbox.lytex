@@ -8,7 +8,7 @@
 \renewcommand*{\marginfont}{\footnotesize}
 \LetLtxMacro\mn\marginnote
 
-\usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=12cm]{geometry}
+\usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.5cm]{geometry}
 
 \setlength{\parskip}{1em}
 
@@ -152,9 +152,9 @@
 
 \setlength{\epigraphwidth}{0.9\textwidth}
 
-\newcommand\mna[1]{\mn{\fontspec{Arial}#1}}
+\newcommand\mna[1]{\mn{\fontspec{Helvetica}#1}}
 
-\renewcommand*{\marginfont}{\footnotesize}
+\renewcommand*{\marginfont}{\scriptsize}
 
 \def\@makechapterhead#1{%
   \vspace*{50\p@}% <----------------- Space from top of page to Chapter #
@@ -175,7 +175,7 @@
 \renewcommand{\listfigurename}{Chants \& Music}
 
 \section{Sweet Surrender}
-\mn{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
+\mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which - after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
 
@@ -285,7 +285,7 @@ It is out of this philosophy that what we know as Haṭha yoga formed. A literal
 
 There's an idea that if we follow the mind back to it's source, we find God. And we also see that as each one of us is a microcosm of the universe, by exploring the limits of our selves, logically, emotionally, psychologically as well as physically, we are exploring the limits of the universe. This is also true of our use of vocalization. Most if not all spiritual traditions embrace and express the idea that God listens not necessarily to the words, but to the intention behind the words. In Hinduism as well as in Ifá there are words used in incantations that dont' have any literal meaning. Sounds the resonate or vibrate with specific Oriṣa or aspects of nature and consciousness. In Western occult terms this may be referred to as Sympathetic Majick.
 
-Aleister Crowley suggests that, "True religion is intoxication", and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of "wine" and "intoxication" or \emph{sakr} (\begin{arab}[fullvoc]صقر\end{arab}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
+Aleister Crowley suggests that, "True religion is intoxication", and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of "wine" and "intoxication" or \emph{sakr} (\textarabic{صقر}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
 
 How do we use our voice? What physical processes are occurring when we vocalize, chant and sing? How can we generate frequencies that will be spiritually potent and most importantly rewarding, rejuvenating and cathartic for us. Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}, \emph{intuition} and \emph{intellect}, \emph{vacuity} and \emph{visualization}. Depending on the volume and frequency we aim to vocalize, we may be engaging different parts of the body in different ways.
 

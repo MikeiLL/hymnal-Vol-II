@@ -22,9 +22,9 @@
 
 \setlength{\epigraphwidth}{0.9\textwidth}
 
-\newcommand\mna[2]{\mn{\fontspec{Arial}#1}}
+\newcommand\mna[2]{\mn{\fontspec{Helvetica}#1}}
 
-\renewcommand*{\marginfont}{\footnotesize}
+\renewcommand*{\marginfont}{\scriptsize}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -478,7 +478,7 @@ It is out of this philosophy that \textemdash a thousand years later \textemdash
 
 There's an idea that if we follow the mind back to it's source, we find God. And we also see that as each one of us is a microcosm of the universe, by exploring the limits of our selves, logically, emotionally, psychologically as well as physically, we are exploring the limits of the universe. This is also true of our use of vocalization. Most if not all spiritual traditions embrace and express the idea that God listens not necessarily to the words, but to the intention behind the words. In Hinduism as well as in Ifá there are words used in incantations that dont' have any literal meaning. Sounds the resonate or vibrate with specific Oriṣa or aspects of nature and consciousness. In Western occult terms this may be referred to as Sympathetic Majick.
 
-Aleister Crowley suggests that, ``True religion is intoxication", and that ``all acts which excite the divine in [us] are proper to the rite of invocation''. Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of ``wine'' and ``intoxication'' or \emph{sakr} (\begin{arab}صقر\end{arab}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
+Aleister Crowley suggests that, "True religion is intoxication", and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of "wine" and "intoxication" or \emph{sakr} (\textarabic{صقر}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
 
 How do we use our voice? What physical processes are occurring when we vocalize, chant and sing? How can we generate frequencies that will be spiritually potent and most importantly rewarding, rejuvenating and cathartic for us. Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}, \emph{intuition} and \emph{intellect}, \emph{vacuity} and \emph{visualization}. Depending on the volume and frequency we aim to vocalize, we may be engaging different parts of the body in different ways.
 
