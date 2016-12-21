@@ -122,9 +122,11 @@
 
 \usepackage{textcomp} % for text figures
 
+% Bodini Font
+% \usepackage[default]{gfsbodoni} conflict with something in the hindi text block
 
 % Palatino font
-% \usepackage[osf]{mathpazo} 
+\usepackage[osf]{mathpazo} 
 
 % following two lines for bold, italics, roman
 % source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
@@ -156,10 +158,6 @@
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
 \usepackage{blindtext} % for filler for testing
-
-
-% Bodini Font
-\usepackage[default]{gfsbodoni}
 
 \begin{document}
 
@@ -1368,6 +1366,19 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Maha Lakṣmīyea Svaha}
 \caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah /textemdash  om Shreem Ma /textemdash Ha Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
+}
+\end{figure}
+
+\subsection{Om Shrī Danvantre Namaha}
+This is a healing chant. Might want to chant it if you or someone else is ailing. Dhanvantari is an avatar of Vishnu. When the celestials and demons were cooperating to manifest the nectar of immortality, it was Dhanvantari who, by the grace of Laxmi, bore the vessel containing it. Dhanvantari appears in the Vedas and Puranas as the god of the Hindi healing science, Ayurveda.
+
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{omshridanvantre.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Shrī Danvantre Namaha}
+\caption[Om Shrī Danvantre Namaha]{Pronunciation: Aah /textemdash  om Shre Dan /textemdash van \textemdash trea Na /textemdash ma /textemdash ha- Aah /textemdash om Aah /textemdash om Aah-. I like to start with the three Ohms.
 }
 \end{figure}
 

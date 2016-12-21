@@ -4,8 +4,6 @@
 \documentclass[a5paper,twoside,11pt]{extbook}
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 \usepackage{marginnote,letltxmacro}
-\reversemarginpar
-\renewcommand*{\marginfont}{\footnotesize}
 \LetLtxMacro\mn\marginnote
 
 \usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.5cm]{geometry}
@@ -15,6 +13,19 @@
 % Need this for Hebrew for some reason
 \usepackage[utf8]{inputenc}
 
+ %formatting chapter titles
+\usepackage{titlesec}
+\titleformat{\section}[block]
+  {\normalfont\huge\bfseries}{\thechapter.}{1em}{\Huge}
+\titlespacing*{\section}{0pt}{-19pt}{0pt}
+
+\usepackage{epigraph} % quotes
+
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+\newcommand\mna[2]{\mn{\fontspec{Helvetica}#1}}
+
+\renewcommand*{\marginfont}{\scriptsize}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -111,15 +122,17 @@
 \renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
 \usepackage{textcomp} % for text figures
-\usepackage[osf]{mathpazo} % Paletino font
+
+% Bodini Font
+% \usepackage[default]{gfsbodoni}
+
+% Palatino font
+\usepackage[osf]{mathpazo} 
+
 % following two lines for bold, italics, roman
 % source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
 \usepackage{slantsc} 
 \usepackage{lmodern}
-
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
 
 % for margins or is this for columns?
 \usepackage{scrextend}
@@ -145,57 +158,43 @@
 
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
-
-\usepackage{blindtext} % for filler
-
-\usepackage{epigraph} % quotes
-
-\setlength{\epigraphwidth}{0.9\textwidth}
-
-\newcommand\mna[1]{\mn{\fontspec{Helvetica}#1}}
-
-\renewcommand*{\marginfont}{\scriptsize}
-
-\def\@makechapterhead#1{%
-  \vspace*{50\p@}% <----------------- Space from top of page to Chapter #
-  {\parindent \z@ \raggedright \normalfont
-    \ifnum \c@secnumdepth >\m@ne
-        \huge\bfseries \@chapapp\space \thechapter% <-- Chapter #
-        \par\nobreak
-        \vskip 20\p@% <-------------- Space between Chapter # and title
-    \fi
-    \interlinepenalty\@M
-    \Huge \bfseries #1\par\nobreak% <------------------ Chapter title
-    \vskip 40\p@% <------------------ Space between chapter title and first paragraph
-  }}
+\usepackage{blindtext} % for filler for testing
 
 \begin{document}
+
 \frontmatter
 
 \begin{titlepage}
-	\centering
-	
-	{\scshape\LARGE Doubt \par}
-	\vspace{.6cm}
-	{\scshape\LARGE Skepticism \par}
-	\vspace{.6cm}
-	{\scshape\LARGE Bliss \par}
-	\vspace{1.5cm}
-	{\bfseries \saha{संशय अविश्वास आनन्द} \par}
-	\vfill
-	\vspace{1cm}
-	\Large A \textsc{Faitheist} Hymnal
-	\vfill
-	\vspace{1cm}
-	\vfill
-	{\Large\itshape Temple of Wow \par}
-
-	\vfill
+NOTHING
 
 % Bottom of the page
 	{\large \today\par}
 \end{titlepage}
 
+\tableofcontents
 
+\renewcommand{\listfigurename}{Chants \& Music}
+ 
+\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
+
+\renewcommand{\figurename}{Chant}
+
+\renewcommand{\tablename}{Music}
+   
+\listoffigures
+ 
+\listoftables
+
+\mainmatter
+
+\begin{titlepage}
+	\centering
+	
+	
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\blindtext{5}
 
 \end{document}
