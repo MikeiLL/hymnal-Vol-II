@@ -12,7 +12,7 @@ melody = \relative c' {
 		\partial 8 e8( 
 		\repeat volta 2 {
 			f2) a~ | a g4 g4 | 
-			f2 e4 d | c2( d4.) e8( |
+			f2 e4 d | c2( d4) r8 e( |
 			f4.) e8( f4.) e8
 		}
   }
@@ -27,8 +27,8 @@ text =  \lyricmode {
 
 harmonies = \chordmode {
 \set noChordSymbol = "" 
-\partial 4 r4
-	f
+\partial 8 r8
+	f1 | f | f | f | bes/f
 }
 
 \score {

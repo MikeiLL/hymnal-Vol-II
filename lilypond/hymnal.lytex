@@ -152,12 +152,26 @@
 % source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
 
 
+\titlespacing*{\section} {0pt}{1ex plus 1ex minus .2ex}{1ex plus .2ex}
+\titlespacing*{\subsection} {0pt}{1ex plus 1ex minus .2ex}{0.2ex plus .2ex}
+
+% Remove Chapter and Section from page headers
+\pagestyle{plain}
+
 \usepackage{arabxetex}
 \newfontfamily\arabicfont[Script=Arabic]{Amiri}
 
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
 \usepackage{blindtext} % for filler for testing
+
+% Make text in content tables smaller
+% TODO make headings smaller there too
+\AtBeginDocument{
+  \addtocontents{toc}{\small}
+  \addtocontents{lof}{\small}
+  \addtocontents{lot}{\small}
+}
 
 \begin{document}
 
@@ -187,8 +201,6 @@
 	{\large \today\par}
 \end{titlepage}
 
-\tableofcontents
-
 \renewcommand{\listfigurename}{Chants \& Music}
  
 \renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
@@ -209,11 +221,11 @@
 \index{Bhagavad Gita}
 \index{Faitheism}
 
-Why do we chant, and \textemdash as we engage our hearts and cultivate devotion \textemdash toward whom or what is that devotion aimed? In the seminal Hindu scripture, \underline{The Bhagavad Gita}, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of human existence, in all it's mystery. By cultivating Awe and Faith, our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy, to whatever makes sense. Sometimes we chant trans-culturally. Hopefully always from a place of honoring, respecting and preserving traditions, even if not staying within their boundaries. In a way Faitheism is an excuse to enjoy the benefits of religion without any of the side effects. 
+Why do we chant, and \textemdash  as we engage our hearts and cultivate devotion \textemdash  toward whom or what is that devotion aimed? In the seminal Hindu scripture, \underline{The Bhagavad Gita}, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of human existence. By cultivating Awe and Faith; our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy, to whatever makes sense. Sometimes we chant trans-culturally. Hopefully always from a place of honoring, respecting and preserving traditions, even if not staying within their boundaries. In a way Faitheism is an excuse to enjoy the benefits of religion without any of the side effects. 
 
 This work is by no means complete. To a large degree it's a tool for our own use, as a hymnal probably is by tradition. This document is designed as a tool for sharing information, but it's also a tool for storing and referencing it ourselves. The written word has made us lazy. Before writing, complete integration of a concept into the intellect was the only way to insure it's survival. Now we can write it down, put it on a shelf and forget about it. It will probably be available if we need it later. More so if we make and distribute a thousand copies of it.
 
-With all due respect to scholars and academia, this is not a work of scholarship. I have endeavored to avoid incorrect translations and statements of fact. No guarantees. The source is an eclectic artist and friends writing back in 2016.
+With all due respect to scholars and academia, this is not a work of scholarship. I have endeavored to avoid incorrect translations and statements of fact. No guarantees. The source is an eclectic artist and friends writing back in the year twenty-sixteen,
 
 \index{Asé}
 \index{Esther}
@@ -246,7 +258,7 @@ Who reveals these magical offerings to us? You do. The police do. The radio does
 
 \section{Some Simple Chants}
 
-The opening chants here have small ranges. Some as little as two notes a step or two apart. As the content goes on, the complexity of the included mantras increases. The first chant is the four syllables and two words repeated: Om and Śāntiḥ.
+The opening chants here have small vocal ranges. Some as little as two notes a step or two apart. As the content goes on, the complexity of the included mantras increases. The first chant is the four syllables and two words repeated: Om and Śāntiḥ.
 
 \subsection{Om Śāntiḥ Om}
 
@@ -265,6 +277,11 @@ On the Eleventh of September, even at this time more than a decade after our bel
 \label{fig:Om Śāntiḥ Om}
 \caption[Om Śāntiḥ Om]{}
 \end{figure}
+\vspace*{-.5in}
+\index{Oren Bloedow}
+\index{Dominique Eade}
+\index{Third Stream}
+
 This chant has almost as small a range as a melody can have; a single half-step interval. This means that from a physical standpoint, our throat and larynx (voice box) hardly need to move to go from one tone to the next. The interval is so small that some Western ears may have trouble distinguishing the two tones, as in our harmonic system we are more used to \emph{major} seconds or \emph{whole} steps than \emph{minor} ones. A \emph{whole} step would actually be twice as wide as a \emph{half} step and is the interval you hear between ``Happy'' and ``Birthday'' in the Birthday Song or ``Row'' and ``Your'' in Row Row Row Your Boat. For a minor second the first song that comes to mind is Stevie Wonder's \underline{Isn't She Lovely}. Other Westerners might also think of the themes from Jaws or The Pink Panther, The Beatle's \underline{Hard Day's Night} or \underline{White Christmas} by Irving Berlin. In our \emph{even tempered} system there are no measured \emph{steps} smaller than a half step, but an infinite number of frequencies exist and the voice can certainly generate them. These may be considered \emph{blues tones} or \emph{microtones}. In a chant with a tiny range like this there's a whole world of room to play around with microtones. When my friend Oren Bloedow was studying voice with renown Third Stream artist Dominique Eade, she told him to \emph{feel} rather than \emph{hear} the frequency of the voice.
 \par
 Song along with a \writechord{C} drone, the tone of the chant is dark and somber, potentially evokative of the violence that permeates our culture. You could also sing the same notes with a drone of \writechord{Ab}, which would give it the tonality of the start of \underline{Isn't She Lovely}, without ever actually resolving to ``love -- ly''. Another response to the darkness is to invite some Gods to the party, which is what we do when we either morph into or combine this chant with the following one.
@@ -276,7 +293,6 @@ Song along with a \writechord{C} drone, the tone of the chant is dark and somber
 \index{Rāmāyaṇam}
 \index{Priya}
 
-
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omshantiom_krsna.ly}
 \end{changemargin}
@@ -286,18 +302,24 @@ Kṛṣṇa (\saha{कृष्ण}), or Krishna is the Hindu deity we most asso
 
 If someone's feeling inspired the following might also be added to the mix. Nothing here is written in stone. Far from it. More like crayon. We like to sing --- or rather sing for our sanity --- and are building up a collection of chants and mantras that don't require too much thought and don't make you cringe too much in their content. So if singing Hail Kṛṣṇa makes you cringe, by all means Hail Vodka! Whatever works.
 
+\vspace*{-.2in}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omshantiom_hikrsna.ly}
 \end{changemargin}
+\vspace*{-.2in}
 
-This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the note that is \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note --- the note that is the \emph{key} we are in, which is \writechord{C} in this case --- is played or sung, as opposed to the note that is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
+\index{minor}
+\index{major}
 
+This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the third scale tone is \emph{minor}: \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note (The \textbf{tonic} is note that is the \emph{key} we are in, which is \writechord{C} in this case.) is played or sung, as opposed to the \emph{major third} which is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
+
+\vspace*{-.2in}
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom_scale.ly}
 \end{changemargin}
+\vspace*{-.2in}
 
-See that is has the \writechord{Eb} in it. In the Kṛṣṇa chant above, the \emph{major} third is sung (\writechord{E}), which might be dissonant or discordant next to the  \writechord{Eb}, in which case you could change the scale and make the \writechord{Eb} and 
-make it an E\natural  (natural).
+See that it has the \writechord{Eb} in it. In the Kṛṣṇa chant above, the \emph{major} third is sung (\writechord{E}), which might be dissonant or discordant next to the  \writechord{Eb}, in which case you could change the scale and substitute the \writechord{Eb} with an E\natural   (natural \textemdash the white note two steps above \writechord{C}), making the tonality \emph{major}.
 
 \index{interval}
 
@@ -307,11 +329,12 @@ In either case the scale contains one interval that is evokative of Eastern tona
 
 \subsection{Asato Ma}
 
-I think the word Upanishads translates as ``campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Zef and my first yoga teacher, Joe Brennan in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes /textemdash in Hinduism as well, the Universe begins with a sound.
+\index{Joe Brennan}
+\index{Zef}
+\index{Emilio China| see {Zef}}
+I think the word Upanishads translates as ``campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Joe Brennan, the first yoga teacher of Emilio ``Zef" China and myself in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes 	extemdash in Hinduism as well, the Universe begins with a sound.
 
 The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
-
-\clearpage
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{asato_ma.ly}
@@ -321,26 +344,27 @@ The chant means, Lead me from non-being to being. Lead me from darkness to everl
 \caption[Asato Ma Sat Gamaya]{This chant is written above with each line echoed for use in call and response. That way the congregation only need to recall a handfull of syllables and a short bit of melody. The chant could also be done without the repeats.}
 \end{figure}
 
+\clearpage
+
 \subsection{Anatomy of Drone}
 
 Drone is the pure rhythm; the pure time. The drone of our blood running through our veins. The drone of our mothers heart beat. Om (\saha{ॐ}). The beginning of the universe. An echo of God's initial and eternal statement. (All Praises Due to the One Who Does Not Exist.)  \par
 
-Forever itself is a massive vibration of time and space. That which is that which has been and always will be. Repetition, vibration as in nature, self replication, echo, reverberation, integrate and disintegrate. Primal expression of the creative principle. All notes surely are contained in the one sound. As above so below. This is the groove. This is the drone.
+Forever itself is a massive vibration of time and space. That which is; that which has been and always will be. Repetition, vibration as in nature, self replication, echo, reverberation, integrate and disintegrate. Primal expression of the creative principle. All notes surely are contained in the one sound. As above so below. This is the groove. This is the drone.
 
 \index{bījākṣara}
+\index{Zef}
+\mna{The Big Bang the Divine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. \textemdash Zef Noi\$e}
 
 The chanting and repetition of Divine names; of majikal syllables, bījākṣara (\saha{बीजाक्षर}) is itself a drone. The music of the spheres. Each planet vibrates at it's own frequency. Prior to the 16ht century, in the West, the harmonic system of Pythagoras \textemdash the divine order of the frequencies, based on the 3:2 logarithm found in the natural fifth \textemdash was our harmonic foundation. Then a man named Werkmeister developed the even tempered system. Major thirds don't sound as intense, but our music is out of tune with the universe. It's convenient, I'm told. \par
 
-\mna{The Big Bang the Divine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. \textemdash Zef Noi\$e}
-
 Repetitive waves of sound. One key, one mono, one love. Unity. Minimalism. Simplicity of action exposes the complexity of nature. Less is more. Do less and less to achieve more and more until you do nothing and achieve everything.
-
-\mna{God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}}
 
 So how do you make a drone? One doesn't make a drone. It may appear that one has made a drone, but what one has done is add to a drone that was always there. So if you want to add to the drone, start by listening to it.  If there is a string stretched somewhere, you can cause it to vibrate, and if it is near a resonant box, the vibrations of the string will cause the surrounding air to vibrate and those sound waves will be amplified by the resonant box. Piano, guitar, violin, banjo exhibit this principle. Blowing through a reed creates audible sound waves. You can download a free application that creates an imitation of the Tanpura drone ubiquitous in Indian music. A nearby train yard or a factory may be emitting a drone like that of an electronic oscillator \textemdash sine, pulse, sawtooth or triangle wave \textemdash which could be filtered or combined with an audio synthesizer. An electronic drone can be created by leaning an electric guitar against the amplifier it's plugged into. Electronic echo and delay units may create layers upon layers of a single sound upon itself like layers of overlapping time in the onion of infinity.
 
 Take a deep breath. Fill the lungs. Vibrate the vocal chords and allow the naturally resulting tone to be carried our on the breath, the prana \textemdash cosmic energy \textemdash resonating in the box we call the human torso. Vibrating with the universe. Remember, as my friend Garret Pengle says, that we are each a continuation of the explosion that started the universe.
 
+\vspace*{.2in}
 \subsection*{Gobinday Mukanday Udara Apare}
 Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
 Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
@@ -363,18 +387,22 @@ Move the awareness -- and the resonance of the voice -- up through the seven pri
 \label{fig:Gobinday Mukanday}
 \caption[Gobinday Mukanday]{}
 \end{figure}
+\vspace*{-.1in}
 
-Some musicians might scoff at the way the two voices documented here cross between the lower and higher parts, but this is how the piece developed and we like the way it sounds. The most complicated aspect of this chant \textemdash from a musical standpoint \textemdash is probably the rhythm found in the first measure and repeated in the third, fifth and thirteenth measures. Determining a measure that fit the way Rivka was chanting the mantra was a bit of a challenge. The way I figure out complex or syncopated rhythms is to break the rhythm down and apply a time-grid to it. In the Nigerian language, Yuruba, the word for time is A-go-go, and the bells used to define time in music (which you hear commonly generating their two tones in Western dance music: gong \textemdash ging \textemdash ging-gong \textemdash gong \textemdash ging-ging \textemdash gong \textemdash gong) are called A-go-go bells. So rhythm is breaking up time. Here in measure one the smallest part of the beat is a sixteenth note. It's the third note in the measure and has a double flag on it's stem. The time signature, 3/4 means there are three quarter notes to a measure, which equals six eighth notes or sixteen sixteenth notes. The first two notes are tied together with those nice arcs and they are a quarter note, which is the length of four 16th notes, and a \emph{dotted half note}. A dot at the end of a note means you add another half of it's rhythmic value to it. So a dotted eighth note is an eighth note plus a sixteenth note \textemdash or three sixteenth notes. So altogether the two tied notes equal seven beats. Then the sixteenth note that the syllable `bin' occurs on gets three sixteenths before sliding up for the last two sixteenths of the twelve-sixteenth equals six-eighth equals three-quarter note measure. Another, possibly simpler way to get it is to just square it off to the nearest eighth notes \textemdash at first holding `Go' for two (quarter notes) and `bin' for one. Then just see if you can \emph{anticipate} `bin' by just a hair.
+It's a bit odd and disconcerting that two voices documented above cross between the lower and higher parts (see how the stems of the notes make those odd squares at the beginning, but not at the end?), but this is how the piece developed and we like the way it sounds. The most complicated aspect of this chant \textemdash  from a musical standpoint \textemdash  is probably the rhythm found in the first measure and repeated in the third, fifth and thirteenth measures. Determining a measure that fit the way Rivka was chanting the mantra was a bit of a challenge. The way I figure out complex or syncopated rhythms is to break the rhythm down and apply a time-grid to it. In the Nigerian language, Yuruba, the word for time is A-go-go, and the bells used to define time in music (which you hear commonly generating their two tones in Western dance music: gong \textemdash  ging \textemdash ging-gong \textemdash gong \textemdash  ging-ging \textemdash  gong \textemdash  gong) are called A-go-go bells. Rhythm is the breaking up or dissecting of time. Pretty cool magical skill. Here in measure one the smallest part of the beat is a sixteenth note. It's the third note in the measure and has a double flag on it's stem. The time signature, 3/4 means there are three quarter notes to a measure, which equals six eighth notes or sixteen sixteenth notes. The first two notes are tied together with those nice arcs and they are a quarter note, which is the length of four 16th notes, and a \emph{dotted half note}. A dot at the end of a note means you add another half of it's rhythmic value to it. So a dotted eighth note is an eighth note plus a sixteenth note \textemdash  or three sixteenth notes. So altogether the two tied notes equal seven beats. Then the sixteenth note that the syllable `bin' occurs on gets three sixteenths before sliding up for the last two sixteenths of the twelve-sixteenth equals six-eighth equals three-quarter note measure. Another, possibly simpler way to get it is to just square it off to the nearest eighth notes \textemdash  at first holding `Go' for two (quarter notes) and `bin' for one. Then just see if you can \emph{anticipate} `bin' by just a hair.
 
+\vspace*{-.05in}
 \subsection{I Wanna Know You}
 There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline Tharp sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
+\vspace*{-.1in}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{iwannaknowyou.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:I Wanna Know You}
-\caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Flat Seven Theory of Tonal Organization. The basic idea is that the interval of the ``perfect'' fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of distance from a tonal center.}
+\index{George Russel}
+\caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Chromatic Concept of Tonal Organization. The basic idea is that the interval of the ``perfect'' fourth creates a tonal duality and the Lydian scale, which has a "sharp" fourth, is in tune with the natural gravitational pull of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of \emph{gravitational} distance from a tonal center.}
 \end{figure}
 
 \index{BKS Iyengar}
@@ -386,7 +414,13 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 \index{Yogi Bhajan}
 
 \subsection{Wahe Guru Sat Nam}
-Wahe means Wow! Awesome! It's an expression of complete and utter awe. Guru is teacher. Iyengar says that Gu is darkness and Ru is light. Guru takes you from darkness to light. The kundalini foundation, 3HO, founded by Yogi Bhajan says there are limitless translations of Wahe Guru. We ended up with Wow is my teacher. Temple of Wow. \par
+\index{wahe}
+\index{Iyengar}
+\index{Guru}
+\index{Sat}
+\index{Nam}
+
+Wahe (Wah \textemdash hey) means Wow! Awesome! It's an expression of complete and utter awe. Guru is teacher. Iyengar says that Gu is darkness and Ru is light. Guru takes you from darkness to light. The kundalini foundation, 3HO, founded by Yogi Bhajan says there are limitless translations of Wahe Guru. We ended up with Wow is my teacher. Temple of Wow. \par
 
 Sat (\saha{सत्}) is truth. Essence. That which is unchanging and unchangeable. Nam (\textpunjabi{ਨਾਮੁ}) is identity. So where we learn and transform is in a place of experiencing the awesomeness of our true identity.
 
@@ -1348,7 +1382,7 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Lakṣmī Yea  Svaha}
-\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{Pronunciation: Aah /textemdash om Shreem Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
+\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{Pronunciation: Aah 	extemdash om Shreem Lax 	extemdash mee 	extemdash yeah Swa 	extemdash ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
 }
 \end{figure}
 
@@ -1365,12 +1399,12 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Maha Lakṣmīyea Svaha}
-\caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah /textemdash  om Shreem Ma /textemdash Ha Lax /textemdash mee /textemdash yeah Swa /textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
+\caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah \textemdash  om Shreem Ma \textemdash Ha Lax \textemdash mee \textemdash yeah Swa \textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
 }
 \end{figure}
 
 \subsection{Om Shrī Danvantre Namaha}
-\saha{ॐ श्री धन्वन्तरये नमः} This is a healing chant. Might want to chant it if you or someone else is ailing. Dhanvantari is an avatar of Vishnu. When the celestials and demons were cooperating to manifest the nectar of immortality, it was Dhanvantari who, by the grace of Laxmi, bore the vessel containing it. Dhanvantari appears in the Vedas and Puranas as the god of the Hindi healing science, Ayurveda.
+This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री धन्वन्तरये नमः} Might want to chant it if you or someone else is ailing. Dhanvantari is an avatar of Vishnu. When the celestials and demons were cooperating to manifest the nectar of immortality, it was Dhanvantari who, by the grace of Laxmi, bore the vessel containing it. Dhanvantari appears in the Vedas and Puranas as the god of the Hindi healing science, Ayurveda.
 
 
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -1378,7 +1412,7 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Shrī Danvantre Namaha}
-\caption[Om Shrī Danvantre Namaha]{Pronunciation: Aah /textemdash  om Shre Dan /textemdash van \textemdash trea Na /textemdash ma /textemdash ha- Aah /textemdash om Aah /textemdash om Aah-. I like to start with the three Ohms.
+\caption[Om Shrī Danvantre Namaha]{Pronunciation: Aah \textemdash  om Shre Dan \textemdash van \textemdash trea Na \textemdash ma \textemdash ha- Aah \textemdash om Aah \textemdash om Aah-. I like to start with the three Ohms.
 }
 \end{figure}
 
@@ -1429,6 +1463,9 @@ Taking classes and studying meditation I was always trying to \emph{visualize} t
 And if I do that --- take the time to center myself --- I will be able to manage the emotions that arise throughout the activity and interactivity of the day. If not they are likely to be as storm winds, my consciousness --- my moods --- a ship tossed in the waves. 
 
 Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen to Sun Ra -- hear the Universe. 
+
+God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}
+
 
 
 \backmatter 

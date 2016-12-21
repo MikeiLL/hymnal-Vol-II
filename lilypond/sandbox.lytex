@@ -159,6 +159,8 @@
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
 \usepackage{blindtext} % for filler for testing
+\titlespacing*{\section} {0pt}{1ex plus 1ex minus .2ex}{1ex plus .2ex}
+\titlespacing*{\subsection} {0pt}{1ex plus 1ex minus .2ex}{0.2ex plus .2ex}
 
 \begin{document}
 
@@ -171,29 +173,16 @@ NOTHING
 	{\large \today\par}
 \end{titlepage}
 
-\tableofcontents
-
-\renewcommand{\listfigurename}{Chants \& Music}
- 
-\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
-
-\renewcommand{\figurename}{Chant}
-
-\renewcommand{\tablename}{Music}
-   
-\listoffigures
- 
-\listoftables
-
 \mainmatter
 
-\begin{titlepage}
-	\centering
+
+\subsection{I Wanna Know You}
 	
+\blindtext{5}
+
+\subsection{I Wanna Know You Too}
 	
-% Bottom of the page
-	{\large \today\par}
-\end{titlepage}
+\blindtext{5}
 
 \blindtext{5}
 
