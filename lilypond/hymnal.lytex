@@ -15,7 +15,7 @@
  %formatting chapter titles
 \usepackage{titlesec}
 \titleformat{\section}[block]
-  {\normalfont\huge\bfseries}{\thechapter.}{1em}{\Huge}
+  {\normalfont\small\bfseries}{\thechapter.}{1em}{\small}
 \titlespacing*{\section}{0pt}{-19pt}{0pt}
 
 \usepackage{epigraph} % quotes
@@ -155,8 +155,17 @@
 \titlespacing*{\section} {0pt}{1ex plus 1ex minus .2ex}{1ex plus .2ex}
 \titlespacing*{\subsection} {0pt}{1ex plus 1ex minus .2ex}{0.2ex plus .2ex}
 
-% Remove Chapter and Section from page headers
-\pagestyle{plain}
+% Remove Chapter from page headers
+
+\usepackage{fancyhdr}
+\fancypagestyle{mypagestyle}{
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyhead[EL]{\small \textsl{\rightmark}}
+\fancyhead[OR]{\small \textsl{\nouppercase{\leftmark}}}
+\fancyhead[OL,ER]{\small \textsl \thepage}
+}
 
 \usepackage{arabxetex}
 \newfontfamily\arabicfont[Script=Arabic]{Amiri}
@@ -172,6 +181,18 @@
   \addtocontents{lof}{\small}
   \addtocontents{lot}{\small}
 }
+
+\makeatletter
+\renewcommand\listoffigures{%
+    \subsection{\contentsname}%
+    \@starttoc{lof}%
+}
+
+\renewcommand\listoftables{%
+    \subsection{\contentsname}%
+    \@starttoc{lot}%
+}
+\makeatother
 
 \begin{document}
 
@@ -208,10 +229,12 @@
 \renewcommand{\figurename}{Chant}
 
 \renewcommand{\tablename}{Music}
-   
+
 \listoffigures
- 
+\begingroup
+\let\clearpage\relax
 \listoftables
+\endgroup
 
 \mainmatter
 
@@ -387,7 +410,7 @@ Move the awareness -- and the resonance of the voice -- up through the seven pri
 \label{fig:Gobinday Mukanday}
 \caption[Gobinday Mukanday]{}
 \end{figure}
-\vspace*{-.1in}
+\vspace*{-.3in}
 
 It's a bit odd and disconcerting that two voices documented above cross between the lower and higher parts (see how the stems of the notes make those odd squares at the beginning, but not at the end?), but this is how the piece developed and we like the way it sounds. The most complicated aspect of this chant \textemdash  from a musical standpoint \textemdash  is probably the rhythm found in the first measure and repeated in the third, fifth and thirteenth measures. Determining a measure that fit the way Rivka was chanting the mantra was a bit of a challenge. The way I figure out complex or syncopated rhythms is to break the rhythm down and apply a time-grid to it. In the Nigerian language, Yuruba, the word for time is A-go-go, and the bells used to define time in music (which you hear commonly generating their two tones in Western dance music: gong \textemdash  ging \textemdash ging-gong \textemdash gong \textemdash  ging-ging \textemdash  gong \textemdash  gong) are called A-go-go bells. Rhythm is the breaking up or dissecting of time. Pretty cool magical skill. Here in measure one the smallest part of the beat is a sixteenth note. It's the third note in the measure and has a double flag on it's stem. The time signature, 3/4 means there are three quarter notes to a measure, which equals six eighth notes or sixteen sixteenth notes. The first two notes are tied together with those nice arcs and they are a quarter note, which is the length of four 16th notes, and a \emph{dotted half note}. A dot at the end of a note means you add another half of it's rhythmic value to it. So a dotted eighth note is an eighth note plus a sixteenth note \textemdash  or three sixteenth notes. So altogether the two tied notes equal seven beats. Then the sixteenth note that the syllable `bin' occurs on gets three sixteenths before sliding up for the last two sixteenths of the twelve-sixteenth equals six-eighth equals three-quarter note measure. Another, possibly simpler way to get it is to just square it off to the nearest eighth notes \textemdash  at first holding `Go' for two (quarter notes) and `bin' for one. Then just see if you can \emph{anticipate} `bin' by just a hair.
 
@@ -605,7 +628,7 @@ Exercises for the heart are backbends and anything that opens up the chest. A si
 \index{granthita mudrā}
 \index{mudrā}
 
-\textbf{Viśuddha} (\saha{विशुद्ध}) Vee shoo duh. Ah the throat. Just before Lakṣmī	(\saha{लक्ष्मी}) emerged from the sea of consciousness; the sea of milk, when all of the demons and celestial beings were cooperating (in Ifa tradition there is a phrase, \emph{awo ibaşepò} which refers to eh \emph{mystery of cooperation}) in it's churning to raise \emph{amrit} ({\saha{अमृत}) --- the nectar of immortality (and bliss) --- the magnificently brilliant blue Kaustubh (\saha{कौस्तुभ:}) gem floated out and into the throat of Viṣṇu (\saha{विष्णु}), who immediately began to emote divine truth.
+\textbf{Viśuddha} (\saha{विशुद्ध}) Vee shoo duh. At the throat. Just before Lakṣmī	(\saha{लक्ष्मी}) emerged from the sea of consciousness; the sea of milk, when all of the demons and celestial beings were cooperating (in Ifa tradition there is a phrase, \emph{awo ibaşepò} which refers to eh \emph{mystery of cooperation}) in it's churning to raise \emph{amrit} ({\saha{अमृत}) --- the nectar of immortality (and bliss) --- the magnificently brilliant blue Kaustubh (\saha{कौस्तुभ:}) gem floated out and into the throat of Viṣṇu (\saha{विष्णु}), who immediately began to emote divine truth.
 
 The color of course is blue, consistent with the earlier system. Viśuddha is the center of communication. It's the center of speaking \emph{and} of listening, of hearing. Ear, nose and throat all being connected.
 
