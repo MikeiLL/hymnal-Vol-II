@@ -121,7 +121,11 @@
 \renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
 
 \usepackage{textcomp} % for text figures
-\usepackage[osf]{mathpazo} % Paletino font
+
+
+% Palatino font
+% \usepackage[osf]{mathpazo} 
+
 % following two lines for bold, italics, roman
 % source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
 \usepackage{slantsc} 
@@ -152,6 +156,10 @@
 \setmainfont{Gandhari Unicode} %could be any Unicode font
 
 \usepackage{blindtext} % for filler for testing
+
+
+% Bodini Font
+\usepackage[default]{gfsbodoni}
 
 \begin{document}
 
@@ -1371,7 +1379,7 @@ Rand hicks used the phrase ``The Difficult One" to describe Dirga. She is super-
 
 She makes it known that though she is \em{of} the celestials, she does not \em{belong} to them and following their ernest entreats, easily dispatches of the demons. It is to Dirga that we might chant for protection.
 
-A translation: Hail to the Goddess, the Great Goddess; to the Wild, Auspicious One always hail! 
+A translation: Hail to the Goddess, the Great Goddess; to the Auspicious One always hail! 
 Hail to Nature, to the Propitious One; we humble ourselves before her continuously.
 \subsection{Devi Mahatyama Part One}
 \begin{changemargin}{-1.5cm}{-2cm} 
