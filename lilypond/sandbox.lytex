@@ -14,23 +14,15 @@
 \usepackage[utf8]{inputenc}
 
 % formatting section titles
-\usepackage[explicit]{titlesec}
+\usepackage{titlesec}
 \titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
 \titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
-\titleformat{\chapter}[display]
-  {\smallfont\bfseries}{}{0pt}{\miniscule}
-  
-\newcommand*\Hide{%
-\titleformat{\chapter}[display]
-  {}{}{0pt}{}
-%\titleclass{\chapter}{straight}
-}
-  
-  
-%\titleformat{\section}[block]
-%  {\normalfont\small\bfseries}{\thechapter.}{1em}{\small}
-%\titlespacing*{\section}{0pt}{-19pt}{0pt}
 
+% Following line would hide chapter
+\titleformat{\chapter}[display]
+  {\Large\bfseries}{}{1em}{}
+%\titleformat{\chapter}[block]{\Large\bfseries}{}{1em}{}
+	\titleclass{\chapter}{straight}
 
 \usepackage{epigraph} % quotes
 
@@ -232,25 +224,23 @@
 \listoftables
 \endgroup
 
-{
-\Hide
-\chapter{Faitheist Hymnal}
-}
+\chapter{Introduction}
 
-\section{Introduction}
+\section{An Intro}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of humankind, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 
-\blindtext{45}
+\blindtext{25}
 
 Why do we chant, and \textemdash  as we engage our hearts and cultivate devotion \textemdash  toward whom or what is that devotion aimed? In the seminal Hindu scripture, \underline{The Bhagavad Gita}, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of human existence. By cultivating Awe and Faith; our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy, to whatever makes sense. Sometimes we chant trans-culturally. Hopefully always from a place of honoring, respecting and preserving traditions, even if not staying within their boundaries. In a way Faitheism is an excuse to enjoy the benefits of religion without any of the side effects. 
 
 On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
-\lipsum[50-150]
+\lipsum[50-55]
 
-\section{Simple}
+\chapter{Simple}
 
+\section{some section here}
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
 \end{changemargin}
@@ -260,6 +250,9 @@ On the Eleventh of September, even at this time more than a decade after our bel
 \end{figure}
 \vspace*{-.5in}
 
+\lipsum[10-15]
+
+\chapter{Chapter 3}
 \lipsum[10-15]
 
 \section{Another section}
