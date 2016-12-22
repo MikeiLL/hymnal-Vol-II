@@ -2,35 +2,55 @@
 % arara: xelatex: { files: [ 'sandbox.tex' ] }
 
 \documentclass[a5paper,twoside,11pt]{extbook}
+
+%%%%% Basic Layout & Formatting
+
+
+\usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.5cm]{geometry}
+
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
 \usepackage{marginnote,letltxmacro}
 \LetLtxMacro\mn\marginnote
 
-\usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.5cm]{geometry}
+\usepackage{epigraph} % quotes
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+\newcommand\mna[2]{\mn{\fontspec{Helvetica}#1}}
+\renewcommand*{\marginfont}{\scriptsize}
 
 \setlength{\parskip}{1em}
 
-% Need this for Hebrew for some reason
-\usepackage[utf8]{inputenc}
+% Make text in content tables smaller
+% TODO make headings smaller there too
+\AtBeginDocument{
+  \addtocontents{toc}{\normalsize}
+  \addtocontents{lof}{\normalsize}
+  \addtocontents{lot}{\normalsize}
+}
 
 % formatting section titles
 \usepackage{titlesec}
 \titleformat{\section}[block]{\Large\bfseries}{}{1em}{}
 \titleformat{\subsection}[hang]{\bfseries\filcenter}{}{1em}{}
-
-% Following line would hide chapter
 \titleformat{\chapter}[display]
   {\Large\bfseries}{}{1em}{}
-%\titleformat{\chapter}[block]{\Large\bfseries}{}{1em}{}
+% don't add page breaks before chapters.
 	\titleclass{\chapter}{straight}
 
-\usepackage{epigraph} % quotes
+\titlespacing*{\section} {0pt}{1ex plus 1ex minus .2ex}{1ex plus .2ex}
+\titlespacing*{\subsection} {0pt}{1ex plus 1ex minus .2ex}{0.2ex plus .2ex}
 
-\setlength{\epigraphwidth}{0.9\textwidth}
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\fancyhead[LE,RO]{\thepage}
+\renewcommand\headrulewidth{.5pt}
+\renewcommand\chaptermark[1]{\markboth{#1}{}} 
+\renewcommand\sectionmark[1]{\markright{#1}}
 
-\newcommand\mna[2]{\mn{\fontspec{Helvetica}#1}}
+%%%%% End Basic Layout & formatting
 
-\renewcommand*{\marginfont}{\scriptsize}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -51,8 +71,35 @@
 \usepackage{vwcol}  % variable width multiple columns
 \usepackage{wrapfig} % wrap figures and align
 
+%%%%%% Typography
+
+% Need this for Hebrew for some reason
+\usepackage[utf8]{inputenc}
+
+% for definitions - which we're not currently using.
+\usepackage{amsthm} 
+\newtheorem{I Surrender}{Definition}
+% for dropcaps
+% source 
+% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
+% http://www.tug.dk/FontCatalogue/otherfonts.html
+\usepackage{lettrine}
+\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
+
+% Bodini Font
+% \usepackage[default]{gfsbodoni} conflict with something in the hindi text block
+
+% Palatino font
+\usepackage[osf]{mathpazo} 
+
+% following two lines for bold, italics, roman
+% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
+\usepackage{slantsc} 
+\usepackage{lmodern}
+
+
 %%%%%
-% For Hindi Text
+% For Hindi & Other International Text
 % Source http://cikitsa.blogspot.co.at/2013/05/xelatex-for-sanskrit-update.html
 
 \usepackage{polyglossia} % the multilingual support package
@@ -116,28 +163,10 @@
 
 %%%%%
 
-% for definitions - which we're not currently using.
-\usepackage{amsthm} 
-\newtheorem{I Surrender}{Definition}
-% for dropcaps
-% source 
-% http://tex.stackexchange.com/questions/250474/how-to-use-fancy-dropcaps-with-pdflatex
-% http://www.tug.dk/FontCatalogue/otherfonts.html
-\usepackage{lettrine}
-\renewcommand\LettrineFontHook{\fontspec{Intro Head R L Base}}
+%%%%%% End Typography
+
 
 \usepackage{textcomp} % for text figures
-
-% Bodini Font
-% \usepackage[default]{gfsbodoni} conflict with something in the hindi text block
-
-% Palatino font
-\usepackage[osf]{mathpazo} 
-
-% following two lines for bold, italics, roman
-% source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
-\usepackage{slantsc} 
-\usepackage{lmodern}
 
 % for margins or is this for columns?
 \usepackage{scrextend}
@@ -154,34 +183,9 @@
 % for list of figures, tables
 % source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
 
-\titlespacing*{\section} {0pt}{1ex plus 1ex minus .2ex}{1ex plus .2ex}
-\titlespacing*{\subsection} {0pt}{1ex plus 1ex minus .2ex}{0.2ex plus .2ex}
-
-\usepackage{fancyhdr}
-\fancyhf{}
-\fancyhead[RE]{\leftmark}
-\fancyhead[LO]{\rightmark}
-\fancyhead[LE,RO]{\thepage}
-\renewcommand\headrulewidth{.5pt}
-\renewcommand\chaptermark[1]{\markboth{#1}{}} 
-\renewcommand\sectionmark[1]{\markright{#1}}
-
-\usepackage{arabxetex}
-\newfontfamily\arabicfont[Script=Arabic]{Amiri}
-
-\setmainfont{Gandhari Unicode} %could be any Unicode font
-
 % for filler for testing
 \usepackage{blindtext} 
 \usepackage{lipsum} 
-
-% Make text in content tables smaller
-% TODO make headings smaller there too
-\AtBeginDocument{
-  \addtocontents{toc}{\small}
-  \addtocontents{lof}{\small}
-  \addtocontents{lot}{\small}
-}
 
 \begin{document}
 
