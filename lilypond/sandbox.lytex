@@ -5,7 +5,6 @@
 
 %%%%% Basic Layout & Formatting
 
-
 \usepackage[outer=2.2cm,inner=2.2cm,top=2cm,bottom=1.5cm,heightrounded,marginparwidth=1.2cm, marginparsep=.5cm]{geometry}
 
 % margin notes source: https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
@@ -51,7 +50,6 @@
 
 %%%%% End Basic Layout & formatting
 
-
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
@@ -70,6 +68,20 @@
 \usepackage{multicol} % just to get narrow columns on one page
 \usepackage{vwcol}  % variable width multiple columns
 \usepackage{wrapfig} % wrap figures and align
+
+\usepackage{textcomp} % for text figures
+
+% for margins or is this for columns?
+\usepackage{scrextend}
+
+% display note and chord names
+\usepackage[full]{leadsheets}
+\useleadsheetslibraries{musicsymbols}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
 
 %%%%%% Typography
 
@@ -157,28 +169,17 @@
 \newfontfamily\hadasim{Hadasim CLM Regular}
 \DeclareTextFontCommand{\texthebrew}{\hadasim}
 
-%for Chinese characters
+% for Chinese characters
 \usepackage{xeCJK}
 \setCJKmainfont{SimSun}
+
+
+% arabic text support
+\usepackage{arabxetex}
 
 %%%%%
 
 %%%%%% End Typography
-
-
-\usepackage{textcomp} % for text figures
-
-% for margins or is this for columns?
-\usepackage{scrextend}
-
-% display note and chord names
-\usepackage[full]{leadsheets}
-\useleadsheetslibraries{musicsymbols}
-
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
-
 
 % for list of figures, tables
 % source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
@@ -237,6 +238,18 @@
 \blindtext{25}
 
 Why do we chant, and \textemdash  as we engage our hearts and cultivate devotion \textemdash  toward whom or what is that devotion aimed? In the seminal Hindu scripture, \underline{The Bhagavad Gita}, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of human existence. By cultivating Awe and Faith; our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy, to whatever makes sense. Sometimes we chant trans-culturally. Hopefully always from a place of honoring, respecting and preserving traditions, even if not staying within their boundaries. In a way Faitheism is an excuse to enjoy the benefits of religion without any of the side effects. 
+
+\subsection{lā ilāha illā allāh}
+\begin{arab}[fullvoc]
+لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
+\end{arab}
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{laillahaillaallah.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:lā ilāha illā allāh}
+\caption[lā ilāha illā allāh]{}
+\end{figure}
 
 On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 

@@ -50,7 +50,6 @@
 
 %%%%% End Basic Layout & formatting
 
-
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
@@ -69,6 +68,20 @@
 \usepackage{multicol} % just to get narrow columns on one page
 \usepackage{vwcol}  % variable width multiple columns
 \usepackage{wrapfig} % wrap figures and align
+
+\usepackage{textcomp} % for text figures
+
+% for margins or is this for columns?
+\usepackage{scrextend}
+
+% display note and chord names
+\usepackage[full]{leadsheets}
+\useleadsheetslibraries{musicsymbols}
+
+% for temporary margin changes
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
 
 %%%%%% Typography
 
@@ -156,28 +169,17 @@
 \newfontfamily\hadasim{Hadasim CLM Regular}
 \DeclareTextFontCommand{\texthebrew}{\hadasim}
 
-%for Chinese characters
+% for Chinese characters
 \usepackage{xeCJK}
 \setCJKmainfont{SimSun}
+
+
+% arabic text support
+\usepackage{arabxetex}
 
 %%%%%
 
 %%%%%% End Typography
-
-
-\usepackage{textcomp} % for text figures
-
-% for margins or is this for columns?
-\usepackage{scrextend}
-
-% display note and chord names
-\usepackage[full]{leadsheets}
-\useleadsheetslibraries{musicsymbols}
-
-% for temporary margin changes
-\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endchangemargin=\endlist 
-
 
 % for list of figures, tables
 % source: http://texblog.org/2013/04/29/latex-table-of-contents-list-of-figurestables-and-some-customizations/
