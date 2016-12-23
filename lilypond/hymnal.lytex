@@ -274,7 +274,7 @@ Who reveals these magical offerings to us? You do. The police do. The radio does
 
 \chapter{Some Simple Chants}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}he opening chants here have small vocal ranges. Some as little as two notes a step or two apart. As the content goes on, the complexity of the included mantras increases. The first chant is the four syllables and two words repeated: Om and Śāntiḥ.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}{he opening chants here} have small vocal ranges. Some as little as two notes a step or two apart. As the content goes on, the complexity of the included mantras increases. The first chant is the four syllables and two words repeated: Om and Śāntiḥ.
 
 \section{Om Śāntiḥ Om}
 
@@ -501,7 +501,7 @@ By great fortune our local radical book store Open Books had a copy of \underlin
 \section{Long Ek Ong Kar}
 \index{Sikh}
 \index{Ravi Singh}
-One of the more eclectic of the popular Sikh mantras. We learned it fro Ravi SIngh, of course. The visualization here is:
+One of the more eclectic of the popular Sikh mantras. We learned it fro Ravi Singh, of course. The visualization here is:
 
 \begin{itemize}
  \item  \textbf{Root Chakra Rear at Tailbone} --- Ek --- \emph{There is}
@@ -515,7 +515,7 @@ One of the more eclectic of the popular Sikh mantras. We learned it fro Ravi SIn
  \item  \textbf{Above Crown} --- Guru --- \emph{Teacher --- Darkness to Light}
 \end{itemize}
 
-Our translation: There is one Creator is our true identity. Wow is my teacher!
+Our translation: There is one Creator who is our true identity. Wow is my teacher.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{longekongkar.ly}
@@ -524,7 +524,7 @@ Our translation: There is one Creator is our true identity. Wow is my teacher!
 \label{fig:Long Ek Ong Kar}
 \caption[Long Ek Ong Kar]{}
 \end{figure}
-
+The chant starts with a four count breath, represented by the rest at the end of the music. The dots below some of the notes represent staccato rendering which means the note should be sharply detached or separated from the others. Ek is sung this way. With the same breath, Ong and Kar are held for six counts each, followed by another four count breath. Sat is powerful and staccato, resonating in the Solar region \textemdash center of power and will \textemdash and Nam resonates at the Heart Center \textemdash Anahata \textemdash for twelve counts. With the last fraction of remaining breath we evoke Siri \textemdash greatness and beyond \textemdash then a breath and another staccato syllable, Wa \textemdash at the first eye \textemdash followed by a short half-inhalation, He at the crown and Guru rising up into infinity. Repeat for 11, 31 or 108 minutes. Or maybe forever.
 \section{Ang Sung Wahe Guru}
 \index{BKS Iyengar}
 
@@ -552,9 +552,12 @@ Sarasvatī	(\saha{सरस्वती}) is the incarnation of Lakṣmī	(\saha
 \caption[Sat Chit Ekam Brahma]{}
 \end{figure}
 
-{The Art of Vocalization}
-\subsection*{Introduction to Vocal Technique}
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{I}n Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
+\chapter{The Art of Vocalization}
+
+\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{uite, quite frustrating} can sex and singing be, and while sexual insights are for the most part \textemdash if not entirely \textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breath.
+
+\section*{Introduction to Vocal Technique}
+In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
 
 It is out of this philosophy that \textemdash a thousand years later \textemdash what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e.   by a yogi named Swami Svatmarama.
 
@@ -692,7 +695,7 @@ Om can be practiced moving from a lower note on an Ah sound, visualized as begin
 
 \chapter{Chakra Mantras}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}hen learning the Sanskrit names of the chakras and their corresponding seed syllables, I made up some simple chants which are included here.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}{hen learning the Sanskrit names} of the chakras and their corresponding seed syllables, I made up some simple chants which are included here.
 
 \section{Lam Lam Lam Muladhara}
 
@@ -773,7 +776,7 @@ The last two measures are already an echo. As with all else in this book, whatev
 
 \chapter{Chants that are More Complex}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}ay back when this hymnal was first written we didn't have a specific \emph{target market}. Not by any means. And here you are so many decades later, with this artifact in your hands. Maybe the target market was unique. This hymnal was create solely for you to find. It could be that I am you in a past incarnation. All praises due to the one who does not exist! Aim not to be discouraged by rhythms, melodies or music that seem overwhelmingly complex. Simply laugh at the opportunity to be humbled and enjoy the ignorance while it lasts. With persistance, taken in small bites, all of the following are fairly easy to digest.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}{ay back when this hymnal was first written} we didn't have a specific \emph{target market}. Not by any means. And here you are so many decades later, with this artifact in your hands. Maybe the target market was unique. This hymnal was create solely for you to find. It could be that I am you in a past incarnation. All praises due to the one who does not exist! Aim not to be discouraged by rhythms, melodies or music that seem overwhelmingly complex. Simply laugh at the opportunity to be humbled and enjoy the ignorance while it lasts. With persistance, taken in small bites, all of the following are fairly easy to digest.
 
 \section{Om Ganeṣa Eleggua}
 
@@ -1458,7 +1461,7 @@ This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री ध
 
 \chapter{The Devi Mahatyama }
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}he Devi Mahatyama is a hymn to the divine feminine and specifically the Hindu Goddess, Dirga. The The Devi Mahatyama is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}{he Devi Mahatyama} is a hymn to the divine feminine and specifically the Hindu Goddess, Dirga. The The Devi Mahatyama is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
 
 Rand hicks used the phrase ``The Difficult One" to describe Dirga. She is super-bad. The story of her birth \textemdash as I read it \textemdash is that a demon performed a great spiritual ritual and became wildly powerful. Demons attacked the Celestial Beings and drove them into hiding (as ascetics and monks among humankind). After some research a large group of 30 Celestials including Indra, Vishnu, Shiva, Brahma and Parvati lit a huge fire and sang and danced and performed sacrifices of (including sacrificing the ego) for many days. Finally a being formed who contained all of their combined knowledge and powers. The great and fearsome Dirga has a beautiful and benevolent face, but in her arms brandishes many weapons. A handful of Parvati's magical herbal concoction blown into the fire forms the tiger upon which Dirga rides. 
 
