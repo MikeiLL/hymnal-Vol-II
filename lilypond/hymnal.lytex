@@ -230,7 +230,7 @@
 
 \clearpage
 
-\section{Introduction}
+\chapter{Introduction}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of humankind, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 \index{Bhagavad Gita}
@@ -271,11 +271,11 @@ Who reveals these magical offerings to us? You do. The police do. The radio does
 
 \clearpage
 
-\section{Some Simple Chants}
+\chapter{Some Simple Chants}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}he opening chants here have small vocal ranges. Some as little as two notes a step or two apart. As the content goes on, the complexity of the included mantras increases. The first chant is the four syllables and two words repeated: Om and Śāntiḥ.
 
-\subsection{Om Śāntiḥ Om}
+\section{Om Śāntiḥ Om}
 
 \index{Om}
 \index{microtone}
@@ -342,7 +342,7 @@ See that it has the \writechord{Eb} in it. In the Kṛṣṇa chant above, the \
 
 In either case the scale contains one interval that is evokative of Eastern tonalities, and that is the \emph{augmented second}. An augmented second has the same acoustical qualities as a minor third in that there are \emph{one whole step} and \emph{one half step} or {three semitones} between the two notes. However in this case there isn't a note between them in the scale, which is why it is referred to as a second and not a third. First would be a non-step, second is a single (whole, half or augmented) step, third is two steps, fourth is three steps and so on. 
 
-\subsection{Asato Ma}
+\section{Asato Ma}
 
 \index{Joe Brennan}
 \index{Zef}
@@ -361,7 +361,7 @@ The chant means, Lead me from non-being to being. Lead me from darkness to everl
 
 \clearpage
 
-\subsection{Anatomy of Drone}
+\section{Anatomy of Drone}
 
 Drone is the pure rhythm; the pure time. The drone of our blood running through our veins. The drone of our mothers heart beat. Om (\saha{ॐ}). The beginning of the universe. An echo of God's initial and eternal statement. (All Praises Due to the One Who Does Not Exist.)  \par
 
@@ -407,7 +407,7 @@ Move the awareness -- and the resonance of the voice -- up through the seven pri
 It's a bit odd and disconcerting that two voices documented above cross between the lower and higher parts (see how the stems of the notes make those odd squares at the beginning, but not at the end?), but this is how the piece developed and we like the way it sounds. The most complicated aspect of this chant \textemdash  from a musical standpoint \textemdash  is probably the rhythm found in the first measure and repeated in the third, fifth and thirteenth measures. Determining a measure that fit the way Rivka was chanting the mantra was a bit of a challenge. The way I figure out complex or syncopated rhythms is to break the rhythm down and apply a time-grid to it. In the Nigerian language, Yuruba, the word for time is A-go-go, and the bells used to define time in music (which you hear commonly generating their two tones in Western dance music: gong \textemdash  ging \textemdash ging-gong \textemdash gong \textemdash  ging-ging \textemdash  gong \textemdash  gong) are called A-go-go bells. Rhythm is the breaking up or dissecting of time. Pretty cool magical skill. Here in measure one the smallest part of the beat is a sixteenth note. It's the third note in the measure and has a double flag on it's stem. The time signature, 3/4 means there are three quarter notes to a measure, which equals six eighth notes or sixteen sixteenth notes. The first two notes are tied together with those nice arcs and they are a quarter note, which is the length of four 16th notes, and a \emph{dotted half note}. A dot at the end of a note means you add another half of it's rhythmic value to it. So a dotted eighth note is an eighth note plus a sixteenth note \textemdash  or three sixteenth notes. So altogether the two tied notes equal seven beats. Then the sixteenth note that the syllable `bin' occurs on gets three sixteenths before sliding up for the last two sixteenths of the twelve-sixteenth equals six-eighth equals three-quarter note measure. Another, possibly simpler way to get it is to just square it off to the nearest eighth notes \textemdash  at first holding `Go' for two (quarter notes) and `bin' for one. Then just see if you can \emph{anticipate} `bin' by just a hair.
 
 \vspace*{-.05in}
-\subsection{I Wanna Know You}
+\section{I Wanna Know You}
 There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline Tharp sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
 \vspace*{-.1in}
 
@@ -428,7 +428,7 @@ There was a period where I'm fairly sure I made our housemate (and dear friend) 
 \index{3HO}
 \index{Yogi Bhajan}
 
-\subsection{Wahe Guru Sat Nam}
+\section{Wahe Guru Sat Nam}
 \index{wahe}
 \index{Iyengar}
 \index{Guru}
@@ -448,7 +448,7 @@ Sat (\saha{सत्}) is truth. Essence. That which is unchanging and unchangea
 \caption[Wahe Guru Sat Nam]{}
 \end{figure}
 
-\subsection{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
+\section{Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har}
 The Creator has become my protector, the Truest of the True has taken care of me.  Har is the primal name / sound of the Creator. Har is the creative aspect of infinity/God/Goddess/your higher power/your true self. If I don’t believe in God, I’m taking refuge in my art/creativity. If I do believe in God, I’m taking refuge in God in relation to my art. The naval chakra is the center of creativity. Swadhistana. Orange.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -459,7 +459,7 @@ The Creator has become my protector, the Truest of the True has taken care of me
 \caption[Aap Sahai Hoa Sachay Daa Sachaa Doa, Har Har Har]{}
 \end{figure}
 
-\subsection{Ra Ma Da Sa Sa Say So Hung}
+\section{Ra Ma Da Sa Sa Say So Hung}
 Where most of the Sanskrit is the primary language of Hindu chants, Kundalini Yoga chants are typically in Gurmukhi, a language that combines Punjabi and Sanskrit:
 
 Gurmukhī (IPA: [\textipa{ɡʊɾmʊkʰi}]) (English: Gurmukhi, Gurmukhi: \textpunjabi{ਗੁਰਮੁਖੀ}) 
@@ -481,7 +481,7 @@ Each round of the chant is performed with a single breath, the final syllable, H
 \caption[Ra Ma Da Sa Sa Say So Hung]{We like to start this one with a drone, or maybe an ostinato bass, playing around with that minor second. The main melody of the mantra is the one written above in the middle. If you do the chant a half step lower in E$\flat$, that melody will be all black notes. When we're not playing the chords, I like to sing the high line, switching that fifth note, C for C$\sharp$, but when the chords (as written above) are playing that's fairly dissonant with the natural C in the \writechord{Ami} chord.}
 \end{figure}
 
-\subsection{lā ilāha illā allāh}
+\section{lā ilāha illā allāh}
 \begin{arab}[fullvoc]
 لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
 \end{arab}
@@ -493,7 +493,7 @@ Each round of the chant is performed with a single breath, the final syllable, H
 \caption[lā ilāha illā allāh]{}
 \end{figure}
 
-\subsection{Long Ek Ong Kar}
+\section{Long Ek Ong Kar}
 Words here.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{longekongkar.ly}
@@ -503,7 +503,7 @@ Words here.
 \caption[Long Ek Ong Kar]{}
 \end{figure}
 
-\subsection{Ang Sung Wahe Guru}
+\section{Ang Sung Wahe Guru}
 \index{BKS Iyengar}
 
 The meaning of the text is as potent as the chords are elementary. Ang means \emph{all}, Sung means \emph{in every}, Wahe is \emph{wow} and Guru, \emph{teacher}. All In Every Wow Teacher. Guru also means, according to Iyengar, Darkness (Gu) to Light (Ru). There's an idea that each one of us, and indeed everything in the universe is a microcosm of the entire universe. So we're steeping in the concept that All is In Every Part. Wow, my teacher. All of our learning and understanding comes out of Wow. Comes our of Awe, which we cultivate.
@@ -668,11 +668,11 @@ So from bottom to top, our voice draws it's earthiness from the base of the pelv
 
 Om can be practiced moving from a lower note on an Ah sound, visualized as beginning at the root, then moving up through the chakras through more of an Oh vowel tone in the solar and heart region, and Ooh in the throat and first eye and finally Mmmm resonating and vibrating each of the thousand (infinite) petals of the sahasrāra. When Om-ing in a group, the length of each Om can coincide with the breath of each participant, so that the shape of each one is timed differently, coming in like waves of the tide. A tide of Oms.
 
-\section{Chakra Mantras}
+\chapter{Chakra Mantras}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}hen learning the Sanskrit names of the chakras and their corresponding seed syllables, I made up some simple chants which are included here.
 
-\subsection{Lam Lam Lam Muladhara}
+\section{Lam Lam Lam Muladhara}
 
 \index{Jupiter finger}
 \index{Saturn finger}
@@ -689,7 +689,7 @@ What I really dig in terms of a mūlādhāra mantra is this: Find a comfortable 
 \caption[Lam Lam Lam Muladhara]{}
 \end{figure}
 
-\subsection{Vam Vam Swadhistana}
+\section{Vam Vam Swadhistana}
 \index{Svādhiṣṭhāna}
 \index{mudrā}
 
@@ -710,7 +710,7 @@ As the mantra continues, the eyes may be closed, bringing the attenward further 
 \end{figure}
 
 
-\subsection{Manipura Ram Ram Ram Manipura}
+\section{Manipura Ram Ram Ram Manipura}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{manipura.ly}
 \end{changemargin}
@@ -719,7 +719,7 @@ As the mantra continues, the eyes may be closed, bringing the attenward further 
 \caption[Manipura]{We will talk more about the music here.}
 \end{figure}
 
-\subsection{Open Up Anāhata}
+\section{Open Up Anāhata}
 
 \index{Anubis}
 \index{Anāhata}
@@ -749,11 +749,11 @@ The chant is this:
 
 The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
-\section{Chants that are More Complex}
+\chapter{Chants that are More Complex}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}ay back when this hymnal was first written we didn't have a specific \emph{target market}. Not by any means. And here you are so many decades later, with this artifact in your hands. Maybe the target market was unique. This hymnal was create solely for you to find. It could be that I am you in a past incarnation. All praises due to the one who does not exist! Aim not to be discouraged by rhythms, melodies or music that seem overwhelmingly complex. Simply laugh at the opportunity to be humbled and enjoy the ignorance while it lasts. With persistance, taken in small bites, all of the following are fairly easy to digest.
 
-\subsection{Om Ganeṣa Eleggua}
+\section{Om Ganeṣa Eleggua}
 
 \index{Rivka}
 A few months previous to our beginning to assemble this hymnal, Rivka was wondering why we're going all these Hindu chants and none from other cultures. We're into the Afro-Cuban culture and I've been interested in Ifá for two decades. We actually have a small collection of Santería books that I found in our front yard in Hoboken years ago. They're written in Spanish so it takes me an hour a page, but I stubbornly cling to them. \par
@@ -786,7 +786,7 @@ As both Eşu and Ganeşa are real, it makes sense that they might run into each 
 
 There could also be references to \emph{Mo'juba}, which is a spiritually energizing prayer. It's meaning is \emph{we give reverence to}. Like the Ong Namo Guro Dev Namo chant, we like to do this one with a Rhumba rhythm where every six beats are divided: middle --- rest --- high --- rest --- low --- low.
 
-\subsection{Gayatri Mantra}
+\section{Gayatri Mantra}
 
 \mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\saha{मंत्र}) are broken up as the root, \textbf{Man} (\saha{युव}): the root of \textbf{manas} (\saha{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\saha{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
 
@@ -800,7 +800,7 @@ The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk
 \caption[Gayatri Mantra]{When chanting this with a group who don't know the words and/or melody, the chant leading can be repeated one measure at a time: ---Om Bhur ---Om Bhur ---Om bhugaha ---Om bhugaha \ldots and so on.}
 \end{figure}
 
-\subsection{A Long Road}
+\section{A Long Road}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{a_long_road.ly}
 \end{changemargin}
@@ -1013,7 +1013,7 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
 
 
-\subsection{Wordless One}
+\section{Wordless One}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{wordless-one.ly}
 \end{changemargin}
@@ -1131,7 +1131,7 @@ We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{
 
 
 
-\subsection{Om Satyea Namaḥ}
+\section{Om Satyea Namaḥ}
 Words here.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omsatyeanamah.ly}
@@ -1164,7 +1164,7 @@ Waking up with a melody like this looping through my head, you know your mind ne
 \end{table}
 
 
-\subsection{Hanuman Ujjṛmbh}
+\section{Hanuman Ujjṛmbh}
 
 ujjṛmbh	(ud-jṛmbh-) A1.	-jṛmbhate-, to gape ; to open, part asunder ; to show one's self, become visible, come forth, break forth, expand, arise
 
@@ -1177,7 +1177,7 @@ Yes, it's a vowel followed by six consonants. This is an odd chant. Not sure if 
 \caption[Hanuman Ujjṛmbh]{}
 \end{figure}
 
-\subsection{Om eim hreem shreem kleem saw sat chit ekam Bramah}
+\section{Om eim hreem shreem kleem saw sat chit ekam Bramah}
 Words here.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omeimhreem.ly}
@@ -1196,7 +1196,7 @@ snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
 \end{lilypond} }
 \end{figure}
 
-\subsection{Oh, Lead}
+\section{Oh, Lead}
 This is a translation of the ancient, popular Sanskrit mantra:
 
 \begin{center}
@@ -1238,7 +1238,7 @@ snippet = \relative c'' {<g bes des f>1 }
 }
 \end{figure}
 
-\subsection{Sisterhood}
+\section{Sisterhood}
 
 This chant is of course inspired by the famous soap maker, Dr. Bronner who's ``All-in-one" soap was produced specifically as a distribution mechanism for the scripture on the bottles. When we first recorded the chant for the Naad Your Heart album, Emilio started doing the following series of gestures, or mudrās.
 \index{mudrā}
@@ -1256,7 +1256,7 @@ This chant is of course inspired by the famous soap maker, Dr. Bronner who's ``A
 \caption[Sisterhood]{We have enjoyed this chant with a drone as well as a capella. One of the interesting aspects of the movement is that the downbeat falls on the second time the word One is said, but the mudrā happens on the first ``One'', so the movements occur in between downbeats, or on the odd measures, creating two interlocking cycles.}
 \end{figure}
 
-\subsection{Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha}
+\section{Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha}
 \index{seed syllable}
 \index{para śakti}
 \index{kriyā śakti}
@@ -1313,7 +1313,7 @@ In the Kula sect, this chant is also used to unite with Shiva, who see no ultima
 
 
 
-\subsection{Ardhanārīśvara}
+\section{Ardhanārīśvara}
 
 We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \saha{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
 
@@ -1349,11 +1349,11 @@ I bow to Existence and the Power to Exist
 Another translation of the last line, Bhavam Bhavani Sahitam Namami is 
 \emph{I Bow to Shiva and Shakti Together}. Bhavani as the Power to Exist is a potent conceptualization and especially apropos within a society which is trying to deny the existence of a third gender, or anything at all that doesn't fit into our simplistic and erroneous binary gender system.
 
-\subsection{Don't Just Break}
+\section{Don't Just Break}
 
-\subsection{Lying Our Way to the Truth}
+\section{Lying Our Way to the Truth}
 
-\subsection{Evra K'divra}
+\section{Evra K'divra}
 
 \setRL
 \large\texthebrew{כאברא כדבראה} \LR{The Aramaic alphabet is what replaced a previous set of glyphs for \emph{writing} Hebrew.} \par
@@ -1393,7 +1393,7 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \unsetRL
 \end{multicols}
 
-\subsection{Om Shrīṃ Lakṣmī Yea Svaha}
+\section{Om Shrīṃ Lakṣmī Yea Svaha}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima.ly}
@@ -1408,7 +1408,7 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \lilypondfile[quote,noindent]{omshrimlaxmima12_8.ly}
 \end{changemargin}
 
-\subsection{Om Shrīṃ Lakṣmīyea Svaha}
+\section{Om Shrīṃ Lakṣmīyea Svaha}
 This chant has two variations \textemdash according Thomas Ashley Ferrand in the book, \underline{Shakti Mantras} \textemdash one of which is for people age twenty-nine and older, shown below, and another variation for people under the age of twenty-nine in which the word Namaḥ replaces the word Svaha. Namaḥ is a salute, whereas Svaha is an invocation.\par
 The chant is to cultivate the celestial healer within (and around) oneself. Ferrand describes the type of person whom simply being in their vicinity brings feelings of inner peace and wellbeing.
 
@@ -1421,7 +1421,7 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 }
 \end{figure}
 
-\subsection{Om Shrī Danvantre Namaha}
+\section{Om Shrī Danvantre Namaha}
 This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री धन्वन्तरये नमः} Might want to chant it if you or someone else is ailing. Dhanvantari is an avatar of Vishnu. When the celestials and demons were cooperating to manifest the nectar of immortality, it was Dhanvantari who, by the grace of Laxmi, bore the vessel containing it. Dhanvantari appears in the Vedas and Puranas as the god of the Hindi healing science, Ayurveda.
 
 
@@ -1434,7 +1434,7 @@ This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री ध
 }
 \end{figure}
 
-\section{The Devi Mahatyama }
+\chapter{The Devi Mahatyama }
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}he Devi Mahatyama is a hymn to the divine feminine and specifically the Hindu Goddess, Dirga. The The Devi Mahatyama is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
 
@@ -1444,7 +1444,7 @@ She makes it known that though she is \em{of} the celestials, she does not \em{b
 
 A translation: Hail to the Goddess, the Great Goddess; to the Auspicious One always hail! 
 Hail to Nature, to the Propitious One; we humble ourselves before her continuously.
-\subsection{Devi Mahatyama Part One}
+\section{Devi Mahatyama Part One}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{devimahatyam1.ly}
 \end{changemargin}
