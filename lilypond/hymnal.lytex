@@ -384,7 +384,7 @@ So how do you make a drone? One doesn't make a drone. It may appear that one has
 Take a deep breath. Fill the lungs. Vibrate the vocal chords and allow the naturally resulting tone to be carried our on the breath, the prana \textemdash cosmic energy \textemdash resonating in the box we call the human torso. Vibrating with the universe. Remember, as my friend Garret Pengle says, that we are each a continuation of the explosion that started the universe.
 
 \vspace*{.2in}
-\subsection*{Gobinday Mukanday Udara Apare}
+\section{Gobinday Mukanday Udara Apare}
 Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
 Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
 
@@ -542,7 +542,7 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 \end{figure}
 
 
-\subsection*{Sat Chit Ekam Brahma}
+\section{Sat Chit Ekam Brahma}
 This is one of the first chants described in Thomas Ashley Ferrand's, \underline{Shakti Mantras}. 
 
 Sarasvatī	(\saha{सरस्वती}) is the incarnation of Lakṣmī	(\saha{लक्ष्मी}) through whom the art of mantra is disseminated to humankind. But by Ferrand's account, many of the chants were extracted by Pārvatī \saha{पार्वती} \textemdash who is the incarnation of all combined cosmic energy \textemdash from the mind of her consort Śiva \saha{शिव}, the pure white, dreadlocked Hindu diety who is consciousness incarnate.
@@ -570,7 +570,7 @@ Aleister Crowley suggests that, ``True religion is intoxication'', and that "all
 
 How do we use our voice? What physical processes are occurring when we vocalize, chant and sing? How can we generate frequencies that will be spiritually potent and most importantly rewarding, rejuvenating and cathartic for us. Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}, \emph{intuition} and \emph{intellect}, \emph{vacuity} and \emph{visualization}. Depending on the volume and frequency we aim to vocalize, we may be engaging different parts of the body in different ways.
 
-\subsection*{Chakras}
+\section{Chakras}
 
 \index{chakra}
 
@@ -951,7 +951,7 @@ The first word, Kul, meaning \emph{All}, is pronounced like the English word \em
 
 For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 
-\subsection*{Anandamayi Ma}
+\section{Anandamayi Ma}
 
 The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. This is definitely an approximation, based on what we remembered from their transformational performance. Shivaranjani Raga Shiva's favorite - uses five notes - no 4th and no 7th minor 3rd rest major scale/ Spiritual. Anandamayima. sa re ga pa dha sa 1, 2 3b 5, 6
 
@@ -990,7 +990,7 @@ Also including it in the key of A minor as opposed to scary G flat minor with si
 \caption[Anandamayi Ma in A minor]{We will talk more about the music here. }
 \end{figure}
 
-\subsection*{Root Lock}
+\section{Root Lock}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{rootlock.ly}
@@ -1000,7 +1000,7 @@ Also including it in the key of A minor as opposed to scary G flat minor with si
 \caption[Root Lock]{We will talk more about the music here. }
 \end{figure}
 
-\subsection*{Jai Kali Ma}
+\section{Jai Kali Ma}
 This is to invoke her transformative nature.
 
 The word in both cases is ``Kalika" (kAlikA is sanskrit).
@@ -1036,7 +1036,7 @@ The issue was whether to write ``kAlikAyai" or ``kAlikAye". The second is wrong.
 \end{figure}
 
 
-\subsection*{Shangó Shangó}
+\section{Shangó Shangó}
 \index{Shango}
 Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Shiva and Norse Odin and Thor, Shangó is fierce as can be. A warrior. Sometimes we use this chant in yoga when we're doing Virabhadrasana (warrior) poses. Before he was a god, Shangó was a human being; a king. At some point he committed some horrible act of rage and destruction. As an act of repentance for what he had done, Shangó hung himself from a tree (sound familiar, fans of Odin?) and died. \emph{Ọba so} is Yoruba for \emph{the king hung}. Seeing this fearless act of selflessness and ultimate sacrifice, the creator, Olodumare resurrected Shangó as a deity. Thus the famous saying, ``Ọba kò so": The king did not hang. 
 
@@ -1050,7 +1050,7 @@ We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire,
 \caption[Shangó]{The words translate as \emph{Shangó Shangó We salute our king. Shangó}, and it can be done in various call-and-response or echo arrangements. }
 \end{figure}
 
-\subsection*{Adi Mantra}
+\section{Adi Mantra}
 
 When we were studying kundalini yoga in New York City with Ravi Singh, every class started with this mantra. It's basically honoring (evoking, summoning) the devine creative energy. This version of it is to a Rhumba rhythm, which comes out of the Afro-cuban tradition and has, through Spain, made it's way to the far eastern reaches of Eastern Europe where you can hear Gypsy Rhumba.
 
@@ -1064,51 +1064,7 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 
 \lilypondfile[quote,noindent]{ongnamogurudevnamo_piece.ly}
 
-
-\section{Wordless One}
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{wordless-one.ly}
-\end{changemargin}
-\begin{table}[h!]
-\caption{Wordless One}
-\label{table:1}
-\end{table}
-
-This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
-
-\subsection*{Seven Beats Descending}
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{ellington7.ly}
-\end{changemargin}
-\begin{table}[ht]
-\caption[Seven Beats Descending]{We will talk more about the music here.}
-\label{table:Seven Beats Descending}
-\end{table}
-
-\subsection*{White Notes in Twelve Eight}
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{aminor12_8.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption[]{}
-\label{table:White Notes in Twelve Eight}
-\end{table}
-
-\subsection*{What's Ruining Music}
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{whatsruiningmusic.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption[]{}
-\label{table:What's Ruining Music}
-\end{table}
-
-\subsection*{Samskara}
+\section{Samskara}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{samskara.ly}
@@ -1118,7 +1074,7 @@ This next one is approximated from a dream, where there was a bunch of older hor
 \caption[Samskara]{Call and response where a tide of Om is the bed out of which the Samskara call rises and resettles. Why worry? Why worry? Why worry? It's just a form of fantasy.}
 \end{figure}
 
-\subsection*{Matchbox Pyramid}
+\section{Matchbox Pyramid}
 \index{death}
 Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -1129,49 +1085,14 @@ Down a few steps into the neighborhood bar. Old, cheap tables populated with fri
 \caption[Into The Light]{Sometimes songs come from dreams. Maybe the song was playing in the dream. Maybe it's just there upon waking from the dream.}
 \end{figure}
 
-
 \epigraph{Dying is letting go, shedding, freeing. Sometimes death is a struggle if you have forgotten that you are the creator and you want to cling to your creations. Dying is like an exhalation. You exhale and the body drops off. You just step out of it and walk away. \ldots\ Birth is much harder. \ldots forced into this tiny form.}{Diane Mariechild, \textit{Mother Wit}}
 
 \epigraph{What is can never not be, and what is not can never be.}{Stephen Mitchell, \textit{Bhagavad Gita}}
 
 \epigraph{Death is forbidden, oh man, unto thee.}{Aleister Crowley, \textit{Book of the Law}}
 
-\subsection*{Bar-B-Que Bone Marrow}
 
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{bbqbonemarrow.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption{Hello I'd really like to tell you 'bout my  hang-bouncing utility wires, shortchanged baby bingo and bbq bone marrow.}
-\label{table:Bar-B-Que Bone Marrow}
-\end{table}
-
-\subsection*{Egypt on Palestine}
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{egyptonpalestine.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption{Egypt on Palestine}
-\label{table:Egypt on Palestine}
-\end{table}
-
-
-\subsection*{Fabulous Sunglasses}
-Old bar organist plays this after we discover and recover the fanciest old piano imaginable, with drawers full of fabulous sun glasses and gay apparel.
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{fabuloussunglasses.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption{Fabulous Sunglasses}
-\label{table:Fabulous Sunglasses}
-\end{table}
-
-
-\subsection*{Sat Chit Ananda Praharsha}
+\section{Sat Chit Ananda Praharsha}
 We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{praharsha}, which means ecstacy. Sat Chit Ananda is a famous Hindu saying meaning Truth, Consciousness, Bliss. Later we learned that Praharsha is in fact used to mean spiritual ecstacy, but it's most common meaning is to signify a fully erect phallus.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{satchitanandapraharsha.ly}
@@ -1192,29 +1113,6 @@ Words here.
 \label{fig:Om Satyea Namaḥ}
 \caption[Om Satyea Namaḥ]{}
 \end{figure}
-
-\subsection*{Seven Twenty-one Fifteen}
-Words here.
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{7-21-15.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption{Seven Twenty-one Fifteen}
-\label{table:Seven Twenty-one Fifteen}
-\end{table}
-
-\subsection*{Seven Seventeen Fifteen}
-Waking up with a melody like this looping through my head, you know your mind needs some clearing.
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{7-17-15.ly}
-\end{changemargin}
-\begin{table}[ht]
-\centering
-\caption{Seven Seventeen Fifteen}
-\label{table:Seven Seventeen Fifteen}
-\end{table}
-
 
 \section{Hanuman Ujjṛmbh}
 
@@ -1507,7 +1405,113 @@ Hail to Nature, to the Propitious One; we humble ourselves before her continuous
 Sma tam means ``always to Her''.}
 \end{figure}
 
+\chapter{Wordless Chants \& Instrumental Melodies }
 
+\index{Rivka}
+\index{niggun}
+
+\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{W}{ithin the Hassidish community} of Rivka's upbringing, the singing all occurred without musical accompaniment and often without words. These are called niggunim. In the Catholic tradition, we weren't creative enough to sing melodies without words, but there were always instrumental portions of the service. Most of the following musical pieces are transcriptions from dreams.
+
+\section{Wordless One}
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{wordless-one.ly}
+\end{changemargin}
+\begin{table}[h!]
+\caption{Wordless One}
+\label{table:1}
+\end{table}
+
+This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
+\section{Seven Beats Descending}
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{ellington7.ly}
+\end{changemargin}
+\begin{table}[ht]
+\caption[Seven Beats Descending]{We will talk more about the music here.}
+\label{table:Seven Beats Descending}
+\end{table}
+
+\section{White Notes in Twelve Eight}
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{aminor12_8.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption[]{}
+\label{table:White Notes in Twelve Eight}
+\end{table}
+
+\section{What's Ruining Music}
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{whatsruiningmusic.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption[]{}
+\label{table:What's Ruining Music}
+\end{table}
+
+
+\section{Bar-B-Que Bone Marrow}
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{bbqbonemarrow.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Hello I'd really like to tell you 'bout my  hang-bouncing utility wires, shortchanged baby bingo and bbq bone marrow.}
+\label{table:Bar-B-Que Bone Marrow}
+\end{table}
+
+\section{Egypt on Palestine}
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{egyptonpalestine.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Egypt on Palestine}
+\label{table:Egypt on Palestine}
+\end{table}
+
+
+\section{Fabulous Sunglasses}
+Old bar organist plays this after we discover and recover the fanciest old piano imaginable, with drawers full of fabulous sun glasses and gay apparel.
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{fabuloussunglasses.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Fabulous Sunglasses}
+\label{table:Fabulous Sunglasses}
+\end{table}
+
+
+\section{Seven Twenty-one Fifteen}
+Words here.
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{7-21-15.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Seven Twenty-one Fifteen}
+\label{table:Seven Twenty-one Fifteen}
+\end{table}
+
+\section{Seven Seventeen Fifteen}
+Waking up with a melody like this looping through my head, you know your mind needs some clearing.
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{7-17-15.ly}
+\end{changemargin}
+\begin{table}[ht]
+\centering
+\caption{Seven Seventeen Fifteen}
+\label{table:Seven Seventeen Fifteen}
+\end{table}
 Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know} what needs to be done.
 
 If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.

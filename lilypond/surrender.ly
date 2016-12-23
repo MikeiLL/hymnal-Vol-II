@@ -19,7 +19,7 @@ melody = \relative c' {
       \hideNotes {
 			 \partial 4. d4 bes'8 |	
 				a4.~ a | r g4 f8 | a4.~ a | r f4 a8 |
-				g4.~ g | r g4 f8 | \times 3/2 { a8( bes a g} | f4.) d4 bes'8 |	
+				g4.~ g | r f4 g8 | \times 3/2 { a8( bes a g} | f4.) d4 bes'8 |	
 			}
 		}
     >>
