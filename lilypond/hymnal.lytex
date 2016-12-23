@@ -48,6 +48,9 @@
 \renewcommand\chaptermark[1]{\markboth{#1}{}} 
 \renewcommand\sectionmark[1]{\markright{#1}}
 
+% prevent widows at top of page
+\usepackage[all]{nowidow}
+
 %%%%% End Basic Layout & formatting
 
 \usepackage{graphicx}
@@ -268,7 +271,7 @@ This isn't a collection of classic or popular chants. They are mostly ones with 
 
 None of these chants require accompaniment, but in many cases we include the names of chords which we have found suitable accompaniment. Western chordal harmony is a vertical extension of melody and a relatively recent invention, with our ``just intonation'' being only a few hundred years old. Accompaniment to chant and mantra that reaches further into the infinite past would be the drone or the drum, both of which leave more room for horizontal melodic freedom.
 
-Who reveals these magical offerings to us? You do. The police do. The radio does. Monks do. The chants of the Sufis. The peoples of the First Nations of the continent within which this hymnal is written. Aboriginal chant music. Hindustani and Carnatic music. Hip-hop. Input, corrections and suggestions welcome.\par
+Who reveals these magical offerings to us? You do. The police do. The radio does. Monks do. The chants of the Sufis. The peoples of the First Nations of the continent within which this hymnal is written. Aboriginal chant music. Hindustani and Carnatic music. Hip-hop. Input, corrections and suggestions welcome. \textemdash Mike iLL \par
 
 \clearpage
 
@@ -489,7 +492,7 @@ Each round of the chant is performed with a single breath, the final syllable, H
 \index{sufism}
 \index{allāh}
 \index{Open Books}
-By great fortune our local radical book store Open Books had a copy of \underline{The Shambhala Guide to Sufism}, author Carl W. Ernst translates and describes one use of this ubiquitous Sufi chant. The meaning of the words is as follows: There is no God but God. The visualization Ernst describes is that the adept (that's you) repeats the first part, ``there is no God", visualizing the body disappearing from the bottom up. Then as we (that's you) chant ``but God", the Heart becomes and expansive light that fills the universe. The idea as I understand it is that our \emph{concept} of god (ilāha) interferes with our relationship with a cosmic \emph{actuality} (allāh) that is beyond logic, intellectual comprehension or description.
+By great fortune our local radical book store Open Books had a copy of \underline{The Shambhala Guide to Sufism}. Author Carl W. Ernst translates and describes one application of this ubiquitous Sufi chant. The meaning of the words is as follows: There is no God but God. The visualization Ernst describes is that the adept (that's you) repeats the first part, ``there is no God", visualizing the body disappearing from the bottom up. Then as we (that's you) chant ``but God", the Heart becomes and expansive light that fills the universe. The idea as I understand it is that our \emph{concept} of god (ilāha) interferes with our relationship with a cosmic \emph{actuality} (allāh) that is beyond logic, intellectual comprehension or description.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{laillahaillaallah.ly}
 \end{changemargin}
@@ -575,12 +578,12 @@ The word \textbf{chakra} (\saha{चक्र}) translates as \emph{circle} or \e
 
 \index{chakra}
 \index{Mūlādhāra}
-
-\textbf{Mūlādhāra} (\saha{मूलाधार}) is the root chakra. It's our connection to the Earth; our groundedness. We associate each of these seven primary chakras with the colors starting at the root with red. This slowly spinning wheel is in the region of the groin and pelvis. When we squeeze in on the basket of muscles in the pelvic basin it is referred to as Mūlā Bandha (\saha{मूल बंध}), root lock or root lift. These are the same muscles we engage when controlling our bowels or urethra trying to ``contain ourselves''.
-
 \index{mudrā}
 
 \mna{From Hindu and Buddhist tradition, a \textbf{mudrā} (/mu'drɑ:/ Tibetan: \texttibetan{ཕྱག་རྒྱ་}) is an energetic ``seal'', ``mark''; a symbolic or ritual ``gesture''. Some mudras involve the entire body; mostly just hands and fingers.}
+
+\textbf{Mūlādhāra} (\saha{मूलाधार}) is the root chakra. It's our connection to the Earth; our groundedness. We associate each of these seven primary chakras with the colors starting at the root with red. This slowly spinning wheel is in the region of the groin and pelvis. When we squeeze in on the basket of muscles in the pelvic basin it is referred to as Mūlā Bandha (\saha{मूल बंध}), root lock or root lift. These are the same muscles we engage when controlling our bowels or urethra trying to ``contain ourselves''.
+
 The syllable associated with Mūlādhāra is \textbf{Lam} and an associated mudrā (\saha{मुद्रा}) is the index and middle fingers making a ``peace sign'' and touching the ground.
 
 When we vocalize, we want this region to be relaxed and settled towards the earth, but engaged enough so that we're not collapsing or slouching in the pelvic region. The base of the spine, where the coiled serpent of latent kundalini energy is said to reside, is in this Mūlādhāra region. Take a deep breath and exhale slowly, visualizing the energy of Mūlādhāra rising up through the spine and torso as light and emerging from the mouth, first eye or crown of the head. Now do the same thing, but this time engage the larynx or voice box, which are elastic \emph{chords} that vibrate like reeds in the wind to create a tone, and imagine the sonic vibration originating in the pelvis, moving up and out, filling the room with sound and energy.
@@ -726,6 +729,7 @@ As with all of the chakras, we consciously, unconsciously and anatomically hinde
 The following mantra is ment to be visualized as originating in the naval area, and expanding outward as the melody expands. For movement, begin with the hands gently and sensuously encircling the top of the hips and waist, alternately bend the knees, which guides the hips to either side. The pace of the movement matches the half notes in the mantra so Vam \textemdash  Left; Vam \textemdash  Right; Svādhiṣ \textemdash  Left; thana \textemdash  Left etc\ldots.\par
 As the mantra continues, the eyes may be closed, bringing the attenward further inward, and the hands may begin to move about. Possibly the thumbs and pointer fingers will make a circle around the belly button, touching at the tips. Maybe the hands will move out to either side like palm leaves blowing in the wind. Visualizing a tropical beach at the edge of a river or the ocean and possibly one of the many Love Goddesses dancing with you. Maybe you are in a large group of dancers. Maybe becoming one with the Ocean. It may be sunrise or sunset, both of which generate the Orange color associated with svādhiṣṭhāna.
 
+\index{Swadhistana}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{swadhistana.ly}
 \end{changemargin}
@@ -733,15 +737,19 @@ As the mantra continues, the eyes may be closed, bringing the attenward further 
 \label{fig:Vam Vam Swadhistana}
 \caption[Vam Vam Swadhistana]{}
 \end{figure}
-
-
+\vspace*{-.3in}
+\index{Manipura}
 \section{Manipura Ram Ram Ram Manipura}
+With this chant we place the open palms over the solar plexus \textemdash the manipura \textemdash center of the self, where 72,000 nerves come together and rock lightly back and forth, shifting from one foot to the other at half the speed of the rocking. Rocking happens at a quarter note pulse and shifting feet at half-notes, two to the measure.
+\index{sat}
+\index{nam}
+Ram is the seed syllable that resonates at the frequency of the solar plexus. Sat nam is our true identity.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{manipura.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Manipura}
-\caption[Manipura]{We will talk more about the music here.}
+\caption[Manipura]{The little accompaniment part was composed for plucked or pizzicato violin.}
 \end{figure}
 
 \section{Open Up Anāhata}
@@ -751,12 +759,13 @@ As the mantra continues, the eyes may be closed, bringing the attenward further 
 
 Anubis is the Jackyl-headed god of the dead in Egyptian mythology. Anubis puts the heart of the newly dead being on a scale, weighing it against the weight of a feather, and we're looking for the feather to be the heavier of the two.
 
+\begin{wrapfigure}[10]{L}{0.5\textwidth}
+\center
+\includegraphics[scale=.3]{poses/anahata1.pdf}
+\includegraphics[scale=.3]{poses/anahata2.pdf}
+\end{wrapfigure}
+
 There's a movement that goes with this heart-lightening chant. If standing, the legs will do a basic Afro-hip-hop step of  right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out, releasing it to the sides, opening up the ribcage and heart more and more.
-
-\includegraphics[scale=.4]{poses/anahata1.pdf}
-\includegraphics[scale=.4]{poses/anahata2.pdf}
-
-The chant is this:
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{anahata.ly}
@@ -791,9 +800,9 @@ In Santería, also called Regla de Ocha, parallels were found between Ifá and C
 
 One of the things we sacrificed in moving to Pensacola from the NYC area was the rich culture of the Metropolitan area. And we were bemoaning the fact that there wasn't anyone here from whom we could learn more about the AfroCuban chants I knew from life-saving times at the Rhumbas at an American Legion Hall on the Lower East Side (forever grateful Judith Arnold Maldonado) and time working for Amelia Pedroso and Ibbu-Okun (thank you Paula Ballan). 
 
-Within a week of Rivka and my conversation, Peace D Cashmire mentioned that an African Dance class in the Yorùbá/Ifá tradition was beginning the next day, which ended up leading us to Iya Monife Osun's Golden Harvest Ilè, which is an Ifá temple right here in Pensacola.
-
-When I first began learning about Ganeṣa (\saha{गणेश}), the Elephant-headed deity of Hinduism, I was struck by the parallels to Elegua, who is the divine messenger in Ifá. They are both invoked at the beginning of ritual and seen as openers of the door between worlds; rational and intuitive, physical and spiritual, magical and mundane. They are also both tricksters and I love how Awo Fá'lokun Fatunmbi puts it: ``this role has the function of transforming deceptive and limited visions of self and world." Elegua is actually the name I learned for this Oriṣa from the Cuban people in New York. Elegba is the name the folks at Golden Harvest and Ileṣa Ire (more on them later) use and in Nigeria, the divine messenger is referred to as Eşu.
+Within a week of Rivka and my conversation, Peace D Cashmire mentioned that an African Dance class in the Yorùbá or Ifá tradition was beginning the next day, which ended up leading us to Iya Monife Osun's Golden Harvest Ilè, which is an Ifá temple right here in Pensacola.
+\index{Eşu}
+When first learning about Ganeṣa (\saha{गणेश}), the Elephant-headed deity of Hinduism, I was struck by the parallels to Elegua, who is the divine messenger in Ifá. They are both invoked at the beginning of ritual and seen as openers of the door between worlds; rational and intuitive, physical and spiritual, magical and mundane. They are also both tricksters and I love how Awo Fá'lokun Fatunmbi puts it: ``this role has the function of transforming deceptive and limited visions of self and world." Elegua is actually the name I learned for this Oriṣa from the Cuban people in New York. Elegba is the name the folks at Golden Harvest and Ileṣa Ire (more on them later) use and in Nigeria, the divine messenger is referred to as Eşu.
 
 According to Awo Fá'lokun Fatunmbi, one of the twenty one \emph{roads} of Eşu is called Eşu Elegbara, a warrior and the divine messenger of power. He suggests that it makes sense that in an atmosphere of slavery, an aspect of Eşu that represents communication in the face of overwhelming obstacles would become the face of interaction between human consciousness and Spirit.
 
@@ -811,9 +820,27 @@ As both Eşu and Ganeşa are real, it makes sense that they might run into each 
 
 There could also be references to \emph{Mo'juba}, which is a spiritually energizing prayer. It's meaning is \emph{we give reverence to}. Like the Ong Namo Guro Dev Namo chant, we like to do this one with a Rhumba rhythm where every six beats are divided: middle --- rest --- high --- rest --- low --- low.
 
+
+\vspace*{-.2in}
+\section{Wahe Guru Satanam}
+At a ``Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into ``Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
+\end{changemargin}
+
+Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
+\end{changemargin}
+
+Someone could just be saying ``Satanam!", another ``Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
+
+
 \section{Gayatri Mantra}
 
-\mna{\hspace{1.5em}In Sanscrit the syllables of the word \textbf{Mantra} (\saha{मंत्र}) are broken up as the root, \textbf{Man} (\saha{युव}): the root of \textbf{manas} (\saha{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\saha{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.}
+In Sanscrit the syllables of the word \textbf{Mantra} (\saha{मंत्र}) are broken up as the root, \textbf{Man} (\saha{युव}): the root of \textbf{manas} (\saha{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\saha{त्रा}): \emph{vehicle} or \emph{instrument}. Tra is also translated as ``the heat of life." And of course we associate \textbf{Ra} with the sun.
 
 The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the goddess Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Saraswati wouldn't arrive on time for a \emph{very important} ceremony. Saraswati was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically.
 
@@ -826,20 +853,23 @@ The Gayatri Mantra is reputed to be a very popular mantra. Gayatri was this milk
 \end{figure}
 
 \section{A Long Road}
+Once on a drive up to visit my sister Carrie at college in Connecticut, I chanted this chant for a really long time and it stuck around. It was a period of heartbreak and redefinition. Never could quite figure out what the time signature or exact rhythm was, but this is a fair approximation. 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{a_long_road.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:A Long Road}
-\caption[A Long Road for Us / Road Junction]{We will talk more about the music here.}
+\caption[A Long Road for Us / Road Junction]{}
 \end{figure}
 
-Another section to play with:
+\index{Eşu}
+The crossroads are ubiquitous in folklore, often associated with the devil. In Ifá the crossroads are the domain of Eşu. Whether or not we ``go to" the crossroads, we end up at them now and again.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{the_road_junction.ly}
 \end{changemargin}
 
+\section{I Surrender}
 A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which \textemdash after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone (Rivka?) said he mentions the technique in Light on Yoga. 
 
 This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
@@ -855,22 +885,27 @@ Some of the Deities we called to were: \hfill \\
 
 \begin{addmargin}[3em]{3em}
 \begin{description}
-
+\index{Laxmi}
 \item[Laxmi Ma]
 \textit{When, in the Hindu creation story, Narayana began dreaming existence out of the primordial soup, Laxmi was the feminine energy by which manifestation could occur.}
 
+\index{Saraswati}
 \item[Saraswati]
 \textit{An avatar by which we can experience the energy of Laxmi Ma, Saraswati is the Hindu goddess to whom we look for creative energy and intelligence.}
 
+\index{Elegua}
 \item[Om Elegua]
 \textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
 
+\index{Obatala}
 \item[Obatala]
 \textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
 
+\index{Mary}
 \item[Mother Mary]
 \textit{Mary is one of the most universal of the Christian symbols.}
 
+\index{Shiva}
 \item[Om Shiva]
 \textit{Shiva is lord of yoga. Lord of the dance. Shiva is depicted as having long, matted dread locks, full of insects. Shiva is too occupied with universal consciousness to be bothered.}
 \end{description}
@@ -879,33 +914,24 @@ Some of the Deities we called to were: \hfill \\
 
 Others that come to mind are:
 
+\index{Yemaya}
 \begin{addmargin}[3em]{3em}
 \begin{description}
 \item[Yemaya]
 \textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
 
+\index{Laxmi}
 \item[Oshun]
 \textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
 
+
+\index{Jesus}
 \item[Om Jesus]
 \textit{This seemed like an interesting juxtaposition. I'm sure this isn't it's first time in print. The Jesus-as-deity vibe still makes me uncomfortable, not to mention that it's not the most singable word in the world.}
 \end{description}
 \end{addmargin}
 
-At a ``Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into ``Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
-\end{changemargin}
-
-Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
-\end{changemargin}
-
-Someone could just be saying ``Satanam!", another ``Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
-
+\section{Kul Hayom Vikhul Halaila Om}
 The following chant, mostly in Hebrew translates, ``All of the day and all of the night Om".
 
 \setRL
@@ -919,8 +945,9 @@ The following chant, mostly in Hebrew translates, ``All of the day and all of th
 
 \begin{figure}[ht]
 \label{fig:Kul Hayom Vikhul Halaila Om}
-\caption[Kul Hayom Vikhul Halaila Om]{The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. The  }
+\caption[Kul Hayom Vikhul Halaila Om]{}
 \end{figure}
+The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. Hayom, meaning \emph{the day}  is Ha \textemdash Yo + mmm. Vikhul is Vi, like the beginning of ``sit" and Khul starts with a consonant sound that doesn't exist in English. The Kh sound is generated by vibrating the epiglottis against the back of the tongue the way one might when totally exasperated. It's almost a soft gargling sound. The Ul in ViKhul rhymes with Skull and the word means \emph{and all}. Halaila means \emph{the night} and is pronounced Hah \textemdash Lie \textemdash Luh.
 
 For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 

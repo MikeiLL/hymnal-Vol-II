@@ -236,7 +236,31 @@
 \lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{uite, quite frustrating} can sex and singing be, and while sexual insights are for the most part \textemdash if not entirely \textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breath.
 \blindtext{25}
 
-Why do we chant, and \textemdash  as we engage our hearts and cultivate devotion \textemdash  toward whom or what is that devotion aimed? In the seminal Hindu scripture, \underline{The Bhagavad Gita}, there's a line: ``Scriptures are of little value to the [one] who sees God everywhere.'' For the rest of us, there are systems, cosmologies, symbols, philosophies through which we aim to feel our way through the fog of human existence. By cultivating Awe and Faith; our Wow and our Conviction, we begin to appreciate that the fog itself is of our own making. So we chant to whomever we fancy, to whatever makes sense. Sometimes we chant trans-culturally. Hopefully always from a place of honoring, respecting and preserving traditions, even if not staying within their boundaries. In a way Faitheism is an excuse to enjoy the benefits of religion without any of the side effects. 
+\begin{wrapfigure}[10]{L}{0.5\textwidth}
+\center
+\includegraphics[scale=.3]{poses/anahata1.pdf}
+\includegraphics[scale=.3]{poses/anahata2.pdf}
+\end{wrapfigure}
+
+There's a movement that goes with this heart-lightening chant. If standing, the legs will do a basic Afro-hip-hop step of  right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out, releasing it to the sides, opening up the ribcage and heart more and more.
+
+The chant is this:
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{anahata.ly}
+\end{changemargin}
+
+\begin{figure}[ht]
+\label{fig:Anahata}
+\caption[Anahata]{It is really nice to do it as a call and response where each two measures are echoed like this:}
+\end{figure}
+
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{anahata_piece.ly}
+\end{changemargin}
+
+The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
 
 \subsection{lā ilāha illā allāh}
 \begin{arab}[fullvoc]
