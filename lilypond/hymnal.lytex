@@ -242,13 +242,14 @@ This work is by no means complete. To a large degree it's a tool for our own use
 
 With all due respect to scholars and academia, this is not a work of scholarship. I have endeavored to avoid incorrect translations and statements of fact. No guarantees. The source is an eclectic artist and friends writing back in the year twenty-sixteen,
 
+\mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
+
 \index{Asé}
 \index{Esther}
 \index{Ogún}
 \index{Ishtar}
-On our particular journey, the tools that seem to be working don't all come out of the same box, or even the same house, city or continent. In the same phrase, we'll invoke Yuruba's Ogún and Jewish foremother, Esther, descendant of the Babylonian goddess, Ishtar. We sing to these two when starting out on a car trip. Ogún, a deity associated with iron and metal work, we sing to in hopes that the car will work. Esther guides the journey, controls time and always, always finds you a parking space. Asé.
 
-\mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
+On our particular journey, the tools that seem to be working don't all come out of the same box, or even the same house, city or continent. In the same phrase, we'll invoke Yuruba's Ogún and Jewish foremother, Esther, descendant of the Babylonian goddess, Ishtar. We sing to these two when starting out on a car trip. Ogún, a deity associated with iron and metal work, we sing to in hopes that the car will work. Esther guides the journey, controls time and always, always finds you a parking space. Asé.
 
 What is a hymn? It's a piece of music that ``everyone'' can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
@@ -485,16 +486,37 @@ Each round of the chant is performed with a single breath, the final syllable, H
 \begin{arab}[fullvoc]
 لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
 \end{arab}
+\index{sufism}
+\index{allāh}
+\index{Open Books}
+By great fortune our local radical book store Open Books had a copy of \underline{The Shambhala Guide to Sufism}, author Carl W. Ernst translates and describes one use of this ubiquitous Sufi chant. The meaning of the words is as follows: There is no God but God. The visualization Ernst describes is that the adept (that's you) repeats the first part, ``there is no God", visualizing the body disappearing from the bottom up. Then as we (that's you) chant ``but God", the Heart becomes and expansive light that fills the universe. The idea as I understand it is that our \emph{concept} of god (ilāha) interferes with our relationship with a cosmic \emph{actuality} (allāh) that is beyond logic, intellectual comprehension or description.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{laillahaillaallah.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:lā ilāha illā allāh}
-\caption[lā ilāha illā allāh]{}
+\caption[lā ilāha illā allāh]{The two parts above can be sung together or apart. The upper part only has three notes within a small range, while the lower part is nearly two octaves. If you are actually capable of singing the lower part, you can visualize the body disappearing as the frequencies rise.}
 \end{figure}
 
 \section{Long Ek Ong Kar}
-Words here.
+\index{Sikh}
+\index{Ravi Singh}
+One of the more eclectic of the popular Sikh mantras. We learned it fro Ravi SIngh, of course. The visualization here is:
+
+\begin{itemize}
+ \item  \textbf{Root Chakra Rear at Tailbone} --- Ek --- \emph{There is}
+ \item  \textbf{Root Chakra Front at Pubic Bone} ---  Ong --- \emph{One}
+ \item  \textbf{Naval Chakra} --- Kar --- \emph{God/Reality}
+ \item  \textbf{Solar Plexus} Sat --- Sat --- \emph{Truth}
+ \item  \textbf{Heart Chakra} --- Nam --- \emph{Identity}
+ \item  \textbf{Throat Chakra} --- Siri --- \emph{Greatness and beyond greatness}
+ \item  \textbf{First Eye} --- Wa --- \emph{Wow --- first half}
+ \item  \textbf{Crown Chakra} --- he --- \emph{Wow --- second half}
+ \item  \textbf{Above Crown} --- Guru --- \emph{Teacher --- Darkness to Light}
+\end{itemize}
+
+Our translation: There is one Creator is our true identity. Wow is my teacher!
+
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{longekongkar.ly}
 \end{changemargin}
