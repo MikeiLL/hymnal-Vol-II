@@ -969,7 +969,9 @@ For some harmonic variety, and E Major chord \writechord{E} can be substituted f
 \index{Mahabhuta Yoga Festival}
 \index{Jagadisha}
 \index{Garrett Pengle}
-The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. Garrett Pengle remembered an approximation of the melody which I transcribed and ultimately corrected very significantly after having tracked Jagadisha down through the place in West Virginia that he teaches meditation. He explained that the particular Raga that the piece is composed in is called the Shivaranjani Raga, which means Shiva's favorite. Simplistically, in the North Indian Hindustani music tradition (as well as the South Indian Karnatic tradition) a raga is a series of pitches along the lines of what Western music calls a scale. The Shivaranjani Raga uses five notes \textemdash no 4th and no 7th; a minor 3rd and the rest correspond loosely with our major scale: 1, 2 3\flat 5 and 6. A five note scale is also called a pentatonic scale. The tones of the raga all have spiritual significance. The tones of this raga have syllables associated with them: Sa Re Ga Pa Dha Sa.
+\index{Shiva}
+\index{Śiva| see Shiva}
+The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. Garrett Pengle remembered an approximation of the melody which I transcribed and ultimately corrected very significantly after having tracked Jagadisha down through the place in West Virginia that he teaches meditation. He explained that the particular Raga that the piece is composed in is called the Shivaranjani Raga, which means Shiva's favorite. Śiva	(\saha{शिव}) is the fierce Hindu deity associated with consciousness. Simplistically, in the North Indian Hindustani music tradition (as well as the South Indian Karnatic tradition) a raga is a series of pitches along the lines of what Western music calls a scale. The Shivaranjani Raga uses five notes \textemdash no 4th and no 7th; a minor 3rd and the rest correspond loosely with our major scale: 1, 2 3\flat, 5 and 6. Westerners refer to a five note scale as pentatonic (pantagon, pentagram, etc). The tones of the raga each have spiritual significance. The tones of this raga have syllables associated with them: Sa Re Ga Pa Dha and the upper Sa.
 
 Doing this Raga within the Western Twelve Tone system, we lose the original relationships between the scale tones, which are derived from the natural harmonic spectrum. But it is still enjoyable and fulfilling.
 
@@ -979,7 +981,9 @@ The story of the birth of this chant is that it literally ``came out of Harishes
 
 As Jagidisha explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \saha{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
 
-Citi-sakti (Chit-shakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy surrounding and supporting consciousness. The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti, purusa/prakrti, Brahman/Maya, undifferentiated and differentiated consciousness; etc.   IV.34
+\index{shakti}
+\index{śakti| see shakti}
+Citi-śakti (Chit-śhakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy (śakti) surrounding and supporting consciousness. The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti, purusa/prakrti, Brahman/Maya, undifferentiated and differentiated consciousness; etc\ellipsis.
 
 The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
 
@@ -996,6 +1000,8 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \end{figure}
 
 Also including it written in the key of A minor as opposed to scary \writechord{Gbmi} with six flats. Jagidisha said, though, that in Ab minor it's simply played on all black keys except two (three out of five ain't bad?).
+
+\clearpage
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{anandamayima.ly}
