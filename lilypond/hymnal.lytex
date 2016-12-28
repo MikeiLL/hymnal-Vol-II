@@ -982,8 +982,11 @@ The story of the birth of this chant is that it literally ``came out of Harishes
 As Jagidisha explained, Shivaya Nama Om is the ancient and popular Om Nava Shivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \saha{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Shiva is the most important Hindu god. Om is the sound of the universe being born. Namah means to bow. Shiva (the destroyer - and subsequently creator) is a wild, fierce-tempered incarnation of Brahma.
 
 \index{shakti}
+\index{cit}
+\index{citi| see cit}
 \index{śakti| see shakti}
-Citi-śakti (Chit-śhakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy (śakti) surrounding and supporting consciousness. The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti, purusa/prakrti, Brahman/Maya, undifferentiated and differentiated consciousness; etc\ellipsis.
+
+Citi-śakti (Chit-śhakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy (śakti) surrounding and supporting consciousness (cit). The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti; purusa/prakrti; Brahman/Maya; undifferentiated and differentiated consciousness; etc\dots.
 
 The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
 
@@ -1012,48 +1015,35 @@ Also including it written in the key of A minor as opposed to scary \writechord{
 \end{figure}
 
 \section{Root Lock}
-
+\index{bandha}
+\index{Ravi Singh}
+\index{Rivka}
+\index{chakra}
+\index{sat nam}
+\index{kula kundalini}
+Bandha \saha{बन्ध} is a Sanskrit word meaning to bind or fasten. Mulabandha is what we in the west call ``root lock" \textemdash a drawing together of the Muladhara chakra. It's performed by pulling in and up on the rectum and sex organ and is beneficial for the organs in the lower abdominal and pelvic area. In the front, it can be practiced by stopping your pee in mid-stream. The rectal engagement is the same action we do when we ``pinch off" our excretion.
+This bandha is ubiquitous in kundalini kriyas at least as lead by Ravi Singh and his lineage. At one point Rivka and I worked on a song that included the first lyric of this chant, but never quite worked. The theme and it's melody and feel stuck around through the years and fit in perfectly when combined with some Sat Nam and Kula Kundalini up and down the column of chakras.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{rootlock.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Root Lock}
-\caption[Root Lock]{We will talk more about the music here. }
+\caption[Root Lock]{}
 \end{figure}
 
-\section{Jai Kali Ma}
-This is to invoke her transformative nature.
+\section{Jai Kālī Ma}
+\index{Kālī}
+\index{
+Kālī \textemdash also known as Kālikā (कालिका) is probably the most notorious of the Hindi pantheon. Her jet-black skin and necklace of human heads. The destroyer. Mother of the universe. In Wikipedia it says that she is of the ten Mahavidyas, a list which combines Sakta and Buddhist goddesses.
 
-The word in both cases is ``Kalika" (kAlikA is sanskrit).
-
-Capital vowels stand for long, ``A" is long "a" etc. Pronounsation is as in
-
-LATIN, not in
-
-english. ``A" is not ``ey", but ``ah" and alike. Just get a latin dictionary at
-
-least, if not sanskrit.
-
-In ``yai" this ``ai" is read like ``ie" in ``lie". Small ``a" is like in ``must", long
-
-like in ``far". Small "i"
-
-is like is ``pin" and long like in "keep".
-
-``Kalike" means ``O Kalika", while ``Kalikayai" \saha{कालिकायै} means ``to Kalika". 
-
-I bow my head to the Goddess Kali
-KAR-LEE-KA-YAY
-namaḥ \saha{नमः} 
-
-The issue was whether to write ``kAlikAyai" or ``kAlikAye". The second is wrong.
+This chant is to invoke her transformative nature. There cannot be creation without destruction. Transformation is the union of both. The mantra means, ``I bow my head to the Goddess Kali".
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{jaikalima.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Jai Kali Ma}
-\caption[Jai Kali Ma]{We will talk more about the music here. }
+\caption[Jai Kali Ma]{Pronunciation: Jay \textemdash Kah \textemdash lee \textemdash Maaa. (repeat) Kah \textemdash lee \textemdash kah \textemdash yei (like ``lie"). Nah \textemdash mah \textemdash hah. Note I have also read that the vowel sound in ``yei" is supposed to be pronounced like ``yeah", and that ``you better not mess up the pronunciation of the name" of the Dark Mother. So fair warning.}
 \end{figure}
 
 
@@ -1061,7 +1051,7 @@ The issue was whether to write ``kAlikAyai" or ``kAlikAye". The second is wrong.
 \index{Shango}
 Shangó is the Yoruba deity of lightening and thunder. Similarly to the Hindu Shiva and Norse Odin and Thor, Shangó is fierce as can be. A warrior. Sometimes we use this chant in yoga when we're doing Virabhadrasana (warrior) poses. Before he was a god, Shangó was a human being; a king. At some point he committed some horrible act of rage and destruction. As an act of repentance for what he had done, Shangó hung himself from a tree (sound familiar, fans of Odin?) and died. \emph{Ọba so} is Yoruba for \emph{the king hung}. Seeing this fearless act of selflessness and ultimate sacrifice, the creator, Olodumare resurrected Shangó as a deity. Thus the famous saying, ``Ọba kò so": The king did not hang. 
 
-We learned this chant from members of an Ile (Orisha temple) called Ileṣa Ire, who came to Pensacola from Atlanta, GA and Gainesville, FL at the behest of our friends NileriWosan and Baba Adelana Balewa. 
+We learned this chant from members of an Ile (Oriṣa temple) called Ileṣa Ire, who came to Pensacola from Atlanta, Georgia and Gainesville, Florida at the behest of our friends Nileri Wosan and Baba Adelana Balewa. 
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{awakeyshango.ly}
