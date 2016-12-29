@@ -1132,13 +1132,17 @@ This is a chant to Lakṣmī (\saha{लक्ष्मी}), specifically as one
 \index{Rivka}
 Ujjṛmbh	(\saha{उज्जृम्भ्}) is a sanskrit word that means to gape; to open; part asunder; to show one's self; become visible; come forth; break forth; expand; arise.
 
-Yes, it's a vowel followed by six consonants. This is an odd chant. Not sure if it ``works'', but it sticks with me. I like to chant it while aiming for hanumanasana. Rivka says, ``Once you know it, sometimes a weird chant works.''
+\index{Ramayana}
+\index{Rama}
+\index{Sita}
+
+Yes, it's a vowel followed by six consonants. I like to chant it while aiming for hanumanasana, the forward ``split" representing Hanuman's mighty leap from the south of India to the Himalayas to retrieve the herbs needed for an emergency treatment of severe wounds Rama’s brother, Laksmana incurred battling a vile demon king. Hanuman's devotion to Rama is symbolized in the story from the Ramayana in which he is given a beautiful necklace studded with diamonds. He looks at all the diamonds and tears them out of the necklace, throwing each away, explaining the behaviour by stating that ``anything that does not contain Rama is without worth." When asked if Hanuman himself contains Rama, he tears open his heart and reveals Rama and his consort Sita. This is an odd chant. Not sure if it ``works'', but it sticks with me. Rivka says, ``Once you know it, sometimes a weird chant works.''
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Hanuman Ujjṛmbh}
-\caption[Hanuman Ujjṛmbh]{}
+\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdashhah \textemdash ta. Uh \textemdash j-d-d-d-d-rmm \textemdash bha. Ohm Nu \textemdash muh. Sat nam.}
 \end{figure}
 
 \section{Om eim hreem shreem kleem saw sat chit ekam Bramah}
@@ -1171,7 +1175,6 @@ Tamaso Maa Jyotir-Gamaya | \\
 Mrtyor-Maa Amrtam Gamaya | \\
 Om Shaantih Shaantih Shaantih || 
 \end{minipage}
-\vfill
 \begin{minipage}{.6\textwidth}
 \saha{ॐ असतो मा सद्गमय । \\
 तमसो मा ज्योतिर्गमय । \\
@@ -1181,7 +1184,7 @@ Om Shaantih Shaantih Shaantih ||
 \end{minipage}
 \end{center}
 
-
+\index{Rand Hicks}
 It's a mantra associated with death and transformation. Under the guidance of Rand Hicks of the Integral Knowledge Study Center, we translated it in the period of my father's dying and death.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -1189,7 +1192,10 @@ It's a mantra associated with death and transformation. Under the guidance of Ra
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Oh, Lead}
-\caption[Oh, Lead]{When we first recorded this track we just did it over a violin drone. Later added the chords for an accordion version as the accordion drone (at least as played by me) isn't very dynamic. They're fairly (very) generic chord changes. The little circle with the diagonal line through it means half-diminished which is a minor seventh chord with the 5 played a half note flat. 
+\caption[Oh, Lead]{}
+\end{figure}
+\index{Bhujanga Sangha}
+When we first recorded this track with Bhujanga Sangha we just did it over a violin drone. Later added the chords for an accordion version as the accordion drone (at least as played by me) isn't very dynamic. They're fairly (very) generic chord changes. The little circle with the diagonal line through it means half-diminished which is a minor seventh chord with the 5 played a half note flat. 
 \begin{lilypond}
 snippet = \relative c'' {<g bes des f>1 }
 \score { 
@@ -1199,11 +1205,10 @@ snippet = \relative c'' {<g bes des f>1 }
    }
 }
 \end{lilypond}
-}
-\end{figure}
+
 
 \section{Sisterhood}
-
+\index{Dr. Bronner}
 This chant is of course inspired by the famous soap maker, Dr. Bronner who's ``All-in-one" soap was produced specifically as a distribution mechanism for the scripture on the bottles. When we first recorded the chant for the Naad Your Heart album, Emilio started doing the following series of gestures, or mudrās.
 \index{mudrā}
 
@@ -1251,8 +1256,6 @@ This chant is of course inspired by the famous soap maker, Dr. Bronner who's ``A
 \index{Yuruba}
 %\index{ecole@\'ecole}
 
-
-
 The following chant --- at least in majickal terms --- is an incantation to cultivate the 
 \emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja	 } (pronounced \emph{bee --- ya}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
 \mna{As theorized by Swiss psychiatrist and psychotherapist \textbf{Carl Jung} — \emph{archetypes} are \emph{universal}, archaic \emph{patterns}, \emph{images} and \emph{symbols} common to dreams, cosmologies and folk tales of cultures around the world.}
@@ -1275,11 +1278,9 @@ In the Kula sect, this chant is also used to unite with Shiva, who see no ultima
 }
 \end{figure}
 
-
-
 \section{Ardhanārīśvara}
-
-We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \saha{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
+\mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} 
+We wondered how the (god-damn) (so-called) yoga (so-called) community would accept or even receive Rivka's gender fluidity, or anyone else's including mine should I ever chose to come out. Mostly they're too busy selling multi-marketing natural remedies to notice it. We knew about the Hijras, who are in Pakistan and Bangladesh officially recognized as a third gender. So we did a little bit of research and came upon the androgynous deity Ardhanarishvara (Sanskrit: \saha{अर्धनारीश्वर}, Ardhanārīśvara), who is the incarnate union of Shiva and Parvati; The synthesis of soul and nature, masculine and feminine, Purusha and Prakriti. \par
 
 We had been looking for a mantra for the cultivation of androgyny. It's a prefect chant for a time when we are, as a society, in recovery from what Adam Powers so eloquently referred to as the Cis Virus.
 \begin{changemargin}{-1.5cm}{-2cm} 
