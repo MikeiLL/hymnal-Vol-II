@@ -21,9 +21,9 @@ melody = \relative c' {
 
 text =  \lyricmode {
 	\set associatedVoice = "words"
-	Na -- mo Dev -- yea Ma -- ha Dev -- yea__ Shi -- va -- yea
+	Na -- mo Dev -- yei Ma -- ha Dev -- yei__ Shi -- va -- yea
 	Sa -- ta -- tam Na -- ma -- ha.
-	Pra -- krit -- yea Bha -- dra -- yea
+	Pra -- krit -- yei Bha -- dra -- yei
 	Ni -- ya -- ta Pra -- na__ -- ha Sma -- tam__. Na -- mo
 }
 

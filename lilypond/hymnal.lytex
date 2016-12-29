@@ -1044,9 +1044,13 @@ This chant is to invoke her transformative nature. There cannot be creation with
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Jai Kali Ma}
-\caption[Jai Kali Ma]{Pronunciation: Jay \textemdash Kah \textemdash lee \textemdash Maaa. (repeat) Kah \textemdash lee \textemdash kah \textemdash yei (like ``lie"). Nah \textemdash mah \textemdash hah. Note I have also read that the vowel sound in ``yei" is supposed to be pronounced like ``yeah", and that ``you better not mess up the pronunciation of the name" of the Dark Mother. So fair warning.}
+\caption[Jai Kali Ma]{}
 \end{figure}
-
+\index{kaarak}
+\index{jyotish}
+Pronunciation: Jay \textemdash Kah \textemdash lee \textemdash Maaa. (repeat) Kah \textemdash lee \textemdash kah \textemdash yei (like ``lie"). Nah \textemdash mah \textemdash hah. I have also read that the vowel sound in ``yei" is supposed to be pronounced like ``yeah", and that ``you better not mess up the pronunciation of the name" of the Dark Mother. So fair warning. \par
+On further digging, as far as the ``yea" and ``yei" we find added to the end of words in sanskrit mantra, it appears that there are eight kaaraks, which take care of the words like "in, of, for, hey, to etc\dots. The "``yea" is masculine, used as a suffix on masculine concepts, and ``yei" is used with feminine. My understanding is that the suffix in this case means ``for". But in a way I prefer my original misunderstanding that the ``yea" a ``yei" change the meaning of the word to invoke the utter essence of the concept to which it is applied. Dieties are pretty essential by nature anyway, aren't they. \par
+In the same thread that shone some light on the kaaraks, someone mentioned jyotish, which means the ``science of light" and is the vedic study and practice of astrology. In the Vedic system, every letter is said to confirm to a definite pattern of sound. ``Ya" can also mean joining or attaining, so it is a positive concept. The number of syllables is very significant in jyotish science, so some of these ``ya"s may be included to increase the potency of a mantra from that angle.
 
 \section{Shangó Shangó}
 \index{Shango}
@@ -1116,14 +1120,14 @@ We were looking for a sanskrit version of the phrase, Mad haPPy and found \emph{
 
 \index{Lakṣmī}
 
-\section{Om Satyei Namaḥ}
+\section{Om Satye Namaḥ}
 This is a chant to Lakṣmī (\saha{लक्ष्मी}), specifically as one who sees all and sees only truth. Sat (\saha{सत्}) is the sanskrit word for truth.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omsatyeanamah.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Satyea Namaḥ}
-\caption[Om Satyea Namaḥ]{Pronunciation: Om Sat \textemdash yei (like ``eye") Nah \textemdash mah \textemdash hah.}
+\caption[Om Satyea Namaḥ]{Pronunciation: Om Sat \textemdash yeah Nah \textemdash mah \textemdash hah.}
 \end{figure}
 
 \section{Hanuman Ujjṛmbh}
@@ -1142,7 +1146,7 @@ Yes, it's a vowel followed by six consonants. I like to chant it while aiming fo
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Hanuman Ujjṛmbh}
-\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdashhah \textemdash ta. Uh \textemdash j-d-d-d-d-rmm \textemdash bha. Ohm Nu \textemdash muh. Sat nam.}
+\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdash hah \textemdash ta. Uh \textemdash j-d-d-d-d-rmm \textemdash bha. Ohm Nu \textemdash muh. Sat nam.}
 \end{figure}
 
 \section{Om eim hreem shreem kleem saw sat chit ekam Bramah}
@@ -1297,13 +1301,12 @@ We had been looking for a mantra for the cultivation of androgyny. It's a prefec
 संसारसारम् भुजगेन्द्रहारम् । \\
 सदावसन्तं हृदयारविन्दे \\
 भवं भवानीसहितं नमामि ॥ } \\
-\vfill
+
 Karpur Gauram Karunavataram | \\
 Sansara Saram Bhujagendra Haram || \\
 Sada Vasantam Hridayaravinde | \\
 Bhavam Bhavani Sahitam Namami || \\
 
-\vfill
 \noindent Pure White like Camphor, an Incarnation of Compassion, \\
 The Essence of Worldly Existence, Whose Garland is the King of Serpents, \\
 Always Dwelling inside the Lotus of the Heart. \\
@@ -1358,22 +1361,30 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \unsetRL
 \end{multicols}
 
-\section{Om Shrīṃ Lakṣmī Yea Svaha}
+\section{Om Shrīṃ Lakṣmīyea Svaha}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Om Shrīṃ Lakṣmī Yea  Svaha}
-\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{Pronunciation: Aah 	extemdash om Shreem Lax 	extemdash mee 	extemdash yeah Swa 	extemdash ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
-}
+\caption[Om Shrīṃ Lakṣmī Yea  Svaha]{}
 \end{figure}
+\index{Om}
+\index{Shrīṃ}
+\index{Lakṣmī}
+\index{Svaha}
+Pronunciation: Aah \textemdash om Shreem Lax 	\textemdash mee \textemdash yei (like eye) Swa 	\textemdash ha. We do it with a swing feel so that on the eighth notes, the first gets around twice the length as the second. This is a musical device that most definitely came into the American musical landscape through the people of Africa. What is does is create a secondary rhythmic layer within which there are cycles of three and four co-mingling, giving the ears and logical mind more to latch onto and be carried away -- or inward by. This same piece of music could be written with 12 eight notes to the measure as opposed to four quarter notes. In the following version of it, each of four downbeats in the measure gets divided into three, making twelve. This allows a subdivision of \emph{three} sets of \emph{four} as well.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima12_8.ly}
 \end{changemargin}
 
-\section{Om Shrīṃ Lakṣmīyea Svaha}
+\section{Om Shrīṃ Maha Lakṣmīyea }
+\index{Om}
+\index{Shrīṃ}
+\index{Lakṣmī}
+\index{Svaha}
 This chant has two variations \textemdash according Thomas Ashley Ferrand in the book, \underline{Shakti Mantras} \textemdash one of which is for people age twenty-nine and older, shown below, and another variation for people under the age of twenty-nine in which the word Namaḥ replaces the word Svaha. Namaḥ is a salute, whereas Svaha is an invocation.\par
 The chant is to cultivate the celestial healer within (and around) oneself. Ferrand describes the type of person whom simply being in their vicinity brings feelings of inner peace and wellbeing.
 
@@ -1381,13 +1392,20 @@ The chant is to cultivate the celestial healer within (and around) oneself. Ferr
 \lilypondfile[quote,noindent]{omshrimmahalaxmiyea.ly}
 \end{changemargin}
 \begin{figure}[ht]
-\label{fig:Om Shrīṃ Maha Lakṣmīyea Svaha}
-\caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah \textemdash  om Shreem Ma \textemdash Ha Lax \textemdash mee \textemdash yeah Swa \textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
+\label{fig:Om Shrīṃ Maha Lakṣmīyei Svaha}
+\caption[Om Shrīṃ Maha Lakṣmīyea Svaha]{Pronunciation: Aah \textemdash  om Shreem Ma \textemdash Ha Lax \textemdash mee \textemdash yei (like ``eye") Swa \textemdash ha. We're not terribly used to the 9/8 time signature in our culture, but it's actually just a waltz of triplets. On the accordion to make it easy, I just play Oom \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Um \textemdash pa \textemdash pa. Oom is the One, Tonic or Main bass note of the key (\writechord{Fmi}), pa is the chord and Um is the Fifth scale tone, or \writechord{C}.
 }
 \end{figure}
 
-\section{Om Shrī Danvantre Namaha}
-This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री धन्वन्तरये नमः} Might want to chant it if you or someone else is ailing. Dhanvantari is an avatar of Vishnu. When the celestials and demons were cooperating to manifest the nectar of immortality, it was Dhanvantari who, by the grace of Laxmi, bore the vessel containing it. Dhanvantari appears in the Vedas and Puranas as the god of the Hindi healing science, Ayurveda.
+\section{Om Shrī Danvantre Namaḥ}
+\index{Om}
+\index{Shrī}
+\index{Danvantre| see Dhanvantari}
+\index{Dhanvantari}
+\index{Namaḥ}
+\index{Viṣṇu}
+\index{Lakṣmī}
+This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री धन्वन्तरये नमः} Might want to chant it if you or someone else is ailing. Dhanvantari (\saha{धन्वंतरी}) is an avatar of Viṣṇu (\saha{विष्णु}). When the celestials and demons were cooperating to manifest the nectar of immortality, it was Dhanvantari who, by the grace of Lakṣmī	(\saha{लक्ष्मी}), bore the vessel containing it. Dhanvantari appears in the Vedas and Puranas as the god of the Hindi healing science, Ayurveda.
 
 
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -1415,9 +1433,9 @@ Hail to Nature, to the Propitious One; we humble ourselves before her continuous
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Devi Mahatyama Part One}
-\caption[Devi Mahatyama Part One]{Pronunciation: Na \textemdash mo dev \textemdash ye Ma \textemdash ha Dev \textemdash ye- shi \textemdash va \textemdash ye Sa \textemdash ta \textemdash tam Na \textemdash ma \textemdash ha Pra \textemdash krit \textemdash ye Ba \textemdash dra \textemdash ye Ni \textemdash ya \textemdash ta Pra \textemdash na- \textemdash ta sma tam. \par
+\caption[Devi Mahatyama Part One]{Pronunciation: Na \textemdash mo dev \textemdash yai Ma \textemdash ha Dev \textemdash yei- shi \textemdash va \textemdash yea Sa \textemdash ta \textemdash tam Na \textemdash ma \textemdash ha Pra \textemdash krit \textemdash yei Ba \textemdash dra \textemdash yei Ni \textemdash ya \textemdash ta Pra \textemdash na- \textemdash ta sma tam. \par
 
-Sma tam means ``always to Her''.}
+Sma tam means ``always to Her".}
 \end{figure}
 
 \chapter{Wordless Chants \& Instrumental Melodies }

@@ -20,9 +20,9 @@ melody = \relative c' {
 
 text =  \lyricmode {
 	\set associatedVoice = "words"
-	Om sat -- yei na -- ma -- ḥ
-	Om sat -- yei na -- ma -- ḥ
-	Om sat -- yei na -- ma -- ḥ
+	Om sat -- yea na -- ma -- ḥ
+	Om sat -- yea na -- ma -- ḥ
+	Om sat -- yea na -- ma -- ḥ
 	na -- ma -- ḥ na -- ma -- ḥ na -- ma -- ḥ
 }
 

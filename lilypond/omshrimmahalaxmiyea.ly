@@ -20,9 +20,9 @@ melody = \relative c' {
 
 text =  \lyricmode {
 	\set associatedVoice = "words"
-	A~om Śrīṁ Ma -- ha La -- kṣmī -- yea Sva -- ha 
-	A~om Śrīṁ Ma -- ha La -- kṣmī -- yea  Sva -- ha Sva -- ha Sva -- ha__ 
-	A~om Śrīṁ Ma -- ha La -- kṣmī -- yea A~
+	A~om Śrīṁ Ma -- ha La -- kṣmī -- yei Sva -- ha 
+	A~om Śrīṁ Ma -- ha La -- kṣmī -- yei  Sva -- ha Sva -- ha Sva -- ha__ 
+	A~om Śrīṁ Ma -- ha La -- kṣmī -- yei A~
 }
 
 harmonies = \chordmode {
