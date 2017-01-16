@@ -51,6 +51,14 @@
 % prevent widows at top of page
 \usepackage[all]{nowidow}
 
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
 %%%%% End Basic Layout & formatting
 
 \usepackage{graphicx}
@@ -193,6 +201,8 @@
 
 \begin{document}
 
+\frontmatter
+
 \begin{titlepage}
 	\centering
 	
@@ -217,6 +227,46 @@
 	{\large \today\par}
 \end{titlepage}
 
+\pagestyle{empty}
+%% copyrightpage
+\begingroup
+\footnotesize
+\parindent 0pt
+\parskip \baselineskip
+\textcopyright{} 2016 Mike Kilmer \ Creative Commons \textemdash Attribution-NonCommercial 3.0
+
+This work may be distributed and/or modified under the conditions
+of the Creative Commons \textemdash Attribution-NonCommercial 3.0 License.
+\vspace*{1em} 
+Current Maintainer of this work is Mike iLL Kilmer and source code is public at:
+https://github.com/MikeiLL/hymnal-Vol-II
+\vspace*{1em} 
+Fonts used are Palatino for main body and Helvetica for margins. 
+\vspace*{.5em} 
+Book cover and drop caps are from the Intro Rust family by Ani Petrova, Radomir Tinkov; Foundry: Fontfabric Type Foundry
+\vspace*{1em} 
+
+Typographic rendering done with \LaTeX with help from Arara.
+\vspace*{.5em} 
+Music engraving with Lilypond.
+
+
+\begin{center}
+\begin{tabular}{ll}
+First edition: January 2017
+\end{tabular}
+\end{center}
+
+\vfill
+
+Temple of Wow, \ Pensacola, FL \ \texttt{TempleOfWow.com}
+
+\vspace*{2\baselineskip}
+
+
+\endgroup
+\clearpage
+
 \renewcommand{\listfigurename}{Chants \& Music}
  
 \renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
@@ -226,19 +276,19 @@
 \renewcommand{\tablename}{Music}
 
 \listoffigures
-\begingroup
-\let\clearpage\relax
 \listoftables
-\endgroup
 
 \clearpage
+
+\mainmatter
 
 \chapter{Introduction}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of humankind, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
 \index{Faitheism}
 
-Do you think? No. The answer is no. Your mind thinks. You have a relationship with your mind. It's the closest relationship you have. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we \emph{cultivate} intuition so that rather than \emph{choose}, we just \emph{know}.
+\index{dharma}
+Do you think? No. The answer is no. The mind thinks. We each have a relationship with our mind. It's our closest relationship. If we think we \emph{are} our mind, we ignore the most significant relationship in our lives. The relationship through which we can achieve whatever freedom can be had in this life. Not freedom \emph{of} choice. Freedom \emph{from} choice. Choice is a chore performed by the mind. \emph{Intuition} is a vibration that emanates from the heart. With these chants we cultivate intuition so that rather than having to decide, we just \emph{know} what we must do. This Hindu word for the path of our destiny is called \textbf{dharma}.
 
 If she who sings prays twice, let's add movement and make it prayer squared. All praises due to the One who does not exist. The idea of God is of little use to one who sees Wow everywhere. For the rest of us, we install these open source \emph{programs} into the computers known as our minds, and run them in various configurations, learning the correct syntax to thin the fog of spiritual ignorance or at the very least make it glow a little bit so we can remember to enjoy it. So we can remember to rejoice and celebrate the opportunity to be a fool; to have a body; hands; a voice; a friend; a relationship.
 
@@ -257,6 +307,8 @@ With all due respect to scholars and academia, this is not a work of scholarship
 On our particular journey, the tools that seem to be working don't all come out of the same box, or even the same house, city or continent. In the same phrase, we'll invoke Yuruba's Ogún and Jewish foremother, Esther, descendant of the Babylonian goddess, Ishtar. We sing to these two when starting out on a car trip. Ogún, a deity associated with iron and metal work, we sing to in hopes that the car will work. Esther guides the journey, controls time and always, always finds you a parking space. Asé.
 
 
+
+God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}
 \mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 What is a hymn? It's a piece of music that ``everyone'' can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
@@ -291,8 +343,10 @@ Who reveals these magical offerings to us? You do. The police do. The radio does
 \index{Śāntiḥ}
 \index{step| see {interval}}
 \index{interval}
+\index{bījākṣara}
 
-On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
+\mna{}{The ḥ is aspirated to match the (generally short) vowel preceding it. So it would sound like: shan \textemdash tee \textemdash hi, with the last hi being almost like an echo or reverberation.}
+On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}), which sounds Shan \textemdash ti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{hee}. In least in some of the chant music I have seen, the syllable of the \textemdash is left off, and the word Shanti is becoming part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. The word is pronounced: bee \textemdash JAHK \textemdash shkah \textemdash rah. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
@@ -321,8 +375,8 @@ Song along with a \writechord{C} drone, the tone of the chant is dark and somber
 \lilypondfile[quote,noindent]{omshantiom_krsna.ly}
 \end{changemargin}
 
-
-Kṛṣṇa (\saha{कृष्ण}), or Krishna is the Hindu deity we most associate with peace. Kṛṣṇa is an incarnation of Viṣṇu (\saha{विष्णु}) and considered to be the absolute essence of Viṣṇu. Priya means \emph{dear} or \emph{precious}. Rāma (\saha{राम}) or Ramachandra is an avatar of Viṣṇu; the seventh avatar, and is the protagonist in the epic Hindu text the Rāmāyaṇam (\saha{रामायणम्}), or Ramayana, in which Rāma exemplifies insurpassable disciplin, spiritual devotion and surrender and generally being completely attuned to the path of our ultimate destiny. We invoke Rāma here in the spirit of the famous Hare Kṛṣṇa chant popularized around the world through the Kṛṣṇa Consciousness movement.
+\index{Rāmāyaṇam}
+Kṛṣṇa (\saha{कृष्ण}), or Krishna is the Hindu deity we most associate with peace. Kṛṣṇa is an incarnation of Viṣṇu (\saha{विष्णु}) and considered to be the absolute essence of Viṣṇu. Priya means \emph{dear} or \emph{precious}. Rāma (\saha{राम}) or Ramachandra is an avatar of Viṣṇu; the seventh avatar, and is the protagonist in the Hindu epic the Rāmāyaṇam (\saha{रामायणम्}), or Ramayana, in which Rāma exemplifies insurpassable disciplin, spiritual devotion and surrender and generally being completely attuned to the path of our ultimate destiny. We invoke Rāma here in the spirit of the famous Hare Kṛṣṇa chant popularized around the world through the Kṛṣṇa Consciousness movement.
 
 If someone's feeling inspired the following might also be added to the mix. Nothing here is written in stone. Far from it. More like crayon. We like to sing --- or rather sing for our sanity --- and are building up a collection of chants and mantras that don't require too much thought and don't make you cringe too much in their content. So if singing Hail Kṛṣṇa makes you cringe, by all means Hail Vodka! Whatever works.
 
@@ -356,9 +410,9 @@ In either case the scale contains one interval that is evokative of Eastern tona
 \index{Joe Brennan}
 \index{Zef}
 \index{Emilio China| see {Zef}}
-I think the word Upanishads translates as ``campfire stories". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Apparently the following chant is one of the oldest texts in it. Joe Brennan, the first yoga teacher of Emilio ``Zef" China and myself in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes 	extemdash in Hinduism as well, the Universe begins with a sound.
+I think the word Upanishads translates as ``to sit near". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Each would be a long teaching going deeper and deeper toward a a revealed reality which is the secret teaching the story is intended to reveal. Apparently the following chant is one of the oldest texts in it. Joe Brennan, the first yoga teacher of Emilio ``Zef" China and myself in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes \textemdash in Hinduism as well, the Universe begins with a sound.
 
-The chant means, Lead me from non-being to being. Lead me from darkness to everlasting light. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
+The chant means, Lead me from non-being to being. Lead me from darkness to immortality or non-death. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{asato_ma.ly}
@@ -548,9 +602,7 @@ The meaning of the text is as potent as the chords are elementary. Ang means \em
 
 
 \section{Sat Chit Ekam Brahma}
-This is one of the first chants described in Thomas Ashley Ferrand's, \underline{Shakti Mantras}. 
-
-Sarasvatī	(\saha{सरस्वती}) is the incarnation of Lakṣmī	(\saha{लक्ष्मी}) through whom the art of mantra is disseminated to humankind. But by Ferrand's account, many of the chants were extracted by Pārvatī \saha{पार्वती} \textemdash who is the incarnation of all combined cosmic energy \textemdash from the mind of her consort Śiva \saha{शिव}, the pure white, dreadlocked Hindu diety who is consciousness incarnate.
+This is one of the first chants described in Thomas Ashley Ferrand's, \underline{Shakti Mantras}. It is, he states, the first chant extracted by Pārvatī (\saha{पार्वती}) \textemdash who is the incarnation of all combined cosmic energy \textemdash from the mind of her consort Śiva \saha{शिव}, the pure white, dreadlocked Hindu diety who is consciousness incarnate. 
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{ekam_brahma.ly}
@@ -560,20 +612,48 @@ Sarasvatī	(\saha{सरस्वती}) is the incarnation of Lakṣmī	(\saha
 \caption[Sat Chit Ekam Brahma]{}
 \end{figure}
 
+\index{Brahma}
+\index{sat}
+\index{chit}
+\index{ekam}
+
+Pronunciation: Saht, chit, ek \textemdash ahm, Brah \textemdash mah. \textbf{sat} (\saha{सत्}) translates as ``truth" or ``reality". \textbf{Chit} (\saha{चित्}) is consciousness or awareness. \textbf{Ekam} (\saha{एकम्}) means ``one" and in  a spiritual context the ``oneness" of everything. \textbf{Brahma} (\saha{ब्रह्मा}) is a Hindu deity who is considered the creator of this universe. Brahma formed our of the naval of Narayana \textemdash en embodiment of what we now refer to as the primordial goop \textemdash and imagined all of this into existence. The idea of this chant is cultivate the awareness that consciousness vibrates through and from every single element in the universe, and that we and it are all aspects of an infinite unity, vibrating synchronously.
+
 \chapter{The Art of Vocalization}
 
-\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{uite, quite frustrating} can sex and singing be, and while sexual insights are for the most part \textemdash if not entirely \textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breath.
+\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{ueer, elusive and frustrating} can sex and singing be, and while sexual insights are for the most part \textemdash if not entirely \textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breath.
 
 \section*{Introduction to Vocal Technique}
-In Hinduism, it was the philosophy of Tantra (\saha{तन्त्र}), beginning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit.
 
-It is out of this philosophy that \textemdash a thousand years later \textemdash what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e.   by a yogi named Swami Svatmarama.
+\index{Lakṣmī}
+\index{Sarasvatī}
+\index{Vedic}
 
+Lakṣmī (\saha{लक्ष्मी}) is Hindu goddess of abundance and feminine aspect of Narayana, out of whom existence is said to have been born. Sarasvatī (\saha{सरस्वती}) is a goddess who's history goes back much further into the Vedic period \textemdash and later considered by some to be a manifestation of Lakṣmī \textemdash through whom the art of mantra is said to be, according to Hindu tradition, disseminated to humankind. Sarasvatī is goddess of learning and also the name of a legendary river in India which has now disappeared.
+
+\index{Hinduism}
+\index{Tantra}
+
+In India, it was the philosophy of Tantra (\saha{तन्त्र}), dawning around the 5th century c.e., which moved from the view of the physical body as an obstruction to spirituality to the consideration of the body as a physical manifestation of the spirit. The practitioners of tantra were apart from society and engaged in some fairly eccentric practices: carrying staffs with skulls on top, wearing earrings, smearing themselves with ashes from the cremation pyres and including sexual engagement in their worship to name a few. Tantra came to it's full flowering in the 9th century with the Nath tradition, in which it was believed that an idealized body could become divine and achieve immortality.
+
+\index{Swami Svatmarama}
+\index{hatha}
+\index{Haṭha Yoga Pradipika}
+
+It is out of this philosophy that what we know as Haṭha yoga formed. A literal translation of haṭha is \emph{force} or \emph{exertion} and it refers to the yogic practices as outlined in a text called the \underline{Haṭha Yoga Pradipika}, written around 1500 c.e. by a yogi named Swami Svatmarama.
+
+\index{Sympathetic Majick}
 There's an idea that if we follow the mind back to it's source, we find God. And we also see that as each one of us is a microcosm of the universe, by exploring the limits of our selves, logically, emotionally, psychologically as well as physically, we are exploring the limits of the universe. This is also true of our use of vocalization. Most if not all spiritual traditions embrace and express the idea that God listens not necessarily to the words, but to the intention behind the words. In Hinduism as well as in Ifá there are words used in incantations that dont' have any literal meaning. Sounds the resonate or vibrate with specific Oriṣa or aspects of nature and consciousness. In Western occult terms this may be referred to as Sympathetic Majick.
 
-Aleister Crowley suggests that, ``True religion is intoxication'', and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of "wine" and "intoxication" or \emph{sakr} (\textarabic{صقر}) as states of divine bliss and at the very least departure from the realm of rationality. We can achieve this through song. In yogic terms this is referred to as \emph{bhakti} (\saha{भक्ति}) or the yoga of \emph{devotion}.
+\index{Aleister Crowley}
+\index{sakr}
 
-When we sing, we want to vocalize from a place of being grounded. I have learned a lot about physicality and the facilities of the body from Rivka and asked her to talk a bit about centering.
+Aleister Crowley suggests that, ``True religion is intoxication'', and that "all acts which excite the divine in [us] are proper to the rite of invocation". Sufi tradition echoes this sentiment in it's traditional spiritual metaphors of ``wine" and ``intoxication" or \emph{sakr} (\textarabic{صقر}) as states of divine bliss and at the very least departure from the realm of rationality. We can also achieve states of spiritual bliss through song. In yogic terms this is an aspect of the \emph{bhakti} (\saha{भक्ति}) tradition or the yoga of \emph{devotion}. It is the soul' voicing of it's aspiration.
+
+\index{grounded}
+\index{centering}
+
+When we sing, we want to vocalize from a place of being grounded. We want the \emph{body} of our voice to come straight up through us from the Earth below. I have learned a lot about physicality and the facilities of the body from Rivka and asked her to talk a bit about centering.
 
 \epigraph{Taking classes and studying meditation I was always trying to \emph{visualize} the Chakras, visualize myself becoming centered. I realized that centering is this thing that I've been able to do since I was a child. There's some part of me --- maybe it's my awareness --- that might be described as floating. And I can draw that part of myself into my physical body --- deeper than any actual part of the body --- into an obtuse, undefinable center, and become grounded and centered.\par
 
@@ -703,13 +783,13 @@ Where the low and middle parts of our voices resonate in the thoracic (chest) ca
 
 \index{soft palate}
 
-So from bottom to top, our voice draws it's earthiness from the base of the pelvis, where we are settled into the gentle pull of gravity. The \emph{support} --- so that we're not straining our throat to create sound, but merely \emph{allowing} it to pass --- begins with a gentle lift in the mūlādhāra. We monitor our breath, the intake of prana and the exhalations upon which the tones are carried forth, at the svādhiṣṭhāna; the naval center; apex of our creativity, sex and sensuality. The abdomen expands as breath comes in and draws inward is it moves out. This is handled by the diaphragm, right behind the maṇipūra --- the center of will --- at the solar plexus. The voice box or vocal chords are located in the throat (viśuddha), stretched across the larynx; reeds which vibrate, creating and modifying the tone created by the passing breath, but their tone \emph{resonates} in the chest (anāhata), and head (ãjñā, sahasrāra). We want the throat to be stretched open like a yawn or a Wow! The tongue is relaxed, flat and forward so as not to interfere with the passage of breath and tone. The \emph{soft palate} at the back of the mouths roof is sprung open like an umbrella, as if making room to swallow a large pickle.
+From bottom to top, our voice draws it's earthiness from the base of the pelvis, where we are settled into the gentle pull of gravity. The \emph{support} --- so that we're not straining our throat to create sound, but merely \emph{allowing} it to pass --- begins with a gentle lift in the mūlādhāra. We monitor our breath, the intake of prana and the exhalations upon which the tones are carried forth, at the svādhiṣṭhāna; the naval center; apex of our creativity, sex and sensuality. The abdomen expands as breath comes in and draws inward is it moves out. This is handled by the diaphragm, right behind the maṇipūra --- the center of will --- at the solar plexus. The voice box or vocal chords are located in the throat (viśuddha), stretched across the larynx; reeds which vibrate, creating and modifying the tone created by the passing breath, but their tone \emph{resonates} in the chest (anāhata), and head (ãjñā, sahasrāra). We want the throat to be stretched open like a yawn or a Wow! The tongue is relaxed, flat and forward so as not to interfere with the passage of breath and tone. The \emph{soft palate} at the back of the mouths roof is sprung open like an umbrella, as if making room to swallow a large pickle.
 
 Om can be practiced moving from a lower note on an Ah sound, visualized as beginning at the root, then moving up through the chakras through more of an Oh vowel tone in the solar and heart region, and Ooh in the throat and first eye and finally Mmmm resonating and vibrating each of the thousand (infinite) petals of the sahasrāra. When Om-ing in a group, the length of each Om can coincide with the breath of each participant, so that the shape of each one is timed differently, coming in like waves of the tide. A tide of Oms.
 
 \chapter{Chakra Mantras}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}{hen learning the Sanskrit names} of the chakras and their corresponding seed syllables, I made up some simple chants which are included here.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{W}{hen learning the Sanskrit names} of the chakras and their corresponding seed syllables, I made up some simple chants which are included here. 
 
 \section{Lam Lam Lam Muladhara}
 
@@ -972,7 +1052,7 @@ For some harmonic variety, and E Major chord \writechord{E} can be substituted f
 \index{Garrett Pengle}
 \index{Shiva}
 \index{Śiva| see Shiva}
-The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. Garrett Pengle remembered an approximation of the melody which I transcribed and ultimately corrected very significantly after having tracked Jagadisha down through the place in West Virginia that he teaches meditation. He explained that the particular Raga that the piece is composed in is called the Shivaranjani Raga, which means Shiva's favorite. Śiva	(\saha{शिव}) is the fierce Hindu deity associated with consciousness. Simplistically, in the North Indian Hindustani music tradition (as well as the South Indian Karnatic tradition) a raga is a series of pitches along the lines of what Western music calls a scale. The Shivaranjani Raga uses five notes \textemdash no 4th and no 7th; a minor 3rd and the rest correspond loosely with our major scale: 1, 2 3\flat, 5 and 6. Westerners refer to a five note scale as pentatonic (pantagon, pentagram, etc). The tones of the raga each have spiritual significance. The tones of this raga have syllables associated with them: Sa Re Ga Pa Dha and the upper Sa.
+The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. Garrett Pengle remembered an approximation of the melody which I transcribed and ultimately corrected very significantly after having tracked Jagadisha down through the place in West Virginia that he teaches meditation. He explained that the particular Raga that the piece is composed in is called the Shivaranjani Raga, which means Shiva's favorite. Śiva (\saha{शिव}) is the fierce Hindu deity associated with consciousness. Simplistically, in the North Indian Hindustani music tradition (as well as the South Indian Karnatic tradition) a raga is a series of pitches along the lines of what Western music calls a scale. The Shivaranjani Raga uses five notes \textemdash no 4th and no 7th; a minor 3rd and the rest correspond loosely with our major scale: 1, 2 3\flat, 5 and 6. Westerners refer to a five note scale as pentatonic (pantagon, pentagram, etc). The tones of the raga each have spiritual significance. The tones of this raga have syllables associated with them: Sa Re Ga Pa Dha and the upper Sa.
 
 Doing this Raga within the Western Twelve Tone system, we lose the original relationships between the scale tones, which are derived from the natural harmonic spectrum. But it is still enjoyable and fulfilling.
 
@@ -1024,6 +1104,10 @@ Also including it written in the key of A minor as opposed to scary \writechord{
 \index{kula kundalini}
 Bandha \saha{बन्ध} is a Sanskrit word meaning to bind or fasten. Mulabandha is what we in the west call ``root lock" \textemdash a drawing together of the Muladhara chakra. It's performed by pulling in and up on the rectum and sex organ and is beneficial for the organs in the lower abdominal and pelvic area. In the front, it can be practiced by stopping your pee in mid-stream. The rectal engagement is the same action we do when we ``pinch off" our excretion.
 This bandha is ubiquitous in kundalini kriyas at least as lead by Ravi Singh and his lineage. At one point Rivka and I worked on a song that included the first lyric of this chant, but never quite worked. The theme and it's melody and feel stuck around through the years and fit in perfectly when combined with some Sat Nam and Kula Kundalini up and down the column of chakras.
+\index{Ganeṣa}
+\index{John Gulas}
+Muladhara chakra is associated with the color red, or as I learned from John Gulas, who has been integral to the kirtan and mantra community here on the eastern Gulf Coast, vermillion and the deity Ganeṣa \textemdash guardian of the kundalini.
+
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{rootlock.ly}
 \end{changemargin}
@@ -1261,12 +1345,13 @@ This chant is of course inspired by the famous soap maker, Dr. Bronner who's ``A
 %\index{ecole@\'ecole}
 
 The following chant --- at least in majickal terms --- is an incantation to cultivate the 
-\emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja	 } (pronounced \emph{bee --- ya}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
+\emph{divine feminine}. The first three terms are considered \emph{seed syllables}  or \emph{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja	 } (pronounced \emph{bee --- ja}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
 \mna{As theorized by Swiss psychiatrist and psychotherapist \textbf{Carl Jung} — \emph{archetypes} are \emph{universal}, archaic \emph{patterns}, \emph{images} and \emph{symbols} common to dreams, cosmologies and folk tales of cultures around the world.}
 --- a term common to both Hinduism and Buddhism --- don't have a specific literal meaning, but are known to vibrate sympathetically with certain universal principals, or what Jung might have called \emph{archetypes}. Om (\saha{ॐ}) is the most well-known and 
 possibly most fundamental bīja, signifying the sound of the universe beginning and also the frequency at which it continues to vibrate (432 Hz or around a C$\sharp$). In all three of the syllables, the vowel sound is ``eee'', like in ``cream''. \textbf{Hrīṁ} (\saha{ह्रीं}) engages the \textbf{para śakti} and \textbf{hrit padma}. \par
 
-Para śakti is the power or energy of unmanifest speech. \textbf{Śakti} (\saha{शक्ति}) is feminine and is \emph{energy}. The goddess Lakṣmī (\saha{लक्ष्मी}) who is the fundamental female figure in Hindu theology, is the energy of the universe. It is through her manifestation as Sarasvati (\saha{सरस्वती}) that this \emph{śakti} comes to us. \par
+\index{Sarasvatī}
+Para śakti is the power or energy of unmanifest speech. \textbf{Śakti} (\saha{शक्ति}) is feminine and is \emph{energy}. The goddess Lakṣmī (\saha{लक्ष्मी}) who is the fundamental female figure in Hindu theology, is the energy of the universe. It is through her manifestation as Sarasvatī (\saha{सरस्वती}) that this \emph{śakti} comes to us. \par
 
 Hrit padma is the heart chakra. \textbf{Padma} in both the male (\saha{पद्म}) and female (\saha{पद्}) form means `lotus' and also `temple'. The flowering temple of the heart. \textbf{Shrīṃ} is the bīja of \textbf{kriyā śakti} which is the power of \emph{manifestation}, also associated with Lakṣmī (\saha{लक्ष्मी}). \textbf{Kriyā} actually translates as \emph{action} or \emph{deed} and comes from the root word `to do'. In kundalini yoga, the various sequences of movements, words and visualizations are known as \emph{Kriyā}. \textbf{Klīṃ} is a bīja of \emph{attraction}, used to magnify the mantra surrounding it.  \par
 
@@ -1412,18 +1497,20 @@ This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री ध
 \lilypondfile[quote,noindent]{omshridanvantre.ly}
 \end{changemargin}
 \begin{figure}[ht]
-\label{fig:Om Shrī Danvantre Namaha}
-\caption[Om Shrī Danvantre Namaha]{Pronunciation: Aah \textemdash  om Shre Dan \textemdash van \textemdash trea Na \textemdash ma \textemdash ha- Aah \textemdash om Aah \textemdash om Aah-. I like to start with the three Ohms.
+\label{fig:Om Shrī Danvantre Namaḥ}
+\caption[Om Shrī Danvantre Namaḥ]{Pronunciation: Aah \textemdash  om Shre Dan \textemdash van \textemdash trea Na \textemdash ma \textemdash ha- Aah \textemdash om Aah \textemdash om Aah-. I like to start with the three Ohms.
 }
 \end{figure}
 
 \chapter{The Devi Mahatyama }
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}{he Devi Mahatyama} is a hymn to the divine feminine and specifically the Hindu Goddess, Dirga. The The Devi Mahatyama is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
+\index{Durgā}
 
-Rand hicks used the phrase ``The Difficult One" to describe Dirga. She is super-bad. The story of her birth \textemdash as I read it \textemdash is that a demon performed a great spiritual ritual and became wildly powerful. Demons attacked the Celestial Beings and drove them into hiding (as ascetics and monks among humankind). After some research a large group of 30 Celestials including Indra, Vishnu, Shiva, Brahma and Parvati lit a huge fire and sang and danced and performed sacrifices of (including sacrificing the ego) for many days. Finally a being formed who contained all of their combined knowledge and powers. The great and fearsome Dirga has a beautiful and benevolent face, but in her arms brandishes many weapons. A handful of Parvati's magical herbal concoction blown into the fire forms the tiger upon which Dirga rides. 
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}{he Devi Mahatyama} is a hymn to the divine feminine and specifically the Hindu Goddess, \emph{Durgā} (\saha{दुर्गा}), pronounced \emph{duur \textemdash gaa}. The The Devi Mahatyama is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
 
-She makes it known that though she is \em{of} the celestials, she does not \em{belong} to them and following their ernest entreats, easily dispatches of the demons. It is to Dirga that we might chant for protection.
+Rand hicks used the phrase ``The Difficult One" to describe Durgā. She is super-bad. The story of her birth \textemdash as I read it \textemdash is that a demon performed a great spiritual ritual and became wildly powerful. Demons attacked the Celestial Beings and drove them into hiding (as ascetics and monks among humankind). After some research a large group of 30 Celestials including Indra, Vishnu, Shiva, Brahma and Parvati lit a huge fire and sang and danced and performed sacrifices of (including sacrificing the ego) for many days. Finally a being formed who contained all of their combined knowledge and powers. The great and fearsome Durgā has a beautiful and benevolent face, but in her arms brandishes many weapons. A handful of Parvati's magical herbal concoction blown into the fire forms the tiger upon which Durgā rides. 
+
+She makes it known that though she is \em{of} the celestials, she does not \em{belong} to them and following their ernest entreats, easily dispatches of the demons. It is to Durgā that we might chant for protection.
 
 A translation: Hail to the Goddess, the Great Goddess; to the Auspicious One always hail! 
 Hail to Nature, to the Propitious One; we humble ourselves before her continuously.
@@ -1454,6 +1541,8 @@ Sma tam means ``always to Her".}
 \label{table:1}
 \end{table}
 
+\mna{\hspace{1em}Listen to Mingus \textemdash hear his soul. Listen to Ellington \textemdash hear the world. Listen to Sun Ra \textemdash hear the Universe.}
+ 
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
 
 \section{Seven Beats Descending}
@@ -1536,7 +1625,7 @@ Words here.
 \end{table}
 
 \section{Seven Seventeen Fifteen}
-Waking up with a melody like this looping through my head, you know your mind needs some clearing.
+Waking up with a melody like this looping through the head, you know your mind needs some clearing.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{7-17-15.ly}
 \end{changemargin}
@@ -1546,26 +1635,7 @@ Waking up with a melody like this looping through my head, you know your mind ne
 \label{table:Seven Seventeen Fifteen}
 \end{table}
 
-
-What is drone?
-
-How do we sing?
-
-Like in much of yoga we combine, blend and balance \emph{force} and \emph{surrender}.
-
-How is this book organized?
-
-What are the chakras?
-
-Ganesha guardian of the kundalini
-
-these are just notes
-
-writing, the death of spoken word 
-
-Listen to Mingus -- hear his soul. Listen to Ellington -- hear the world. Listen to Sun Ra -- hear the Universe. 
-
-God is the offering, god is the offered, poured out by god. ---\emph{Bhagavad Gita}
+\backmatter
 
 \printindex
 
