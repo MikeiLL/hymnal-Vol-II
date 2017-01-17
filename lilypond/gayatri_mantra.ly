@@ -19,7 +19,7 @@ melody = \relative c'' {
 text =  \lyricmode {
 	Om bhur | Om bhu -- ga -- ha  | Om swa -- ha | Om ma -- ha |
 	Om ja -- na -- ha | Om ta -- pa -- ha | Om sat | yam |
-	Om tat sa -- vi -- tur | bar -- vi -- nam | Bhar -- go  de -- va -- sya | Dhi -- ma -- hi |
+	Om tat sa -- vi -- tur | var -- en -- yam | Bhar -- go  de -- vas -- ya | Dhi -- ma -- hi |
 	Dhi -- yo yo -- na -- ha | pra -- cho -- dha -- yat |
 }
 
