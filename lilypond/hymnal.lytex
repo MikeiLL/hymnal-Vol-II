@@ -1480,7 +1480,7 @@ Eirēnē, Galíni Εἰρήνη, Γαλήνη
 \unsetRL
 \end{multicols}
 
-\section{Om Shrīṃ Lakṣmīyea Svaha}
+\section{Om Shrīṃ Lakṣmīyei Svaha}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omshrimlaxmima.ly}
@@ -1540,7 +1540,7 @@ This is a healing chant. Looks like this in sanskrit: \saha{ॐ श्री ध
 
 \index{Durgā}
 
-\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}{he Devi Mahatyama} is a hymn to the divine feminine and specifically the Hindu Goddess, \emph{Durgā} (\saha{दुर्गा}), pronounced \emph{duur \textemdash gaa}. The The Devi Mahatyama is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
+\lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{T}{he Devi Mahatyama} is a hymn to the divine feminine and specifically the Hindu Goddess, \emph{Durgā} (\saha{दुर्गा}), pronounced \emph{duur \textemdash gaa}. The Devi Mahatyama \textemdash a cornerstone text of goddess tradition \textemdash is part of a larger work, Devi Gita, which means Song of the Goddess, and itself which is a part of the The S'rîmad Devî Bhâgawatam (also known as the Devi Bhagavata Purana and the Devi Bhagavatam), which is classic Hindu sacred text.
 
 Rand hicks used the phrase ``The Difficult One" to describe Durgā. She is super-bad. The story of her birth \textemdash as I read it \textemdash is that a demon performed a great spiritual ritual and became wildly powerful. Demons attacked the Celestial Beings and drove them into hiding (as ascetics and monks among humankind). After some research a large group of 30 Celestials including Indra, Vishnu, Śiva, Brahma and Parvati lit a huge fire and sang and danced and performed sacrifices of (including sacrificing the ego) for many days. Finally a being formed who contained all of their combined knowledge and powers. The great and fearsome Durgā has a beautiful and benevolent face, but in her arms brandishes many weapons. A handful of Parvati's magical herbal concoction blown into the fire forms the tiger upon which Durgā rides. 
 
@@ -1574,10 +1574,9 @@ Sma tam means ``always to Her".}
 \caption{Wordless One}
 \label{table:1}
 \end{table}
-
-\mna{\hspace{1em}Listen to Mingus \textemdash hear his soul. Listen to Ellington \textemdash hear the world. Listen to Sun Ra \textemdash hear the Universe.}
  
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? and each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
+
 
 \section{Seven Beats Descending}
 
@@ -1585,7 +1584,7 @@ This next one is approximated from a dream, where there was a bunch of older hor
 \lilypondfile[quote,noindent]{ellington7.ly}
 \end{changemargin}
 \begin{table}[ht]
-\caption[Seven Beats Descending]{We will talk more about the music here.}
+\caption[Seven Beats Descending]{Listen to Mingus \textemdash hear his soul. Listen to Ellington \textemdash hear the world. Listen to Sun Ra \textemdash hear the Universe.}
 \label{table:Seven Beats Descending}
 \end{table}
 
