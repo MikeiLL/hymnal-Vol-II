@@ -19,7 +19,7 @@ melody = \relative c'' {
 
 text =  \lyricmode {
 	\set associatedVoice = "words"
-	Om eim hreem shreem kleem saw__ sat chit ek -- am Bra -- mah
+	Om eim hrīm śrīm klīm saw__ sat chit ek -- am Brah -- ma
 }
 
 harmonies = \chordmode {
