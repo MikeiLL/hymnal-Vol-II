@@ -14,6 +14,9 @@
 \usepackage{epigraph} % quotes
 \setlength{\epigraphwidth}{0.9\textwidth}
 
+%to display URLs
+\usepackage{hyperref}
+
 \newcommand\mna[2]{\mn{\fontspec{Helvetica}#1}}
 \renewcommand*{\marginfont}{\scriptsize}
 
@@ -231,72 +234,73 @@
 
 \chapter{Introduction}
 
-\section{An Intro}
+\section*{References \& Resources}
 
-\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{uite, quite frustrating} can sex and singing be, and while sexual insights are for the most part \textemdash if not entirely \textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breath.
-\blindtext{25}
+We and this document are nothing without an extensive, supportive community. It's a real blessing to have the support, shared wisdom and input of so many wonderful people.
 
-\begin{wrapfigure}[10]{L}{0.5\textwidth}
-\center
-\includegraphics[scale=.3]{poses/anahata1.pdf}
-\includegraphics[scale=.3]{poses/anahata2.pdf}
-\end{wrapfigure}
+Rand Hicks at Integral Knowledge Study Center in Pensacola, Florida
 
-There's a movement that goes with this heart-lightening chant. If standing, the legs will do a basic Afro-hip-hop step of  right leg steps to the right, left leg taps down to meet it, then the opposite: ta'tha right and ta'tha left and, etc\dots For the upper body, the arms are bent, and on the up beat, they reach into the heart, pulling out cobwebs and laughy-taffy \textemdash on the down step they pull it out, releasing it to the sides, opening up the ribcage and heart more and more.
+Jagadisha at gentlespringrain@gmail.com
 
-The chant is this:
+Iya Ośun Monifay and the community at Ośun's Golden Harvest Temple in Pensacola, Florida
 
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{anahata.ly}
-\end{changemargin}
+Babaloša Olomide, Ola Olu and Odun Ogunlano and members of the Ileṣa Ire community
 
-\begin{figure}[ht]
-\label{fig:Anahata}
-\caption[Anahata]{It is really nice to do it as a call and response where each two measures are echoed like this:}
-\end{figure}
+Open Books Bookstore in Pensacola, Florida
 
+Puffin Foundation West
 
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{anahata_piece.ly}
-\end{changemargin}
+\begin{thebibliography}{9}
 
-The last two measures are already an echo. As with all else in this book, whatever works and we'll probably be doing it differently ourselves by the time you read this, if we're even still breathing at all.
+\bibitem{divinemesanger}  
+\underline{Elegba Ifá and the Divine Messenger}: Awo Fá'lokun Fatunmbi
 
-\subsection{lā ilāha illā allāh}
-\begin{arab}[fullvoc]
-لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله
-\end{arab}
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{laillahaillaallah.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:lā ilāha illā allāh}
-\caption[lā ilāha illā allāh]{}
-\end{figure}
+\bibitem{shambalaguide} 
+\underline{The Shambhala Guide to Sufism}: Carl W. Ernst
 
-On the Eleventh of September, even at this time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}), which sounds like Shanti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{he}, but I believe it's optional and Shanti is pretty much part of the ever evolving English language at this point.) is a Sanskrit word meaning peace, tranquility, calmness, bliss. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
+\bibitem{lightonyoga} 
+\underline{Light on Life}: BKS Iyengar
 
-\lipsum[50-55]
+\bibitem{shaktimantras} 
+\underline{Shakti Mantras: Tapping into the Great Goddess Energy Within}: Thomas Ashley-Farrand
 
-\chapter{Simple}
+\bibitem{rudracenter} 
+\textbf{Rudra Centre}\\
+\url{rudraksha-ratna.com/buy/ardhnarishwar-puja-and-yajna}
 
-\section{some section here}
-\begin{changemargin}{-1cm}{-1cm} 
-\lilypondfile[quote,noindent]{omshantiom.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Om Śāntiḥ Om}
-\caption[Om Śāntiḥ Om]{}
-\end{figure}
-\vspace*{-.5in}
+\bibitem{understandinghinduism} 
+\textbf{Understanding Hinduism}\\
+\url{nithinsridhar.wordpress.com/2012/11/11/translation-of-a-popular-hymn-to-shiva}
 
-\lipsum[10-15]
+\bibitem{greenmessage} 
+\textbf{Green Message: The Evergreen Messages of Spirituality, Sanskrit and Nature}\\
+\url{greenmesg.org/mantras_slokas/sri_shiva-karpura_gauram.php}
 
-\chapter{Chapter 3}
-\lipsum[10-15]
+\bibitem{assatashakur} 
+\textbf{Assata Shakur} (Black Panther activist who escaped US Prison and lives in exile in Cuba)\\
+\url{assatashakur.org/forum/spirituality-connect-your-center/9372-ethnic-influences-cuba-resulting-history-african-slave-trade-cuba.html}
 
-\section{Another section}
-\lipsum[10]
+\bibitem{nickpage} 
+\textbf{Music and Writing of Nick Page}\\
+\url{nickmusic.com}
+
+\bibitem{spokensanskritdictionary} 
+\textbf{Spoken Sanskrit Dictionary}\\
+\url{spokensanskrit.de}
+
+\bibitem{keithbriggsrigveda} 
+\textbf{Keith Briggs Rigveda transliteration}\\
+\url{keithbriggs.info/documents/rv.pdf}
+
+\bibitem{kiranparanjabe}
+\textbf{Kiran Paranjape who offers Sanskrit translation services}\\
+\url{SanskritTranslations.com}
+
+\bibitem{yogarenegade}
+\textbf{Yoga Renegade \textemdash Wild Yogini}\\
+wildyogini.wordpress.com/tag/kali-chants
+\end{thebibliography}
+
 
 \printindex
 

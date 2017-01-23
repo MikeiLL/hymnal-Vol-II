@@ -14,6 +14,9 @@
 \usepackage{epigraph} % quotes
 \setlength{\epigraphwidth}{0.9\textwidth}
 
+%to display URLs
+\usepackage{hyperref}
+
 \newcommand\mna[2]{\mn{\fontspec{Helvetica}#1}}
 \renewcommand*{\marginfont}{\scriptsize}
 
@@ -1669,6 +1672,74 @@ Waking up with a melody like this looping through the head, you know your mind n
 \end{table}
 
 \backmatter
+
+\section*{References \& Resources}
+
+We and this document are nothing without an extensive, supportive community. It's a real blessing to have the support, shared wisdom and input of so many wonderful people. 
+
+Rand Hicks at Integral Knowledge Study Center in Pensacola, Florida
+
+Jagadisha at gentlespringrain@gmail.com
+
+Iya Ośun Monifay and the community at Ośun's Golden Harvest Temple in Pensacola, Florida
+
+Babaloša Olomide, Ola Olu and Odun Ogunlano and members of the Ileṣa Ire community
+
+Open Books Bookstore in Pensacola, Florida
+
+Puffin Foundation West
+
+\begin{thebibliography}{9}
+
+\bibitem{divinemesanger}  
+\underline{Elegba Ifá and the Divine Messenger}: Awo Fá'lokun Fatunmbi
+
+\bibitem{shambalaguide} 
+\underline{The Shambhala Guide to Sufism}: Carl W. Ernst
+
+\bibitem{lightonyoga} 
+\underline{Light on Life}: BKS Iyengar
+
+\bibitem{shaktimantras} 
+\underline{Shakti Mantras: Tapping into the Great Goddess Energy Within}: Thomas Ashley-Farrand
+
+\bibitem{rudracenter} 
+\textbf{Rudra Centre}\\
+\url{rudraksha-ratna.com/buy/ardhnarishwar-puja-and-yajna}
+
+\bibitem{understandinghinduism} 
+\textbf{Understanding Hinduism}\\
+\url{nithinsridhar.wordpress.com/2012/11/11/translation-of-a-popular-hymn-to-shiva}
+
+\bibitem{greenmessage} 
+\textbf{Green Message: The Evergreen Messages of Spirituality, Sanskrit and Nature}\\
+\url{greenmesg.org/mantras_slokas/sri_shiva-karpura_gauram.php}
+
+\bibitem{assatashakur} 
+\textbf{Assata Shakur} (Black Panther activist who escaped US Prison and lives in exile in Cuba)\\
+\url{assatashakur.org/forum/spirituality-connect-your-center/9372-ethnic-influences-cuba-resulting-history-african-slave-trade-cuba.html}
+
+\bibitem{nickpage} 
+\textbf{Music and Writing of Nick Page}\\
+\url{nickmusic.com}
+
+\bibitem{spokensanskritdictionary} 
+\textbf{Spoken Sanskrit Dictionary}\\
+\url{spokensanskrit.de}
+
+\bibitem{keithbriggsrigveda} 
+\textbf{Keith Briggs Rigveda transliteration}\\
+\url{keithbriggs.info/documents/rv.pdf}
+
+\bibitem{kiranparanjabe}
+\textbf{Kiran Paranjape who offers Sanskrit translation services}\\
+\url{SanskritTranslations.com}
+
+\bibitem{yogarenegade}
+\textbf{Yoga Renegade \textemdash Wild Yogini}\\
+wildyogini.wordpress.com/tag/kali-chants
+\end{thebibliography}
+
 
 \printindex
 
