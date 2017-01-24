@@ -443,13 +443,14 @@ The chanting and repetition of Divine names; of majikal syllables, bījākṣara
 Repetitive waves of sound. One key, one mono, one love. Unity. Minimalism. Simplicity of action exposes the complexity of nature. Less is more. Do less and less to achieve more and more until you do nothing and achieve everything.
 
 So how do you make a drone? One doesn't make a drone. It may appear that one has made a drone, but what one has done is add to a drone that was always there. So if you want to add to the drone, start by listening to it.  If there is a string stretched somewhere, you can cause it to vibrate, and if it is near a resonant box, the vibrations of the string will cause the surrounding air to vibrate and those sound waves will be amplified by the resonant box. Piano, guitar, violin, banjo exhibit this principle. Blowing through a reed creates audible sound waves. You can download a free application that creates an imitation of the Tanpura drone ubiquitous in Indian music. A nearby train yard or a factory may be emitting a drone like that of an electronic oscillator \textemdash sine, pulse, sawtooth or triangle wave \textemdash which could be filtered or combined with an audio synthesizer. An electronic drone can be created by leaning an electric guitar against the amplifier it's plugged into. Electronic echo and delay units may create layers upon layers of a single sound upon itself like layers of overlapping time in the onion of infinity.
-
+\index{Garret Pengle}
 Take a deep breath. Fill the lungs. Vibrate the vocal chords and allow the naturally resulting tone to be carried our on the breath, the prana \textemdash cosmic energy \textemdash resonating in the box we call the human torso. Vibrating with the universe. Remember, as my friend Garret Pengle says, that we are each a continuation of the explosion that started the universe.
 
 \vspace*{.2in}
 \section{Gobinday Mukanday Udara Apare}
+\index{chakra}
 Sustainer. Enlightener. Liberator. Infinite. Destroyer. Creator. Nameless. Desireless.
-Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted.
+Move the awareness -- and the resonance of the voice -- up through the seven primary chakras as the mantra is chanted. Chakras are discussed in more detail later on, and listed in the index.
 
 \begin{itemize}
  \item  \textbf{Root Chakra} RED --- Gobinday --- \emph{Sustainer}
@@ -1247,12 +1248,14 @@ Ujjṛmbh	(\saha{उज्जृम्भ्}) is a sanskrit word that means to 
 
 Yes, it's a vowel followed by six consonants. I like to chant it while aiming for hanumanasana, the forward ``split" representing Hanuman's mighty leap from the south of India to the Himalayas to retrieve the herbs needed for an emergency treatment of severe wounds Rama’s brother, Laksmana incurred battling a vile demon king. Hanuman's devotion to Rama is symbolized in the story from the Ramayana in which he is given a beautiful necklace studded with diamonds. He looks at all the diamonds and tears them out of the necklace, throwing each away, explaining the behaviour by stating that ``anything that does not contain Rama is without worth." When asked if Hanuman himself contains Rama, he tears open his heart and reveals Rama and his consort Sita. This is an odd chant. Not sure if it ``works'', but it sticks with me. Rivka says, ``Once you know it, sometimes a weird chant works.''
 \begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
+\lilypondfile[quote,noindent]{wikasa_hanuman.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Hanuman Ujjṛmbh}
-\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdash hah \textemdash ta. Uh \textemdash j-d-d-d-d-rmm \textemdash bha. Ohm Nu \textemdash muh. Sat nam.}
+\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdash hah \textemdash ta. Whee \textemdash ka \textemdash sa. Ohm Nu \textemdash muh. Sat nam.}
 \end{figure}
+
+Ohm might be thought of as the "primal" bīja. It's the seed syllable signifying the frequency of the universe. Namaḥ is to bow. Anāhata is the heart chakra. Wikasa (\saha{विकस}) is "to open", as in 'lotus flower opens up to reveal itself'.
 
 \section{Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramha}
 \index{bījākṣara}
