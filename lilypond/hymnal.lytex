@@ -1246,16 +1246,25 @@ Ujjṛmbh	(\saha{उज्जृम्भ्}) is a sanskrit word that means to 
 \index{Rama}
 \index{Sita}
 
-Yes, it's a vowel followed by six consonants. I like to chant it while aiming for hanumanasana, the forward ``split" representing Hanuman's mighty leap from the south of India to the Himalayas to retrieve the herbs needed for an emergency treatment of severe wounds Rama’s brother, Laksmana incurred battling a vile demon king. Hanuman's devotion to Rama is symbolized in the story from the Ramayana in which he is given a beautiful necklace studded with diamonds. He looks at all the diamonds and tears them out of the necklace, throwing each away, explaining the behaviour by stating that ``anything that does not contain Rama is without worth." When asked if Hanuman himself contains Rama, he tears open his heart and reveals Rama and his consort Sita. This is an odd chant. Not sure if it ``works'', but it sticks with me. Rivka says, ``Once you know it, sometimes a weird chant works.''
+Yes, it's a vowel followed by six consonants. I like to chant it while aiming for hanumanasana, the forward ``split" representing Hanuman's mighty leap from the south of India to the Himalayas to retrieve the herbs needed for an emergency treatment of severe wounds Rama’s brother, Laksmana incurred battling a vile demon king. Hanuman's devotion to Rama is symbolized in the story from the Ramayana in which he is given a beautiful necklace studded with diamonds. He looks at all the diamonds and tears them out of the necklace, throwing each away, explaining the behaviour by stating that ``anything that does not contain Rama is without worth." When asked if Hanuman himself contains Rama, he tears open his heart and reveals Rama and his consort Sita. This is an odd chant. Not sure if it ``works", but it sticks with me. Rivka says, ``Once you know it, sometimes a weird chant works."
+
+\index{Kiran Paranjape}
+\index{wikasa}
+When I ran some of this content by Kiran Paranjape who offers Sanskrit translation services, he says that the proper word to use in this application would be \textbf{wikasa} (\saha(विकस)): ``revealing/opening" as in ``lotus flower opens up to reveal itself". Feel free to substitute that for ujjṛmbh.
+
 \begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{wikasa_hanuman.ly}
+\lilypondfile[quote,noindent]{ujjrmbh_hanuman.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Hanuman Ujjṛmbh}
-\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdash hah \textemdash ta. Whee \textemdash ka \textemdash sa. Ohm Nu \textemdash muh. Sat nam.}
+\caption[Hanuman Ujjṛmbh]{Pronunciation: Hah \textemdash new \textemdash mah'n. Ah \textemdash nah \textemdash hah \textemdash ta. Uh \textemdash j-d-d-d-d-rmm \textemdash bha. Ohm Nu \textemdash muh. Sat nam.}
 \end{figure}
 
-Ohm might be thought of as the "primal" bīja. It's the seed syllable signifying the frequency of the universe. Namaḥ is to bow. Anāhata is the heart chakra. Wikasa (\saha{विकस}) is "to open", as in 'lotus flower opens up to reveal itself'.
+\index{anāhata}
+\index{bīja}
+Ohm might be thought of as the ``primal" bīja. It's the seed syllable signifying the frequency of the universe. Namaḥ is to bow. Anāhata is the heart chakra. 
+
+
 
 \section{Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramha}
 \index{bījākṣara}
