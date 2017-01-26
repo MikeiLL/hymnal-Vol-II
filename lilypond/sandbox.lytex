@@ -51,6 +51,17 @@
 \renewcommand\chaptermark[1]{\markboth{#1}{}} 
 \renewcommand\sectionmark[1]{\markright{#1}}
 
+% prevent widows at top of page
+\usepackage[all]{nowidow}
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
 %%%%% End Basic Layout & formatting
 
 \usepackage{graphicx}
@@ -193,6 +204,7 @@
 
 \begin{document}
 
+\frontmatter
 
 \begin{titlepage}
 	\centering
@@ -232,7 +244,25 @@
 \listoftables
 \endgroup
 
-\chapter{Introduction}
+\mainmatter
+
+
+
+\chapter{aaaaa}
+\lipsum[50]
+\section*{References \& a}
+\lipsum[25]
+\chapter{bbbbb}
+\lipsum[50]
+\section*{ccccc \& b}
+\lipsum[50]
+\section*{ddddd \& y}
+\lipsum[50]
+\chapter{eeeee}
+\lipsum[50]
+\section*{References \& x}
+\lipsum[50]
+\chapter{fffff}
 
 \section*{References \& Resources}
 
@@ -301,6 +331,7 @@ Puffin Foundation West
 wildyogini.wordpress.com/tag/kali-chants
 \end{thebibliography}
 
+\backmatter
 
 \printindex
 
