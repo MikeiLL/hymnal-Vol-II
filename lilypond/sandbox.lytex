@@ -230,6 +230,45 @@
 	{\large \today\par}
 \end{titlepage}
 
+%% copyrightpage
+\begingroup
+\footnotesize
+\parindent 0pt
+\parskip \baselineskip
+\textcopyright{} 2016 Mike Kilmer \ Creative Commons \textemdash Attribution-NonCommercial 3.0
+
+This work may be distributed and/or modified under the conditions
+of the Creative Commons \textemdash Attribution-NonCommercial 3.0 License.
+\vspace*{1em} 
+Current Maintainer of this work is Mike iLL Kilmer and source code is public at:
+https://github.com/MikeiLL/hymnal-Vol-II
+\vspace*{1em} 
+Fonts used are Palatino for main body and Helvetica for margins. 
+\vspace*{.5em} 
+Book cover and drop caps are from the Intro Rust family by Ani Petrova, Radomir Tinkov; Foundry: Fontfabric Type Foundry
+\vspace*{1em} 
+
+Typographic rendering done with \LaTeX with help from Arara.
+\vspace*{.5em} 
+Music engraving with Lilypond.
+
+
+\begin{center}
+\begin{tabular}{ll}
+First edition: January 2017
+\end{tabular}
+\end{center}
+
+\vfill
+
+Temple of Wow, \ Pensacola, FL \ \texttt{TempleOfWow.com}
+
+\vspace*{2\baselineskip}
+
+
+\endgroup
+\clearpage
+
 \renewcommand{\listfigurename}{Chants \& Music}
  
 \renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
@@ -239,10 +278,9 @@
 \renewcommand{\tablename}{Music}
 
 \listoffigures
-\begingroup
-\let\clearpage\relax
 \listoftables
-\endgroup
+
+\clearpage
 
 \mainmatter
 
