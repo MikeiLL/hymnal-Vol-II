@@ -644,7 +644,7 @@ Pronunciation: Saht, chit, ek\textemdash ahm, Brah\textemdash mah. \textbf{Sat} 
 
 \chapter{The Art of Vocalization}
 
-\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{ueer, elusive and frustrating} can sex and singing be, and while sexual insights are for the most part\textemdash if not entirely\textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breath.
+\lettrine[lines=3, lraise=0.1, nindent=.7em, slope=-.5em]{Q}{ueer, elusive and frustrating} can sex and singing be, and while sexual insights are for the most part\textemdash if not entirely\textemdash outside the scope of this document, we can offer some tips that might prove useful in becoming more comfortable with vocalizing. Open the throat; relax the tongue; engage the diaphragm; awaken the ears; breathe.
 
 \section*{Introduction to Vocal Technique}
 
@@ -930,17 +930,34 @@ The relationship between Ifá and Santería is this. African slaves weren't allo
 Ifá is the religion of the Yorùbá people of south western Nigeria, and according to Lopes Valdez, Ethnologist from the Cuban Academy of Sciences, ``The number of slaves landing alive in Cuba [mostly during the 1800s] was about 1.3 million, almost one tenth of all slaves in the Americas. \ldots The Yoruba people were the second major ethnic group brought to Cuba from Africa (behind the Bantu)."
 
 In Santería, also called Regla de Ocha, parallels were found between Ifá and Christianity, and the Oriṣa --- what we might describe as Ifá deities --- were worshipped in the form of their Christian counterparts. Obatala was worshipped in the form of Christ, Yemaya in the form of Mary. Those who practiced Santería were able to have their shrines in public, while the practice of Ifá was done in secret.
-
-One of the things we sacrificed in moving to Pensacola from the NYC area was the rich culture of the Metropolitan area. And we were bemoaning the fact that there wasn't anyone here from whom we could learn more about the AfroCuban chants I knew from life-saving times at the Rhumbas at an American Legion Hall on the Lower East Side (forever grateful Judith Arnold Maldonado) and time working for Amelia Pedroso and Ibbu-Okun (thank you Paula Ballan). 
-
+\index{Amelia Pedroso}
+\index{Ibbu-Okun}
+\index{Judith Arnold Maldonado}
+\index{Paula Ballan}
+\index{rhumba}
+One of the things we sacrificed in moving to Pensacola from the NYC area was the rich culture of the Metropolitan area. And we were bemoaning the fact that there wasn't anyone here from whom we could learn more about the AfroCuban chants I knew from life-saving times at the Rhumbas at an American Legion Hall on the Lower East Side (forever grateful, Judith Arnold Maldonado) and time working for Amelia Pedroso and Ibbu-Okun (thank you, Paula Ballan). 
+\index{Peace D Cashmire}
+\index{Rivka}
+\index{Ifá}
+\index{Ilè}
 Within a week of Rivka and my conversation, Peace D Cashmire mentioned that an African Dance class in the Yorùbá or Ifá tradition was beginning the next day, which ended up leading us to Iya Monife Osun's Golden Harvest Ilè, which is an Ifá temple right here in Pensacola.
 \index{Eşu}
-When first learning about Ganeṣa (\saha{गणेश}), the Elephant-headed deity of Hinduism, I was struck by the parallels to Elegua, who is the divine messenger in Ifá. They are both invoked at the beginning of ritual and seen as openers of the door between worlds; rational and intuitive, physical and spiritual, magical and mundane. They are also both tricksters and I love how Awo Fá'lokun Fatunmbi puts it: ``this role has the function of transforming deceptive and limited visions of self and world." Elegua is actually the name I learned for this Oriṣa from the Cuban people in New York. Elegba is the name the folks at Golden Harvest and Ileṣa Ire (more on them later) use and in Nigeria, the divine messenger is referred to as Eşu.
-
+\index{oriṣa}
+\index{Ganeṣa}
+When first learning about \textbf{Ganeṣa} (\saha{गणेश}), the Elephant-headed deity of Hinduism, I was struck by the parallels to \textbf{Elegua}, who is the divine messenger in Ifá. They are both invoked at the beginning of ritual and seen as openers of the door between worlds; rational and intuitive, physical and spiritual, magical and mundane. They are also both tricksters and I love how Awo Fá'lokun Fatunmbi puts it: ``this role has the function of transforming deceptive and limited visions of self and world." Elegua is actually the name I learned for this Oriṣa from the Cuban people in New York. Elegba is the name the folks at Golden Harvest and Ileṣa Ire (more on them later) use and in Nigeria, the divine messenger is referred to as Eşu.
+\index{Awo Fá'lokun Fatunmbi}
 According to Awo Fá'lokun Fatunmbi, one of the twenty one \emph{roads} of Eşu is called Eşu Elegbara, a warrior and the divine messenger of power. He suggests that it makes sense that in an atmosphere of slavery, an aspect of Eşu that represents communication in the face of overwhelming obstacles would become the face of interaction between human consciousness and Spirit.
 
-As both Eşu and Ganeşa are real, it makes sense that they might run into each other, which is what happens in this chant. I can imagine them meeting up in Egypt - half way between India and Nigeria.
+Ganeşa, one of the best-known deities in Hindu tradition, is pictured with the head of an elephant, riding on a mouse. Offspring of Śiva and Pārvatī, the head was a replacement head following, Śiva tearing the babies head off in a moment of misunderstanding. Ganeşa removes and also places objects along our path in order to guide us in the direction of our destiny.
 
+As both Eşu and Ganeşa are real, it makes sense that they might run into each other, which is what happens in this chant. I can imagine them meeting up in Egypt\textemdash half way between India and Nigeria.
+
+\index{Liberation Theology}
+\index{aṣé}
+\index{aṣé-o}
+\index{layé O}
+\index{y'ago}
+\index{egungun}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{oganeshaelegua.ly}
 \end{changemargin}
@@ -957,8 +974,11 @@ There could also be references to \emph{Mo'juba}, which is a spiritually energiz
 \vspace*{-.2in}
 \section{Wahe Guru Satanam}
 \index{Garret Pengle}
+\index{wahe}
+\index{guru}
+\index{wow}
 \index{URU Yoga}
-At a ``Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting "Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. "Wahe Guru" is the phrase that we morphed into ``Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+At a ``Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting ``Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. ``Wahe Guru" is the phrase that we morphed into ``Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
@@ -1029,7 +1049,7 @@ This ``I surrender" chant felt great upside down, and I also noticed a thin laye
 \hfill \\
 
 Some of the Deities we called to were: \hfill \\
-
+\index{Lakṣmī}
 \begin{addmargin}[3em]{3em}
 \begin{description}
 \index{Lakṣmī}
@@ -1041,12 +1061,16 @@ Some of the Deities we called to were: \hfill \\
 \textit{Another, more ancient and popular Hindu goddess through whom we can experience the energy of Lakṣmī Ma. Saraswati is the goddess to whom we look for creative energy, learning and intelligence.}
 
 \index{Elegua}
+\index{Esu}
+\index{Orunmila}
 \item[Om Elegua]
-\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster.}
+\textit{From the Yuruba tradition of Nigeria, Elegua (Esu, Elegba) would be associated with Mercury, Hermes, Ganesha in the Roman, Greek and Hindu traditions and is the opener of the portal between the worlds, as well as an artist and childish trickster. Iya Monifay, however, cautions us against seeing Elegua as a ``devil" or primarily a trickster, clarifying that Elegua is the ``teacher of teachers", and it is typically ignorant interpretations of Orunmila (Ifà divination) or circumstances that are at the root of Elegua having ``played a trick".}
 
 \index{Obatala}
+\index{Iya Monifay}
+\index{Jesus Christ}
 \item[Obatala]
-\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement.}
+\textit{Another Yuruba deity, Obatala is clad in all white and represents humble judgement. According to Iya Monifay, the most famous, and final ``walk" or incarnation of Obatala was that of the personhood of Jesus Christ.}
 
 \index{Mary}
 \item[Mother Mary]
@@ -1065,11 +1089,11 @@ Others that come to mind are:
 \begin{addmargin}[3em]{3em}
 \begin{description}
 \item[Yemaya]
-\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean.}
+\textit{Also from the Yuruba tradition, Yemaya represents ultimate female energy. She is associated with the ocean, as well as the Virgin Mary.}
 
-\index{Lakṣmī}
+\index{Oshun}
 \item[Oshun]
-\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality.}
+\textit{Another deity from the Yuruba pantheon, Oshun is goddess of beauty and sexuality. She is the most sought after oriśa because of the energy she brings, love and money.}
 
 
 \index{Jesus}
