@@ -345,13 +345,13 @@ Input, corrections and suggestions welcome. \textemdash Mike iLL
 
 \index{Om}
 \index{microtone}
-\index{Śāntiḥ}
+\index{śāntiḥ}
 \index{step| see {interval}}
 \index{interval}
 \index{bījākṣara}
 
 \mna{}{The ḥ is aspirated to match the (generally short) vowel preceding it. So it would sound like: shan \textemdash tee \textemdash hi, with the last hi being almost like an echo or reverberation.}
-On the Eleventh of September, even at a time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}) is a Sanskrit word meaning peace, tranquility, calmness, bliss. It sounds Shan \textemdash ti (The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{hee} because the ḥ aspirates the vowel preceeding it.  At least in some of the chant music I have seen, the syllable of the ḥ is left off. The word Shanti, spoken in an English accent, is becoming part of the ever evolving English language at this point. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. The word is pronounced: bee \textemdash JAHK \textemdash shkah \textemdash rah. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
+On the Eleventh of September, even at a time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}) is a Sanskrit word meaning peace, tranquility, calmness, bliss. It sounds Shan \textemdash tee. The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{hee} because the ḥ aspirates the vowel preceding it.  At least in some of the chant music I have seen, the syllable of the ḥ is left off. The word Shanti, spoken in an English accent, is becoming part of the ever evolving English language at this point. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. The word is pronounced: bee \textemdash JAHK \textemdash shkah \textemdash rah. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
@@ -364,10 +364,12 @@ On the Eleventh of September, even at a time more than a decade after our belove
 \index{Oren Bloedow}
 \index{Dominique Eade}
 \index{Third Stream}
-
+\index{interval}
+\index{blues tones}
+\index{microtones}
 This chant has almost as small a range as a melody can have; a single half-step interval. This means that from a physical standpoint, our throat and larynx (voice box) hardly need to move to go from one tone to the next. The interval is so small that some Western ears may have trouble distinguishing the two tones, as in our harmonic system we are more used to \emph{major} seconds or \emph{whole} steps than \emph{minor} ones. A \emph{whole} step would actually be twice as wide as a \emph{half} step and is the interval you hear between ``Happy'' and ``Birthday'' in the Birthday Song or ``Row'' and ``Your'' in Row Row Row Your Boat. For a minor second the first song that comes to mind is Stevie Wonder's \underline{Isn't She Lovely}. Other Westerners might also think of the themes from Jaws or The Pink Panther, The Beatle's \underline{Hard Day's Night} or \underline{White Christmas} by Irving Berlin. In our \emph{even tempered} system there are no measured \emph{steps} smaller than a half step, but an infinite number of frequencies exist and the voice can certainly generate them. These may be considered \emph{blues tones} or \emph{microtones}. In a chant with a tiny range like this there's a whole world of room to play around with microtones. When my friend Oren Bloedow was studying voice with renown Third Stream artist Dominique Eade, she told him to \emph{feel} rather than \emph{hear} the frequency of the voice.
 \par
-Song along with a \writechord{C} drone, the tone of the chant is dark and somber, potentially evokative of the violence that permeates our culture. You could also sing the same notes with a drone of \writechord{Ab}, which would give it the tonality of the start of \underline{Isn't She Lovely}, without ever actually resolving to ``love -- ly''. Another response to the darkness is to invite some Gods to the party, which is what we do when we either morph into or combine this chant with the following one.
+Sung along with a \writechord{C} drone, the tone of the chant is dark and somber, potentially evokative of the violence that permeates our culture. You could also sing the same notes with a drone of \writechord{Ab}, which would give it the tonality of the start of \underline{Isn't She Lovely}, without ever actually emph{resolving} to ``love -- ly''. Another response to the darkness is to invite some Gods to the party, which is what we do when we either morph into or combine this chant with the following one.
 
 \index{Kṛṣṇa}
 \index{Viṣṇu}
@@ -383,7 +385,7 @@ Song along with a \writechord{C} drone, the tone of the chant is dark and somber
 \index{Rāmāyaṇam}
 Kṛṣṇa (\saha{कृष्ण}), or Krishna is the Hindu deity we most associate with peace. Kṛṣṇa is an incarnation of Viṣṇu (\saha{विष्णु}) and considered to be the absolute essence of Viṣṇu. Priya means \emph{dear} or \emph{precious}. Rāma (\saha{राम}) or Ramachandra is an avatar of Viṣṇu; the seventh avatar, and is the protagonist in the Hindu epic the Rāmāyaṇam (\saha{रामायणम्}), or Ramayana, in which Rāma exemplifies insurpassable disciplin, spiritual devotion and surrender and generally being completely attuned to the path of our ultimate destiny. We invoke Rāma here in the spirit of the famous Hare Kṛṣṇa chant popularized around the world through the Kṛṣṇa Consciousness movement.
 
-If someone's feeling inspired the following might also be added to the mix. Nothing here is written in stone. Far from it. More like crayon. We like to sing --- or rather sing for our sanity --- and are building up a collection of chants and mantras that don't require too much thought and don't make you cringe too much in their content. So if singing Hail Kṛṣṇa makes you cringe, by all means Hail Vodka! Whatever works.
+If someone's feeling inspired the following might also be added to the mix. Nothing here is written in stone. Far from it. More like crayon. We like to sing---or rather sing for our sanity---and are building up a collection of chants and mantras that don't require too much thought and don't make us cringe too much in their content. So if singing Hail Kṛṣṇa makes you cringe, by all means Hail Vodka! Whatever works.
 
 \vspace*{-.2in}
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -393,8 +395,9 @@ If someone's feeling inspired the following might also be added to the mix. Noth
 
 \index{minor}
 \index{major}
+\index{śāntiḥ}
 
-This is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the third scale tone is \emph{minor}: \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note (The \textbf{tonic} is note that is the \emph{key} we are in, which is \writechord{C} in this case.) is played or sung, as opposed to the \emph{major third} which is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
+Following is a fun scale that works along with the base Om Śāntiḥ Om chant. It's a \emph{minor} scale, which simply means that the third scale tone is \emph{minor}: \emph{one whole step} and \emph{one half step} above the \textbf{main} or \textbf{tonic} note (The \textbf{tonic} is the note that is the \emph{key} we are in, which is \writechord{C} in this case.) is played or sung, as opposed to the \emph{major third} which is \emph{two whole steps} (four half steps, or \emph{semitones}) above the \textbf{tonic}.
 
 \vspace*{-.2in}
 \begin{changemargin}{-1cm}{-1cm} 
@@ -407,15 +410,18 @@ See that it has the \writechord{Eb} in it. In the Kṛṣṇa chant above, the \
 \index{interval}
 
 \mna{In relation to tonality, an \emph{interval} is the distance between two notes or frequencies.}
-
-In either case the scale contains one interval that is evokative of Eastern tonalities, and that is the \emph{augmented second}. An augmented second has the same acoustical qualities as a minor third in that there are \emph{one whole step} and \emph{one half step} or {three semitones} between the two notes. However in this case there isn't a note between them in the scale, which is why it is referred to as a second and not a third. First would be a non-step, second is a single (whole, half or augmented) step, third is two steps, fourth is three steps and so on. 
+\index{augmented second}
+\index{semitone}
+In either case the scale contains one interval that is evokative of Eastern tonalities, and that is the \emph{augmented second}. An augmented second has the same acoustical qualities as a minor third in that there are \emph{one whole step} and \emph{one half step} or {three semitones} between the two notes. However in this case there isn't a note between them in the scale, which is why it is referred to as a second and not a third. A ``first" would be a non-step, second is a single (whole, half or augmented) step, third is two steps, fourth is three steps and so on. 
 
 \section{Asato Ma}
 
 \index{Joe Brennan}
 \index{Zef}
 \index{Emilio China| see {Zef}}
-I think the word Upanishads translates as ``to sit near". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Each would be a long teaching going deeper and deeper toward a a revealed reality which is the secret teaching the story is intended to reveal. Apparently the following chant is one of the oldest texts in it. Joe Brennan, the first yoga teacher of Emilio ``Zef" China and myself in Hoboken used to chant it at the end of every class, followed by Om, Shanti Shanti Shanti. Shanti means peace. Om is the sound of the universe beginning. Yes\textemdash in Hinduism as well, the Universe begins with a sound.
+\index{śāntiḥ}
+
+I think the word Upanishads translates as ``to sit near". It's a collection of written documentations of ideas from the oral traditions of Hinduism. Each would be a long teaching going deeper and deeper toward a a revealed reality which is the secret teaching the story is intended to reveal. Apparently the following chant is one of the oldest texts in it. Joe Brennan, the first yoga teacher of Emilio ``Zef" China and myself in Hoboken used to chant it at the end of every class, followed by Om, Śāntiḥ Śāntiḥ Śāntiḥ. Shanti means peace. Om is the sound of the universe beginning. Yes\textemdash in Hinduism as well, the Universe begins with a sound.
 
 The chant means, Lead me from non-being to being. Lead me from darkness to immortality or non-death. Lead me from death to eternal life. Here, the chant is written as call and response, but it can also be done without the echo.
 
@@ -431,12 +437,12 @@ The chant means, Lead me from non-being to being. Lead me from darkness to immor
 
 \section{Anatomy of Drone}
 
-Drone is the pure rhythm; the pure time. The drone of our blood running through our veins. The drone of our mothers heart beat. Om (\saha{ॐ}). The beginning of the universe. An echo of God's initial and eternal statement. (All Praises Due to the One Who Does Not Exist.)  \par
+\index{Zef}
+Emilio ``Zef Noi$e" China is pretty experienced at creating drones, and much of the following is his writing. Drone is the pure rhythm; the pure time. The drone of our blood running through our veins. The drone of our mothers heart beat. Om (\saha{ॐ}). The beginning of the universe. An echo of God's initial and eternal statement. (All Praises Due to the One Who Does Not Exist.)  \par
 
 Forever itself is a massive vibration of time and space. That which is; that which has been and always will be. Repetition, vibration as in nature, self replication, echo, reverberation, integrate and disintegrate. Primal expression of the creative principle. All notes surely are contained in the one sound. As above so below. This is the groove. This is the drone.
 
 \index{bījākṣara}
-\index{Zef}
 \mna{The Big Bang the Divine or original intonation that as The mother goddess creates and destroys all things in a breath, through the sound of her voice. \textemdash Zef Noi\$e}
 
 The chanting and repetition of Divine names; of majikal syllables, bījākṣara (\saha{बीजाक्षर}) is itself a drone. The music of the spheres. Each planet vibrates at it's own frequency. Prior to the 16ht century, in the West, the harmonic system of Pythagoras\textemdash the divine order of the frequencies, based on the 3:2 logarithm found in the natural fifth\textemdash was our harmonic foundation. Then a man named Werkmeister developed the even tempered system. Major thirds don't sound as intense, but our music is out of tune with the universe. It's convenient, I'm told. \par
