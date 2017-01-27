@@ -1356,43 +1356,6 @@ When I ran some of this content by Kiran Paranjape who offers Sanskrit translati
 \index{bīja}
 Ohm might be thought of as the ``primal" bīja. It's the seed syllable signifying the frequency of the universe. Namaḥ is to bow. Anāhata is the heart chakra. 
 
-
-
-\section{Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramha}
-\index{bījākṣara}
-This is an expanded version of the Sat Chit Ekam Bramha chant explored earlier in this document. A number of bījākṣara are added, preceding the primary mantra, the aim of which is to amplify the feminine power of the mantra.
-\index{eim}
-\index{jnana śakti}
-\index{para śakti}
-\index{kriya śakti}
-\index{hrīt padma}
-\index{kundalini}
-\index{saw}
-
-Om is associated with the 1st Eye, between the brow. \textbf{Eim} is the bījā for the energy of \textbf{jnana śakti}, or intellectual energy.
-\textbf{Hrīṃ} is the bījā for Para Śakti, unmanifest speech, and the \textbf{hrīt padma} or heart chakra. \textbf{Śrīṃ} is the bījā for \textbf{kriya śakti} — or the power of manifestation, ruled by Lakṣmī. \textbf{Klīṃ} is a bījā of attraction, which amplifies the sounds around it. \textbf{Saw} is a kundalini-activating syllable relating to the relationship betweeen the heart and 1st eye.
-
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{omeimhreem.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramhaa}
-\caption[Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramha]{}
-
-\end{figure}
-The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \writechord{Bb/F} chord, then move the F down one note to E which makes the \writechord{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
-\begin{lilypond}
-snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
-\score { 
-\snippet 
-\layout { 
-   #(layout-set-staff-size 14)
-   }
-}
-\end{lilypond} }
-
-
 \section{Oh, Lead}
 This is a translation of the ancient, popular Sanskrit mantra:
 
@@ -1512,6 +1475,42 @@ In the Kula sect, who see no ultimate distinction between Śiva and śakti, this
 \caption[Hrīṃ Shrīṃ Klīṃ Param Īśvari Swaha]{Pronunciation: Hrīṃ Śrīṃ Klīṃ Pa \textemdash dahm Eshwari Swaha.
 }
 \end{figure}
+
+
+\section{Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramha}
+\index{bījākṣara}
+This is an expanded version of the Sat Chit Ekam Bramha chant explored earlier in this document. A number of bījākṣara are added, preceding the primary mantra, the aim of which is to amplify the feminine power of the mantra.
+\index{eim}
+\index{jnana śakti}
+\index{para śakti}
+\index{kriya śakti}
+\index{hrīt padma}
+\index{kundalini}
+\index{saw}
+
+Om is associated with the 1st Eye, between the brow. \textbf{Eim} is the bījā for the energy of \textbf{jnana śakti}, or intellectual energy.
+\textbf{Hrīṃ} is the bījā for Para Śakti, unmanifest speech, and the \textbf{hrīt padma} or heart chakra. \textbf{Śrīṃ} is the bījā for \textbf{kriya śakti} — or the power of manifestation, ruled by Lakṣmī. \textbf{Klīṃ} is a bījā of attraction, which amplifies the sounds around it. \textbf{Saw} is a kundalini-activating syllable relating to the relationship betweeen the heart and 1st eye.
+
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{omeimhreem.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramhaa}
+\caption[Om Eim Hrīṃ Śrīṃ Klīṃ Saw Sat Chit Ekam Bramha]{}
+
+\end{figure}
+The chords look complex at a glance, but it's fairly simple. You can just play B$\flat$ and D with an F note below them for the \writechord{Bb/F} chord, then move the F down one note to E which makes the \writechord{Bbsus/E}. The D minor over F is just moving the E up one and the B$\flat$ one down to A. \par
+\begin{lilypond}
+snippet = \relative c' {<f bes d>1 <e bes' d> <f a d> }
+\score { 
+\snippet 
+\layout { 
+   #(layout-set-staff-size 14)
+   }
+}
+\end{lilypond} }
+
 
 \section{Ardhanārīśvara}
 \mna{\textbf{Cis} refers to people who people who identify as the gender they were told they were when they were born. \textbf{Adam Powers} is author of a hilarious article on polyamory titled, ``The Only Poly People You’ll Ever Date''.} 
