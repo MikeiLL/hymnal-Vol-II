@@ -1168,18 +1168,6 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \caption[Anandamayi Ma]{There is some subtlety of pronunciation that will beg further clarification elsewhere. The ḥ (h with a dot) is sometimes not pronounced, as is the case in the first occurence: Śivaya Namaḥ Om. The second time it's like tiny huh:  nama\textemdash ha! Remember that the letter ḥ aspirates its preceding vowel.}
 \end{figure}
 
-Also including it written in the key of A minor as opposed to scary \writechord{Gbmi} with six flats. Jagidisha said, though, that in Ab minor it's simply played on all black keys except two (three out of five ain't bad?).
-
-\clearpage
-
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{anandamayima.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Anandamayi Ma in A minor}
-\caption[Anandamayi Ma in A minor]{}
-\end{figure}
-
 \section{Root Lock}
 \index{bandha}
 \index{Ravi Singh}
@@ -1788,6 +1776,13 @@ Waking up with a melody like this looping through the head, you know your mind n
 \caption{Seven Seventeen Fifteen}
 \label{table:Seven Seventeen Fifteen}
 \end{table}
+
+\section*{Afterward}
+If this work is interesting or useful to you, and I or we still exist, please feel free to reach out with comments or suggestions. If the extreme limitations of the knowledge displayed herein aren't readily obvious, please take my word for it. If the vast realms of ignorance are painful, I hope you will graciously accept my apologies. \par
+
+If this work inspires you to document or to explore the documentation and publishing of your own endeavors, great. Aṣé! \par
+
+Look forward to running into you again on the loop. Śantiḥ.
 
 \backmatter
 
