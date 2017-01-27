@@ -230,6 +230,7 @@
 	{\large \today\par}
 \end{titlepage}
 
+\thispagestyle{empty}
 %% copyrightpage
 \begingroup
 \footnotesize
@@ -301,6 +302,46 @@ Temple of Wow, \ Pensacola, FL \ \texttt{TempleOfWow.com}
 \section*{References \& x}
 \lipsum[50]
 \chapter{fffff}
+
+\section{Evra K'divra}
+
+\setRL
+\large\texthebrew{כאברא כדבראה} \par
+\unsetRL
+The Aramaic alphabet is what replaced a previous set of glyphs for \emph{writing} Hebrew.
+
+Current folk lore holds that the word \emph{Abracadabra} derives from a Hebrew or Aramaic phrase meaning ``I create as I speak'' or ``It came to pass as it was spoken.'' There is some conflicting thought on this. The Hebrew phrase, Evra K'divra apparently translates, ``I create as is the spoken word''.
+
+\unsetRL
+\normalsize
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{evrakdivra.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Evra K’divra}
+\caption[Evra K’divra]{The words for Peace and Calm in Spanish are ``Paz" and ``Calma". Sanskrit, Yuruba, Hebrew, Arabic and Persian translations are included below.}
+\end{figure}
+
+\begin{multicols}{2}
+Śāntiḥ, Zanta \saha{शान्तिः शान्त}
+
+Örê, Suuru
+
+\setRL
+\large\texthebrew{שָׁלֵו שָׁלוֹם} \LR{Shalom, Shalev} 
+\unsetRL
+
+\columnbreak
+
+\setRL
+\large \begin{arab}[fullvoc]سلام سُكون \textLR{Salam, Had'a} \end{arab} 
+\unsetRL
+
+\setRL
+\large \begin{arab}[fullvoc]صلح، آرامش\textLR{Solh, Aramesh} \end{arab} 
+\unsetRL
+\end{multicols}
 
 \section*{References \& Resources}
 
