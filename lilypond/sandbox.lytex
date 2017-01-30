@@ -100,7 +100,7 @@
 %%%%%% Typography
 
 % Need this for Hebrew for some reason
-\usepackage[utf8]{inputenc}
+% \usepackage[utf8]{inputenc}
 
 % for definitions - which we're not currently using.
 \usepackage{amsthm} 
@@ -115,14 +115,13 @@
 % Bodini Font
 % \usepackage[default]{gfsbodoni} conflict with something in the hindi text block
 
-% Palatino font
-\usepackage[osf]{mathpazo} 
+% Palatino font - without Polyglossia
+% \usepackage[sc, osf]{mathpazo} 
 
 % following two lines for bold, italics, roman
 % source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
 \usepackage{slantsc} 
 \usepackage{lmodern}
-
 
 %%%%%
 % For Hindi & Other International Text
@@ -136,6 +135,12 @@
 % These will call appropriate hyphenation.
 \usepackage{xltxtra} % standard for nearly all XeLaTeX documents
 \defaultfontfeatures{Mapping=tex-text} % ditto
+% \setmainfont[Numbers=OldStyle]{TeX Gyre Pagella}
+% \newfontfamily\scshape[Letters=SmallCaps,Scale=1.15]{Palatino-SC}
+
+\setmainfont{TeX Gyre Pagella}[
+  Numbers=OldStyle,
+]
 
 % Now define some Devanagari fonts:
 % At least *one* font family must be called \sanskritfont or \devanagarifont,
@@ -203,215 +208,39 @@
 \usepackage{lipsum} 
 
 \begin{document}
+0123456789, {\bfseries 0123456789}, {\itshape 0123456789}, {\bfseries\itshape 0123456789}.
 
-\frontmatter
+\textsc{Once upon a time, \dots} we had a story. Once upon a time.
+{\bfseries \scshape Once upon a time, \dots}
 
-\begin{titlepage}
-	\centering
-	
-	{\scshape\LARGE Doubt \par}
-	\vspace{.6cm}
-	{\scshape\LARGE Skepticism \par}
-	\vspace{.6cm}
-	{\scshape\LARGE Bliss \par}
-	\vspace{1.5cm}
-	{\bfseries \saha{संशय अविश्वास आनन्द} \par}
-	\vfill
-	\vspace{1cm}
-	\Large A \textsc{Faitheist} Hymnal
-	\vfill
-	\vspace{1cm}
-	\vfill
-	{\Large\itshape Temple of Wow \par}
+Some math expressions: $1+1=2$, and $\int_0^1 \mathrm{d}x = 1$.
 
-	\vfill
+The following chant --- at least in majickal terms --- is an incantation to cultivate the 
+\emph{divine feminine}. The first three terms are considered \textbf{seed syllables}  or \textbf{bījākṣara} (\saha{बीजाक्षर}) often simply referred to just by the term \emph{bīja	 } (pronounced \emph{bee --- ja}) (\saha{बीज}) (Jp. 種子 shuji) (Chinese 种子 zhǒng zǐ), meaning \emph{seed}. The \textbf{bīja} 
+\mna{As theorized by Swiss psychiatrist and psychotherapist \textbf{Carl Jung} — \emph{archetypes} are \emph{universal}, archaic \emph{patterns}, \emph{images} and \emph{symbols} common to dreams, cosmologies and folk tales of cultures around the world.}---a term common to both Hinduism and Buddhism---don't have a specific literal meaning, but are known to vibrate sympathetically with certain universal principals, or what Jung might have called \emph{archetypes}. Om (\saha{ॐ}) is the most well-known and 
+possibly most fundamental bīja, signifying the sound of the universe beginning and also the frequency at which it continues to vibrate (432 Hz or around a C$\sharp$). In all three of the syllables, the vowel sound is ``eee'', like in ``cream''. \textbf{Hrīṁ} (\saha{ह्रीं}) engages the \textbf{para śakti} and \textbf{hrit padma}. \par
 
-% Bottom of the page
-	{\large \today\par}
-\end{titlepage}
+\index{Sarasvatī}
+Para śakti is the power or energy of unmanifest speech. \textbf{Śakti} (\saha{शक्ति}) is feminine and is \emph{energy}. The goddess Lakṣmī (\saha{लक्ष्मी}) who is the fundamental female figure in Hindu theology, is the energy of the universe. It is through her manifestation as Sarasvatī (\saha{सरस्वती}) that this \emph{śakti} comes to us. \par
 
-\thispagestyle{empty}
-%% copyrightpage
-\begingroup
-\footnotesize
-\parindent 0pt
-\parskip \baselineskip
-\textcopyright{} 2016 Mike Kilmer \ Creative Commons \textemdash Attribution-NonCommercial 3.0
+Hrit padma is the heart chakra. \textbf{Padma} in both the male (\saha{पद्म}) and female (\saha{पद्}) form means `lotus' and also `temple'. The flowering temple of the heart. \textbf{Shrīṃ} is the bīja of \textbf{kriyā śakti} which is the power of \emph{manifestation}, also associated with Lakṣmī (\saha{लक्ष्मी}). \textbf{Kriyā} actually translates as \emph{action} or \emph{deed} and comes from the root word `to do'. In kundalini yoga, the various sequences of movements, words and visualizations are known as \emph{Kriyā}. \textbf{Klīṃ} is a bīja of \emph{attraction}, used to magnify the mantra surrounding it.  \par
+\index{parama}
+\index{param}
+\index{àṣẹ}
+We engage the heart chakra---Anāhatacakra (\saha{अनाहतचक्र})---and the power of unmanifest speech; then engage the power of manifestation itself, and magnify these potencies with the Klīṃ bīja. And with these potencies engaged, we invoke the divine feminine: Īśvari \saha{ईश्वरी}; the feminine form of \textbf{Īśvara} (\saha{ईश्वर}), which is a word found in Patanjali's Yogasutras as the fifth niyama, \textbf{īśvarapraṇidhāna} (\saha{ईश्वरप्रणिधान}) or \emph{surrender} to the \emph{divine}; one of the the Eight Limbs of Yoga. \textbf{Parama} (\saha{परम}) means ``supreme", or ``highest", and I have read that we are allowed to drop the last A without changing it's meaning, and \emph{also} that Param means ``other", ``beyond", ``other side". \textbf{Svāhā} (\saha{स्वाहा})---also common to both Hinduism and Buddhism (chi. 薩婆訶 sà pó hē, jp. sowaka, tibetan \texttibetan{སྭཱཧཱ་})---might be translated as ``I evoke", ``so be it" or simply as ``well said". Svāhā could be compared to the Yuruba word, \textbf{àṣẹ}. Àṣẹ refers to the power to make things happen and produce change. Svāhā, a feminine word, is also the name of a ``minor goddess'' in the Hindu pantheon, She is the daughter of Daksha (\saha{दक्ष}), which I guess would make her a sister of Śiva's consort, Pārvatī (\saha{पार्वती}); sum of all consciousness. \par
 
-This work may be distributed and/or modified under the conditions
-of the Creative Commons \textemdash Attribution-NonCommercial 3.0 License.
-\vspace*{1em} 
-Current Maintainer of this work is Mike iLL Kilmer and source code is public at:
-https://github.com/MikeiLL/hymnal-Vol-II
-\vspace*{1em} 
-Fonts used are Palatino for main body and Helvetica for margins. 
-\vspace*{.5em} 
-Book cover and drop caps are from the Intro Rust family by Ani Petrova, Radomir Tinkov; Foundry: Fontfabric Type Foundry
-\vspace*{1em} 
-
-Typographic rendering done with \LaTeX with help from Arara.
-\vspace*{.5em} 
-Music engraving with Lilypond.
-
-
-\begin{center}
-\begin{tabular}{ll}
-First edition: January 2017
-\end{tabular}
-\end{center}
-
-\vfill
-
-Temple of Wow, \ Pensacola, FL \ \texttt{TempleOfWow.com}
-
-\vspace*{2\baselineskip}
-
-
-\endgroup
-\clearpage
-
-\renewcommand{\listfigurename}{Chants \& Music}
- 
-\renewcommand{\listtablename}{Instrumentals \& Wordless Melodies}
-
-\renewcommand{\figurename}{Chant}
-
-\renewcommand{\tablename}{Music}
-
-\listoffigures
-\listoftables
-
-\clearpage
-
-\mainmatter
-
-
-
-\chapter{aaaaa}
-\lipsum[50]
-\section*{References \& a}
-\lipsum[25]
-\chapter{bbbbb}
-\lipsum[50]
-\section*{ccccc \& b}
-\lipsum[50]
-\section*{ddddd \& y}
-\lipsum[50]
-\chapter{eeeee}
-\lipsum[50]
-\section*{References \& x}
-\lipsum[50]
-\chapter{fffff}
-
-\section{Evra K'divra}
-
-\setRL
-\large\texthebrew{כאברא כדבראה} \par
-\unsetRL
-The Aramaic alphabet is what replaced a previous set of glyphs for \emph{writing} Hebrew.
-
-Current folk lore holds that the word \emph{Abracadabra} derives from a Hebrew or Aramaic phrase meaning ``I create as I speak'' or ``It came to pass as it was spoken.'' There is some conflicting thought on this. The Hebrew phrase, Evra K'divra apparently translates, ``I create as is the spoken word''.
-
-\unsetRL
-\normalsize
+\vspace*{-.05in}
+\section{I Wanna Know You}
+\textsc{testing testing one two three. Testing this out ofr sure.} There was a period where I'm fairly sure I made our housemate (and dear friend) Madeline Tharp sorry she had said the noise didn't bother her at all with a regular pre-sunrise ecstatic chanting practice. I would begin by just engaging the diaphragm and voice box slightly, generating a low growl, and slowly stretch further into various tones, phrases, vibrations. Sometimes words would come. 
+\vspace*{-.1in}
 
 \begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{evrakdivra.ly}
+\lilypondfile[quote,noindent]{iwannaknowyou.ly}
 \end{changemargin}
 \begin{figure}[ht]
-\label{fig:Evra K’divra}
-\caption[Evra K’divra]{The words for Peace and Calm in Spanish are ``Paz" and ``Calma". Sanskrit, Yuruba, Hebrew, Arabic and Persian translations are included below.}
+\label{fig:I Wanna Know You}
+\index{George Russel}
+\caption[I Wanna Know You]{This chant had a life before the strange pop chords. It would be great to develop something more adventurous at some point, possibly along the lines of George Russel's Lydian Chromatic Concept of Tonal Organization. It's basic idea is that the interval of the ``perfect'' fourth creates a tonal polarity, while the Lydian scale, which has a ``sharp" fourth, is in tune with the natural gravitational structure of tonal harmonics. When George Russel spent time in a hospital he developed the concept into a full fledged method of tonal organization with measured degrees of \emph{gravitational} distance from a tonal center.}
 \end{figure}
-
-\begin{multicols}{2}
-Śāntiḥ, Zanta \saha{शान्तिः शान्त}
-
-Örê, Suuru
-
-\setRL
-\large\texthebrew{שָׁלֵו שָׁלוֹם} \LR{Shalom, Shalev} 
-\unsetRL
-
-\columnbreak
-
-\setRL
-\large \begin{arab}[fullvoc]سلام سُكون \textLR{Salam, Had'a} \end{arab} 
-\unsetRL
-
-\setRL
-\large \begin{arab}[fullvoc]صلح، آرامش\textLR{Solh, Aramesh} \end{arab} 
-\unsetRL
-\end{multicols}
-
-\section*{References \& Resources}
-
-We and this document are nothing without an extensive, supportive community. It's a real blessing to have the support, shared wisdom and input of so many wonderful people.
-
-Rand Hicks at Integral Knowledge Study Center in Pensacola, Florida
-
-Jagadisha at gentlespringrain@gmail.com
-
-Iya Ośun Monifay and the community at Ośun's Golden Harvest Temple in Pensacola, Florida
-
-Babaloša Olomide, Ola Olu and Odun Ogunlano and members of the Ileṣa Ire community
-
-Open Books Bookstore in Pensacola, Florida
-
-Puffin Foundation West
-
-\begin{thebibliography}{9}
-
-\bibitem{divinemesanger}  
-\underline{Elegba Ifá and the Divine Messenger}: Awo Fá'lokun Fatunmbi
-
-\bibitem{shambalaguide} 
-\underline{The Shambhala Guide to Sufism}: Carl W. Ernst
-
-\bibitem{lightonyoga} 
-\underline{Light on Life}: BKS Iyengar
-
-\bibitem{shaktimantras} 
-\underline{Shakti Mantras: Tapping into the Great Goddess Energy Within}: Thomas Ashley-Farrand
-
-\bibitem{rudracenter} 
-\textbf{Rudra Centre}\\
-\url{rudraksha-ratna.com/buy/ardhnarishwar-puja-and-yajna}
-
-\bibitem{understandinghinduism} 
-\textbf{Understanding Hinduism}\\
-\url{nithinsridhar.wordpress.com/2012/11/11/translation-of-a-popular-hymn-to-shiva}
-
-\bibitem{greenmessage} 
-\textbf{Green Message: The Evergreen Messages of Spirituality, Sanskrit and Nature}\\
-\url{greenmesg.org/mantras_slokas/sri_shiva-karpura_gauram.php}
-
-\bibitem{assatashakur} 
-\textbf{Assata Shakur} (Black Panther activist who escaped US Prison and lives in exile in Cuba)\\
-\url{assatashakur.org/forum/spirituality-connect-your-center/9372-ethnic-influences-cuba-resulting-history-african-slave-trade-cuba.html}
-
-\bibitem{nickpage} 
-\textbf{Music and Writing of Nick Page}\\
-\url{nickmusic.com}
-
-\bibitem{spokensanskritdictionary} 
-\textbf{Spoken Sanskrit Dictionary}\\
-\url{spokensanskrit.de}
-
-\bibitem{keithbriggsrigveda} 
-\textbf{Keith Briggs Rigveda transliteration}\\
-\url{keithbriggs.info/documents/rv.pdf}
-
-\bibitem{kiranparanjabe}
-\textbf{Kiran Paranjape who offers Sanskrit translation services}\\
-\url{SanskritTranslations.com}
-
-\bibitem{yogarenegade}
-\textbf{Yoga Renegade \textemdash Wild Yogini}\\
-wildyogini.wordpress.com/tag/kali-chants
-\end{thebibliography}
-
-\backmatter
-
-\printindex
 
 \end{document}

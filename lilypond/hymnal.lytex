@@ -115,8 +115,11 @@
 % Bodini Font
 % \usepackage[default]{gfsbodoni} conflict with something in the hindi text block
 
-% Palatino font
-\usepackage[osf]{mathpazo} 
+% Palatino font - disabled by fontspec via polyglossia
+% \usepackage[osf]{mathpazo} 
+
+% Small Caps workaround before we removed newpxtext
+% \newfontfamily\scshape[Letters=SmallCaps,Scale=1.15]{Bodoni 72 Smallcaps Book}
 
 % following two lines for bold, italics, roman
 % source http://tex.stackexchange.com/questions/41681/correct-way-to-bold-italicize-text
@@ -136,6 +139,10 @@
 % These will call appropriate hyphenation.
 \usepackage{xltxtra} % standard for nearly all XeLaTeX documents
 \defaultfontfeatures{Mapping=tex-text} % ditto
+
+\setmainfont{TeX Gyre Pagella}[
+  Numbers=OldStyle,
+]
 
 % Now define some Devanagari fonts:
 % At least *one* font family must be called \sanskritfont or \devanagarifont,
@@ -369,7 +376,7 @@ On the Eleventh of September, even at a time more than a decade after our belove
 \index{microtones}
 This chant has almost as small a range as a melody can have; a single half-step interval. This means that from a physical standpoint, our throat and larynx (voice box) hardly need to move to go from one tone to the next. The interval is so small that some Western ears may have trouble distinguishing the two tones, as in our harmonic system we are more used to \emph{major} seconds or \emph{whole} steps than \emph{minor} ones. A \emph{whole} step would actually be twice as wide as a \emph{half} step and is the interval you hear between ``Happy'' and ``Birthday'' in the Birthday Song or ``Row'' and ``Your'' in Row Row Row Your Boat. For a minor second the first song that comes to mind is Stevie Wonder's \underline{Isn't She Lovely}. Other Westerners might also think of the themes from Jaws or The Pink Panther, The Beatle's \underline{Hard Day's Night} or \underline{White Christmas} by Irving Berlin. In our \emph{even tempered} system there are no measured \emph{steps} smaller than a half step, but an infinite number of frequencies exist and the voice can certainly generate them. These may be considered \emph{blues tones} or \emph{microtones}. In a chant with a tiny range like this there's a whole world of room to play around with microtones. When my friend Oren Bloedow was studying voice with renown Third Stream artist Dominique Eade, she told him to \emph{feel} rather than \emph{hear} the frequency of the voice.
 \par
-Sung along with a \writechord{C} drone, the tone of the chant is dark and somber, potentially evokative of the violence that permeates our culture. You could also sing the same notes with a drone of \writechord{Ab}, which would give it the tonality of the start of \underline{Isn't She Lovely}, without ever actually emph{resolving} to ``love -- ly''. Another response to the darkness is to invite some Gods to the party, which is what we do when we either morph into or combine this chant with the following one.
+Sung along with a \writechord{C} drone, the tone of the chant is dark and somber, potentially evokative of the violence that permeates our culture. You could also sing the same notes with a drone of \writechord{Ab}, which would give it the tonality of the start of \underline{Isn't She Lovely}, without ever actually \emph{resolving} to ``love -- ly''. Another response to the darkness is to invite some Gods to the party, which is what we do when we either morph into or combine this chant with the following one.
 
 \index{Kṛṣṇa}
 \index{Viṣṇu}
@@ -693,14 +700,14 @@ How do we use our voice? What physical processes are occurring when we vocalize,
 
 \mna{From Hindu and Buddhist tradition, a \textbf{mudrā} (/mu'drɑ:/ Tibetan: \texttibetan{ཕྱག་རྒྱ་}) is an energetic ``seal'', ``mark''; a symbolic or ritual ``gesture''. Some mudras involve the entire body; mostly just hands and fingers.}
 
-The word \textbf{chakra} (\saha{चक्र}) translates as \emph{circle} or \emph{wheel} and the chakra system refers to energy centers. We grew up pronouncing the word with a soft \textsc{CH}, but apparently that would refer to some kind of pickle, so now we pronounce chakra like chocolate. There are various ideas about where the primary energy centers in the body are, whether they are called chakras or by other names. I'm told that the original system from Buddhist and Hindu tradition is a system that associates colors with the lower 5 of seven chakras, the colors being Gold at the root, clear or white (the milk of Viṣṇu \saha{विष्णु}), Red at the solar plexus, Green at the heart and Blue or Black at the throat. The ``new age'' system included here is quite popular and it's colors correspond with the colors of the rainbow. Less interesting and it doesn't really make sense to me that the frequencies of light at which the chakras resonate would happen to correspond with the way our eyes happen to perceive light as it separates, but it's a simple way to memorize and visualize these energy centers. There's a Wikipedia page on it which is quite well put together.
+The word \textbf{chakra} (\saha{चक्र}) translates as \emph{circle} or \emph{wheel} and the chakra system refers to energy centers. We grew up pronouncing the word with a soft ``\textsc{ch}", but apparently that would refer to some kind of pickle, so now we pronounce chakra like chocolate. There are various ideas about where the primary energy centers in the body are, whether they are called chakras or by other names. I'm told that the original system from Buddhist and Hindu tradition is a system that associates colors with the lower 5 of seven chakras, the colors being Gold at the root, clear or white (the milk of Viṣṇu \saha{विष्णु}), Red at the solar plexus, Green at the heart and Blue or Black at the throat. The ``new age'' system included here is quite popular and it's colors correspond with the colors of the rainbow. Less interesting and it doesn't really make sense to me that the frequencies of light at which the chakras resonate would happen to correspond with the way our eyes happen to perceive light as it separates, but it's a simple way to memorize and visualize these energy centers. There's a Wikipedia page on it which is quite well put together.
 \index{A Sacred Geography}
 \index{Diana L. Eck}
 \index{svādhiṣṭhāna}
 \index{mūlādhāra}
 \index{anāhata}
 \index{maṇipūra}
-In her wonderful book \underline{India: A Sacred Geography}, Diana L. Eck offers a few tips on how to pronounce sanskrit words, which I'll paraphrase here. `A' sounds like \emph{uh}: allow. `Ā' sounds like \emph{father}. `I' as in \emph{it}. Ī is like \emph{magazine}. `U' as in \emph{put} and `Ū' like in \emph{rude}. The `ṣ' (retroflex ``s" sounds like \emph{sheep}. Consonants followed by an `h'---aspirated consonants---include `bh', `dh' and `th', which sound like the way those letters combine in \emph{clubhouse}, \emph{bloodhound} and \emph{hothouse} and would be found in a word like svādhiṣṭhāna. The letters written with a `v' are soft like a `w': Swad---hee---sthan---uh.
+In her wonderful book \underline{India: A Sacred Geography}, Diana L. Eck offers a few tips on how to pronounce sanskrit words, which I'll paraphrase here. \textbf{A} sounds like \emph{uh}, as in \emph{allow}. \textbf{Ā} sounds like \emph{father}. \textbf{I} as in \emph{it}. \textbf{Ī} is like \emph{magazine}. \textbf{U} as in \emph{put} and \textbf{Ū} like in \emph{rude}. The \textbf{ṣ} (retroflex ``s" sounds like \emph{sheep}. Consonants followed by an ``h"---aspirated consonants---include ``bh", ``dh" and ``th", which sound like the way those letters combine in \emph{clubhouse}, \emph{bloodhound} and \emph{hothouse} and would be found in a word like svādhiṣṭhāna. The letters written with a ``v" are soft like a ``w": Swad---hee---sthan---uh.
 
 Eck goes on to offer some rules of thumb. In two-syllable words like \textbf{Śi}va and \textbf{Viṣ}nu, the accent will be on the first syllable. In longer words, the penultimate syllable is accented \emph{if} it contains a long vowel like in mūlā\textbf{dhā}ra or maṇi\textbf{pū}ra (or a dipthong). In other words the accent can be expected to be in the third from last, or antepenultimate syllable: A\textbf{nā}hata.
 
@@ -1788,14 +1795,16 @@ Waking up with a melody like this looping through the head, you know your mind n
 
 \section*{Afterward}
 
-Sacred chanting and mantra exist in so many cultures, encoding so many varied aspects of philosophy, faith and word view and this first edition of the Faitheist Hymnal barely scratches the cultural surface. This is true of the spectrum of cultures, as well as within the included pantheons and cosmologies.
+Sacred chanting and mantra exist in so many cultures, encoding so many varied aspects of philosophy, faith and world view, and this first edition of the Faitheist Hymnal barely scratches the cultural surface. This is true of the spectrum of cultures, as well as within the included pantheons and cosmologies.
 
 The Wikipedia article on chant starts by describing it as ``rhythmic speaking or singing of words or sounds". It could probably be argued that every musical chant is sacred---though some, sadly, might be in the category of evil chants. Possibly this approach to using music and chant as a thread through which all flavors of human spirituality and philosophy can be sewn together.
+
 \index{datasphere}
-As a composer, I have loved working with sacred texts as a pallat for melodic and/or rhythmic vocal expression. These are combinations of words so powerful that they have survived intact for generations, their potency growing with each new voice, stirring the content into the datasphere; into the collective unconscious; into our \textsc{DNA}. Each mantra is like a glyph: a small package connecting and containing vast networks of information, stories, mythologies, phycological tools, scientific expression and magic.
+As a composer, I have loved working with sacred texts as a pallat for melodic and/or rhythmic vocal expression. These are combinations of words so powerful that they have survived intact for generations, their potency growing with each new voice, stirring the content into the datasphere; into the collective unconscious; into our \textsc{dna}. Each mantra is like a glyph: a small package connecting and containing vast networks of information, stories, mythologies, phycological tools, scientific expression and magic.
 
 If this work is interesting or useful to you, and I or we still exist, please feel free to reach out with questions, comments or suggestions. If the extreme limitations of the knowledge displayed herein aren't readily obvious, please take my word for it. If the vast realms of ignorance are painful, I hope you will graciously accept my apologies. \par
-
+\index{aṣé}
+\index{śantiḥ}
 If this work inspires you to document or to explore the documentation and publishing of your own endeavors, great. Aṣé! \par
 
 Look forward to running into you again on the loop. Śantiḥ.
