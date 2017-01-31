@@ -11,8 +11,8 @@ melody = \relative c'' {
 	\new Voice = "words" {
 			a8 r a r f g g r | f g g f g( a) a r |
 			a r a r f g g r | f g g g f( e) d r |
-			a' r c r c( bes) bes r | bes bes bes c bes a r |
-			a r a r f g g r | f g a f ees( d) d' |
+			a' r c r c bes bes r | bes bes bes c bes a r |
+			a r a r f g g r | f g a f ees( d) d |
 		}
 }
 

@@ -1229,21 +1229,26 @@ Doing this raga within the \emph{even tempered} Western twelve tone system, we l
 The story of the birth of this chant, Jagidisha explains, is that it literally ``came out of Harishes tampura. We were living in an ashram. I was very young. Life was chaotic. Every Sunday we played music. Tuning the tanpura and little melody emerged. I happened to play the melody of raga shivanandani and the words just came. There it was. The chant reflects the philosophy, he says, returning back to first part after Śivaranjani has peaked at a very fast tempo. Beyond language; beyond tradition; sound is universal.
 
 \index{Om Nava Śivaya}
-``\textbf{Śivaya Nama Om} is the ancient and popular \textbf{Om Nava Śivaya} chant done in \emph{reverse}." According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \saha{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Śiva is the most important Hindu god. Om is the sound of the universe being born. Namaḥ means to bow. Śiva (the destroyer - and subsequently creator) is a wild, fierce-tempered god of consciousness.
+\index{Śiva}
+\index{namaḥ}
+\index{Om}
+``\textbf{Śivaya Nama Om} is the ancient and popular \textbf{Om Nava Śivaya} chant done in \emph{reverse}." According to Wikipedia, \textbf{oṁ namaḥ śivāya} (\saha{ॐ नमः शिवाय}) is one of the most important mantra in the 2500 year old Hindu sect, \textbf{Shaivism}: a sect that believes \textbf{Śiva} is the most important Hindu god. Om is the sound of the universe being born. \textbf{Namaḥ} means to bow. Śiva (the destroyer---and creator) is a wild, fierce-tempered god of consciousness.
 
 \index{shakti}
 \index{cit}
 \index{citi| see cit}
 \index{śakti| see shakti}
 
-Citi-śakti (Chit-śhakti): The power (potential) of consciousness and the omniscient all pervading intelligent consciousness combined; The power of higher awareness. The innate energy (śakti) surrounding and supporting consciousness (cit). The conscious power. The fruition or activation of the universal absolute consciousness potentia. The potenized union of consciousness and energy such as in Siva/Sakti; purusa/prakrti; Brahman/Maya; undifferentiated and differentiated consciousness; etc\dots.
+\textbf{Citi-śakti} is The \emph{power (potential) of consciousness} and the \emph{omniscient all pervading intelligent consciousness} combined: The \emph{power of higher awareness}; The \emph{innate energy} (\textbf{śakti}) surrounding and supporting \emph{consciousness} (\textbf{cit}); The \emph{conscious power}; The \emph{fruition} or \emph{activation} of the \emph{universal absolute consciousness potential}. It is the \emph{potenized union of consciousness and energy} such as in Siva/Sakti; purusa/prakrti; Brahman/Maya; undifferentiated and differentiated consciousness; etc\dots.
 
 \index{Anandamayi Ma}
 The chant starts really slowly. A dirge honoring and evolking the great mystic \textbf{Anandamayi Ma}.
 
-\textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived into the recent century between 30 April, 1896 and 27 August, 1982. The following is taken from Wikipedia. Sivananda Saraswati of the Divine Life Society described her as ``the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as "joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
+\index{Wikipedia}
+\textbf{Anandamayi Ma} (Bengali: {\mangalfont आनंदमयी मा}) from Bengal, India is described as a spiritual genius and a Self/God-realized master. She lived between April 30th, 1896 and August 27th, 1982 . The following is taken from Wikipedia: Sivananda Saraswati of the Divine Life Society described her as ``the most perfect flower the Indian soil has produced." Precognition, faith healing and other miracles were attributed to her by her followers. Paramhansa Yogananda translates Anandamayi as ``joy-permeated". This name was given to her by her devotees in the 1920s to describe what they saw as her habitual state of divine joy and bliss.
 
-In her twenties, she self-initiated. As she described it, the inner Guru dictated the mantra and the inner disciple recited. Apparently at Kirtans she would reach intense states of ecstatic bliss.
+\index{kirtan}
+In her twenties, she self-initiated. As she described it, the inner guru dictated the mantra and the inner disciple recited. Apparently at \textbf{kirtans} she would reach intense states of ecstatic bliss.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{anandamayima_flat.ly}
@@ -1253,7 +1258,7 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \index{om}
 \index{namaḥ}
 \index{Śivaya}
-\caption[Anandamayi Ma]{There is some subtlety of pronunciation that will beg further clarification elsewhere. The ḥ (h with a dot) is sometimes not pronounced, as is the case in the first occurence: Śivaya Namaḥ Om. The second time it's like tiny huh:  nama\textemdash ha! Remember that the letter ḥ aspirates its preceding vowel.}
+\caption[Anandamayi Ma]{There is some subtlety of pronunciation that will beg further clarification elsewhere. The ḥ is sometimes not pronounced, as is the case in the first occurence: Śivaya Namaḥ Om. The second time it's like tiny huh:  nama\textemdash ha! Remember that the letter ḥ aspirates its preceding vowel.}
 \end{figure}
 
 \section{Root Lock}
@@ -1265,12 +1270,15 @@ In her twenties, she self-initiated. As she described it, the inner Guru dictate
 \index{kula kundalini}
 \index{bandha}
 \index{mulabandha}
+\index{muladhara chakra}
 
-\textbf{Bandha} \saha{बन्ध} is a Sanskrit word meaning to bind or fasten. Mulabandha is what we in the west call ``root lock"\textemdash a drawing together of the Muladhara chakra. It's performed by pulling in and up on the rectum and sex organ and is beneficial for the organs in the lower abdominal and pelvic area. In the front, it can be practiced by stopping your pee in mid-stream. The rectal engagement is the same action we do when we ``pinch off" our excretion.
+\textbf{Bandha} \saha{बन्ध} is a Sanskrit word meaning to bind or fasten. \textbf{Mulabandha} is what we in the west call ``root lock"\textemdash a drawing together of the \textbf{muladhara chakra}. It's performed by pulling in and up on the rectum and sex organ and is beneficial for the organs in the lower abdominal and pelvic area. In the front, it can be practiced by stopping your pee in mid-stream. The rectal engagement is the same action we do when we ``pinch off" our excretion.
 This bandha is ubiquitous in kundalini kriyas at least as lead by Ravi Singh and his lineage. At one point Rivka and I worked on a song that included the first lyric of this chant, but never quite worked. The theme and it's melody and feel stuck around through the years and fit in perfectly when combined with some Sat Nam and Kula Kundalini up and down the column of chakras.
+
 \index{Ganeṣa}
 \index{John Gulas}
-Muladhara chakra is associated with the color red, or as I learned from John Gulas, who has been integral to the kirtan and mantra community here on the eastern Gulf Coast, vermillion and the deity Ganeṣa\textemdash guardian of the kundalini.
+\index{mantra}
+Muladhara chakra is associated with the color red, or as I learned from John Gulas, who has been integral to the kirtan and mantra community here on the eastern Gulf Coast, \emph{vermillion} and the deity \textbf{Ganeṣa}\textemdash guardian of the kundalini.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{rootlock.ly}
@@ -1282,8 +1290,11 @@ Muladhara chakra is associated with the color red, or as I learned from John Gul
 
 \section{Jai Kālī Ma}
 \index{Kālī}
+\index{Sakta}
+\index{Buddhist}
+\index{Mahavidyas}
 \index{Kālikā| see Kālī}
-Kālī\textemdash also known as Kālikā (\saha{कालिका}) is probably the most notorious of the Hindi pantheon. Her jet-black skin and necklace of human heads. The destroyer. Mother of the universe. In Wikipedia it says that she is of the ten Mahavidyas, a list which combines Sakta and Buddhist goddesses.
+\textbf{Kālī}\textemdash also known as \textbf{Kālikā} (\saha{कालिका}) is probably the most notorious of the Hindu pantheon with her jet-black skin and necklace of human heads. The destroyer. Mother of the universe. In Wikipedia it says that she is one of the ten \textbf{Mahavidyas}, a list which combines \textbf{Sakta} (a Goddess-oriented Hindu tradition) and \textbf{Buddhist} goddesses.
 
 This chant is to invoke her transformative nature. There cannot be creation without destruction. Transformation is the union of both. The mantra means, ``I bow my head to the Goddess Kali".
 
@@ -1297,7 +1308,7 @@ This chant is to invoke her transformative nature. There cannot be creation with
 \index{kaarak}
 \index{jyotish}
 Pronunciation: Jay\textemdash a compressed variation of ``Jaya" (Jai is also a correct pronouciation) \textemdash Kah\textemdash lee\textemdash Maaa. (repeat) Kah\textemdash lee\textemdash kah\textemdash yei (like ``lie"). Nah\textemdash mah\textemdash hah. I have also read that the vowel sound in ``yei" is supposed to be pronounced like ``yeah", and that ``you better not mess up the pronunciation of the name" of the Dark Mother. So fair warning. \par
-On further digging, as far as the ``yea" and ``yei" we find added to the end of words in sanskrit mantra, it appears that there are eight kaaraks, which take care of the words like in, of, for, hey, to etc\dots. The ``yea" is masculine, used as a suffix on masculine concepts, and ``yei" is used with feminine. My understanding is that the suffix in this case means ``for". I still like my original misunderstanding that the ``yea" a ``yei" change the meaning of the word to invoke the utter essence of the concept to which it is applied. Dieties are pretty essential by nature anyway, aren't they. \par
+On further digging, as far as the ``yea" and ``yei" we find added to the end of words in sanskrit mantra, it appears that there are eight \textbf{kaaraks}, which take care of the words like in, of, for, hey, to etc\dots. The ``yea" is masculine, used as a suffix on masculine concepts, and ``yei" is used with feminine. My understanding is that the suffix in this case means ``for". I still like my original misunderstanding that the ``yea" a ``yei" change the meaning of the word to invoke the utter essence of the concept to which it is applied. By nature, dieties are \emph{essential} anyway, aren't they? \par
 In the same thread that shone some light on the kaaraks, someone mentioned jyotish, which means the ``science of light" and is the vedic study and practice of astrology. In the Vedic system, every letter is said to confirm to a definite pattern of sound. ``Ya" can also mean joining or attaining, so it is a positive concept. The number of syllables is very significant in jyotish science, so some of these ``ya"s may be included to increase the potency of a mantra from that angle.
 
 \section{Shangó Shangó}
@@ -1330,7 +1341,10 @@ We learned this chant from members of an Ile (Oriṣa temple) called Ileṣa Ire
 \index{ong}
 \index{namo}
 \index{guru}
-When we were studying kundalini yoga in New York City with Ravi Singh, every class started with this mantra. It's basically honoring (evoking, summoning) the divine creative energy. The language is Punjabi, written in Gurmukhi, and \textbf{ong} means ``one". \textbf{Namo} is a compressed version of namaḥ, to bow. \textbf{Dev} is short for ``deva", or the divine, and \textbf{guru} means teacher. I bow to the one. I bow to the divine teacher within. This version of it is to a rhumba rhythm, which comes out of the Afro-cuban tradition and has, through Spain, made it's way to the eastern reaches of Europe where you can hear ``gypsy rhumba".
+\index{rhumba}
+\index{Afro-cuban}
+\index{Spain}
+When we were studying kundalini yoga in New York City with Ravi Singh, every class started with this mantra. It's basically honoring (evoking, summoning) the divine creative energy. The language is Punjabi, written in \textbf{Gurmukhi}, and \textbf{ong} means \emph{one}. \textbf{Namo} is a compressed version of namaḥ, to bow. \textbf{Dev} is short for \emph{deva}, or \emph{the divine}, and \textbf{guru} means \emph{teacher}. \emph{I bow to the one. I bow to the divine teacher within.} This version of it is to a \textbf{rhumba} rhythm, which comes out of the Afro-cuban tradition and has, through Spain, made it's way to the eastern reaches of Europe where you can hear ``gypsy rhumba".
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{ongnamogurudevnamo.ly}
@@ -1346,18 +1360,19 @@ When we were studying kundalini yoga in New York City with Ravi Singh, every cla
 \index{samskara}
 Samskara refers to the patterns of the mind, built up over time, in the shape of our thinking habits, that interfere with a clear perception of reality. A common metaphor is the mind as a clear lake, upset only by our thoughts and worries. The worries and thoughts create patterns in the sand below the lake, which create long-term disturbances in the clarity of it's surface.
 
+\index{tide of Oms}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{samskara.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Samskara}
-\caption[Samskara]{Call and response where a tide of Om is the bed out of which the Samskara call rises and resettles. Why worry? Why worry? Why worry? It's just a form of fantasy.}
+\caption[Samskara]{Call and response where a tide of Oms is the bed out of which the Samskara call rises and resettles. Why worry? Why worry? Why worry? It's just a form of fantasy.}
 \end{figure}
 
 
 \section{Matchbox Pyramid}
 \index{death}
-Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says --- as if from a sitcom -- stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
+Down a few steps into the neighborhood bar. Old, cheap tables populated with friends and ancient cousins of some monochromatic ethnicity. Greeted by a developmentally disabled young man, and the burly blond bartender with motorhead moustache says---as if from a sitcom---stacking miniature matchboxes, ``Life is like a matchbox pyramid. At the end of the day, it's the duds that linger."
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{intothelight.ly}
 \end{changemargin}
@@ -1390,12 +1405,11 @@ We were looking for a sanskrit version of the phrase, ``mad happy" and found \te
 \caption[Sat Chit Ananda Praharsha]{}
 \end{figure}
 
+\section{Om Satye Namaḥ}
 \index{Lakṣmī}
 \textbf{sat}
 \index{namaḥ}
-
-\section{Om Satye Namaḥ}
-This is a chant to \textbf{Lakṣmī} (\saha{लक्ष्मी}), specifically as one who sees all and sees only truth. \textbf{Sat} (\saha{सत्}) is the sanskrit word for truth. Namaḥ is to bow. I bow to the embodiment of truth.
+This is a chant to \textbf{Lakṣmī} (\saha{लक्ष्मी}), specifically as one who sees all and sees only truth. \textbf{Sat} (\saha{सत्}) is the sanskrit word for truth. \textbf{Namaḥ} is to bow. \emph{I bow to the embodiment of truth}.
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{omsatyeanamah.ly}
 \end{changemargin}
