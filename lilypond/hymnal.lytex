@@ -1070,17 +1070,17 @@ The syllables of the sanskrit word \textbf{mantra} (\saha{मंत्र}) can 
 \index{stanza}
 \mna{The \textbf{Vedic} period refers to a time between 1500 and 500 BCE, during which ancient scriptures or were written in sanskrit. \textbf{Véda} (\saha{वेद}) means \emph{knowledge}.}
 
-The Gayatri Mantra is found in the Rigveda which is a collection of ancient \textbf{Vedic} hymns. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the god Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Sarasvatī wouldn't arrive on time for a \emph{very important} ceremony. Sarasvatī was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is what was described to me as the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically. Rand Hicks says that the first two stanzas below (the first half of the mantra) are basically setting the stage for the actual Guyatri Mantra, which begins with the syllable, ``tat", on the second syllable of the third stanza (line of music). Beginning at the syllable, ``tat", the common translation is: ``Let us meditate on the excellent glory of that divine being who illumines everything. May he guide our understanding." It's unfortunate that the \emph{divine being} is referred to by the \emph{he} pronoun.
+The Gayatri Mantra is found in the Rigveda which is a collection of ancient \textbf{Vedic} hymns. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the god Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Sarasvatī wouldn't arrive on time for a \emph{very important} ceremony. Sarasvatī was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is what was described to me as the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically. Rand Hicks says that the first two stanzas below (the first half of the mantra) are basically setting the stage for the actual Guyatri Mantra, which begins with the syllable, ``tat", on the second syllable of the third stanza (line of music). Beginning at the syllable, ``tat", the common translation is: ``Let us meditate on the excellent glory of that divine being who illumines everything. May he guide our understanding." It's unfortunate that the \emph{divine being} referred to is masculine.
 
 \index{chakra}
-The first half of the mantra walks through various aspects of existence, through the chakras. \textbf{bhur} is the earth, and is chanted at the root chakra. \textbf{Bhugaha} is life energy, prana or pure vitality at the naval. \textbf{Swaha} is the realm of the divine mind (which is not, at least in this system, the same as higher consciousness) we invoke at the solar plexus. \textbf{Maha} means ``great" and it is chanted at the heart, and may refer to the ``first spiritual region beyond the sun". We then invoke \textbf{janaha}, which is ``delight" at the throat. \textbf{Tapaha} refers to concentration, which we invoke at the First Eye and may be associated with ``the Realm of highest spiritual understanding while still identified with individual existence". And for the final setting of the foundation for the mantra, Om \textbf{satyam} or ``truth" and one more Om prior to beginning the original mantra.
+The first half of the mantra walks through various aspects of existence, through the chakras. \textbf{Bhur} is the earth, and is chanted at the root chakra. \textbf{Bhugaha} is life energy, prana or pure vitality at the naval. \textbf{Swaha}---the realm of the divine mind (which is not, at least in this system, the same as higher consciousness)---we invoke at the solar plexus. \textbf{Maha} means \emph{great} and it is chanted at the heart, and may refer to the ``first spiritual region beyond the sun". We then invoke \textbf{janaha}, which is \emph{delight}, at the throat. \textbf{Tapaha} refers to concentration, which we invoke at the First Eye and may be associated with ``the Realm of highest spiritual understanding while still identified with individual existence". The final setting of the foundation for the mantra, Om \textbf{satyam} or \emph{truth} and one more Om prior to beginning the original mantra.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{gayatri_mantra.ly}
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:gayatri mantra}
-\caption[Gayatri Mantra]{When chanting this with a group who don't know the words and/or melody, the chant leading can be repeated one measure at a time: ---Om Bhur ---Om Bhur ---Om bhugaha ---Om bhugaha \ldots and so on.}
+\caption[Gayatri Mantra]{When chanting this with a group who don't know the words and/or melody, the chant leading can be repeated one measure at a time:---Om Bhur---Om Bhur ---Om bhugaha---Om bhugaha \ldots and so on.}
 \end{figure}
 
 \section{A Long Road}
@@ -1094,6 +1094,9 @@ Once on a drive up to visit my sister Carrie at college in Connecticut, I chante
 \end{figure}
 
 \index{Eşu}
+\index{devil}
+\index{Ifá}
+\index{crossroads}
 The crossroads are ubiquitous in folklore, often associated with the devil. In Ifá the crossroads are the domain of Eşu. Whether or not we ``go to" the crossroads, we end up at them now and again.
 
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -1101,9 +1104,16 @@ The crossroads are ubiquitous in folklore, often associated with the devil. In I
 \end{changemargin}
 
 \section{I Surrender}
-A lot of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. I was about to lead a weekly 90 minute Bhakti Yoga class and my nose started getting runny, so I did a headstand, which\textemdash after about 5 to 10 minutes gets the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar* knows. Someone\textemdash I think it was Rivka\textemdash said he mentions the technique in Light on Yoga. 
+\index{BKS Iyengar}
 
-This ``I surrender" chant felt great upside down, and I also noticed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow bhakti practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could say the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
+\mna{\textbf{Bhakti}, the \emph{yoga of devotion} often includes chant and dance. Translations include \emph{attachment, participation, fondness for, homage, faith, love} and \emph{devotion}.}
+
+Many of these chants, like the following, have fairly generic, simple melodies. Melodies that are basically inherent in the words themselves. Prior to leading a weekly 90 minute \textbf{bhakti yoga} class, my nose started getting runny, so I did a headstand, which\textemdash after about 5 to 10 minutes can get the nose settled for an hour or so at least. I'm not sure why. Maybe Iyengar knows. Someone\textemdash I think it was Rivka\textemdash said he mentions the technique in \underline{Light on Yoga}. 
+
+\index{bhakti}
+\index{Lynn Jackson}
+
+This ``I surrender" chant felt great upside down, a position that revealed a thin layer of lint or something on the floor. Sweeping and chanting are a great combination. By the top of the hour it looked like the class was going to be a no show. I picked up the accordion, still surrendering. Lynn Jackson, a fellow \textbf{bhakti} (\saha{भक्ति}) practitioner showed up and we continued for about 30 minutes. It was great. After a while we started developing the text so that we could include the names of various deities and eventually we were also substituting the pronoun ``I" for the adjective ``sweet", making it ``Sweet Surrender".
 
 
 \begin{changemargin}{-1.5cm}{-2cm} 
@@ -1184,14 +1194,21 @@ The following chant, mostly in Hebrew translates, ``All of the day and all of th
 \label{fig:Kul Hayom Vikhul Halaila Om}
 \caption[Kul Hayom Vikhul Halaila Om]{}
 \end{figure}
+
+
+\index{dominant chord}
+\index{tonic}
+\mna{The \textbf{dominant chord} in Western music theory, refers to the chord built on the 5th scale tone, played with a major 3rd and flat 7th, tending to resolve to the \textbf{tonic}, or tonal center.}
+
 \index{kul}
 \index{hayom}
 \index{vikhul}
 \index{Om}
 \index{Hebrew}
-The first word, Kul, meaning \emph{All}, is pronounced like the English word \emph{cull}. Hayom, meaning \emph{the day}  is Ha\textemdash Yo + mmm. Vikhul is Vi, like the beginning of ``sit" and Khul starts with a consonant sound that doesn't exist in English. The Kh sound is generated by vibrating the epiglottis against the back of the tongue the way one might when totally exasperated. It's almost a soft gargling sound. The Ul in ViKhul rhymes with Skull and the word means \emph{and all}. Halaila means \emph{the night} and is pronounced Hah \textemdash Lie \textemdash Luh.
+The first word, \textbf{Kul}, meaning \emph{All}, is pronounced like the English word \emph{cull}. \textbf{Hayom}, meaning \emph{the day}, is Ha\textemdash Yo + mmm. \textbf{Vikhul} is pronounced ``vi", like the beginning of ``sit" and ``khul", which starts with a consonant sound that doesn't exist in English. The \textsc{kh} sound is generated by vibrating the epiglottis against the back of the tongue the way one might when totally exasperated. It's almost a soft gargling sound. The \textsc{ul} in Vikhul rhymes with ``skull" and the word means \emph{and all}, \textbf{vi} being \emph{and}. \textbf{Laila} means \emph{night} and \textbf{halaila} is \emph{the night}, pronounced Hah\textemdash Lie\textemdash Luh.
 
-For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first Cmin chord or two. The Bb minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the dominant \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
+
+For some harmonic variety, and E Major chord \writechord{E} can be substituted for the first \writechord{Cmi} chord or two. The (\writechord{Bb}) minor chord (\writechord{Bbmi}) can also be substituted with a G minor chord (\writechord{Gmi}) and the \emph{dominant} \writechord{G7} chord can be thrown in, leading back to the C minor tonic.
 
 \section{Anandamayi Ma}
 \index{Anandamayi Ma}
@@ -1201,13 +1218,18 @@ For some harmonic variety, and E Major chord \writechord{E} can be substituted f
 \index{Śiva}
 \index{Shiva| see Śiva}
 \index{raga}
-The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. Garrett Pengle remembered an approximation of the melody which I transcribed and ultimately corrected very significantly after having tracked Jagadisha down through the place in West Virginia that he teaches meditation. He explained that the particular Raga that the piece is composed in is called the Śivaranjani Raga, which means Śiva's favorite. Śiva (\saha{शिव}) is the fierce Hindu deity associated with consciousness. Simplistically, in the North Indian Hindustani music tradition (as well as the South Indian Karnatic tradition) a \textbf{raga} is a series of pitches along the lines of what Western music calls a scale. The Śivaranjani Raga uses five notes\textemdash no 4th and no 7th; a minor 3rd and the rest correspond loosely with our minor scale: 1, 2 3\flat, 5 and 6 . Westerners refer to a five note scale as pentatonic (pantagon, pentagram, etc). The tones of the raga each have spiritual significance. The tones of this raga have syllables associated with them: Sa Re Ga Pa Dha and the upper Sa.
+\index{Hindu}
+The following chant is one we learned from a couple of Brooklyn-born Indian Classical musicians, Jagadisha and Harish who came down from West Virginia at the last minute and performed at Pensacola's Mahabhuta Yoga Festival. Garrett Pengle remembered an approximation of the melody which I transcribed and ultimately corrected very significantly after having tracked Jagadisha down through the place in West Virginia that he teaches meditation. He explained that the particular \textbf{raga} that the piece is composed in is called the \textbf{Śivaranjani Raga}, which means \emph{Śiva's favorite}. \textbf{Śiva} (\saha{शिव}) is the fierce Hindu deity associated with consciousness. Simplistically, in the North Indian Hindustani music tradition (as well as the South Indian Karnatic tradition) a raga is a series of pitches along the lines of what Western music calls a scale. The Śivaranjani Raga uses five notes\textemdash no 4th and no 7th; a minor 3rd, and the rest correspond loosely with our minor scale: 1, 2 3\flat, 5 and 6 . Westerners refer to a five note scale as pentatonic (pantagon, pentagram, etc). The tones of the raga each have spiritual significance. The tones of this raga have syllables associated with them: \textbf{Sa Re Ga Pa Dha} and the \emph{upper} \textbf{Sa}, an octave higher.
 
-Doing this Raga within the Western Twelve Tone system, we lose the original relationships between the scale tones, which are derived from the natural harmonic spectrum. But it is still enjoyable and fulfilling.
+\index{twelve tone system}
+\index{even tempered}
+Doing this raga within the \emph{even tempered} Western twelve tone system, we lose the original relationships between the scale tones, which are derived from the natural harmonic spectrum, but this is the system most of our instruments are tuned to, and it is still pretty fulfilling.
 
-The story of the birth of this chant is that it literally ``came out of Harishes tampura". We were living in an ashram. I was very young. Life was chaotic. Every Sunday we played music. Tuning the tanpura and little melody emerged. I happened to play the melody of raga shivanandani and the words just came. There it was. The chant reflects the philosophy, he says, returning back to first part after Śivaranjani has peaked at a very fast tempo. Beyond language; beyond tradition; sound is universal.
+\index{Jagidisha}
+The story of the birth of this chant, Jagidisha explains, is that it literally ``came out of Harishes tampura. We were living in an ashram. I was very young. Life was chaotic. Every Sunday we played music. Tuning the tanpura and little melody emerged. I happened to play the melody of raga shivanandani and the words just came. There it was. The chant reflects the philosophy, he says, returning back to first part after Śivaranjani has peaked at a very fast tempo. Beyond language; beyond tradition; sound is universal.
 
-As Jagidisha explained, Śivaya Nama Om is the ancient and popular Om Nava Śivaya chant done in \emph{reverse}. According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \saha{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Śiva is the most important Hindu god. Om is the sound of the universe being born. Namaḥ means to bow. Śiva (the destroyer - and subsequently creator) is a wild, fierce-tempered god of consciousness.
+\index{Om Nava Śivaya}
+``\textbf{Śivaya Nama Om} is the ancient and popular \textbf{Om Nava Śivaya} chant done in \emph{reverse}." According to Wikipedia, \textbf{oṁ namaḥ śivāya} (Sanskrit: \saha{ॐ नमः शिवाय}; IAST: Om Namaḥ Śivāya) is one of the most important mantra in the 2500 year old Hindu sect, Shaivism: a sect that believes Śiva is the most important Hindu god. Om is the sound of the universe being born. Namaḥ means to bow. Śiva (the destroyer - and subsequently creator) is a wild, fierce-tempered god of consciousness.
 
 \index{shakti}
 \index{cit}
