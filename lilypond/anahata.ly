@@ -10,9 +10,9 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-				e2 f | g8 r g g aes4 g | g2 f | e4 des8 des des r c4 |
+				e2 f | g8 r g aes aes4 g | g2 f | e4 des8 des des r c4 |
 			}
-			r4 c'8 c des r c4 | r4 c,8 c des r c4 | 
+			r4 c'8 des des r c4 | r4 c,8 des des r c4 | 
 		}
 }
 
@@ -20,20 +20,20 @@ text =  \lyricmode {
 <<
  {
  \set stanza = #"" 
-   O -- pen | up a -- na -- ha -- ta | Yum Yum | Yum a -- na -- ha -- ta |
+   O -- pen | up a -- nā -- ha -- ta | Yum Yum | Yum a -- nā -- ha -- ta |
   }
  \new Lyrics {
    \set associatedVoice = "melody"
    \set stanza = #""
-   Sof -- ten | up a -- na -- ha -- ta | Yum Yum | Yum a -- na -- ha -- ta |
+   Sof -- ten | up a -- nā -- ha -- ta | Yum Yum | Yum a -- nā -- ha -- ta |
   }
   \new Lyrics {
    \set associatedVoice = "melody"
    \set stanza = #""
-   Ligh -- ten | up a -- na -- ha -- ta | Yum Yum | Yum a -- na -- ha -- ta |
+   Ligh -- ten | up a -- nā -- ha -- ta | Yum Yum | Yum a -- nā -- ha -- ta |
   }
 >>
-	a -- na -- ha -- ta | a -- na -- ha -- ta
+	a -- nā -- ha -- ta | a -- nā -- ha -- ta
 }
 
 \score {
