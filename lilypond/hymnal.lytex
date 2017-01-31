@@ -1004,6 +1004,15 @@ Ganeşa, one of the best-known deities in Hindu tradition, is pictured with the 
 
 As both Eşu and Ganeşa are real, it makes sense that they might run into each other, which is what happens in this chant. I can imagine them meeting up in Egypt\textemdash half way between India and Nigeria.
 
+
+\begin{changemargin}{-1.5cm}{-2cm} 
+\lilypondfile[quote,noindent]{oganeshaelegua.ly}
+\end{changemargin}
+\begin{figure}[ht]
+\label{fig:Om Ganeṣa Eleggua}
+\caption[Om Ganeṣa Eleggua]{}
+\end{figure}
+
 \index{Liberation Theology}
 \index{aṣé}
 \index{aṣé-o}
@@ -1011,39 +1020,37 @@ As both Eşu and Ganeşa are real, it makes sense that they might run into each 
 \index{y'ago}
 \index{egungun}
 \index{śakti}
-\begin{changemargin}{-1.5cm}{-2cm} 
-\lilypondfile[quote,noindent]{oganeshaelegua.ly}
-\end{changemargin}
-\begin{figure}[ht]
-\label{fig:Om Ganeṣa Eleggua}
-\caption[Om Ganeṣa Eleggua]{In the first section of this chant, we establish the challenge: finding truth or in Sanskrit, Sat (\saha{सत्}). Then we ask Elegua and Ganeṣa to please open the door to it. The following section is a traditional Ifá chant. In a presentation of the music of Liberation Theology --- a justice-oriented approach to Christianity which grew out of Catholic Activism in Central America --- composer Nick Page describes the meaning of \textbf{Iba Orisha Iba Layé O} as ``giving Aṣé, the fundamental energy to everyone present''. \textbf{Aṣé} is spiritual energy and might be compared to the Sanskrit word \textbf{śakti} (\saha{शक्ति}). \textbf{Iba} means \emph{I give reverence} and \textbf{Layé O} refers to the power of Spirit. Next we add a series of responses, \textbf{Y'ago} which sounds like, \textbf{eh, ah-go} translates as ``yield'' and means ``Please hear me. Allow this prayer to enter.''. And specifically ask this of Elegba (the American variation), Ganeṣa and \textbf{Egungun}, which means our ancestors. Lastly a call and response of Aṣé and Aṣé-o which mean, ``so mote it be.'', as well as referring to cosmic, spiritual energy and power. 
-}
-\end{figure}
-
+\index{sat}
+In the first section of this chant, we establish the challenge: finding truth or in Sanskrit, \textbf{Sat} (\saha{सत्}). Then we ask Elegua and Ganeṣa to please open the door to it. The following section is a traditional Ifá chant. In a presentation of the music of Liberation Theology --- a justice-oriented approach to Christianity which grew out of Catholic Activism in Central America --- composer Nick Page describes the meaning of \textbf{Iba Orisha Iba Layé O} as ``giving Aṣé, the fundamental energy to everyone present''. \textbf{Aṣé} is spiritual energy and might be compared to the Sanskrit word \textbf{śakti} (\saha{शक्ति}). \textbf{Iba} means \emph{I give reverence} and \textbf{Layé O} refers to the power of Spirit. Next we add a series of responses, \textbf{Y'ago} which sounds like, \textbf{eh, ah-go} translates as ``yield'' and means ``Please hear me. Allow this prayer to enter.''. And specifically ask this of Elegba (the American variation), Ganeṣa and \textbf{Egungun}, which means our ancestors. Lastly a call and response of Aṣé and Aṣé-o which mean, ``so mote it be.'', as well as referring to cosmic, spiritual energy and power. 
 
 There could also be references to \textbf{Mo'juba}, which is a spiritually energizing prayer. It's meaning is \emph{we give reverence to}. Like the Ong Namo Guro Dev Namo chant, we like to do this one with a Rhumba rhythm where every six beats are divided: middle---rest---high---rest---low---low.
 
 
-\vspace*{-.2in}
 \section{Wahe Guru Satanam}
 \index{Garret Pengle}
 \index{wahe}
 \index{guru}
+\index{sat}
+\index{nam}
+\index{kirtan}
 \index{wow}
+\index{Temple of Wow}
 \index{URU Yoga}
-At a ``Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting ``Wahe Guru, Sat Nam", which basically means Wow Teacher, True Identity. ``Wahe Guru" is the phrase that we morphed into ``Wow is my teacher", giving the name to the Temple of Wow. At any rate as the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
+\mna{\textbf{Kirtan} or kirtana (\saha{कीर्तन}) means \emph{narrating, reciting, telling, describing} an idea or story and refers to group singing or \emph{shared recitation} in the Hindu tradition.}
+
+At a ``Community Kirtan" at URU Yoga, our friend Garret Pengle started chanting \textbf{Wahe Guru, Sat Nam}, which basically means Wow Teacher, True Identity. \textbf{Wahe Guru} is the phrase that we morphed into ``Wow is my teacher", giving the name to the Temple of Wow. \textbf{Sat} is \emph{truth} and \textbf{nam} is \emph{identity}. As the chant went on, we started playing some chords with it and the chanting developed into this simple melody:
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam.ly}
 \end{changemargin}
 
-Pretty boring as it is, but you can have a lot of fun with different people doing various parts of it like:
+This is a great chant to break into parts with different people doing various parts of it like:
 
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{wahe_guru_satanam_piece.ly}
 \end{changemargin}
 
-Someone could just be saying ``Satanam!", another ``Guru sat nam", and so on. Start of with just whispering the words, build up to a climax, maybe drop down again, etc.
+Someone could just be saying ``Satanam!", another ``Guru sat nam", and so on. Dynamic variation like beginning with whispering the words, building up to a climax, maybe drop down again, etc\ldots.
 
 
 \section{Gayatri Mantra}
@@ -1051,15 +1058,19 @@ Someone could just be saying ``Satanam!", another ``Guru sat nam", and so on. St
 \index{manas}
 \index{Ra}
 \index{Egypt}
+\index{etiology}
 
-The syllables of the sanskrit word \textbf{Mantra} (\saha{मंत्र}) can be broken up into \textbf{Man} (\saha{युव}): the root of \textbf{manas} (\saha{मनस्}) which means ``mind" or ``think", and \textbf{Tra} (\saha{त्रा}): \emph{vehicle} or \emph{instrument}. So a mantra is a vehicle into the mind. Tra is also translated as ``the heat of life." This is not an etymological dissection of the word. More of an etiology. A way of using the parts of the word to talk about it. There's also \textbf{Ra} with the sun god from Egyptian pantheon, so bring him into our mantra as well.
+The syllables of the sanskrit word \textbf{mantra} (\saha{मंत्र}) can be broken up into \textbf{man} (\saha{युव}): the root of \textbf{manas} (\saha{मनस्}) which means \emph{mind} or \emph{think}, and \textbf{tra} (\saha{त्रा}): \emph{vehicle} or \emph{instrument}, making mantra a \emph{vehicle into the mind}. Tra is also translated as ``the heat of life." This is not an etymological dissection of the word. More of an etiology. A way of using the parts of the word to talk about it. There's also \textbf{Ra} with the sun god from Egyptian pantheon, so bring him into our mantra as well.
 
 \index{Sarasvatī}
 \index{Indra}
 \index{Rand Hicks}
 \index{Rigveda}
-\index{vedic}
-The Gayatri Mantra is found in the Rigveda which is a collection of ancient vedic hymns. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the god Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Sarasvatī wouldn't arrive on time for a \emph{very important} ceremony. Sarasvatī was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is what was described to me as the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically. Rand Hicks says that the first two stanzas below (the first half of the mantra) is basically setting the stage for the actual Guyatri Mantra, which begins at the syllable, ``tat", at the second syllable of the third stanza (line of music). Beginning at the syllable, ``tat", the common translation is: ``Let us meditate on the excellent glory of that divine being who illumines everything. May he guide our understanding."
+\index{Vedic}
+\index{stanza}
+\mna{The \textbf{Vedic} period refers to a time between 1500 and 500 BCE, during which ancient scriptures or were written in sanskrit. \textbf{Véda} (\saha{वेद}) means \emph{knowledge}.}
+
+The Gayatri Mantra is found in the Rigveda which is a collection of ancient \textbf{Vedic} hymns. Gayatri was this milk maid, in  Hindu mythology who wasn't down with it when the god Indra came to fetch her to become Brahma's bride because Brahma was afraid his wife Sarasvatī wouldn't arrive on time for a \emph{very important} ceremony. Sarasvatī was pissed and reigned down punishments on all involved, except Gayatri, whom she eventually befriended and honored with the role of teaching humankind the art of Mantra. Below is what was described to me as the ``long" version. Interestingly I read somewhere that the ``short" version preceded the ``long" version, historically. Rand Hicks says that the first two stanzas below (the first half of the mantra) are basically setting the stage for the actual Guyatri Mantra, which begins with the syllable, ``tat", on the second syllable of the third stanza (line of music). Beginning at the syllable, ``tat", the common translation is: ``Let us meditate on the excellent glory of that divine being who illumines everything. May he guide our understanding." It's unfortunate that the \emph{divine being} is referred to by the \emph{he} pronoun.
 
 \index{chakra}
 The first half of the mantra walks through various aspects of existence, through the chakras. \textbf{bhur} is the earth, and is chanted at the root chakra. \textbf{Bhugaha} is life energy, prana or pure vitality at the naval. \textbf{Swaha} is the realm of the divine mind (which is not, at least in this system, the same as higher consciousness) we invoke at the solar plexus. \textbf{Maha} means ``great" and it is chanted at the heart, and may refer to the ``first spiritual region beyond the sun". We then invoke \textbf{janaha}, which is ``delight" at the throat. \textbf{Tapaha} refers to concentration, which we invoke at the First Eye and may be associated with ``the Realm of highest spiritual understanding while still identified with individual existence". And for the final setting of the foundation for the mantra, Om \textbf{satyam} or ``truth" and one more Om prior to beginning the original mantra.
