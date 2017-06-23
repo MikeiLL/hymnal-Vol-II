@@ -292,6 +292,18 @@ Temple of Wow, \ Pensacola, FL \ \texttt{TempleOfWow.com}
 
 \mainmatter
 
+\chapter{Forward}
+Sometimes ignorance is an invitation. If I had known what I learned in the making of this hymnal prior to making it, I might not have undertaken it. The original impetus was that we wanted to talk about \emph{how} to practice some of the mantrās we had recorded and were releasing as the album, \underline{Naad Your Heart}. The booklets that fit in compact discs are really awkward so we thought we'd just do a separate document. This document ended up being ninety pages, and at every turn revealed gaps in my understanding of it's content as well as implementation. It has been an insightful process.
+
+Sacred chanting and mantra exist in many cultures, encoding many varied aspects of philosophy, faith and world view, and this first edition of the Faitheist Hymnal barely scratches the cultural surface. This is true of the spectrum of cultures, as well as within the included pantheons and cosmologies.
+
+The Wikipedia article on chant starts by describing it as ``rhythmic speaking or singing of words or sounds". It could probably be argued that every musical chant is sacred---though some, sadly, might be in the category of evil chants. Possibly the approach that this document takes is to use music and chant as a thread through which various flavors of human spirituality and philosophy can be sewn together.
+
+\index{datasphere}
+As a composer, I have loved working with sacred texts as a pallat for melodic and/or rhythmic vocal expression. These are combinations of words so powerful that they have survived intact for generations, their potency growing with each new voice, stirring the content into the datasphere; into the collective unconscious; into our \textsc{dna}. Each mantra is like a glyph: a small package connecting and containing vast networks of information, stories, mythologies, phycological tools, scientific expression and magic.
+
+If this work is interesting or useful to you, and I or we still exist, please feel free to reach out with questions, comments or suggestions. If the extreme limitations of the knowledge displayed herein aren't readily obvious, please take my word for it. If the vast realms of ignorance are painful, I hope you will graciously accept my apologies. \par
+
 \chapter{Introduction}
 
 \lettrine[lines=3, lraise=0.1, nindent=.2em, slope=-.5em]{F}{aitheism is the philosophy} that despite the fact that God is a construct of humankind, our spiritual convictions are nonetheless significant in navigating the vast realms of reality that are neither measurable by science nor discernible to the senses.
@@ -314,10 +326,9 @@ With all due respect to scholars and academia, this is not a work of scholarship
 \index{Esther}
 \index{Ogún}
 \index{Ishtar}
+\mna{The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 On our particular journey, the tools that seem to be working don't all come out of the same box, or even the same house, city or continent. In the same phrase, we'll invoke Yuruba's Ogún and Jewish foremother, Esther, descendant of the Babylonian goddess, Ishtar. We sing to these two when starting out on a car trip. Ogún, a deity associated with iron and metal work, we sing to in hopes that the car will work. Esther guides the journey, controls time and always, always finds you a parking space. Asé.
-
-\mna{\hspace{2em}The \emph{Septuagint} (from the Latin septuaginta, ``seventy'') is a translation of the Hebrew Bible and some related texts into Koine Greek. As the primary Greek translation of the Old Testament, it is also called the Greek Old Testament.}
 
 What is a hymn? It's a piece of music that ``everyone'' can sing together. It's about our place in the universe, or God, or Our relationships with existence. It probably has a small \emph{range} of notes so that even unaccustomed voices can approximate it, following the up and down pattern of notes across the page. 
 
@@ -615,7 +626,7 @@ One of the more eclectic of the popular Sikh mantras. We learned it fro Ravi Sin
 \end{itemize}
 
 Our translation: There is one Creator who is our true identity. Wow is my teacher.
-
+\index{Arjan Singh}
 \begin{changemargin}{-1.5cm}{-2cm} 
 \lilypondfile[quote,noindent]{longekongkar.ly}
 \end{changemargin}
@@ -623,7 +634,8 @@ Our translation: There is one Creator who is our true identity. Wow is my teache
 \label{fig:Long Ek Ong Kar}
 \caption[Long Ek Ong Kar]{Pronunciation: Eck Ong Kar Sat Nam Si---dee Wa---hey Gu---doo}
 \end{figure}
-The chant starts with a four count breath, represented by the rest at the end of the music. The dots below some of the notes represent staccato rendering which means the note should be sharply detached or separated from the others. Ek is sung this way. With the same breath, Ong and Kar are held for six counts each, followed by another four count breath. Sat is powerful and staccato, resonating in the Solar region\textemdash center of power and will\textemdash and Nam resonates at the Heart Center\textemdash Anahata\textemdash for twelve counts. With the last fraction of remaining breath we evoke Siri\textemdash greatness and beyond\textemdash then a breath and another staccato syllable, Wa \textemdash at the first eye\textemdash followed by a short half-inhalation, He at the crown and Guru rising up into infinity. Repeat for 11, 31 or 108 minutes. Or maybe forever.
+\index{staccato}
+The chant starts with a four count breath, represented by the rest at the end of the music. The dots below some of the notes represent \textbf{staccato} rendering which means the note should be sharply detached or separated from the others. \textbf{Ek} is sung this way, with energy focused---as Arjan Singh clarified for us---at the back of the Root Chakra, the the coccyx or tailbone. Move the energetic focus to the front of the Root Chakra in the genital and frontal pelvic region for \textbf{Ong}, and still with the same breath, \textbf{Kar}, at the Naval, holding both syllables held for six counts, followed by another four count breath. \textbf{Sat} is powerful and staccato, resonating in the Solar region\textemdash center of power and will\textemdash and \textbf{Nam} resonates at the Heart Center\textemdash Anahata\textemdash for twelve counts. With the last fraction of remaining breath we evoke \textbf{Siri}\textemdash greatness and beyond\textemdash then a breath and another staccato syllable, \textbf{Wa} \textemdash at the first eye\textemdash followed by a short half-inhalation, \textbf{He} at the crown and \textbf{Guru} rising up into infinity. Repeat for 11, 31 or 108 minutes. Or maybe forever.
 \section{Ang Sung Wahe Guru}
 \index{BKS Iyengar}
 
@@ -1626,7 +1638,7 @@ We had been looking for a mantra for the cultivation of androgyny. It's a prefec
 \caption[Ardhanārīśvara]{This could be done without echoing each line, but here it's written out with each line echoed. If there's an instrument, the instrument and voice could echo each other. Another possible verse for this chant is this beautiful Śiva mantra:}
 \end{figure}
 \begin{center}
-\begin{minipage}{.6\textwidth}
+\begin{minipage}{.8\textwidth}
 \saha{
 कर्पूरगौरं करुणावतारं \\
 संसारसारम् भुजगेन्द्रहारम् । \\
@@ -1665,17 +1677,13 @@ Current folk lore holds that the word \emph{Abracadabra} derives from a Hebrew o
 \end{changemargin}
 \begin{figure}[ht]
 \label{fig:Evra K’divra}
-\caption[Evra K’divra]{The words for Peace and Calm in Spanish are ``Paz" and ``Calma". Sanskrit, Yuruba, Hebrew, Arabic and Persian translations are included below.}
+\caption[Evra K’divra]{The words for Peace and Calm in Spanish are ``Paz" and ``Calma". Sanskrit, Yuruba, Arabic, Persian and Hebrew translations are included below.}
 \end{figure}
 
 \begin{multicols}{2}
 Śāntiḥ, Zanta \saha{शान्तिः शान्त}
 
 Örê, Suuru
-
-\setRL
-\large\texthebrew{שָׁלֵו שָׁלוֹם} \LR{Shalom, Shalev} 
-\unsetRL
 
 \columnbreak
 
@@ -1687,6 +1695,11 @@ Current folk lore holds that the word \emph{Abracadabra} derives from a Hebrew o
 \large \begin{arab}[fullvoc]صلح، آرامش\textLR{Solh, Aramesh} \end{arab} 
 \unsetRL
 \end{multicols}
+
+
+\setRL
+\large\texthebrew{שָׁלֵו שָׁלוֹם} \LR{Shalom, Shalev} 
+\unsetRL
 
 \section{Om Shrīṃ Lakṣmīyei Svaha}
 \index{Rand Hicks}
@@ -1789,8 +1802,8 @@ Sma tam means \emph{always to Her}.}
 \lilypondfile[quote,noindent]{wordless-one.ly}
 \end{changemargin}
 \begin{table}[h!]
-\caption{Wordless One}
-\label{table:1}
+\caption[Wordless One]{}
+\label{table:Wordless One}
 \end{table}
  
 This next one is approximated from a dream, where there was a bunch of older horn players from a famous jazz band, Mingus? Ellington? Each musician would play as low as they could then move back up to a higher octave so that the music seemed to be constantly moving downward because the majority of horns were descending at any given time. It's simply a descending minor scale which alternates between a sharp and flat seventh tone.
@@ -1888,39 +1901,16 @@ Waking up with a melody like this looping through the head, you know your mind n
 
 \section*{Afterward}
 
-Sometimes ignorance is an invitation. If I had known what I learned in the making of this hymnal prior to making it, I might not have undertaken it. The original impetus was that we wanted to talk about \emph{how} to practice some of the mantrās we had recorded and were releasing as the album, \underline{Naad Your Heart}. The booklets that fit in compact discs are really awkward so we thought we'd just do a separate document. This document ended up being ninety pages, and at every turn revealed gaps in my understanding of it's content as well as implementation. It has been an insightful process.
-
-Sacred chanting and mantra exist in many cultures, encoding many varied aspects of philosophy, faith and world view, and this first edition of the Faitheist Hymnal barely scratches the cultural surface. This is true of the spectrum of cultures, as well as within the included pantheons and cosmologies.
-
-The Wikipedia article on chant starts by describing it as ``rhythmic speaking or singing of words or sounds". It could probably be argued that every musical chant is sacred---though some, sadly, might be in the category of evil chants. Possibly the approach that this document takes is to use music and chant as a thread through which various flavors of human spirituality and philosophy can be sewn together.
-
-\index{datasphere}
-As a composer, I have loved working with sacred texts as a pallat for melodic and/or rhythmic vocal expression. These are combinations of words so powerful that they have survived intact for generations, their potency growing with each new voice, stirring the content into the datasphere; into the collective unconscious; into our \textsc{dna}. Each mantra is like a glyph: a small package connecting and containing vast networks of information, stories, mythologies, phycological tools, scientific expression and magic.
-
-If this work is interesting or useful to you, and I or we still exist, please feel free to reach out with questions, comments or suggestions. If the extreme limitations of the knowledge displayed herein aren't readily obvious, please take my word for it. If the vast realms of ignorance are painful, I hope you will graciously accept my apologies. \par
 \index{aṣé}
 \index{śantiḥ}
-If this work inspires you to document or to explore the documentation and publishing of your own endeavors, great. Aṣé! \par
-
-Look forward to running into you again on the loop. Śantiḥ. 
+That's it for now. If this work inspires you to document or to explore the documentation and publishing of your own endeavors, great. Aṣé!
 
 \backmatter
 
-\section*{References \& Resources}
 
-We and this document are nothing without an extensive, supportive community. It's a real blessing to have the support, shared wisdom and input of so many wonderful people. 
+\section{Acknowledgements}
 
-Rand Hicks at Integral Knowledge Study Center in Pensacola, Florida
-
-Jagadisha at gentlespringrain@gmail.com
-
-Iya Ośun Monifay and the community at Ośun's Golden Harvest Temple in Pensacola, Florida
-
-Babaloša Olomide, Ola Olu and Odun Ogunlano and members of the Ileṣa Ire community
-
-Open Books Bookstore in Pensacola, Florida
-
-Puffin Foundation West
+We and this document are nothing without an extensive, supportive community. It's a real blessing to have the support, shared wisdom and input of so many wonderful people. A small sampling are included here. Scott Anthony \textsc{aka} Arjan Singh (\url{storybooksound.com}), Rivka and Emilio, my partners in the Bhujanga Sangha mantra recording project are key inspirations and contributors. Rand Hicks at Integral Knowledge Study Center in Pensacola, Florida has been a central source of knowledge of Indian philosophy and language. Jagadisha (gentlespringrain@gmail.com) dictated and offered the inclusion of the Anandimaya Ma raga. Iya Ośun Monifay and the community at Ośun's Golden Harvest Temple in Pensacola, Florida as well as Babaloša Olomide, Ola Olu and Odun Ogunlano and members of the Ileṣa Ire community have helped deepen and clarify our understanding of Ifá. Open Books Bookstore in Pensacola, Florida are not only an example of real community activism, but the source of some of the reference books used. Puffin Foundation West financially support artistic projects which seek to make a better world.
 
 \begin{thebibliography}{9}
 
@@ -1934,7 +1924,7 @@ Puffin Foundation West
 \underline{Light on Life}: BKS Iyengar
 
 \bibitem{shaktimantras} 
-\underline{Shakti Mantras: Tapping into the Great Goddess Energy Within}: Thomas Ashley-Farrand
+\underline{Shakti Mantras}: Thomas Ashley-Farrand
 
 \bibitem{sacredgeography}
 \underline{A Sacred Geography}: Diana L. Eck
@@ -1953,7 +1943,7 @@ Puffin Foundation West
 
 \bibitem{assatashakur} 
 \textbf{Assata Shakur} (Black Panther activist who escaped US Prison and lives in exile in Cuba)\\
-\url{assatashakur.org/forum/spirituality-connect-your-center/9372-ethnic-influences-cuba-resulting-history-african-slave-trade-cuba.html}
+\url{assatashakur.org} 
 
 \bibitem{nickpage} 
 \textbf{Music and Writing of Nick Page}\\
