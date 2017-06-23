@@ -1,0 +1,150 @@
+
+ \begin{theglossary} 
+
+    \makeatletter\scan@allowedfalse
+
+  \item v1.0\efill 
+ \subitem General:\ Initial version\pfill 1
+  \item v1.1\efill 
+ \subitem General:\ Change log introduced and first release of this documentation\pfill 1
+  \item v1.11\efill 
+ \subitem \verb*+\SB@displayindex+:\ Item separator macro now localized in scope to the index file\pfill 
+		154
+    \subitem \verb*+\SB@idxitemsep+:\ Changed macro name to avoid a name clash\pfill 152
+  \item v1.12\efill 
+ \subitem \verb*+\SB@@@beginsong+:\ Redid spacing and page-breaking\pfill 77
+    \subitem \verb*+\SB@beginverse+:\ Shifted to using \cs  {parindent} instead of \cs  {everypar} to do indentation\pfill 
+		91
+    \subitem \verb*+\SB@emitchord+:\ Inhibited hyphenation of trailing punctuation\pfill 130
+    \subitem \verb*+\SB@endsong+:\ Redid spacing and page-breaking\pfill 78
+    \subitem \verb*+\SB@parindent+:\ Added\pfill 90
+    \subitem \verb*+\SB@raggedright+:\ Added\pfill 90
+    \subitem \verb*+\SB@stanzabreak+:\ Fixed stanza counting code and improved spacing\pfill 88
+    \subitem \verb*+\beginchorus+:\ Shifted to using \cs  {parindent} instead of \cs  {everypar} to do indentation\pfill 
+		94
+    \subitem \verb*+\musicnote+:\ Now just (conditionally) calls \cs  {textnote} for consistency\pfill 
+		99
+    \subitem \verb*+\textnote+:\ Defined unset paragraph parameters\pfill 98
+  \item v1.13\efill 
+ \subitem \verb*+\Bcolon+:\ Added\pfill 103
+    \subitem \verb*+\SB@emitchord+:\ Added code to preserve the spacefactor\pfill 130
+    \subitem \verb*+\SB@scripdent+:\ Added\pfill 103
+    \subitem \verb*+\scripturefont+:\ Added kerning correction for double-quote ligatures\pfill 51
+    \subitem \verb*+\shiftdblquotes+:\ Added\pfill 104
+    \subitem \verb*+\strophe+:\ Added\pfill 103
+  \item v1.14\efill 
+ \subitem \verb*+\SB@@@beginsong+:\ Improved scripture reference line-breaking\pfill 77
+    \subitem \verb*+\SB@computess+:\ Added\pfill 96
+    \subitem \verb*+\SB@parsesrefs+:\ Added\pfill 85
+    \subitem \verb*+\beginchorus+:\ Choruses now stretch like the verses\pfill 94
+  \item v1.15\efill 
+ \subitem \verb*+\foreachtitle+:\ Added.\pfill 75
+    \subitem \verb*+\makepostlude+:\ Added to make song trailer format customizable.\pfill 82
+    \subitem \verb*+\makeprelude+:\ Added to make song header format customizable.\pfill 80
+    \subitem \verb*+\nexttitle+:\ Added.\pfill 75
+    \subitem \verb*+\resettitles+:\ Added.\pfill 75
+    \subitem \verb*+\songtitle+:\ Added song title iterators\pfill 75
+  \item v1.16\efill 
+ \subitem \verb*+\SB@emitchord+:\ Chord macros massively reorganized to take lyrics as implicit rather than explicit arguments\pfill 
+		130
+  \item v1.17\efill 
+ \subitem \verb*+\songmark+:\ Added.\pfill 54
+    \subitem General:\ Transformed the source from a class to a package\pfill 1
+  \item v1.18\efill 
+ \subitem General:\ Verse numbering added\pfill 1
+  \item v1.19\efill 
+ \subitem \verb*+\songchapter+:\ Added\pfill 142
+    \subitem \verb*+\songsection+:\ Section headers changed to omit numbers\pfill 142
+    \subitem \verb*+songs+:\ Song numbers now starts at one instead of zero\pfill 142
+  \item v1.20\efill 
+ \subitem \verb*+\noversenumbers+:\ Added.\pfill 60
+  \item v1.21\efill 
+ \subitem \verb*+\SB@@echo+:\ Customized fonts now preserved.\pfill 99
+    \subitem \verb*+\rep+:\ Changed to avoid math mode.\pfill 100
+  \item v1.22\efill 
+ \subitem \verb*+\SB@@UTFtest+:\ Added.\pfill 117
+    \subitem \verb*+\SB@chbstok+:\ Added.\pfill 116
+    \subitem \verb*+\SB@chendspace+:\ Added.\pfill 126
+    \subitem \verb*+\SB@chgetspace+:\ Added.\pfill 127
+    \subitem \verb*+\SB@chmacro+:\ Added support for UTF-8.\pfill 124
+    \subitem \verb*+\SB@chordsoff+:\ Update \cs  {baselineskip} when in songs.\pfill 58
+    \subitem \verb*+\SB@declare+:\ Added \cs  {DeclareLyricChar}.\pfill 118
+    \subitem \verb*+\SB@setbaselineskip+:\ Added.\pfill 79
+    \subitem \verb*+\SB@spcinit+:\ Added.\pfill 121
+  \item v2.0\efill 
+ \subitem \verb*+\SB@@@beginsong+:\ Added keyval syntax.\pfill 77
+    \subitem \verb*+\SB@chnorm+:\ Rewritten for speed\pfill 123
+    \subitem \verb*+\SB@clearbskeys+:\ Added.\pfill 76
+    \subitem \verb*+\SB@displayindex+:\ Removed hyperref dependency\pfill 154
+    \subitem \verb*+\SB@endsong+:\ Removed hyperref dependency\pfill 78
+    \subitem \verb*+\extendpostlude+:\ Added.\pfill 54
+    \subitem \verb*+\idxcont+:\ Added.\pfill 55
+    \subitem \verb*+\makepostlude+:\ Arguments removed to support keyval syntax.\pfill 82
+    \subitem \verb*+\makeprelude+:\ Arguments removed to support keyval syntax.\pfill 80
+    \subitem \verb*+\titleprefixword+:\ Added.\pfill 149
+    \subitem General:\ Keyval syntax and chord-replay system added\pfill 1
+  \item v2.1\efill 
+ \subitem \verb*+\SB@@echo+:\ Toggles instead of forces slanted font.\pfill 99
+    \subitem \verb*+\SB@@selectcol+:\ Rewritten to better handle glue\pfill 65
+    \subitem \verb*+\SB@declare+:\ Added \cs  {DeclareNonLyric} and \cs  {DeclareNoHyphen}.\pfill 118
+    \subitem \verb*+\SB@parsetitles+:\ Added\pfill 83
+    \subitem \verb*+\SB@setbaselineskip+:\ Fixed to scale better with large font sizes.\pfill 79
+    \subitem \verb*+\SB@stypcol+:\ Rewritten to better handle glue\pfill 69
+    \subitem \verb*+\brkpenalty+:\ Added.\pfill 54
+    \subitem \verb*+\chorusjustify+:\ Added\pfill 51
+    \subitem \verb*+\chorusmark+:\ Added.\pfill 54
+    \subitem \verb*+\everychorus+:\ Added\pfill 52
+    \subitem \verb*+\justifycenter+:\ Added\pfill 56
+    \subitem \verb*+\justifyleft+:\ Added\pfill 56
+    \subitem \verb*+\meterfont+:\ Added\pfill 50
+    \subitem \verb*+\norepchoruses+:\ Added.\pfill 60
+    \subitem \verb*+\notejustify+:\ Added\pfill 51
+    \subitem \verb*+\placenote+:\ Added\pfill 51
+    \subitem \verb*+\placeversenum+:\ Added\pfill 52
+    \subitem \verb*+\scitehere+:\ Added\pfill 102
+    \subitem \verb*+\spenalty+:\ Added.\pfill 54
+    \subitem \verb*+\vnumbered+:\ Renamed.\pfill 90
+  \item v2.10\efill 
+ \subitem \verb*+\flt+:\ Font size made relative\pfill 132
+  \item v2.13\efill 
+ \subitem \verb*+\SB@@@gtab+:\ Added transposition for chord names\pfill 140
+  \item v2.18\efill 
+ \subitem \verb*+\echofont+:\ Added\pfill 50
+  \item v2.3\efill 
+ \subitem \verb*+\SB@chkidxlst+:\ Added.\pfill 148
+    \subitem \verb*+\SB@setchord+:\ Support replayed chords over ligatures\pfill 116
+    \subitem \verb*+\indexentry+:\ Optional argument added\pfill 148
+    \subitem \verb*+\indextitleentry+:\ Optional argument added\pfill 148
+  \item v2.4\efill 
+ \subitem \verb*+\SB@makescripindex+:\ Scripture index spacing made more uniform\pfill 158
+  \item v2.6\efill 
+ \subitem \verb*+\SB@@replay+:\ Added\pfill 135
+    \subitem \verb*+\SB@chothermac+:\ All active chars now included in lyrics by default.\pfill 125
+    \subitem \verb*+\SB@declare+:\ Macro tests made name-based instead of def-based\pfill 118
+    \subitem \verb*+\SB@displayindex+:\ Balance columns on final page\pfill 154
+    \subitem \verb*+\SB@memorize+:\ Optional argument added\pfill 135
+    \subitem \verb*+\SB@nocmarkclass+:\ Added safe allocation of extended mark registers\pfill 93
+    \subitem \verb*+\newchords+:\ Added\pfill 135
+  \item v2.7\efill 
+ \subitem \verb*+\SB@setchord+:\ Extend rather than replace chordbox\pfill 116
+  \item v2.8\efill 
+ \subitem \verb*+\SB@addtoindex+:\ Writes made non-immediate\pfill 147
+    \subitem \verb*+\SB@displayindex+:\ Changed argument order\pfill 154
+    \subitem \verb*+\SB@makeauthorindex+:\ Added columns argument\pfill 158
+    \subitem \verb*+\SB@makescripindex+:\ Added columns argument\pfill 158
+    \subitem \verb*+\SB@maketitleindex+:\ Added columns argument\pfill 157
+    \subitem \verb*+\idxauthfont+:\ Added.\pfill 55
+    \subitem \verb*+\idxbook+:\ Added.\pfill 55
+    \subitem \verb*+\idxheadfont+:\ Added.\pfill 54
+    \subitem \verb*+\idxlyricfont+:\ Added.\pfill 55
+    \subitem \verb*+\idxrefsfont+:\ Added.\pfill 55
+    \subitem \verb*+\idxscripfont+:\ Added.\pfill 55
+    \subitem \verb*+\idxtitlefont+:\ Added.\pfill 55
+    \subitem \verb*+\indexsongsas+:\ Added.\pfill 148
+    \subitem \verb*+\showindex+:\ Added optional argument\pfill 156
+  \item v2.9\efill 
+ \subitem \verb*+\SB@@selectcol+:\ Rewritten to handle repeated choruses\pfill 65
+    \subitem \verb*+\SB@gtab+:\ Fixed compatibility issue with Babel French\pfill 139
+    \subitem \verb*+\nosongnumbers+:\ Added.\pfill 60
+
+ \end{theglossary}

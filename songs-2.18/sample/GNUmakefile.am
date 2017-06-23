@@ -1,0 +1,68 @@
+EXTRA_DIST = Makefile *.tex *.sbd
+SUFFIXES = .sty .ins .dtx .dvi .pdf .ps .tex .sxd .sbx .sbd .hyp
+bible = bible.can
+
+findfile = $(firstword $(foreach dir,$(subst $(PATH_SEPARATOR), ,$(PATH)),$(wildcard $(dir)/$(1))) $(2))
+
+songidx := $(call findfile,songidx$(EXEEXT),../src/songidx/songidx$(EXEEXT))
+sbdchk := $(call findfile,sbdchk$(EXEEXT),../src/sbdchk/sbdchk$(EXEEXT))
+songssty := $(firstword $(shell $(kpsewhich) songs.sty) songs.sty)
+biblefile := $(firstword $(wildcard $(bible)) $(wildcard @candir@/$(bible)) $(srcdir)/../src/songidx/$(bible))
+SONGIDX_ICULIB_FLAG = $(if $(SONGIDX_ICULIB),-u $(SONGIDX_ICULIB))
+SONGIDX_LOCALE_FLAG = $(if $(SONGIDX_LOCALE),-l $(SONGIDX_LOCALE))
+
+all-local: pdf
+
+dvi-local: $(patsubst %.tex,%.dvi,$(wildcard *.tex))
+ps-local: $(patsubst %.tex,%.ps,$(wildcard *.tex))
+pdf-local: $(patsubst %.tex,%.pdf,$(wildcard *.tex))
+
+indexes: $(patsubst %.sxd,%.sbx,$(wildcard *.sxd))
+sbdcheck: $(patsubst %.sbd,%.hyp,$(wildcard *.sbd))
+
+.PHONY: indexes sbdcheck
+
+%.dvi: %.tex *.sbd songs.sty
+	$(latex) $<
+	$(MAKE) indexes
+	$(latex) $<
+
+%.pdf: %.tex *.sbd songs.sty
+	$(pdflatex) $<
+	$(MAKE) indexes
+	$(pdflatex) $<
+
+%.ps: %.dvi
+	$(dvips) $< -o $@
+
+%.sbx: %.sxd $(songidx) $(biblefile)
+	$(songidx) $(SONGIDX_ICULIB_FLAG) $(SONGIDX_LOCALE_FLAG) -b $(biblefile) $< $@
+
+%.hyp: %.sbd $(sbdchk)
+	$(sbdchk) -x $< hyptmp.tex
+	$(latex) hyptmp.tex
+	$(sbdchk) -r hyptmp.log $@
+	-rm hyptmp.tex hyptmp.log hyptmp.aux
+
+songs.sty: ../src/songs/songs.sty
+	cp ../src/songs/songs.sty .
+
+../src/songs/songs.sty:
+	$(MAKE) -C ../src/songs songs.sty
+
+../src/songidx/songidx$(EXEEXT):
+	$(MAKE) -C ../src/songidx songidx
+
+../src/sbdchk/sbdchk$(EXEEXT):
+	$(MAKE) -C ../src/sbdchk sbdchk
+
+mostlyclean-local:
+	-rm -f *.aux *.log *.out *.sxc *.sxd *.sbx
+
+clean-local:
+	-rm -f chordbook.dvi chordbook.pdf chordbook.ps
+	-rm -f lyricbook.dvi lyricbook.pdf lyricbook.ps
+	-rm -f slidebook.dvi slidebook.pdf slidebook.ps
+	-rm -f transparencies.dvi transparencies.pdf transparencies.ps
+	-rm -f songs.sty 
+
