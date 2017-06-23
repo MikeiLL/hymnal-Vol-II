@@ -222,7 +222,7 @@
 	\vspace{.6cm}
 	{\scshape\LARGE Bliss \par}
 	\vspace{1.5cm}
-	{\bfseries \saha{संशय अविश्वास आनन्द} \par}
+	{\bfseries \saha{संशय अविश्वास परमानंद} \par}
 	\vfill
 	\vspace{1cm}
 	\Large A \textsc{Faitheist} Hymnal
@@ -369,7 +369,7 @@ Input, corrections and suggestions welcome. \textemdash Mike iLL
 \index{bījākṣara}
 
 \mna{}{The ḥ is aspirated to match the (generally short) vowel preceding it. So it would sound like: shan \textemdash tee \textemdash hi, with the last hi being almost like an echo or reverberation.}
-On the Eleventh of September, even at a time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शम}) is a Sanskrit word meaning peace, tranquility, calmness, bliss. It sounds Shan \textemdash tee. The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{hee} because the ḥ aspirates the vowel preceding it.  At least in some of the chant music I have seen, the syllable of the ḥ is left off. The word Shanti, spoken in an English accent, is becoming part of the ever evolving English language at this point. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. The word is pronounced: bee \textemdash JAHK \textemdash shkah \textemdash rah. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
+On the Eleventh of September, even at a time more than a decade after our beloved Manhattan and it's people suffered a terrible catastrophe, we still suffer from distress and depression. This is a mantra to use in response to such feelings. A chant in the face of our awareness of war, turmoil and violence. Śāntiḥ (\saha{शांतिः}) is a Sanskrit word meaning peace, tranquility, calmness, bliss. It sounds Shan \textemdash tee. The ḥ at the end of Śāntiḥ actually sounds kind of like a short \emph{hee} because the ḥ aspirates the vowel preceding it.  At least in some of the chant music I have seen, the syllable of the ḥ is left off. The word Shanti, spoken in an English accent, is becoming part of the ever evolving English language at this point. In Hindu and Buddhist philosophy it refers to Inner Peace, and in our culture it is often used to refer to World Peace. Om (\saha{ॐ}) is a bījākṣara (\saha{बीजाक्षर}) or \emph{seed syllable} that represents, invokes and resonates with the frequency of the universe from it's dawning, through the infinite present and until the end of time. The word is pronounced: bee \textemdash JAHK \textemdash shkah \textemdash rah. Om is a syllable and a glyph sacred with Hinduism, Bhudism, Sikhism and other religions around the world. The idea of the bījākṣara and Om are explored more fully later on. \par
 
 \begin{changemargin}{-1cm}{-1cm} 
 \lilypondfile[quote,noindent]{omshantiom.ly}
