@@ -4,3 +4,4 @@ lilypond/*.pdf
 lilypond/*.log
 lilypond/*.dep
 lilypond/*.aux
+MusicalPrayer.pdf
